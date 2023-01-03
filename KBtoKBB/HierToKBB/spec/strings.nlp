@@ -1,0 +1,20 @@
+###############################################
+# FILE: strings
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:32:20
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("con") = N("$text",2);
+X("con") = N("$text",2);
+single();
+
+@RULES
+_con <-
+	\"						### (1)
+	_xWILD [fail=(_xEND)]	### (2)
+	@@

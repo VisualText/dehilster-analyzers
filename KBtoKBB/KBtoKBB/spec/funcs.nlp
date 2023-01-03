@@ -1,0 +1,19 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:45:39
+# MODIFIED:
+###############################################
+
+@DECL
+
+Spaces(L("num"), L("spaces")) {
+    while (L("i") < L("num")) {
+        L("str") = L("str") +  L("spaces");
+        L("i")++;
+    }
+    return L("str");
+}
+
+@@DECL

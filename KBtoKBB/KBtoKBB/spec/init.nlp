@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 10:21:14
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("output") = G("$inputhead") + ".kbb";
+G("kb") = getconcept(findroot(),"kb");
+
+@@CODE

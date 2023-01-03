@@ -1,0 +1,13 @@
+###############################################
+# FILE: kbout
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 13:2:20
+# MODIFIED:
+###############################################
+
+@CODE
+
+DisplayKB(G("kb"),0);
+
+@@CODE

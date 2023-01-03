@@ -1,0 +1,26 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:24:35
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> var("con");
+<3,3> var("con");
+
+@POST
+L("con") = PathToConcept(G("kb"),N("$text",1));
+addstrval(L("con"),N("con",3),N("con",5));
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	_LINE	### (2)
+	_LINE	### (3)
+	_LINE	### (4)
+	_LINE	### (5)
+	@@

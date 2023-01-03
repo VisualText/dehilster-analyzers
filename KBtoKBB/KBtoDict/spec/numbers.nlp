@@ -1,0 +1,20 @@
+###############################################
+# FILE: concept
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:16:8
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("concept") = N("$text",2);
+
+@RULES
+_xNIL <-
+	\"		### (1)
+	_xALPHA	### (2)
+	\"		### (3)
+	_xEND	### (4)
+	@@

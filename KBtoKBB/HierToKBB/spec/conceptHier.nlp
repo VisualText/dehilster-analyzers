@@ -1,0 +1,17 @@
+###############################################
+# FILE: conceptHier
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:39:2
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+PathToConcept(G("kb"),N("con"));
+
+@RULES
+_xNIL <-	
+	_LINE	### (1)
+	@@

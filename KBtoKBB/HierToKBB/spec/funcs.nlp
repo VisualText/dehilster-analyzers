@@ -1,0 +1,19 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-2 8:45:39
+# MODIFIED:
+###############################################
+
+@DECL
+
+Spaces(L("output"), L("num"), L("spaces")) {
+    "debug.txt" << "moose\n";
+    while (L("i") < L("num")) {
+        L("output") << L("spaces");
+        L("i")++;
+    }
+}
+
+@@DECL
