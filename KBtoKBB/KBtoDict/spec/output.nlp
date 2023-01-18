@@ -13,11 +13,11 @@
 <3,3> var("concept");
 
 @POST
-G("output") << N("concept",1) << " " << N("concept",3) << "=";
+G("output") << N("concept",1) << " s=number " << N("concept",3) << "=";
 if (strcontains(" ",N("concept",5))) {
-	G("output") << "\"" << N("concept",5) << "\"";
+	G("output") << "\"" << N("$text",5) << "\"";
 } else {
-	G("output") << N("concept",5);
+	G("output") << N("$text",5);
 }
 G("output") << "\n";
 
