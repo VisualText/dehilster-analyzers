@@ -1,0 +1,5 @@
+NOHASH rule: _rest [] [] <- _xWILD [0,0 fails=(_td)] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
+NOHASH rule: _xNIL [] [] <- _xNUM [1,1] [] @@
+NOHASH rule: _xNIL [] [] <- _xWILD [1,0 fails=(,)] [] @@
+NOHASH rule: _city [] [] <- _xWILD [1,0 matches=(_xALPHA)] [] ( [1,1] [] _xWILD [1,0 fails=())] [] ) [1,1] [] @@

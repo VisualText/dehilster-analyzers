@@ -1,0 +1,19 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-23 13:9:33
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+if (N("type")) {
+	G("dict") << " " << N("type") << "=" << QuoteIfNeeded(strtolower(N("text")));
+}
+
+@RULES
+_xNIL <-
+	_info	### (1)
+	@@

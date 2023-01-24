@@ -1,0 +1,66 @@
+parse
+  sentence1: text="dollars"
+    have: lower=[1,2]
+    buy: lower=1, verb=1, "pos num"=1
+    name: caps=["concept" "caps" "AMRP","concept" "caps" "American Medical Records Processing"]
+    name: caps=["caps m","AMRP"]
+    money: value=130000000
+  sentence2: text="Avi Meyers, CEO and president of TAI, said on Friday that they bought the Los Angeles-based AMRP for $120 million in cash and $14.3 million in assumed debt"
+    name: caps=["concept" "caps" "Avi Meyers"]
+    name: caps=["concept" "caps" "CEO"]
+    name: caps=["concept" "caps" "TAI"]
+    anaphora
+    buy: lower=1, verb=1, "pos num"=1
+    name: caps=["concept" "caps" "Los Angeles"]
+    name: caps=["concept" "caps" "AMRP"]
+    money: value=120000000
+    money: value=14000000, asset="in assumed debt"
+  sentence3: text="Founded in 1972, AMRP is the largest text processing firm in the country for medical records and journals and has been using TAI's VisualText technology almost exclusively for 3 years"
+    name: caps=["concept" "caps" "AMRP"]
+    have: lower=1
+    name: caps=["concept" "caps" "TAI"]
+  sentence4: text="The sale of the medical records processing company for more than $134.3 million is above analysts' predictions but is not surprising given TAI's strong position in the market place"
+    anaphora: cap=1
+    money: value=134000000
+    name: caps=["concept" "caps" "TAI"]
+  sentence5: text="In 2006 alone, TAI has acquired MD Files, New Hampshire Medical Inc., and Carezani Med Company of Maryland for a total of 160 million dollars"
+    name: caps=["concept" "caps" "TAI"]
+    have: lower=1
+    acquire: lower=1, verb=1, "pos num"=1
+    name: caps=["concept" "caps" "MD Files"]
+    name: caps=["concept" "caps" "New Hampshire Medical"]
+    name: caps=["concept" "caps" "Carezani Med Company"]
+    money: value=160000000
+  sentence6: text="With this last purchase, TAI has substantially strengthened its hold on the medical text processing field and hopes to centralize the processing of medical records nationally"
+    anaphora: cap=1
+    name: caps=["concept" "caps" "TAI"]
+    have: lower=1
+    anaphora
+  sentence7: text="With its latest purchase of the medical records processing company, TAI's stock is up 4% from $58.33 a share to $60.66"
+    anaphora
+    anaphora: cap=1
+    name: caps=["concept" "caps" "TAI"]
+    money: value=[58.330002,57.9]
+    money: value=60.660000
+  sentence8: text="TAI's stock has recently remained steady due to its lawsuit with MiasmaCraft whose text processing IDE Miasma-Text bears a striking resemblance to TAI's VisualText"
+    name: caps=["concept" "caps" "TAI"]
+    have: lower=1
+    anaphora
+    name: caps=["concept" "caps" "IDE Miasma"]
+    name: caps=["concept" "caps" "TAI"]
+  sentence9: text="TAI is vigorously defending its patent on VisualText, NLP++, and the Conceptual Grammar"
+    name: caps=["concept" "caps" "TAI"]
+    anaphora
+    name: caps=["concept" "caps" "NLP"]
+    name: caps=["concept" "caps" "Conceptual Grammar"]
+
+verbs
+  buy1: type=regular
+    _company: sem=actor
+    _company: sem=object
+    for: sem=amount
+  aquire: type=regular
+    _company: sem=actor
+    _company: sem=object
+    for: sem=amount
+

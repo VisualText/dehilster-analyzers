@@ -1,0 +1,31 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 16:52:45
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+G("file") << N("$text",2) << " \\" << N("$text",3) << " " << N("$text",4) << " s=stop\n";
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_xALPHA	### (2)
+	\'		### (3)
+	_xALPHA	### (4)
+	@@
+
+@POST
+G("file") << N("$text",2) << " s=stop\n";
+
+@RULES
+_xNIL <-
+	_xSTART					### (1)
+	_xWILD [fail=(_xEND)]	### (2)
+	_xEND					### (3)
+	@@
+
