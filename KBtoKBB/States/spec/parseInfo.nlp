@@ -1,0 +1,21 @@
+###############################################
+# FILE: areaCodes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-23 14:37:12
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _areaCodes
+
+@POST
+L("type") = pnvar(pnup(N(1)),"type");
+if (L("type") == "areaCodes") {
+	"codes.txt" << N("$text",1) << "\n";
+	X("codes")[X("c")++] = N("$text",1);
+}
+
+@RULES
+_xNIL <-
+	_xNUM	### (1)
+	@@
