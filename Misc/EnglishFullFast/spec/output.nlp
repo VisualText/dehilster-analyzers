@@ -1,0 +1,14 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 20:54:36
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("mykb.kbb",G("caps"),2);
+SaveKB("mykb.kbb",G("names"),2);
+
+@@CODE

@@ -1,0 +1,15 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:33:57
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_trClose <- \< \/ tr \> @@
+_trOpen <- \< tr \> @@
+_tdClose <- \< \/ td \> @@
+_tdOpen <- \< td _xWILD [fail=(\>)] \> @@

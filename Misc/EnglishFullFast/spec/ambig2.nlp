@@ -1,0 +1,20 @@
+###############################################
+# FILE: ambig1
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 20:47:51
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	L("text") = N("$text",2);
+	if (strendswith(L("text"),"ing") && N("verb",2) && N("noun",2)) {
+		pnrename(N(2),"_noun");
+	}
+@RULES
+_xNIL <-
+	_noun	### (1)
+	_ambig	### (2)
+	@@

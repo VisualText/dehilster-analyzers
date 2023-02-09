@@ -3,8 +3,8 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentTextFile": "c:\\git\\dictionaries\\HierToKBB\\kb\\user\\hier.kb",
-            "currentPassFile": "c:\\git\\dictionaries\\HierToKBB\\spec\\init.nlp"
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\HierToKBB\\input\\hier.kb",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\HierToKBB\\spec\\c:\\git\\dictionaries\\HierToKBB\\spec\\init.nlp"
         }
     ]
 }

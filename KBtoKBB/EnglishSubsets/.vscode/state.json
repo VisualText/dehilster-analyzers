@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\EnglishSubsets\\input\\en.dict",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\EnglishSubsets\\spec\\output.nlp"
+        }
+    ]
+}

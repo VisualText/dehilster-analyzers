@@ -1,0 +1,33 @@
+###############################################
+# FILE: ambig
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 20:47:51
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	if (N("pos num") > 1) {
+		pncopyvars(N(1));
+		single();
+	} else if (N("noun")) {
+		group(1,1,"_noun");
+	} else if (N("verb")) {
+		group(1,1,"_verb");
+	} else if (N("det")) {
+		group(1,1,"_det");
+	} else if (N("adj")) {
+		group(1,1,"_adj");
+	} else if (N("prep")) {
+		group(1,1,"_prep");
+	} else if (N("pro")) {
+		group(1,1,"_pro");
+	} else if (N("adv")) {
+		group(1,1,"_adv");
+	}
+@RULES
+_ambig <-
+	_xALPHA	### (1)
+	@@

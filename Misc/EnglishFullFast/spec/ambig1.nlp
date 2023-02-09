@@ -1,0 +1,40 @@
+###############################################
+# FILE: ambig1
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 20:47:51
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	if (N("verb",3) && N("noun",3)) {
+		pnrename(N(3),"_noun");
+	}
+@RULES
+_xNIL <-
+	_det		### (1)
+	_adj [opt]	### (2)
+	_ambig		### (3)
+	@@
+
+@POST
+	if (N("verb",2) && N("noun",2)) {
+		pnrename(N(2),"_noun");
+	}
+@RULES
+_xNIL <-
+	_adj	### (1)
+	_ambig	### (2)
+	@@
+
+	@POST
+	if (N("prep",1) && N("noun",1)) {
+		pnrename(N(1),"_prep");
+	}
+@RULES
+_xNIL <-
+	_ambig	### (1)
+	_det	### (2)
+	@@

@@ -1,0 +1,85 @@
+###############################################
+# FILE: noSpaces
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 20:56:32
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> numrange(1,12);
+<3,3> numrange(1,31);
+<5,5> numrange(1900,2050);
+@POST
+	S("month") = num(N("$text",1));
+	S("day") = num(N("$text",3));
+	S("year") = num(N("$text",5));
+	single();
+@RULES
+_date <-
+	_xNUM					### (1)
+	_xWILD [match=(\- \/)]	### (2)
+	_xNUM					### (3)
+	_xWILD [match=(\- \/)]	### (2)
+	_xNUM					### (5)
+	@@
+
+@POST
+	S("value") = N("$text",2) + N("$text",4) + N("$text",6) + "." + N("$text",8);
+	single();
+@RULES
+_money <-
+	\$		### (1)
+	_xNUM	### (2)
+	\,		### (3)
+	_xNUM	### (4)
+	\,		### (5)
+	_xNUM	### (6)
+	\.		### (7)
+	_xNUM	### (8)
+	@@
+
+@POST
+	S("value") = N("$text",2) + N("$text",4) + "." + N("$text",6);
+	single();
+@RULES
+_money <-
+	\$		### (1)
+	_xNUM	### (2)
+	\,		### (3)
+	_xNUM	### (4)
+	\.		### (5)
+	_xNUM	### (6)
+	@@
+
+@POST
+	S("value") = N("$text",2) + "." + N("$text",4);
+	single();
+@RULES
+_money <-
+	\$		### (1)
+	_xNUM	### (2)
+	\.		### (3)
+	_xNUM	### (4)
+	@@
+
+@POST
+	S("value") = N("$text",1);
+	single();		
+@RULES
+_money <-
+	\$		### (1)
+	_xNUM	### (2)
+	@@
+
+@POST
+	S("numeric") = num(N("numeric",1)) + num(N("numeric",3));
+	single();		
+@RULES
+_number <-
+	_number	### (1)
+	\-		### (2)
+	_number	### (3)
+	@@

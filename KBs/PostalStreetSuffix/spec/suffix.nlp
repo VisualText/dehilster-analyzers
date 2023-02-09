@@ -1,0 +1,20 @@
+###############################################
+# FILE: suffix
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:45:49
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _td
+
+@PRE
+	<2,2> uppercase();
+@POST
+	X("suffix",2) = strtolower(N("$text",2));
+@RULES
+_xNIL <-
+	\>
+	_xALPHA
+	\<
+	@@

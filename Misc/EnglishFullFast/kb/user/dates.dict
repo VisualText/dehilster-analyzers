@@ -1,0 +1,7 @@
+monday s=day numeric=1
+tuedsay s=day numeric=2
+wednesday s=day numeric=3
+thursday s=day numeric=4
+friday s=day numeric=5
+saturday s=day numeric=6
+sunday s=day numeric=7

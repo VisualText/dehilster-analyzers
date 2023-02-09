@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 21:16:56
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("body") = getconcept(findroot(),"body");
+G("part") = G("body");
+
+@@CODE

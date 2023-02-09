@@ -1,0 +1,15 @@
+###############################################
+# FILE: compares
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 22:2:47
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_compare <-
+	_xWILD [match=(more less greater less)]	### (1)
+	than									### (2)
+	@@

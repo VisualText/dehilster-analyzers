@@ -1,0 +1,41 @@
+###############################################
+# FILE: walkDown
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:53:51
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	G("column")++;
+	"columns.txt" << G("column") << " " << G("last") << " " << N("suffix") << "\n";
+
+	if (G("column") == 1) {
+		"columns.txt" << "     start rowspan\n";
+		L("rowspan") = num(N("rowspan"));
+		if (!L("rowspan")) {
+			L("rowspan") = 1;
+		}
+		G("last") = L("rowspan") + 2;
+		G("current") = getconcept(G("suffix"),N("suffix"));
+	}
+	if (G("column") == 3) {
+		"columns.txt" << "     add standard\n";
+		addstrval(G("current"),"standard",N("suffix"));
+	}
+	if (G("last") == G("column")) {
+		"columns.txt" << "     last column\n";
+		getconcept(G("current"),N("suffix"));
+		G("column") = 0;
+		G("last") = 0;
+	} else if (G("column") > 1) {
+		"columns.txt" << "     add column\n";
+		getconcept(G("current"),N("suffix"));
+	}
+
+@RULES
+_xNIL <-
+	_td	### (1)
+	@@

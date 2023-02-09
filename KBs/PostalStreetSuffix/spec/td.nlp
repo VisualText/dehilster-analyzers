@@ -1,0 +1,19 @@
+###############################################
+# FILE: td
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:43:29
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	S("rowspan") = N("rowspan",1);
+	single();
+@RULES
+_td <-
+	_tdOpen						### (1)
+	_xWILD [fail=(_tdClose)]	### (2)
+	_tdClose					### (3)
+	@@

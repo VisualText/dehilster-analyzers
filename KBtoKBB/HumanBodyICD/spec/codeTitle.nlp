@@ -1,0 +1,35 @@
+###############################################
+# FILE: codeTitle
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 21:3:33
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("title") = N("$text",4);
+singler(4,4);
+
+@RULES
+_title <-
+	title				### (1)
+	\=					### (2)
+	\"					### (3)
+	_xWILD [fail=(\")]	### (4)
+	\"					### (5)
+	@@
+
+@POST
+X("code") = N("$text",4);
+singler(4,4);
+
+@RULES
+_code <-
+	_xSTART						### (1)
+	_xWILD [match=(_indent)]	### (2)
+	\"							### (3)
+	_xWILD [fail=(\")]			### (4)
+	\"							### (5)
+	@@

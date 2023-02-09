@@ -3,7 +3,7 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentAnalyzer": "c:\\git\\dictionaries\\KBtoDict"
+            "currentAnalyzer": "c:\\git\\dehilster-analyzers\\KBtoKBB\\EnglishSubsets"
         }
     ]
 }

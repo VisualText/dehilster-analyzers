@@ -1,0 +1,15 @@
+###############################################
+# FILE: np
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-30 21:5:19
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_np <-
+	_xWILD [s plus match=(_det _adj)]	### (1)
+	_xWILD [s plus match=(_noun)]		### (2)
+	@@

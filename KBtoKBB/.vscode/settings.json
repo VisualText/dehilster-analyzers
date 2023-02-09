@@ -48,10 +48,36 @@
                 "settings": {
                     "foreground": "#f8fa87"
                 }
+            },
+            {
+                "scope": "keyword.concept.kbb1",
+                "settings": {
+                    "foreground": "#909228"
+                }
+            },
+            {
+                "scope": "keyword.concept.kbb",
+                "settings": {
+                    "foreground": "#e3ee50"
+                }
+            },
+            {
+                "scope": "keyword.concept.kbb1",
+                "settings": {
+                    "foreground": "#2eb657"
+                }
+            },
+            {
+                "scope": "keyword.concept.kbb2",
+                "settings": {
+                    "foreground": "#e049d9"
+                }
             }
         ]
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "git.ignoreLimitWarning": true,
-    "analyzer.current": "c:\\git\\dictionaries\\parse-en-us"
+    "ecl.launchConfiguration": "not found",
+    "ecl.targetCluster": {},
+    "analyzer.current": "c:\\git\\dehilster-analyzers\\KBtoKBB\\AnimalTaxonomy"
 }

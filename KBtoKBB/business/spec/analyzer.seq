@@ -1,0 +1,16 @@
+dicttok	nil	# Gen:   Convert input to token list
+nlp	KBFuncs	# comment
+nlp	init	# comment
+nlp	funcs	# comment
+nlp	joins	# comment
+nlp	sentences	# comment
+nlp	RemoveWhiteSpace	# comment
+nlp	paragraph	# comment
+nlp	compares	# comment
+nlp	money	# comment
+nlp	moneyPhrase	# comment
+nlp	caps	# comment
+nlp	anaphora	# comment
+nlp	order	# comment
+nlp	abbreviations	# comment
+nlp	output	# comment
