@@ -1,0 +1,23 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:41:24
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("suffix") = down(G("suffix"));
+while (L("suffix")) {
+    L("suf") = down(L("suffix"));
+    while (L("suf")) {
+        "street-suffix.dict" << conceptname(L("suf")) << " usps=" << strval(L("suffix"),"standard") << "\n";
+        L("suf") = next(L("suf"));
+    }
+    L("suffix") = next(L("suffix"));
+}
+
+SaveKB("street-suffix.kbb",G("suffix"),2);
+
+@@CODE

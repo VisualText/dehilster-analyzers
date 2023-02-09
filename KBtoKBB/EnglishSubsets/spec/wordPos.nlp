@@ -1,0 +1,29 @@
+###############################################
+# FILE: wordPos
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 13:23:57
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+	X("word") = N("$text",2);
+	single();
+@RULES
+_word <-
+	_xSTART
+	_xALPHA	### (1)
+	@@
+
+
+@POST
+	X("pos") = N("$text",3);
+	single();
+@RULES
+_pos <-
+	pos
+	\=
+	_xALPHA	### (1)
+	@@

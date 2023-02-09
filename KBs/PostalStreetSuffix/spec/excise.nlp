@@ -1,0 +1,16 @@
+###############################################
+# FILE: excise
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:51:38
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	excise(1,1);
+@RULES
+_xNIL <-
+	_rest	### (1)
+	@@

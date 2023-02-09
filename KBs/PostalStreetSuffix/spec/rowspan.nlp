@@ -1,0 +1,21 @@
+###############################################
+# FILE: rowspan
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-8 17:37:52
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _tdOpen
+
+@POST
+	X("rowspan",2) = N("$text",4);
+	single();
+@RULES
+_rowspan <-
+	rowspan	### (1)
+	\=		### (2)
+	\"		### (3)
+	_xNUM	### (4)
+	\"		### (5)
+	@@

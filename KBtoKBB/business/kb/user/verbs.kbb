@@ -1,0 +1,10 @@
+verbs
+  buy1: type=regular
+    _company: sem=actor
+    _company: sem=object
+    for: type=literal sem=amount
+
+  aquire: type=regular
+    _company: sem=actor
+    _company: sem=object
+    for: type=literal sem=amount

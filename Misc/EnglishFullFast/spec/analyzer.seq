@@ -1,0 +1,14 @@
+dicttok	nil	# Gen:   Convert input to token list
+nlp	KBFuncs	# comment
+nlp	init	# comment
+nlp	funcs	# comment
+nlp	noSpaces	# comment
+nlp	RemoveWhiteSpace	# comment
+nlp	compares	# comment
+nlp	caps	# comment
+nlp	ambig	# comment
+rec	ambig1	# comment
+nlp	ambig2	# comment
+nlp	np	# comment
+nlp	pp	# comment
+nlp	output	# comment

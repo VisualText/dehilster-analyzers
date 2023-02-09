@@ -1,0 +1,17 @@
+###############################################
+# FILE: indentSize
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 21:22:1
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _indent
+
+@POST
+X("indent",2)++;
+
+@RULES
+_xNIL <-
+	_xWHITE	### (1)
+	@@

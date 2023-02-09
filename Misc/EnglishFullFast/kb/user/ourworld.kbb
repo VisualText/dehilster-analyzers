@@ -1,0 +1,7 @@
+computers
+  field: pos=noun
+    processing: pos=adj
+      text: pos=noun
+  data: pos=noun
+    records: pos=noun
+      medical: pos=adj

@@ -1,0 +1,33 @@
+###############################################
+# FILE: caps
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 20:52:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	L("con") = getconcept(G("caps"),N("$text"));
+	S("caps") = L("con");
+	AddUniqueStr(L("con"),"type","full");
+	single();
+@RULES
+_name <-
+	_xWILD [min=2 match=(_xCAP)]
+	@@
+
+@PRE
+<1,1> uppercase();
+@POST
+	L("con") = getconcept(G("caps"),N("$text"));
+	S("caps") = L("con");
+	AddUniqueStr(L("con"),"type","abbrev");
+	# L("name") = makeconcept(X("sent",3),N("$text"));
+	# addconval(L("name"),"caps",L("con"));
+	single();
+@RULES
+_name <-
+	_xALPHA
+	@@

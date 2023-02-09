@@ -1,0 +1,18 @@
+###############################################
+# FILE: pos
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 13:20:20
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+G("filename") = N("pos") + ".dict";
+G("filename") << N("word") << " pos=" << N("pos") << "\n";
+
+@RULES
+_xNIL <-
+	_LINE
+	@@

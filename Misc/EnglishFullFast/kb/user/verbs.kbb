@@ -1,0 +1,12 @@
+verb
+  sale
+    meaning1:
+      actor
+      for: type=reason
+      object
+  buy
+    meaning1:
+      for: type=payment
+  place: require=object
+
+  

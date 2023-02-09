@@ -1,0 +1,13 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 21:29:48
+# MODIFIED:
+###############################################
+
+@CODE
+
+DisplayKB(G("body"),0);
+
+@@CODE

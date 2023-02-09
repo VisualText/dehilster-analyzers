@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\HumanBodyICD\\input\\block108ICD.txt",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\KBtoKBB\\HumanBodyICD\\spec\\kb.nlp"
+        }
+    ]
+}

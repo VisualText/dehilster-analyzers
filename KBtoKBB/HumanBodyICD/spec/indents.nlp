@@ -1,0 +1,29 @@
+###############################################
+# FILE: indents
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-18 21:17:22
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("indent") = 0;
+
+@RULES
+_indent <-
+	_xSTART	### (1)
+	\"		### (2)
+	@@
+
+
+@POST
+singler(2,2);
+
+@RULES
+_indent <-
+	_xSTART						### (1)
+	_xWILD [match=(_xWHITE)]	### (2)
+	\"							### (3)
+	@@

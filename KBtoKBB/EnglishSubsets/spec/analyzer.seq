@@ -1,0 +1,4 @@
+tokenize	nil	# Gen:   Convert input to token list
+nlp	Lines	# comment
+nlp	wordPos	# comment
+nlp	output	# comment
