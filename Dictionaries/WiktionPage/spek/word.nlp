@@ -1,0 +1,21 @@
+###############################################
+# FILE: word
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 15:21:3
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> vareq("num",0);
+
+@POST
+G("word") = N("$text",1);
+"word.txt" << N("$text",1) << "\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

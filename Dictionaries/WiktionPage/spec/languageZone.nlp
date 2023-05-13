@@ -1,0 +1,19 @@
+###############################################
+# FILE: language
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-18 8:10:28
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("language") = N("language",1);
+single();
+
+@RULES
+_languageZone <-
+	_language							### (1)
+	_xWILD [plus match=(_headerZone)]	### (2)
+	@@

@@ -1,0 +1,418 @@
+###############################################
+# FILE: funcs.nlp
+# SUBJ: Functions for the Portuguese Wiki page parser
+# AUTH: David de Hilster
+# CREATED: 2022-11-07 8:40:53
+# MODIFIED:
+###############################################
+
+@DECL
+
+AddWord(L("word"),L("lang"),L("node")) {
+    if (L("lang") != "pt") {
+        return;
+    }
+    L("header") = strtolower(pnvar(L("node"),"header"));
+    L("pos") = PosStr(L("header"));
+    "add.txt" << L("word") << " " << L("pos") << "\n";
+    if (L("pos")) {
+        L("con") = AddUniqueCon(G("words"),L("word"));
+
+        AddMeaning(L("con"),L("pos"),L("lang"),L("node"),"pessoa");
+        if (pnvar(L("node"),"pessoa2")) {
+            AddMeaning(L("con"),L("pos"),L("lang"),L("node"),"pessoa2");
+        }
+
+    } else if (L("header") == "conjugação") {
+        L("verb") = pnvar(L("node"),"verb");
+        L("stem") = pnvar(L("node"),"stem");
+        L("verb") = GetVerbEnding(L("stem"),L("verb"));
+        L("stem") = G("GetVerbEnding");
+        "stem.txt" << L("stem") << "\n";
+        if (strstartswith(L("verb"),"c")) {
+            L("stem") = L("stem") + "c";
+            L("verb") = strpiece(L("verb"),1,strlength(L("verb"))-1);
+        }
+        if (L("verb") == "ar") {
+            AddVerbAr(L("stem"));
+        } else if (L("verb") == "er") {
+            AddVerbEr(L("stem"));            
+        } else if (L("verb") == "ir") {
+            AddVerbIr(L("stem"));
+        }
+    } else if (L("lang") == "pt") {
+        # Word with no part of speech
+        G("debug") << L("word") << " " << L("lang") << " <-- No POS\n";
+    }
+}
+
+AddMeaning(L("con"),L("pos"),L("lang"),L("node"),L("pessoa")) {
+    L("meaning") = MakeCountCon(L("con"),"meaning");
+
+    AddUniqueStr(L("meaning"),"pos",L("pos"));
+    AddUniqueStr(L("meaning"),"lang",L("lang"));
+
+    AddWordAttr(L("meaning"),"root",L("node"));
+    AddWordAttr(L("meaning"),L("pessoa"),L("node"));
+    AddWordAttr(L("meaning"),"numero",L("node"));
+    AddWordAttr(L("meaning"),"tempo",L("node"));
+}
+
+AddWordAttr(L("meaning"),L("attr"),L("node")) {
+    L("at") = pnvar(L("node"),L("attr"));
+    if (L("at")) {
+        L("at") = VerbAttribute(L("at"));
+        if (L("attr") == "pessoa2") {
+            L("attr") = "pessoa";
+        }
+        AddUniqueStr(L("meaning"),L("attr"),L("at"));
+    }
+}
+
+VerbAttribute(L("attr")) {
+    "attr.txt" << L("attr") << "\n";
+    if (L("attr") == "plural") {
+        return "p";
+    } else if (L("attr") == "singular") {
+        return "s";            
+    } else if (L("attr") == "primeira" || L("attr") == "primeiro") {
+        return "p";            
+    } else if (L("attr") == "segunda" || L("attr") == "segundo") {
+        return "s";            
+    } else if (L("attr") == "terceira") {
+        return "t";            
+    } else if (L("attr") == "presente") {
+        return "p"; 
+    } else if (L("attr") == "pretérito imperfeito") {
+        return "pi"; 
+    } else if (L("attr") == "pretérito perfeito") {
+        return "pp"; 
+    } else if (L("attr") == "pretérito mais-que-perfeito") {
+        return "pm"; 
+    } else if (L("attr") == "futuro do presente" || L("attr") == "futuro") {
+        return "f"; 
+    } else if (L("attr") == "futuro do pretérito") {
+        return "fp"; 
+    } else if (L("attr") == "presente de subjuntivo") {
+        return "ps"; 
+    } else if (L("attr") == "pretérito imperfeito de subjuntivo") {
+        return "pis"; 
+    } else if (L("attr") == "futuro de subjuntivo") {
+        return "fs"; 
+    }
+    return L("attr");
+}
+
+###############################################
+# {{conj/pt|esp|edir}} where the last token is longer than ar, er, or ir
+###############################################
+GetVerbEnding(L("stem"),L("verb")) {
+    L("len") = strlength(L("verb"));
+    G("GetVerbEnding") = L("stem");
+    L("ending") = L("verb");
+    if (L("len") > 2) {
+        L("ending") = strpiece(L("verb"),L("len")-2,L("len")-1);
+        G("GetVerbEnding") = L("stem") + strpiece(L("verb"),0,L("len")-3);
+    }
+    return L("ending");
+}
+
+###############################################
+# https://www.conjugacao.com.br/verbo-brincar/
+###############################################
+
+AddVerbAr(L("stem")) {
+    AddConjugation(L("stem"),"o","1","s","presente");
+    AddConjugation(L("stem"),"as","2","s","presente");
+    AddConjugation(L("stem"),"a","3","s","presente");
+    AddConjugation(L("stem"),"amos","1","p","presente");
+    AddConjugation(L("stem"),"ais","2","p","presente");
+    AddConjugation(L("stem"),"am","3","p","presente");
+
+    AddConjugation(L("stem"),"ava","1","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"avas","2","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ava","3","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ávamos","1","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"ávais","2","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"avam","3","p","pretérito imperfeito");
+
+    AddConjugation(L("stem"),"ei","1","s","pretérito perfeito");
+    AddConjugation(L("stem"),"aste","2","s","pretérito perfeito");
+    AddConjugation(L("stem"),"ou","3","s","pretérito perfeito");
+    AddConjugation(L("stem"),"amos","1","p","pretérito perfeito");
+    AddConjugation(L("stem"),"astes","2","p","pretérito perfeito");
+    AddConjugation(L("stem"),"aram","3","p","pretérito perfeito");
+
+    AddConjugation(L("stem"),"ara","1","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"aras","2","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"ara","3","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"áramos","1","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"áreis","2","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"aram","3","p","pretérito mais-que-perfeito");
+    
+    AddConjugation(L("stem"),"arei","1","s","futuro do presente");
+    AddConjugation(L("stem"),"arás","2","s","futuro do presente");
+    AddConjugation(L("stem"),"ará","3","s","futuro do presente");
+    AddConjugation(L("stem"),"aremos","1","p","futuro do presente");
+    AddConjugation(L("stem"),"areis","2","p","futuro do presente");
+    AddConjugation(L("stem"),"arão","3","p","futuro do presente");
+
+    AddConjugation(L("stem"),"aria","1","s","futuro do pretérito");
+    AddConjugation(L("stem"),"arias","2","s","futuro do pretérito");
+    AddConjugation(L("stem"),"aria","3","s","futuro do pretérito");
+    AddConjugation(L("stem"),"aríamos","1","p","futuro do pretérito");
+    AddConjugation(L("stem"),"aríeis","2","p","futuro do pretérito");
+    AddConjugation(L("stem"),"ariam","3","p","futuro do pretérito");
+
+    AddConjugation(L("stem"),"e","1","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"es","2","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"e","3","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"emos","1","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"eis","2","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"em","3","p","presente de subjuntivo");
+
+    AddConjugation(L("stem"),"asse","1","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"asses","2","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"asse","3","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"ássemos","1","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"ásseis","2","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"assem","3","p","pretérito imperfeito de subjuntivo");
+    
+    AddConjugation(L("stem"),"ar","1","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"ares","2","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"ar","3","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"aremo","1","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"ardes","2","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"arem","3","p","futuro de subjuntivo");
+}
+
+AddVerbEr(L("stem")) {
+    AddConjugation(L("stem"),"o","1","s","presente");
+    AddConjugation(L("stem"),"es","2","s","presente");
+    AddConjugation(L("stem"),"e","3","s","presente");
+    AddConjugation(L("stem"),"emos","1","p","presente");
+    AddConjugation(L("stem"),"eis","2","p","presente");
+    AddConjugation(L("stem"),"em","3","p","presente");
+
+    AddConjugation(L("stem"),"ia","1","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ias","2","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ia","3","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"íamos","1","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"ias","2","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"íeis","3","p","pretérito imperfeito");
+
+    AddConjugation(L("stem"),"i","1","s","pretérito perfeito");
+    AddConjugation(L("stem"),"este","2","s","pretérito perfeito");
+    AddConjugation(L("stem"),"eu","3","s","pretérito perfeito");
+    AddConjugation(L("stem"),"emos","1","p","pretérito perfeito");
+    AddConjugation(L("stem"),"estes","2","p","pretérito perfeito");
+    AddConjugation(L("stem"),"eram","3","p","pretérito perfeito");
+
+    AddConjugation(L("stem"),"a","1","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"as","2","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"a","3","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"áramos","1","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"êreis","2","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"eram","3","p","pretérito mais-que-perfeito");
+    
+    AddConjugation(L("stem"),"erei","1","s","futuro do presente");
+    AddConjugation(L("stem"),"erás","2","s","futuro do presente");
+    AddConjugation(L("stem"),"erá","3","s","futuro do presente");
+    AddConjugation(L("stem"),"eremos","1","p","futuro do presente");
+    AddConjugation(L("stem"),"ereis","2","p","futuro do presente");
+    AddConjugation(L("stem"),"erão","3","p","futuro do presente");
+
+    AddConjugation(L("stem"),"aria","1","s","futuro do pretérito");
+    AddConjugation(L("stem"),"arias","2","s","futuro do pretérito");
+    AddConjugation(L("stem"),"aria","3","s","futuro do pretérito");
+    AddConjugation(L("stem"),"aríamos","1","p","futuro do pretérito");
+    AddConjugation(L("stem"),"aríeis","2","p","futuro do pretérito");
+    AddConjugation(L("stem"),"ariam","3","p","futuro do pretérito");
+
+    AddConjugation(L("stem"),"a","1","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"as","2","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"a","3","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"amos","1","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"ais","2","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"am","3","p","presente de subjuntivo");
+
+    AddConjugation(L("stem"),"esse","1","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"esses","2","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"esse","3","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"êssemos","1","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"êsseis","2","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"essem","3","p","pretérito imperfeito de subjuntivo");
+    
+    AddConjugation(L("stem"),"er","1","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"eres","2","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"er","3","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"eremo","1","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"erdes","2","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"erem","3","p","futuro de subjuntivo");
+}
+
+AddVerbIr(L("stem")) {
+    AddConjugation(L("stem"),"o","1","s","presente");
+    AddConjugation(L("stem"),"es","2","s","presente");
+    AddConjugation(L("stem"),"e","3","s","presente");
+    AddConjugation(L("stem"),"imos","1","p","presente");
+    AddConjugation(L("stem"),"eis","2","p","presente");
+    AddConjugation(L("stem"),"em","3","p","presente");
+
+    AddConjugation(L("stem"),"ia","1","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ias","2","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"ia","3","s","pretérito imperfeito");
+    AddConjugation(L("stem"),"íamos","1","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"íeis","2","p","pretérito imperfeito");
+    AddConjugation(L("stem"),"iam","3","p","pretérito imperfeito");
+
+    AddConjugation(L("stem"),"i","1","s","pretérito perfeito");
+    AddConjugation(L("stem"),"iste","2","s","pretérito perfeito");
+    AddConjugation(L("stem"),"iu","3","s","pretérito perfeito");
+    AddConjugation(L("stem"),"imos","1","p","pretérito perfeito");
+    AddConjugation(L("stem"),"istes","2","p","pretérito perfeito");
+    AddConjugation(L("stem"),"iram","3","p","pretérito perfeito");
+
+    AddConjugation(L("stem"),"a","1","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"as","2","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"a","3","s","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"áramos","1","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"íreis","2","p","pretérito mais-que-perfeito");
+    AddConjugation(L("stem"),"iram","3","p","pretérito mais-que-perfeito");
+    
+    AddConjugation(L("stem"),"irei","1","s","futuro do presente");
+    AddConjugation(L("stem"),"irás","2","s","futuro do presente");
+    AddConjugation(L("stem"),"irá","3","s","futuro do presente");
+    AddConjugation(L("stem"),"iremos","1","p","futuro do presente");
+    AddConjugation(L("stem"),"ireis","2","p","futuro do presente");
+    AddConjugation(L("stem"),"irão","3","p","futuro do presente");
+
+    AddConjugation(L("stem"),"iria","1","s","futuro do pretérito");
+    AddConjugation(L("stem"),"irias","2","s","futuro do pretérito");
+    AddConjugation(L("stem"),"iria","3","s","futuro do pretérito");
+    AddConjugation(L("stem"),"iríamos","1","p","futuro do pretérito");
+    AddConjugation(L("stem"),"iríeis","2","p","futuro do pretérito");
+    AddConjugation(L("stem"),"iriam","3","p","futuro do pretérito");
+
+    AddConjugation(L("stem"),"a","1","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"as","2","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"a","3","s","presente de subjuntivo");
+    AddConjugation(L("stem"),"amos","1","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"ais","2","p","presente de subjuntivo");
+    AddConjugation(L("stem"),"am","3","p","presente de subjuntivo");
+
+    AddConjugation(L("stem"),"isse","1","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"isses","2","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"isse","3","s","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"issemos","1","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"isseis","2","p","pretérito imperfeito de subjuntivo");
+    AddConjugation(L("stem"),"issem","3","p","pretérito imperfeito de subjuntivo");
+    
+    AddConjugation(L("stem"),"ir","1","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"ires","2","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"ir","3","s","futuro de subjuntivo");
+    AddConjugation(L("stem"),"iremo","1","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"irdes","2","p","futuro de subjuntivo");
+    AddConjugation(L("stem"),"irem","3","p","futuro de subjuntivo");
+}
+
+StemSuffix(L("stem"),L("suffix")) {
+    L("len") = strlength(L("stem")) - 1;
+    L("stem let") = strpiece(L("stem"),L("len"),L("len"));
+    L("suffix let") = strpiece(L("suffix"),0,0);
+    L("word") = L("stem") + L("suffix");
+    if (L("stem let") == "c" && L("suffix let") == "e") {
+        L("word") = strpiece(L("stem"),0,L("len")-1) + "qu" + L("suffix");
+    }
+    return L("word");
+}
+
+AddConjugation(L("stem"),L("suffix"),L("pessoa"),L("numero"),L("tempo")) {
+    L("root") = StemSuffix(L("stem"),"ar");
+    L("word") = StemSuffix(L("stem"),L("suffix"));
+    L("con") = AddUniqueCon(G("words"),L("word"));
+    L("meaning") = MakeCountCon(L("con"),"meaning");
+    AddUniqueStr(L("meaning"),"pos","v");
+    AddUniqueStr(L("meaning"),"lang","pt");
+    AddUniqueStr(L("meaning"),"root",L("root"));
+    AddUniqueStr(L("meaning"),"pessoa",VerbAttribute(L("pessoa")));
+    AddUniqueStr(L("meaning"),"numero",VerbAttribute(L("numero")));
+    AddUniqueStr(L("meaning"),"tempo",VerbAttribute(L("tempo")));
+}
+
+PosStr(L("word")) {
+    if (!L("word")) {
+        return 0;
+    }
+    if (strcontainsnocase("verbal",L("word")) || strcontainsnocase("verbo",L("word"))) {
+        return "v";
+    }
+    else if (strcontainsnocase("substantivo",L("word"))) {
+        return "n";
+    }
+    else if (strcontainsnocase("adjetivo",L("word"))) {
+        return "adj";
+    }
+    else if (strcontainsnocase("advérbio",L("word"))) {
+        return "adv";
+    }
+    else if (strcontainsnocase("pronome",L("word"))) {
+        return "pro";
+    }
+    else if (strcontainsnocase("preposição",L("word"))) {
+        return "prep";
+    }
+    else if (strcontainsnocase("artigo",L("word"))) {
+        return "det";
+    }
+    else if (strcontainsnocase("interjeição",L("word"))) {
+        return "det";
+    }
+    else if (strcontainsnocase("conjunção",L("word"))) {
+        return "conj";
+    }
+    return 0;
+}
+
+KBDump() {
+    L("word") = down(G("words"));
+    if (G("$isdirrun")) {
+        L("dictfile") = G("$kbpath") + G("$inputparent") + ".dict";
+        L("kbbfile") = G("$kbpath") + G("$inputparent") + ".kbb";
+    } else {
+        L("dictfile") = G("$kbpath") + G("$inputhead") + ".dict";
+        L("kbbfile") = G("$kbpath") + G("$inputhead") + ".kbb";
+    }
+
+    L("dict") = openfile(L("dictfile"),1);
+    L("kbb") = openfile(L("kbbfile"),1);
+
+    DisplayKBRecurse(L("kbb"),G("words"),0,1);
+    closefile(L("kbb"));
+
+    while (L("word")) {
+        L("meaning") = down(L("word"));
+        while (L("meaning")) { 
+            L("dict") << conceptname(L("word"));
+            AddWordAttribute(L("dict"),L("meaning"),"pos");
+            AddWordAttribute(L("dict"),L("meaning"),"lang");
+            AddWordAttribute(L("dict"),L("meaning"),"root");
+            AddWordAttribute(L("dict"),L("meaning"),"pessoa");
+            AddWordAttribute(L("dict"),L("meaning"),"numero");
+            AddWordAttribute(L("dict"),L("meaning"),"tempo");
+            L("dict") << "\n";
+            L("meaning") = next(L("meaning"));
+        }
+        L("word") = next(L("word"));
+    }
+    closefile(L("dict"));
+}
+
+AddWordAttribute(L("file"),L("meaning"),L("attr")) {
+    L("val") = strval(L("meaning"),L("attr"));
+    if (L("val")) {
+        L("file") << " " << L("attr") << "=" << L("val");
+    }
+}
+
+@@DECL

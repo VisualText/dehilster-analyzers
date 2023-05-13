@@ -1,0 +1,17 @@
+###############################################
+# FILE: onlyText
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 16:24:35
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+excise(1,1);
+
+@RULES
+_xNIL <-
+	_zap	### (1)
+	@@

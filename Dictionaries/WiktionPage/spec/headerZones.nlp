@@ -1,0 +1,38 @@
+###############################################
+# FILE: nestHeaders
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-7-29 13:37:48
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@CHECK
+if (N("level",1) == G("max header"))
+	succeed();
+fail();
+
+@POST
+"nesting.txt" << "header: " << N("level",1) << " " << N("header",1) << "\n";
+S("level") = N("level",1);
+S("header") = N("header",1);
+S("pos") = N("pos",1);
+single();
+
+@RULES
+_headerZone <-
+	_header							### (1)
+	_xWILD [fail=(_header _xEND)]	### (2)
+	@@
+
+@POST
+G("max header")--;
+if (G("max header") < 1)
+	exitpass();
+"nesting.txt" << "max: " << G("max header") << "\n";
+@RULES
+_xNIL <-
+	_xWILD [match=(_LINE _headerZone)]
+	_xEND
+	@@

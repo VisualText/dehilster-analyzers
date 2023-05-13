@@ -1,0 +1,15 @@
+###############################################
+# FILE: languageZone
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-18 8:10:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone
+
+@RULES
+_languageZone <-
+	_language					### (1)
+	_xWILD [match=(_headZone)]	### (2)
+	@@

@@ -1,0 +1,41 @@
+###############################################
+# FILE: phrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 14:29:47
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone _LINE
+
+@POST X("tempo",3) = N("$text",2); single();
+@RULES _tempo <- _tempo mais \- do \- que _tempo @@
+
+@POST X("root",3) = N("$text",3); X("numero",3) = N("$text",1); single();
+@RULES _numero <- _numero de _xALPHA @@
+
+@POST
+group(3,3,"_pessoa");
+group(1,1,"_pessoa");
+@RULES
+_xNIL <- _pessoa e _pessoa _xWILD [one match=(pessoas pessoa)] @@
+
+@POST
+if (X("pessoa")) {
+    X("pessoa2",3) = N("$text",1);
+} else {
+    X("pessoa",3) = N("$text",1);
+}
+single();
+@RULES
+_pessoa <- _pessoa pessoa @@
+
+@POST X("numero",3) = N("$text",2); single();
+@RULES _numero <- do _numero @@
+
+@POST X("tempo",3) = N("$text",1) + " do " + N("$text",3); single();
+@RULES _tempo <- _tempo do _tempo @@
+
+@POST X("root",3) = N("$text",3); single();
+@RULES _root <- do verbo _xALPHA @@
+

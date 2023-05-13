@@ -1,0 +1,20 @@
+###############################################
+# FILE: list
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-10-12 13:39:19
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone _LINE
+
+@POST
+X("list") = 1;
+"list.txt" << N("$text",3) << "\n";
+
+@RULES
+_xNIL <-
+	_xSTART		### (1)
+	\: [opt]	### (2)
+	\#			### (3)
+	@@

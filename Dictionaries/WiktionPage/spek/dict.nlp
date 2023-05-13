@@ -1,0 +1,20 @@
+###############################################
+# FILE: dict
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 15:17:59
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerZone
+
+@PRE
+<1,1> var("pos");
+
+@POST
+G("vocab") << G("word") << " pos=" << N("pos");
+
+@RULES
+_xNIL <-
+	_headerZone	### (1)
+	@@
