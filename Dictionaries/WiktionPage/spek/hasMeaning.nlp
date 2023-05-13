@@ -1,0 +1,21 @@
+###############################################
+# FILE: attributes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 15:39:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone _headerZone _LINE
+
+@POST X("pessoa",3) = N("pessoa");
+@RULES _xNIL <- _pessoa	@@
+
+@POST X("numero",3) = N("numero");
+@RULES _xNIL <- _numero	@@
+
+@POST X("tempo",3) = N("tempo");
+@RULES _xNIL <- _tempo	@@
+
+@POST X("root",3) = N("root");
+@RULES _xNIL <- _root	@@

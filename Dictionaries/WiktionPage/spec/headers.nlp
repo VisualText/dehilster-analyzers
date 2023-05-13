@@ -1,0 +1,28 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-10-6 18:54:12
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("header") = N("$text",2);
+S("pos") = N("ps",2);
+X("header") = N("$text",2);
+X("up") = 1;
+S("level") = strlength(N("$text",1));
+if (S("level") > G("max header")) {
+	G("max header") = S("level");
+}
+single();
+
+@RULES
+_header <-
+	_xWILD [min=2 match=(\=)]	### (1)
+	_xWILD [plus fail=(\=)]		### (2)
+	_xWILD [min=2 match=(\=)]	### (3)
+	@@
+

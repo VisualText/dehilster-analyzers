@@ -1,0 +1,14 @@
+###############################################
+# FILE: notText
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 16:24:57
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_zap <-
+	_xWILD [plus fail=(_word _textZone)]	### (1)
+	@@
