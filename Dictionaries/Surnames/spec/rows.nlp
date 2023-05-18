@@ -1,0 +1,16 @@
+###############################################
+# FILE: rows
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-2 9:41:3
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_row <-
+	_trStart				### (1)
+	_xWILD [fail=(_trEnd)]	### (2)
+	_trEnd					### (3)
+	@@

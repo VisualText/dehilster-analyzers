@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-6 9:41:42
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("kb") = getconcept(findroot(),"kb");
+rmchildren(G("kb"));
+
+@@CODE

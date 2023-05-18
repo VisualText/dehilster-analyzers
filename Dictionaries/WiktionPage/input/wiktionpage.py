@@ -15,7 +15,7 @@ urlsuffix = "&action=edit"
 count = 0
 for word in reversed(lines):
     word = word.strip()
-    wiktionfile = os.path.join(os.path.dirname(__file__), "demo", word + ".txt")
+    wiktionfile = os.path.join(os.path.dirname(__file__), "lookups", word + ".txt")
     print(word, end =" ")
 
     if os.path.exists(wiktionfile):

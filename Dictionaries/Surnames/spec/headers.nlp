@@ -1,0 +1,23 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-2 9:42:14
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _row
+
+@RULES
+_header <-
+	_thStart				### (1)
+	_xWILD [fail=(_thEnd)]	### (2)
+	_thEnd					### (3)
+	@@
+
+@RULES
+_column <-
+	_tdStart				### (1)
+	_xWILD [fail=(_tdEnd)]	### (2)
+	_tdEnd					### (3)
+	@@

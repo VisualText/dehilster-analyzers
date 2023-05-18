@@ -1,0 +1,19 @@
+###############################################
+# FILE: surname
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-2 9:45:8
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _row _column
+
+@POST
+G("file") << strtolower(N("$text",2)) << " name=surname\n";
+
+@RULES
+_xNIL <-
+	_aStart	### (1)
+	_xALPHA
+	_aEnd	### (2)
+	@@
