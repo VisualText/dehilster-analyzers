@@ -1,0 +1,18 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-1 15:54:5
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("filepath") = G("$kbpath") + "\\" + "en-firstnames.dict";
+L("type") = "app";
+if (!G("$isdirrun") || G("$isfirstfile"))
+	G("file") = openfile(G("filepath"));
+else
+	G("file") = openfile(G("filepath"),"app");
+
+@@CODE

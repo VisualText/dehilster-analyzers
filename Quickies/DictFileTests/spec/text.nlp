@@ -1,0 +1,17 @@
+###############################################
+# FILE: text
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-6 9:43:36
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+makeconcept(G("kb"),N("$text",1))
+
+@RULES
+_xNIL <-
+	_xALPHA	### (1)
+	@@

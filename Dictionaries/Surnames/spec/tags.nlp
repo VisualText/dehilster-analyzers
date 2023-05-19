@@ -1,0 +1,23 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-2 9:38:16
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_trStart <- \< tr \> @@
+_trEnd <- \< \/ tr \> @@
+
+_tdStart <- \< td \> @@
+_tdEnd <- \< \/ td \> @@
+
+_thStart <- \< th \> @@
+_thEnd <- \< \/ th \> @@
+
+_aStart <- \< a _xWILD [fail=(\>)] \> @@
+_aEnd <- \< \/ a \> @@
+

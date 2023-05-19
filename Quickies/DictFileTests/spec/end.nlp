@@ -1,0 +1,15 @@
+###############################################
+# FILE: end
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-6 9:42:14
+# MODIFIED:
+###############################################
+
+@CODE
+
+if (G("$islastfile")) {
+	SaveKB("mykb.kbb",G("kb"),2);
+}
+
+@@CODE

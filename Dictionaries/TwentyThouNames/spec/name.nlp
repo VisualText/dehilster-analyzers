@@ -1,0 +1,37 @@
+###############################################
+# FILE: name
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-5-1 14:56:36
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+SaveName(N("$text",5));
+single();
+
+@RULES
+_word <-
+	a		### (1)
+	name	### (2)
+	\=		### (3)
+	\"		### (4)
+	_xALPHA	### (5)
+	\"		### (6)
+	@@
+
+@POST
+SaveName(N("$text",5));
+single();
+
+@RULES
+_word <-
+	9393	### (1)
+	ff		### (2)
+	\"		### (3)
+	\>		### (4)
+	_xALPHA	### (5)
+	\<		### (6)
+	@@
