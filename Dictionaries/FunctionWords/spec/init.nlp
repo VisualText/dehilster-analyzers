@@ -1,0 +1,15 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-17 16:19:48
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("lang") = G("$inputhead");
+G("dictname") = G("lang") + "-function-words.dict";
+G("funcs") = getconcept(findroot(),"funcs");
+
+@@CODE

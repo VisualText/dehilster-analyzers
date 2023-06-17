@@ -1,0 +1,27 @@
+###############################################
+# FILE: codes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:50:49
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+noop();
+
+@RULES
+_xNIL <-
+	_xWILD [fail=(\t) group="_column"]	### (1)
+	\t										### (2)
+	_xWILD [fail=(\t) group="_column"]		### (3)
+	\t										### (4)
+	_xWILD [fail=(\t) group="_column"]		### (5)
+	\t										### (6)
+	_xWILD [fail=(\t) group="_column"]		### (7)
+	\t										### (8)
+	_xWILD [fail=(\t) group="_column"]		### (9)
+	\t										### (8)
+	_xWILD [fail=(\t) group="_column"]		### (9)
+	@@

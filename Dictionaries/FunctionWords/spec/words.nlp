@@ -1,0 +1,20 @@
+###############################################
+# FILE: words
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-17 16:3:25
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _pos _brackets
+
+@POST
+L("word") = strsubst(N("$text"),"\"",0);
+if (L("word"))
+	makeconcept(X("con",2),L("word"));
+single();
+
+@RULES
+_xNIL <-
+	_string	### (1)
+	@@

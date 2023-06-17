@@ -1,0 +1,21 @@
+###############################################
+# FILE: commentPos
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 8:10:30
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+addstrval(N("con",3),"comment",N("text",1));
+if (N(2))
+	addstrval(N("con",3),"comment",N("text",2));
+
+@RULES
+_xNIL <-
+	_comment		### (1)
+	_comment [opt]	### (2)
+	_pos			### (3)
+	@@

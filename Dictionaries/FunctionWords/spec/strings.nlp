@@ -1,0 +1,21 @@
+###############################################
+# FILE: strings
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-17 15:53:26
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+if (N("$text",2))
+	S("text") = strsubst(N("$text",2),"'"," \\\' ");
+single();
+
+@RULES
+_string <-
+	\"					### (1)
+	_xWILD [fail=(\")]	### (2)
+	\"					### (3)
+	@@

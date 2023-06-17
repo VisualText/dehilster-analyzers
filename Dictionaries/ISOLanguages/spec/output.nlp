@@ -1,0 +1,27 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:53:59
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("langs"));
+L("file2") = "iso-languages2.dict";
+L("file3") = "iso-languages3.dict";
+
+L("lang") = down(G("langs"));
+while (L("lang")) {
+	L("attrs") = DictDisplayAttr(L("lang"),"language");
+	L("file2") << conceptname(L("lang")) << " iso=2 " << L("attrs") << "\n";
+	L("file3") << strval(L("lang"),"iso2") << " iso=3 " << L("attrs") << "\n";
+	if (strval(L("lang"),"iso2") != strval(L("lang"),"iso3"))
+		L("file3") << strval(L("lang"),"iso3") << " iso=4 " << L("attrs") << "\n";
+	L("lang") = next(L("lang"));
+}
+
+SaveKB("iso-languages.kbb",G("langs"),2);
+
+@@CODE
