@@ -1,0 +1,19 @@
+###############################################
+# FILE: country
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:52:45
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("country") = strtolower(strtrim(N("$text",1)));
+X("country",2) = strtolower(strtrim(N("$text",1)));
+
+@RULES
+_xNIL <-
+	_xWILD [fail=(_codes)]
+	_codes	### (1)
+	@@

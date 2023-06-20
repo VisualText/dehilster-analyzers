@@ -1,0 +1,18 @@
+###############################################
+# FILE: languages
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 11:39:57
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _language
+
+@POST
+addstrval(X("con",2),"language",N("$text",1));
+single();
+
+@RULES
+_lang <-
+	_xWILD [plus fail=(\, _xEND)]
+	@@

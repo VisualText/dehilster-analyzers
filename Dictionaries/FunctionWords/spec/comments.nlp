@@ -1,0 +1,20 @@
+###############################################
+# FILE: comments
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 8:8:1
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("text") = N("$text",3);
+single();
+
+@RULES
+_comment <-
+	\/						### (1)
+	\/						### (2)
+	_xWILD [fail=(\/ _pos)]	### (3)
+	@@

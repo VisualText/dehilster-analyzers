@@ -1,0 +1,13 @@
+###############################################
+# FILE: header
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-17 16:19:35
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("dictname") << "# " << G("lang") << " function words\n";
+
+@@CODE

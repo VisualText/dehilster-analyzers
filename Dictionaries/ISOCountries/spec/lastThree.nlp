@@ -1,0 +1,23 @@
+###############################################
+# FILE: lastThree
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:50:49
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("two") = strtolower(N("$text",1));
+S("three") = strtolower(N("$text",2));
+S("num") = strtolower(N("$text",3));
+single();
+
+@RULES
+_codes <-
+	_xALPHA	### (1)
+	_xALPHA	### (2)
+	_xNUM	### (3)
+	_xEND	### (4)
+	@@

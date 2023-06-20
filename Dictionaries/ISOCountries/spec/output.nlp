@@ -1,0 +1,13 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:53:59
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("iso-countries.kbb",G("iso"),2);
+
+@@CODE

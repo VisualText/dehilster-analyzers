@@ -1,0 +1,28 @@
+###############################################
+# FILE: codes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:53:59
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+"iso-countries.dict" << N("two") << " iso=2 three=" << N("three") << " name=\"" << X("country",2) << "\"\n";
+"iso-countries.dict" << N("three") << " iso=3 two=" << N("two") << " name=\"" << X("country",2) << "\"\n";
+
+L("iso") = getconcept(G("iso"),N("two"));
+addstrval(L("iso"),"iso3",N("three"));
+addstrval(L("iso"),"num",N("num"));
+addstrval(L("iso"),"country",X("country",2));
+
+L("iso") = getconcept(G("iso"),N("three"));
+addstrval(L("iso"),"iso2",N("two"));
+addstrval(L("iso"),"num",N("num"));
+addstrval(L("iso"),"country",X("country",2));
+
+@RULES
+_xNIL <-
+	_codes	### (1)
+	@@

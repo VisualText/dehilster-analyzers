@@ -1,0 +1,39 @@
+###############################################
+# FILE: label
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 11:42:24
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE
+
+@POST
+X("con",2) = getconcept(G("langs"),N("$text",2));
+addstrval(X("con",2),"iso2",N("$text",3));
+addstrval(X("con",2),"iso3",N("$text",4));
+addstrval(X("con",2),"iso4",N("$text",5));
+addstrval(X("con",2),"description",N("$text",6));
+
+X("con2",2) = getconcept(G("langs"),N("$text",3));
+addstrval(X("con2",2),"iso",N("$text",2));
+addstrval(X("con2",2),"iso3",N("$text",4));
+addstrval(X("con2",2),"iso4",N("$text",5));
+addstrval(X("con2",2),"description",N("$text",6));
+
+pnrename(N(1),"_language");
+pnrename(N(2),"_iso");
+pnrename(N(3),"_iso2");
+pnrename(N(4),"_iso3");
+pnrename(N(5),"_iso3");
+pnrename(N(6),"_description");
+
+@RULES
+_xNIL <-
+	_column	### (1)
+	_column	### (2)
+	_column	### (3)
+	_column	### (4)
+	_column	### (5)
+	_column	### (6)
+	@@

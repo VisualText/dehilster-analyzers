@@ -1,0 +1,29 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 12:56:15
+# MODIFIED:
+###############################################
+
+@DECL
+
+DictDisplayAttr(L("con"),L("attr")) {
+	L("vals") = AttrValues(L("con"),L("attr"));
+	L("str") = L("attr") + "=";
+	L("count") = ValCount(L("vals"));
+	if (L("count") > 1) L("str") = L("str") + "[";
+    L("first") = 1;
+	while (L("vals")) {
+        L("val") = getstrval(L("vals"));
+        if (!L("first"))
+        	L("str") = L("str") + ",";
+		L("str") = L("str") + QuoteIfNeeded(L("val"));
+		L("vals") = nextval(L("vals"));
+        L("first") = 0;
+	}
+	if (L("count") > 1) L("str") = L("str") + "]";
+	return L("str");
+}
+
+@@DECL

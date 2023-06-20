@@ -1,0 +1,48 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 8:23:24
+# MODIFIED:
+###############################################
+
+@CODE
+
+# Sort
+L("con") = down(G("funcs"));
+while (L("con")) {
+    sortchilds(L("con"));
+    L("con") = next(L("con"));
+}
+
+L("con") = down(G("funcs"));
+while (L("con")) {
+
+    L("pos") = conceptname(L("con"));
+    L("comments") = AttrValues(L("con"),"comment");
+    if (L("pos") != G("pos")) {
+        L("title") = SplitWord(L("pos"));
+        G("dictname") << "\n### " << L("title");
+    }
+
+    while (L("comments")) {
+        G("dictname") << "\n# " << getsval(L("comments"));
+        L("comments") = nextval(L("comments"));
+    }
+    G("pos") = L("pos");
+    G("dictname") << "\n#--------------------------------------\n";
+
+    L("word con") = down(L("con"));
+    while (L("word con")) {
+        L("word") = strsubst(conceptname(L("word con")),"\'"," ' ");
+
+        G("dictname") << L("word") << " functword=1 pos=" << L("pos") << "\n";        
+        L("word con") = next(L("word con"));
+    }
+
+    L("con") = next(L("con"));
+}
+
+SaveKB("funcs.kbb",G("funcs"),2);
+
+@@CODE

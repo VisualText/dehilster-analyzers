@@ -1,0 +1,28 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 9:6:54
+# MODIFIED:
+###############################################
+
+@DECL
+
+SplitWord(L("word")) {
+    L("len") = strlength(L("word"));
+    L("i") = 0;
+    L("split") = 0;
+    while (L("i") < L("len")) {
+        L("c") = strpiece(L("word"),L("i"),L("i"));
+        if (strisupper(L("c")))
+            L("split") = L("split") + " ";
+        if (!L("i"))
+            L("c") = strtoupper(L("c"));
+        L("split") = L("split") + L("c");
+        strisupper(L("c"));
+        L("i")++;
+    }
+    return L("split");
+}
+
+@@DECL

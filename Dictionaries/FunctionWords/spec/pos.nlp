@@ -1,0 +1,22 @@
+###############################################
+# FILE: pos
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-17 15:55:34
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("pos") = N("$text",2);
+S("con") = getconcept(G("funcs"),N("$text",2));
+single();
+
+@RULES
+_pos <-
+	const		### (1)
+	_xALPHA		### (2)
+	\=			### (3)
+	_brackets	### (4)
+	@@
