@@ -8,6 +8,12 @@
 
 @CODE
 
-G("dictname") << "# " << G("lang") << " function words\n";
+L("lang") = G("lang");
+L("iso") = findconcept(G("langs"),L("lang") );
+if(L("iso")) {
+    L("lang") = strval(L("iso"),"language");
+}
+
+G("dictname") << "# " << L("lang") << " function words\n";
 
 @@CODE

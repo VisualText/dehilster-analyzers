@@ -11,5 +11,6 @@
 G("lang") = G("$inputhead");
 G("dictname") = G("lang") + "-function-words.dict";
 G("funcs") = getconcept(findroot(),"funcs");
+G("langs") = getconcept(findroot(),"langs");
 
 @@CODE

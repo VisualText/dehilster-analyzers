@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\FunctionWords\\input\\ru.json",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\FunctionWords\\spec\\output.nlp"
+        }
+    ]
+}

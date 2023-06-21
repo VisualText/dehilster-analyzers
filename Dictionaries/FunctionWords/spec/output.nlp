@@ -34,7 +34,8 @@ while (L("con")) {
 
     L("word con") = down(L("con"));
     while (L("word con")) {
-        L("word") = strsubst(conceptname(L("word con")),"\'"," ' ");
+        L("word") = strsubst(conceptname(L("word con")),"\'"," \\' ");
+        L("word") = strsubst(L("word"),"-"," \\- ");
 
         G("dictname") << L("word") << " functword=1 pos=" << L("pos") << "\n";        
         L("word con") = next(L("word con"));
@@ -44,5 +45,6 @@ while (L("con")) {
 }
 
 SaveKB("funcs.kbb",G("funcs"),2);
+SaveKB("langs.kbb",getconcept(findroot(),"langs"),2);
 
 @@CODE
