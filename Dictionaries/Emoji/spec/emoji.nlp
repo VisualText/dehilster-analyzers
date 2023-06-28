@@ -1,0 +1,21 @@
+###############################################
+# FILE: emoji
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:53:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE
+
+@POST
+S("emoji") = N("$text",2);
+S("description") = N("$text",3);
+single();
+
+@RULES
+_emoji <-
+	\#						### (1)
+	_xEMOJI					### (2)
+	_xWILD [fail=(_xEND)]	### (3)
+	@@

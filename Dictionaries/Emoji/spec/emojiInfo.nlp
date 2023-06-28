@@ -1,0 +1,17 @@
+###############################################
+# FILE: emojiInfo
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 17:25:34
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE
+
+@POST
+addstrval(X("con",4),"hex",N("$text",1));
+@RULES _xNIL <-_hex	@@
+
+@POST
+addstrval(X("con",4),"type",N("type",1));
+@RULES _xNIL <-_qualified	@@

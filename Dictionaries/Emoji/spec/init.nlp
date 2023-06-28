@@ -1,0 +1,13 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:55:22
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("emojis") = getconcept(findroot(),"emojis");
+
+@@CODE

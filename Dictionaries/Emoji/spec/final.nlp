@@ -1,0 +1,13 @@
+###############################################
+# FILE: final
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:55:43
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("emojis.kbb",G("emojis"),2);
+
+@@CODE

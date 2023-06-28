@@ -1,0 +1,20 @@
+###############################################
+# FILE: subgroups
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 15:46:9
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("con") = MakeCountCon(G("emojis"),"group");
+addstrval(S("con"),"description",N("description",1));
+single();
+
+@RULES
+_group <-
+	_groupHeader									### (1)
+	_xWILD [fail=(_subgroupHeader _groupHeader)]	### (2)
+	@@

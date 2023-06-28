@@ -1,0 +1,26 @@
+###############################################
+# FILE: hex
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:8:6
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE
+
+@PRE
+<1,1> var("SP");
+<2,2> var("NOSP");
+
+@POST
+L("text") = str(N("$text",1)) + str(N("$text",2));
+if (strlength(L("text")) <= 5) {
+	if (IsHex(L("text")))
+		single();
+}
+
+@RULES
+_hex <-
+	_xWILD [one]			### (1)
+	_xWILD [min=1 max=4]	### (2)
+	@@

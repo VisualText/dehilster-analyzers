@@ -1,0 +1,28 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 15:22:10
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+"headers.txt" << pnvar(X(2),"$text") << "\n";
+X("type",2) = N("$text",3);
+X("description",2) = N("$text",5);
+if (X("type",2) == "group")
+	pnrename(X(2),"_groupHeader");
+else
+	pnrename(X(2),"_subgroupHeader");
+
+@RULES
+_xNIL <-
+	_xSTART								### (1)
+	\#									### (2)
+	_xWILD [one match=(group subgroup)]	### (3)
+	\:									### (4)
+	_xWILD [fail=(_xEND)]				### (5)
+	_xEND								### (6)
+	@@
