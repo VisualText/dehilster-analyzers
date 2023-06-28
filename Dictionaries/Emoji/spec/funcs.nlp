@@ -1,0 +1,27 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:13:22
+# MODIFIED:
+###############################################
+
+@DECL
+
+IsHex(L("string")) {
+    L("len") = strlength(L("string"));
+    L("i") = 0;
+    while (L("i") < L("len")) {
+        L("c") = strpiece(L("string"),L("i"),L("i"));
+        if (!strcontainsnocase(L("c"),"abcdef") && !strcontainsnocase(L("c"),"1234567890")) {
+            "letters.txt" << " NOT HEX\n";
+            return 0;
+        } else {
+            "letters.txt" << " ";
+        }
+        L("i")++;
+    }
+    return 1;
+}
+
+@@DECL
