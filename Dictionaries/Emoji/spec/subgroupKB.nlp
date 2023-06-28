@@ -1,0 +1,18 @@
+###############################################
+# FILE: subgroupKB
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 17:3:47
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup
+
+@POST
+X("con",3) = MakeCountCon(X("con",2),"subgroup");
+addstrval(X("con",3),"description",N("description",1));
+
+@RULES
+_xNIL <-
+	_subgroupHeader	### (1)
+	@@

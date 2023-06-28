@@ -1,0 +1,15 @@
+###############################################
+# FILE: subgroups
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 15:46:9
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_subgroup <-
+	_subgroupHeader									### (1)
+	_xWILD [fail=(_subgroupHeader _groupHeader)]	### (2)
+	@@

@@ -1,0 +1,23 @@
+###############################################
+# FILE: emojiInfo
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 17:25:34
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE
+
+@POST
+if (X("con",4))
+	addstrval(X("con",4),"hex",N("$text",1));
+else
+	"hexno.txt" << pnvar(X(4),"$text") << "\n";
+@RULES _xNIL <-_hex	@@
+
+@POST
+if (X("con",4))
+	addstrval(X("con",4),"type",N("type",1));
+else
+	"hexno.txt" << pnvar(X(4),"$text") << "\n";
+@RULES _xNIL <- _qualified	@@

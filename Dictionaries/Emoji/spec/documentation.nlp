@@ -1,0 +1,15 @@
+###############################################
+# FILE: documentation
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 15:55:33
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_documentation <-
+	_xSTART					### (1)
+	_xWILD [fail=(_group)]	### (2)
+	@@

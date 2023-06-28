@@ -1,0 +1,17 @@
+###############################################
+# FILE: qualified
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 16:49:2
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE
+
+@POST
+S("type")= N("$text",2);
+single();
+@RULES
+_qualified <- \; minimally \- qualified @@
+_qualified <- \; fully \- qualified @@
+_unqualified <- \; unqualified @@

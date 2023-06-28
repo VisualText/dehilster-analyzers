@@ -1,0 +1,28 @@
+###############################################
+# FILE: emojiPhrase
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-28 17:12:37
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _group _subgroup _LINE _emoji
+
+@POST
+group(7,7,"_description");
+group(3,6,"_code");
+group(2,2,"_emoji");
+X("con",4) = makeconcept(X("con",3),N("$text",2));
+addstrval(X("con",4),"code",N("$text",3));
+addstrval(X("con",4),"description",N("$text",4));
+
+@RULES
+_xNIL <-
+	\#						### (1)
+	_xEMOJI					### (2)
+	e						### (3)
+	_xNUM					### (4)
+	\.						### (5)
+	_xNUM					### (6)
+	_xWILD [fail=(_xEND)]	### (7)
+	@@
