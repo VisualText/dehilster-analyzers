@@ -18,11 +18,11 @@ addstrval(X("con",4),"description",N("$text",4));
 
 @RULES
 _xNIL <-
-	\#						### (1)
-	_xEMOJI					### (2)
-	e						### (3)
-	_xNUM					### (4)
-	\.						### (5)
-	_xNUM					### (6)
-	_xWILD [fail=(_xEND)]	### (7)
+	\#								### (1)
+	_xWILD [plus match=(_xEMOJI)]	### (2)
+	e								### (3)
+	_xNUM							### (4)
+	\.								### (5)
+	_xNUM							### (6)
+	_xWILD [fail=(_xEND)]			### (7)
 	@@
