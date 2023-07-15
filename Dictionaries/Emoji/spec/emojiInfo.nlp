@@ -9,9 +9,11 @@
 @PATH _ROOT _group _subgroup _LINE
 
 @POST
-addstrval(X("con",4),"hex",N("$text",1));
+if (X("con",4))
+	addstrval(X("con",4),"hex",N("$text",1));
 @RULES _xNIL <-_hex	@@
 
 @POST
-addstrval(X("con",4),"type",N("type",1));
+if (X("con",4))
+	addstrval(X("con",4),"type",N("type",1));
 @RULES _xNIL <-_qualified	@@

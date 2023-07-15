@@ -1,0 +1,14 @@
+###############################################
+# FILE: names
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-13 15:41:19
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@RULES
+_name <-
+	_xWILD [plus match=(_xCAP _nameAbbrevCandidate _nameSuffix)]	### (1)
+	@@
