@@ -1,0 +1,17 @@
+###############################################
+# FILE: numberTypes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-13 15:55:3
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+NumberType(N(1),num(N("$text")));
+
+@RULES
+_xNIL <-
+	_xNUM	### (1)
+	@@

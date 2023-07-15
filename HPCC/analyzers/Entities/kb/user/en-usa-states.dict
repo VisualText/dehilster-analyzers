@@ -1,0 +1,105 @@
+# USA States & Abbreviations
+alabama state=1 abbrev=AL
+alaska state=1 abbrev=AK
+arizona state=1 abbrev=AZ
+arkansas state=1 abbrev=AR
+california state=1 abbrev=CA
+colorado state=1 abbrev=CO
+connecticut state=1 abbrev=CT
+delaware state=1 abbrev=DE
+florida state=1 abbrev=FL
+georgia state=1 abbrev=GA
+hawaii state=1 abbrev=HI
+idaho state=1 abbrev=ID
+illinois state=1 abbrev=IL
+indiana state=1 abbrev=IN
+iowa state=1 abbrev=IA
+kansas state=1 abbrev=KS
+kentucky state=1 abbrev=KY
+louisiana state=1 abbrev=LA
+maine state=1 abbrev=ME
+maryland state=1 abbrev=MD
+massachusetts state=1 abbrev=MA
+michigan state=1 abbrev=MI
+minnesota state=1 abbrev=MN
+mississippi state=1 abbrev=MS
+missouri state=1 abbrev=MO
+montana state=1 abbrev=MT
+nebraska state=1 abbrev=NE
+nevada state=1 abbrev=NV
+new hampshire state=1 abbrev=NH
+new jersey state=1 abbrev=NJ
+new mexico state=1 abbrev=NM
+new york state=1 abbrev=NY
+north carolina state=1 abbrev=NC
+north dakota state=1 abbrev=ND
+ohio state=1 abbrev=OH
+oklahoma state=1 abbrev=OK
+oregon state=1 abbrev=OR
+pennsylvania state=1 abbrev=PA
+rhode island state=1 abbrev=RI
+south carolina state=1 abbrev=SC
+south dakota state=1 abbrev=SD
+tennessee state=1 abbrev=TN
+texas state=1 abbrev=TX
+utah state=1 abbrev=UT
+vermont state=1 abbrev=VT
+virginia state=1 abbrev=VA
+washington state=1 abbrev=WA
+west virginia state=1 abbrev=WV
+wisconsin state=1 abbrev=WI
+wyoming state=1 abbrev=WY
+
+# ABBREVIATIONS
+
+al state=1 abbrev=1 state=alabama
+ak state=1 abbrev=1 state=alaska
+az state=1 abbrev=1 state=arizona
+ar state=1 abbrev=1 state=arkansas
+ca state=1 abbrev=1 state=california
+co state=1 abbrev=1 state=colorado
+ct state=1 abbrev=1 state=connecticut
+de state=1 abbrev=1 state=delaware
+fl state=1 abbrev=1 state=florida
+ga state=1 abbrev=1 state=georgia
+hi state=1 abbrev=1 state=hawaii
+id state=1 abbrev=1 state=idaho
+il state=1 abbrev=1 state=illinois
+in state=1 abbrev=1 state=indiana
+ia state=1 abbrev=1 state=iowa
+ks state=1 abbrev=1 state=kansas
+ky state=1 abbrev=1 state=kentucky
+la state=1 abbrev=1 state=louisiana
+me state=1 abbrev=1 state=maine
+md state=1 abbrev=1 state=maryland
+ma state=1 abbrev=1 state=massachusetts
+mi state=1 abbrev=1 state=michigan
+mn state=1 abbrev=1 state=minnesota
+ms state=1 abbrev=1 state=mississippi
+mo state=1 abbrev=1 state=missouri
+mt state=1 abbrev=1 state=montana
+ne state=1 abbrev=1 state=nebraska
+nv state=1 abbrev=1 state=nevada
+nh state=1 abbrev=1 state="new hampshire"
+nj state=1 abbrev=1 state="new jersey"
+nm state=1 abbrev=1 state="new mexico"
+ny state=1 abbrev=1 state="new york"
+nc state=1 abbrev=1 state="north carolina"
+nd state=1 abbrev=1 state="north dakota"
+oh state=1 abbrev=1 state=ohio
+ok state=1 abbrev=1 state=oklahoma
+or state=1 abbrev=1 state=oregon
+pa state=1 abbrev=1 state=pennsylvania
+ri state=1 abbrev=1 state="rhode island"
+sc state=1 abbrev=1 state="south carolina"
+sd state=1 abbrev=1 state="south dakota"
+tn state=1 abbrev=1 state=tennessee
+tx state=1 abbrev=1 state=texas
+ut state=1 abbrev=1 state=utah
+vt state=1 abbrev=1 state=vermont
+va state=1 abbrev=1 state=virginia
+wa state=1 abbrev=1 state=washington
+wv state=1 abbrev=1 state="west virginia"
+wi state=1 abbrev=1 state=wisconsin
+wy state=1 abbrev=1 state=wyoming
+

@@ -1,0 +1,2035 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"4a484dff27",applicationID:"999850360"};;/*! For license information please see nr-loader-rum-1.236.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>_,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>j});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.236.0",i="PROD",o="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>a,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>o,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=""+o?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=_()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=_();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!_()[c[e]]}function _(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",733:"session_trace-aggregate",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"ac76d497",147:"3dc53903",148:"1a20d5fe",242:"2a64278a",317:"49e41428",348:"bd6de33a",412:"2f55ce66",439:"30bd804e",538:"1b18459f",590:"cf0efb30",675:"ae9f91a8",733:"83105561",786:"06482edd",860:"03a8b7a5",873:"e6b09d52",898:"998ef92b"}[e]+"-1.236.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=6,i.p="https://js-agent.newrelic.com/",(()=>{var e={6:0,352:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(385),d=i(8e3),u=i(5938),l=i(3960),f=i(50);class g extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=c.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r;this.onAggregateImported=new Promise((e=>{r=e}));const o=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,f.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r(!0)}catch(e){(0,f.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),r(!1)}};c.il?(0,l.b)((()=>o()),!0):o()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var p=i(7633),h=i(7894);class v extends g{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.Tt)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,h.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var m=i(1117),b=i(1284);class y extends m.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,b.D)(e,(function(e,n){t[e]=w(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,b.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=w(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=w(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=x(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function w(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function x(e){return"object"!=typeof e?[]:(0,b.D)(e,D)}function D(e,t){return t}var _=i(8632),j=i(4402),E=i(4351);var k=i(7956),T=i(3239),I=i(9251);class N extends g{static featureName=I.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,I.t,r),c.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,I.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var P=i(3081);class S extends g{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);c._A?(this.agentIdentifier=t,this.sharedAggregator=new y({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(v),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()):(0,f.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,f.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,f.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[v,N,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<link rel="canonical" href="https://www.justice.gov/news" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon-precomposed" href="https://www.justice.gov/themes/custom/usdoj_uswds/images/touch-icons/apple-touch-icon-precomposed-114x114.png" size="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://www.justice.gov/themes/custom/usdoj_uswds/images/touch-icons/apple-touch-icon-precomposed-144x144.png" size="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://www.justice.gov/themes/custom/usdoj_uswds/images/touch-icons/apple-touch-icon-precomposed-72x72.png" size="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://www.justice.gov/themes/custom/usdoj_uswds/images/touch-icons/apple-touch-icon-precomposed.png" />
+<link rel="icon" href="/themes/custom/usdoj_uswds/favicon.ico" type="image/vnd.microsoft.icon" />
+
+      <title>All | United States Department of Justice</title>
+
+      <!-- Import google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600;700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+      <link rel="stylesheet" media="all" href="/d9/css/css_xNFp7dtuT1rbW5wZS9Pzvrj5cvRDMPNZ_2UtkXA-hkQ.css" />
+<link rel="stylesheet" media="all" href="/d9/css/css_SlyRR6Q1Qowqr2bXqYzT1EazLAiXFZWfHbMgwldMOag.css" />
+
+        <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOJ&amp;sp=find&amp;yt=true" id="_fed_an_ua_tag" async></script>
+<script src="https://siteimproveanalytics.com/js/siteanalyze_8906.js" async></script>
+
+          </head>
+        <body class="below-desktop">
+                    <a href="#main-content" class="usa-sr-only focusable">
+            Skip to main content
+          </a>
+          <div class="usdoj_overlay position-fixed z-100"></div>
+          <div id="sitewide-alert"></div>
+            <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="usa-overlay"></div>
+
+  <header class="usa-header usa-header--extended usa-header--extended-megamenu usdojMobileMenuSlider" id="header" role="banner">
+
+    <section class="usa-banner-wrapper">
+      
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="/themes/custom/usdoj_uswds/assets/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/usdoj_uswds/assets/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/usdoj_uswds/assets/img/icon-https.svg" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br>
+              A <strong>lock</strong> (   <span class="icon-lock">
+    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description" focusable="false">
+      <title id="banner-lock-title">Lock</title>
+      <desc id="banner-lock-description">A locked padlock</desc>
+      <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/>
+    </svg>
+  </span>
+ ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+            <div>
+    
+<div id="block-main-navigation-above-header" class="settings-tray-editable block block- block-system block-system-menu-blockmain block-grouped-menu" data-drupal-settingstray="editable">
+      <div id="doj-menu" class="usa-prose group-wrapper__content group-wrapper__content__menu">
+      
+
+
+    </div>
+  </div>
+
+  </div>
+
+        
+      <div class="region region-header usa-navbar display-block">
+    <div class="grid-container">
+      <div class="usa-logo site-logo float-left" id="logo">
+  <em class="usa-logo__text">
+      <a class="logo-img" href="/" accesskey="1" title="Home" aria-label="Home">
+        <img src="/themes/custom/usdoj_uswds/images/doj-main-header-logo.svg" alt="U.S. Department of Justice seal" />
+
+      </a>
+  </em>
+</div>
+<div class="display-none tablet-lg:display-block float-right">
+    <nav role="navigation" aria-labelledby="block-utilities-menu" id="block-utilities" class="settings-tray-editable" data-drupal-settingstray="editable">
+                        
+    <h2 class="usa-sr-only" id="block-utilities-menu">Utilities</h2>
+    
+
+                
+        <ul class="menu menu--utilities nav">
+                                      <li class="first">
+                                                            <a href="/agencies/chart/grid" class="first" data-drupal-link-system-path="node/1397441/grid">Our Offices</a>
+                      </li>
+                                      <li>
+                                                            <a href="/action-center/find-help-and-information-crime-victims" data-drupal-link-system-path="node/15401">Find Help</a>
+                      </li>
+                                      <li class="last">
+                                                            <a href="https://www.justice.gov/contact-us" class="last">Contact Us</a>
+                      </li>
+              </ul>
+  
+
+        </nav>
+    <!-- desktop search -->
+    <!-- <section aria-label="Small search component">
+        <form class="usa-search usa-search--small" role="search">
+            <label class="usa-sr-only" for="search-field-en-small-desktop">Search</label>
+            <input
+                class="usa-input"
+                id="search-field-en-small-desktop"
+                type="search"
+                name="search"
+                placeholder="Search"
+            />
+            <button class="usa-button" type="submit">
+                <img
+                    src="/themes/custom/usdoj_uswds/images/doj-icon-header-search.svg"
+                    class="usa-search__submit-icon width-3"
+                    alt="Search"
+                />
+            </button>
+        </form>
+    </section> -->
+        <div class="block block- block-usdoj-search block-usdoj-search-block bg-full-width bg-none">
+    
+        
+          <section aria-label="Small search component">
+      <form class="usa-search usa-search--small" role="search" accept-charset="UTF-8" action="https://search.justice.gov/search" id="search_form" method="get">
+      <label class="usa-sr-only" for="search-field-en-small-desktop">Search</label>
+      <div>
+          <input name="utf8" type="hidden" value="✓" />
+      </div>
+      <input id="affiliate" name="affiliate" type="hidden" value="justice" />
+      <input class="usa-input" autocomplete="off" class="usagov-search-autocomplete" id="search-field-en-small-desktop" name="query" type="search" placeholder="Search" />
+      <button class="usa-button" type="submit">
+        <img src="/themes/custom/usdoj_uswds/images/doj-icon-header-search.svg" class="usa-search__submit-icon width-3" alt="Search" />
+      </button>
+      </form>
+      </section>
+      </div>
+
+</div>
+
+    </div>
+</div>
+
+      <input type="checkbox" class="display-none" id="mobile-btn"/>
+      <label class="hamburger position-relative tablet-lg:position-static tablet-lg:display-block margin-right-2 tablet-lg:margin-x-auto" for="mobile-btn">
+        
+        <span class="menu-label">
+          <span class="menu-label--icons">
+            <span class="menu-label--icons__open display-inline-block"><img src="/themes/custom/usdoj_uswds/images/doj-icon-hamburger-menu.svg" alt="open menu icon"></span>
+            <span class="menu-label--icons__close display-none"><img src="/themes/custom/usdoj_uswds/images/doj-icon-hamburger-close.svg" alt="close menu icon"></span>
+          </span>
+          <span class="menu-label--text menu-label--text__open display-inline-block">Menu</span>
+          <span class="menu-label--text menu-label--text__close display-none">Close</span>
+        </span>
+        <nav class="usa-nav position-absolute tablet-lg:position-static right-neg-2 padding-0" role="navigation">
+                    <div class="usa-nav__inner">
+            
+            
+            
+                              
+
+      
+    
+                
+                                                                                                                                    
+                    <ul class="usa-nav__primary usa-accordion  margin-0 menu_level__0" role="navigation">
+
+        
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+                            <button class="usa-accordion__button usa-nav__link "
+                    aria-expanded="false"
+                    aria-controls="basic-nav-section-_-1">
+                    <span role="listitem">About</span>
+                </button>
+            
+                                                        
+    
+                
+                                                                                                                
+                    <div id="basic-nav-section-_-1" class="usa-nav__submenu menu_level__1" hidden="">
+            <div class="grid-row grid-gap-4">
+            <div class="tablet-lg:grid-col-fill non_imaged_links__container">
+                          <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+                <div class="usa-nav__submenu-item no_menu_link_imaged">
+                  <a  title="About" href="/about">
+                    <span class="no_menu_link_imaged__title" role="listitem">About</span>
+                  </a>
+                </div>
+              </div>
+                                        </div>
+
+        
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="/ag"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">The Attorney General</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="/agencies/chart/map"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Organizational Chart</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/doj/budget-and-performance"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Budget &amp; Performance</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/history"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">History</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="/opcl"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Privacy Program</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+                    </div>
+            </div>
+        
+    
+
+            
+                            </li>
+            
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+            
+                                                    
+                                <a href="https://www.justice.gov/our-work"  class="usa-nav__link" >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Our Work</span>
+                                    </a>
+                            
+                            </li>
+            
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+                            <button class="usa-accordion__button usa-nav__link "
+                    aria-expanded="false"
+                    aria-controls="basic-nav-section-_-3">
+                    <span role="listitem">News</span>
+                </button>
+            
+                                                        
+    
+                
+                                                                                                                                    
+                    <div id="basic-nav-section-_-3" class="usa-nav__submenu menu_level__1" hidden="">
+            <div class="grid-row grid-gap-4">
+            <div class="tablet-lg:grid-col-fill non_imaged_links__container">
+                          <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+                <div class="usa-nav__submenu-item no_menu_link_imaged">
+                  <a  title="News" href="https://www.justice.gov/news">
+                    <span class="no_menu_link_imaged__title" role="listitem">News</span>
+                  </a>
+                </div>
+              </div>
+                                        </div>
+
+        
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/press-releases"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Press Releases</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/speeches"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Speeches</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/videos"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Videos</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/photo-galleries"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Photo Galleries</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/blogs"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Blogs</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/news/podcasts"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Podcasts</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+                    </div>
+            </div>
+        
+    
+
+            
+                            </li>
+            
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+                            <button class="usa-accordion__button usa-nav__link "
+                    aria-expanded="false"
+                    aria-controls="basic-nav-section-_-4">
+                    <span role="listitem">Resources</span>
+                </button>
+            
+                                                        
+    
+                
+                                                                                                                
+                    <div id="basic-nav-section-_-4" class="usa-nav__submenu menu_level__1" hidden="">
+            <div class="grid-row grid-gap-4">
+            <div class="tablet-lg:grid-col-fill non_imaged_links__container">
+                          <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+                <div class="usa-nav__submenu-item no_menu_link_imaged">
+                  <a  title="Guidance &amp; Resources" href="/resources">
+                    <span class="no_menu_link_imaged__title" role="listitem">Resources</span>
+                  </a>
+                </div>
+              </div>
+                                        </div>
+
+        
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/guidance"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Guidance Documents</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/forms"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Forms</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/publications"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Publications</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="/largecases"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Information for Victims in Large Cases</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/jm/justice-manual"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Justice Manual</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+                    </div>
+            </div>
+        
+    
+
+            
+                            </li>
+            
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+            
+                                                    
+                                <a href="https://www.justice.gov/grants"  class="usa-nav__link" >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Grants</span>
+                                    </a>
+                            
+                            </li>
+            
+        
+            
+                                        
+                            <li class="usa-nav__primary-item">
+            
+                            <button class="usa-accordion__button usa-nav__link "
+                    aria-expanded="false"
+                    aria-controls="basic-nav-section-_-6">
+                    <span role="listitem">Employment</span>
+                </button>
+            
+                                                        
+    
+                
+                                                                                            
+                    <div id="basic-nav-section-_-6" class="usa-nav__submenu menu_level__1" hidden="">
+            <div class="grid-row grid-gap-4">
+            <div class="tablet-lg:grid-col-fill non_imaged_links__container">
+                          <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+                <div class="usa-nav__submenu-item no_menu_link_imaged">
+                  <a  href="https://www.justice.gov/careers">
+                    <span class="no_menu_link_imaged__title" role="listitem">Employment</span>
+                  </a>
+                </div>
+              </div>
+                                        </div>
+
+        
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/careers/why-justice"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Why Justice ?</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/careers/benefits"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Benefits</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/careers/search-jobs"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">DOJ Vacancies</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+            
+                                        
+                            <div class="tablet-lg:grid-col-fill individual_menu_level__1">
+
+            
+            
+                                                                        <div class="usa-nav__submenu-item no_menu_link_imaged">
+                
+                                <a href="https://www.justice.gov/legal-careers"  >
+                                            <span class="no_menu_link_imaged__title" role="listitem">Legal Careers at DOJ</span>
+                                    </a>
+                                    </div>
+                            
+                            </div>
+            
+        
+                    </div>
+            </div>
+        
+    
+
+            
+                            </li>
+            
+        
+                    </ul>
+        
+    
+
+
+
+<div class="mobile-utils mobile-utils_lvl1">
+  <div class="mobile-utils__inner tablet-lg:display-none">
+    <div class="menu--utilities">
+      
+        <ul class="menu menu--utilities nav">
+                                      <li class="first">
+                                                            <a href="/agencies/chart/grid" class="first" data-drupal-link-system-path="node/1397441/grid">Our Offices</a>
+                      </li>
+                                      <li>
+                                                            <a href="/action-center/find-help-and-information-crime-victims" data-drupal-link-system-path="node/15401">Find Help</a>
+                      </li>
+                                      <li class="last">
+                                                            <a href="https://www.justice.gov/contact-us" class="last">Contact Us</a>
+                      </li>
+              </ul>
+  
+
+    </div>
+  </div>
+</div>
+
+
+
+
+              
+              
+              
+                      </div>
+                  </nav>
+      </label>
+
+      <!-- mobile search -->
+      <div class="tablet-lg:display-none">
+        <section aria-label="Small search component">
+          <form class="usa-search usa-search--mobile"
+            role="search"
+            accept-charset="UTF-8"
+            action="https://search.justice.gov/search"
+            method="get"
+            data-once="form-updated"
+            data-drupal-form-fields="affiliate-mobile,search-field-en-small"
+          >
+            <div class="width-full padding-2">
+              <label class="usa-sr-only" for="search-field-en-small"> Search </label>
+              <input
+                id="affiliate-mobile"
+                name="affiliate"
+                type="hidden"
+                value="justice"
+              />
+              <input
+                class="usa-input"
+                id="search-field-en-small"
+                type="search"
+                name="query"
+                placeholder="Search"
+              />
+              <button class="usa-button" type="submit">
+                <img
+                  src="/themes/custom/usdoj_uswds/images/doj-icon-header-search.svg"
+                  alt="Search"
+                />
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      
+  </header>
+
+
+  <main class="main-content usa-layout-docs usa-section position-relative " role="main">
+    <div class="usdoj_overlay below-header"></div>
+
+    <a id="main-content" tabindex="-1"></a>
+    <div class="grid-container">
+
+                        <div class="breadcrumb-wrapper display-none tablet-lg:display-block">
+            <div class="grid-row">
+                <div>
+        <div id="block-breadcrumbs" class="settings-tray-editable block block- block-system block-system-breadcrumb-block bg-full-width" data-drupal-settingstray="editable">
+    
+        
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+        <h2 id="system-breadcrumb" class="usa-sr-only">Breadcrumb</h2>
+        <ol class="usa-breadcrumb__list">
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/" class="usa-breadcrumb__link">Justice.gov</a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            News
+                                    </li>
+                    </ol>
+    </nav>
+
+      </div>
+
+  </div>
+
+            </div>
+          </div>
+        
+                  <div class="">
+            
+          </div>
+        
+                      
+      <div class="grid-row grid-gap a11y-natural-flow">
+                                <div class="usa-layout-docs__sidenav tablet-lg:grid-col-3 layout-sidebar-first">
+    <div id="block-news" class="settings-tray-editable block block- block-system block-system-menu-blocknews block-grouped-menu wrapper-sidenav tablet-lg:margin-top-3 margin-bottom-4 tablet-lg:accordion-leave-open" data-drupal-settingstray="editable">
+  
+  
+            <div class="group-wrapper">
+            <div class="usa-accordion" aria-multiselectable="true">
+                <!-- Use the accurate heading level to maintain the document outline -->
+                                                    <h3 class="usa-accordion__heading group-wrapper__heading font-body-l text-primary-darker text-bold">
+                        <button
+                                class="usa-accordion__button"
+                                aria-expanded="false"
+                                aria-controls="usdoj-grouped-sidebar-menu-news"
+                                class="block-title font-family-heading font-heading-lg"
+                        >
+                            <span class="complementary-menu-label tablet-lg:display-none display-block font-body-2xs margin-bottom-1 display-none">MENU</span>
+                            News
+                        </button>
+                    </h3>
+                                <div id="usdoj-grouped-sidebar-menu-news" class="usa-accordion__content usa-prose group-wrapper__content group-wrapper__content__menu">
+
+                                                          
+                
+    
+                    <ul class="usa-nav__sidebar usa-nav__sidebar__first usa-accordion" role="navigation">
+        
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news" class="usa-nav__link usa-current">
+                    <span>All News</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/blogs" class="usa-nav__link ">
+                    <span>Blogs</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/photo-galleries" class="usa-nav__link ">
+                    <span>Photo Galleries</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/podcasts" class="usa-nav__link ">
+                    <span>Podcasts</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/press-releases" class="usa-nav__link ">
+                    <span>Press Releases</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/speeches" class="usa-nav__link ">
+                    <span>Speeches</span>
+                </a>
+                            
+                            </li>
+            
+                                                
+                            <li class="usa-nav__primary-item ">
+            
+            
+            
+                            
+                <a href="/news/videos" class="usa-nav__link ">
+                    <span>Videos</span>
+                </a>
+                            
+                            </li>
+            
+        
+                    </ul>
+        
+    
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="block-dojfacetsgroup" class="settings-tray-editable block block- block-usdoj-facets block-usdoj-facets-group-block usdoj-facet tablet-lg:accordion-leave-open" data-drupal-settingstray="editable">
+
+    <div class="auxiliary-content-details tablet-lg:display-none">
+        <h2 class="views-title copy-destination "><!-- Text inserted via JS --></h2>
+    <div class="language copy-destination "><!--Translate block will be inserted here--></div>
+    <div class="node-share">
+
+<div>
+
+    <div class="usdoj-sharing">
+      <button type="button" class="usdoj-sharing-toggle" tabindex="0" aria-label="Share" aria-expanded="false" aria-controls="sharing-links"><span class="toggle-text">Share</span><span class="toggle-icon"><img src="/themes/custom/usdoj_uswds/assets/img/angle-arrow-right-white.svg" alt="right caret" width="6" height="6" aria-hidden="true" /></span></button>
+
+        <ul style="display:none;" id="sharing-links-24">
+            <li>
+                <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date" target="_blank" title="Share on Facebook" data-event-label="Share on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="http://twitter.com/intent/tweet?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;text=News" target="_blank" title="Share on Twitter" data-event-label="Share on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on LinkedIn" data-event-label="Share on LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+                <a href="http://digg.com/submit?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on Digg" data-event-label="Share on Digg">Digg</a>
+            </li>
+            <li>
+                <a href="http://reddit.com/submit?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on Reddit" data-event-label="Share on Reddit">Reddit</a>
+            </li>
+            <li>
+                <a href="http://pinterest.com/pin/create/button/?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;media=https%3A//www.justice.gov/sites/all/modules/features/doj_sharing/images/doj-seal-pin.png&amp;title=News" target="_blank" title="Share on Pinterest" data-event-label="Share on Pinterest">Pinterest</a>
+            </li>
+            <li>
+                <a href="mailto:?body=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&subject=News" title="Email" data-event-label="Email">Email</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+  </div>
+
+      <div class="group-wrapper">
+      <div class="usa-accordion" aria-multiselectable="true">
+        <!-- Use the accurate heading level to maintain the document outline -->
+        <h3 class="usa-accordion__heading group-wrapper__heading">
+          <button
+            class="usa-accordion__button"
+            aria-expanded="true"
+            aria-controls="usdoj-facet-group"
+            class="block-title font-family-heading font-heading-lg"
+          >
+            Filters
+          </button>
+        </h3>
+        <div id="usdoj-facet-group" class="usa-accordion__content usa-prose group-wrapper__content">
+            <div>
+    
+
+
+
+<div class="facet-inactive block-facet--checkbox settings-tray-editable block block- block-facets block-facet-blockcomponents usdoj-facet usdoj-facet__expandable facet-item" id="block-components" data-drupal-settingstray="editable">
+        
+    
+    <div class="usa-accordion" aria-multiselectable="true">
+        <!-- Use the accurate heading level to maintain the document outline -->
+        <h4 class="usa-accordion__heading">
+            <button
+                    class="usa-accordion__button"
+                    aria-expanded="true"
+                    aria-controls="facet-filter-by-component"
+            >
+                Filter by Component
+            </button>
+        </h4>
+        <div id="facet-filter-by-component" class="usa-accordion__content usa-prose">
+                            <div class="facets-widget-checkbox">
+      <ul data-drupal-facet-id="components" data-drupal-facet-alias="facet_components" class="facet-inactive js-facets-checkbox-links item-list__checkbox"><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A601" rel="nofollow" data-drupal-facet-item-id="facet-components-601" data-drupal-facet-item-value="601" data-drupal-facet-item-count="354"><span class="facet-item__value">Office of the Attorney General</span>
+  <span class="facet-item__count">(354)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A376" rel="nofollow" data-drupal-facet-item-id="facet-components-376" data-drupal-facet-item-value="376" data-drupal-facet-item-count="287"><span class="facet-item__value">Antitrust Division</span>
+  <span class="facet-item__count">(287)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A381" rel="nofollow" data-drupal-facet-item-id="facet-components-381" data-drupal-facet-item-value="381" data-drupal-facet-item-count="3"><span class="facet-item__value">Asset Forfeiture Program</span>
+  <span class="facet-item__count">(3)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A421" rel="nofollow" data-drupal-facet-item-id="facet-components-421" data-drupal-facet-item-value="421" data-drupal-facet-item-count="19"><span class="facet-item__value">Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)</span>
+  <span class="facet-item__count">(19)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A431" rel="nofollow" data-drupal-facet-item-id="facet-components-431" data-drupal-facet-item-value="431" data-drupal-facet-item-count="232"><span class="facet-item__value">Civil Division</span>
+  <span class="facet-item__count">(232)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A436" rel="nofollow" data-drupal-facet-item-id="facet-components-436" data-drupal-facet-item-value="436" data-drupal-facet-item-count="669"><span class="facet-item__value">Civil Rights Division</span>
+  <span class="facet-item__count">(669)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A386" rel="nofollow" data-drupal-facet-item-id="facet-components-386" data-drupal-facet-item-value="386" data-drupal-facet-item-count="3"><span class="facet-item__value">Community Oriented Policing Services (COPS)</span>
+  <span class="facet-item__count">(3)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A446" rel="nofollow" data-drupal-facet-item-id="facet-components-446" data-drupal-facet-item-value="446" data-drupal-facet-item-count="2"><span class="facet-item__value">Community Relations Service</span>
+  <span class="facet-item__count">(2)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A451" rel="nofollow" data-drupal-facet-item-id="facet-components-451" data-drupal-facet-item-value="451" data-drupal-facet-item-count="2421"><span class="facet-item__value">Criminal Division</span>
+  <span class="facet-item__count">(2421)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A1191" rel="nofollow" data-drupal-facet-item-id="facet-components-1191" data-drupal-facet-item-value="1191" data-drupal-facet-item-count="2"><span class="facet-item__value">Department of Justice</span>
+  <span class="facet-item__count">(2)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A466" rel="nofollow" data-drupal-facet-item-id="facet-components-466" data-drupal-facet-item-value="466" data-drupal-facet-item-count="46"><span class="facet-item__value">Drug Enforcement Administration (DEA)</span>
+  <span class="facet-item__count">(46)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A471" rel="nofollow" data-drupal-facet-item-id="facet-components-471" data-drupal-facet-item-value="471" data-drupal-facet-item-count="224"><span class="facet-item__value">Environment and Natural Resources Division</span>
+  <span class="facet-item__count">(224)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A491" rel="nofollow" data-drupal-facet-item-id="facet-components-491" data-drupal-facet-item-value="491" data-drupal-facet-item-count="409"><span class="facet-item__value">Federal Bureau of Investigation (FBI)</span>
+  <span class="facet-item__count">(409)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A496" rel="nofollow" data-drupal-facet-item-id="facet-components-496" data-drupal-facet-item-value="496" data-drupal-facet-item-count="3"><span class="facet-item__value">Federal Bureau of Prisons (BOP)</span>
+  <span class="facet-item__count">(3)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A356" rel="nofollow" data-drupal-facet-item-id="facet-components-356" data-drupal-facet-item-value="356" data-drupal-facet-item-count="1"><span class="facet-item__value">Interpol Washington</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A361" rel="nofollow" data-drupal-facet-item-id="facet-components-361" data-drupal-facet-item-value="361" data-drupal-facet-item-count="581"><span class="facet-item__value">National Security Division (NSD)</span>
+  <span class="facet-item__count">(581)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A371" rel="nofollow" data-drupal-facet-item-id="facet-components-371" data-drupal-facet-item-value="371" data-drupal-facet-item-count="2"><span class="facet-item__value">Office for Access to Justice</span>
+  <span class="facet-item__count">(2)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A391" rel="nofollow" data-drupal-facet-item-id="facet-components-391" data-drupal-facet-item-value="391" data-drupal-facet-item-count="4"><span class="facet-item__value">Office of Justice Programs (OJP)</span>
+  <span class="facet-item__count">(4)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A561" rel="nofollow" data-drupal-facet-item-id="facet-components-561" data-drupal-facet-item-value="561" data-drupal-facet-item-count="1"><span class="facet-item__value">Office of Legal Policy</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A566" rel="nofollow" data-drupal-facet-item-id="facet-components-566" data-drupal-facet-item-value="566" data-drupal-facet-item-count="1"><span class="facet-item__value">Office of Legislative Affairs</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A581" rel="nofollow" data-drupal-facet-item-id="facet-components-581" data-drupal-facet-item-value="581" data-drupal-facet-item-count="20"><span class="facet-item__value">Office of Public Affairs</span>
+  <span class="facet-item__count">(20)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A411" rel="nofollow" data-drupal-facet-item-id="facet-components-411" data-drupal-facet-item-value="411" data-drupal-facet-item-count="20"><span class="facet-item__value">Office of the Associate Attorney General</span>
+  <span class="facet-item__count">(20)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A401" rel="nofollow" data-drupal-facet-item-id="facet-components-401" data-drupal-facet-item-value="401" data-drupal-facet-item-count="128"><span class="facet-item__value">Office of the Deputy Attorney General</span>
+  <span class="facet-item__count">(128)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A616" rel="nofollow" data-drupal-facet-item-id="facet-components-616" data-drupal-facet-item-value="616" data-drupal-facet-item-count="10"><span class="facet-item__value">Office of the Inspector General</span>
+  <span class="facet-item__count">(10)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A626" rel="nofollow" data-drupal-facet-item-id="facet-components-626" data-drupal-facet-item-value="626" data-drupal-facet-item-count="1"><span class="facet-item__value">Office of the Solicitor General</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A631" rel="nofollow" data-drupal-facet-item-id="facet-components-631" data-drupal-facet-item-value="631" data-drupal-facet-item-count="1"><span class="facet-item__value">Office of Tribal Justice</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A366" rel="nofollow" data-drupal-facet-item-id="facet-components-366" data-drupal-facet-item-value="366" data-drupal-facet-item-count="3"><span class="facet-item__value">Office on Violence Against Women</span>
+  <span class="facet-item__count">(3)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A40126" rel="nofollow" data-drupal-facet-item-id="facet-components-40126" data-drupal-facet-item-value="40126" data-drupal-facet-item-count="8"><span class="facet-item__value">Organized Crime Drug Enforcement Task Forces</span>
+  <span class="facet-item__count">(8)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A646" rel="nofollow" data-drupal-facet-item-id="facet-components-646" data-drupal-facet-item-value="646" data-drupal-facet-item-count="842"><span class="facet-item__value">Tax Division</span>
+  <span class="facet-item__count">(842)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A1681" rel="nofollow" data-drupal-facet-item-id="facet-components-1681" data-drupal-facet-item-value="1681" data-drupal-facet-item-count="1632"><span class="facet-item__value">U.S. Attorneys (USAO)</span>
+  <span class="facet-item__count">(1632)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A656" rel="nofollow" data-drupal-facet-item-id="facet-components-656" data-drupal-facet-item-value="656" data-drupal-facet-item-count="11"><span class="facet-item__value">U.S. Marshals Service</span>
+  <span class="facet-item__count">(11)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_components%3A666" rel="nofollow" data-drupal-facet-item-id="facet-components-666" data-drupal-facet-item-value="666" data-drupal-facet-item-count="1"><span class="facet-item__value">U.S. Trustee Program</span>
+  <span class="facet-item__count">(1)</span>
+</a></li></ul>
+</div>
+
+                    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="facet-inactive block-facet--checkbox settings-tray-editable block block- block-facets block-facet-blocktopics usdoj-facet usdoj-facet__expandable facet-item" id="block-topics" data-drupal-settingstray="editable">
+        
+    
+    <div class="usa-accordion" aria-multiselectable="true">
+        <!-- Use the accurate heading level to maintain the document outline -->
+        <h4 class="usa-accordion__heading">
+            <button
+                    class="usa-accordion__button"
+                    aria-expanded="true"
+                    aria-controls="facet-filter-by-topic"
+            >
+                Filter By Topic
+            </button>
+        </h4>
+        <div id="facet-filter-by-topic" class="usa-accordion__content usa-prose">
+                            <div class="facets-widget-checkbox">
+      <ul data-drupal-facet-id="topics" data-drupal-facet-alias="facet_topics" class="facet-inactive js-facets-checkbox-links item-list__checkbox"><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A25306" rel="nofollow" data-drupal-facet-item-id="facet-topics-25306" data-drupal-facet-item-value="25306" data-drupal-facet-item-count="155"><span class="facet-item__value">Antitrust</span>
+  <span class="facet-item__count">(155)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A35021" rel="nofollow" data-drupal-facet-item-id="facet-topics-35021" data-drupal-facet-item-value="35021" data-drupal-facet-item-count="20"><span class="facet-item__value">Asset Forfeiture</span>
+  <span class="facet-item__count">(20)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A25311" rel="nofollow" data-drupal-facet-item-id="facet-topics-25311" data-drupal-facet-item-value="25311" data-drupal-facet-item-count="5"><span class="facet-item__value">Bankruptcy</span>
+  <span class="facet-item__count">(5)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34666" rel="nofollow" data-drupal-facet-item-id="facet-topics-34666" data-drupal-facet-item-value="34666" data-drupal-facet-item-count="439"><span class="facet-item__value">Civil Rights</span>
+  <span class="facet-item__count">(439)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3906" rel="nofollow" data-drupal-facet-item-id="facet-topics-3906" data-drupal-facet-item-value="3906" data-drupal-facet-item-count="1"><span class="facet-item__value">Community Outreach</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A1226" rel="nofollow" data-drupal-facet-item-id="facet-topics-1226" data-drupal-facet-item-value="1226" data-drupal-facet-item-count="193"><span class="facet-item__value">Consumer Protection</span>
+  <span class="facet-item__count">(193)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A44971" rel="nofollow" data-drupal-facet-item-id="facet-topics-44971" data-drupal-facet-item-value="44971" data-drupal-facet-item-count="1"><span class="facet-item__value">Countering Nation States</span>
+  <span class="facet-item__count">(1)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3911" rel="nofollow" data-drupal-facet-item-id="facet-topics-3911" data-drupal-facet-item-value="3911" data-drupal-facet-item-count="176"><span class="facet-item__value">Cybercrime</span>
+  <span class="facet-item__count">(176)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34046" rel="nofollow" data-drupal-facet-item-id="facet-topics-34046" data-drupal-facet-item-value="34046" data-drupal-facet-item-count="30"><span class="facet-item__value">Disaster Fraud</span>
+  <span class="facet-item__count">(30)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34671" rel="nofollow" data-drupal-facet-item-id="facet-topics-34671" data-drupal-facet-item-value="34671" data-drupal-facet-item-count="229"><span class="facet-item__value">Drugs</span>
+  <span class="facet-item__count">(229)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34676" rel="nofollow" data-drupal-facet-item-id="facet-topics-34676" data-drupal-facet-item-value="34676" data-drupal-facet-item-count="112"><span class="facet-item__value">Environment</span>
+  <span class="facet-item__count">(112)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A32601" rel="nofollow" data-drupal-facet-item-id="facet-topics-32601" data-drupal-facet-item-value="32601" data-drupal-facet-item-count="13"><span class="facet-item__value">False Claims Act</span>
+  <span class="facet-item__count">(13)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3926" rel="nofollow" data-drupal-facet-item-id="facet-topics-3926" data-drupal-facet-item-value="3926" data-drupal-facet-item-count="383"><span class="facet-item__value">Financial Fraud</span>
+  <span class="facet-item__count">(383)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A30041" rel="nofollow" data-drupal-facet-item-id="facet-topics-30041" data-drupal-facet-item-value="30041" data-drupal-facet-item-count="35"><span class="facet-item__value">Firearms Offenses</span>
+  <span class="facet-item__count">(35)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34271" rel="nofollow" data-drupal-facet-item-id="facet-topics-34271" data-drupal-facet-item-value="34271" data-drupal-facet-item-count="69"><span class="facet-item__value">Foreign Corruption</span>
+  <span class="facet-item__count">(69)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3936" rel="nofollow" data-drupal-facet-item-id="facet-topics-3936" data-drupal-facet-item-value="3936" data-drupal-facet-item-count="198"><span class="facet-item__value">Health Care Fraud</span>
+  <span class="facet-item__count">(198)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3946" rel="nofollow" data-drupal-facet-item-id="facet-topics-3946" data-drupal-facet-item-value="3946" data-drupal-facet-item-count="71"><span class="facet-item__value">Identity Theft</span>
+  <span class="facet-item__count">(71)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34681" rel="nofollow" data-drupal-facet-item-id="facet-topics-34681" data-drupal-facet-item-value="34681" data-drupal-facet-item-count="56"><span class="facet-item__value">Immigration</span>
+  <span class="facet-item__count">(56)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A25331" rel="nofollow" data-drupal-facet-item-id="facet-topics-25331" data-drupal-facet-item-value="25331" data-drupal-facet-item-count="7"><span class="facet-item__value">Indian Country Law and Justice</span>
+  <span class="facet-item__count">(7)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A40196" rel="nofollow" data-drupal-facet-item-id="facet-topics-40196" data-drupal-facet-item-value="40196" data-drupal-facet-item-count="278"><span class="facet-item__value">Initiatives and Projects</span>
+  <span class="facet-item__count">(278)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A1206" rel="nofollow" data-drupal-facet-item-id="facet-topics-1206" data-drupal-facet-item-value="1206" data-drupal-facet-item-count="46"><span class="facet-item__value">Intellectual Property</span>
+  <span class="facet-item__count">(46)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A25336" rel="nofollow" data-drupal-facet-item-id="facet-topics-25336" data-drupal-facet-item-value="25336" data-drupal-facet-item-count="5"><span class="facet-item__value">Labor &amp; Employment</span>
+  <span class="facet-item__count">(5)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A34661" rel="nofollow" data-drupal-facet-item-id="facet-topics-34661" data-drupal-facet-item-value="34661" data-drupal-facet-item-count="453"><span class="facet-item__value">National Security</span>
+  <span class="facet-item__count">(453)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A4221" rel="nofollow" data-drupal-facet-item-id="facet-topics-4221" data-drupal-facet-item-value="4221" data-drupal-facet-item-count="3"><span class="facet-item__value">Office and Personnel Updates</span>
+  <span class="facet-item__count">(3)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A3956" rel="nofollow" data-drupal-facet-item-id="facet-topics-3956" data-drupal-facet-item-value="3956" data-drupal-facet-item-count="138"><span class="facet-item__value">Public Corruption</span>
+  <span class="facet-item__count">(138)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A25356" rel="nofollow" data-drupal-facet-item-id="facet-topics-25356" data-drupal-facet-item-value="25356" data-drupal-facet-item-count="406"><span class="facet-item__value">Tax</span>
+  <span class="facet-item__count">(406)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A4216" rel="nofollow" data-drupal-facet-item-id="facet-topics-4216" data-drupal-facet-item-value="4216" data-drupal-facet-item-count="163"><span class="facet-item__value">Violent Crime</span>
+  <span class="facet-item__count">(163)</span>
+</a></li><li class="facet-item"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_topics%3A43861" rel="nofollow" data-drupal-facet-item-id="facet-topics-43861" data-drupal-facet-item-value="43861" data-drupal-facet-item-count="39"><span class="facet-item__value">Voting and Elections</span>
+  <span class="facet-item__count">(39)</span>
+</a></li></ul>
+</div>
+
+                    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="facet-inactive block-facet--checkbox settings-tray-editable block block- block-facets block-facet-blockdates usdoj-facet usdoj-facet__expandable facet-item" id="block-dates" data-drupal-settingstray="editable">
+        
+    
+    <div class="usa-accordion" aria-multiselectable="true">
+        <!-- Use the accurate heading level to maintain the document outline -->
+        <h4 class="usa-accordion__heading">
+            <button
+                    class="usa-accordion__button"
+                    aria-expanded="true"
+                    aria-controls="facet-filter-by-year"
+            >
+                Filter by Year
+            </button>
+        </h4>
+        <div id="facet-filter-by-year" class="usa-accordion__content usa-prose">
+                            <div class="facets-widget-checkbox">
+      <ul data-drupal-facet-id="dates" data-drupal-facet-alias="facet_dates" class="facet-inactive js-facets-checkbox-links item-list__checkbox"><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2023" rel="nofollow" data-drupal-facet-item-id="facet-dates-2023" data-drupal-facet-item-value="2023" data-drupal-facet-item-count="209"><span class="facet-item__value">2023</span>
+  <span class="facet-item__count">(209)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2022" rel="nofollow" data-drupal-facet-item-id="facet-dates-2022" data-drupal-facet-item-value="2022" data-drupal-facet-item-count="384"><span class="facet-item__value">2022</span>
+  <span class="facet-item__count">(384)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2021" rel="nofollow" data-drupal-facet-item-id="facet-dates-2021" data-drupal-facet-item-value="2021" data-drupal-facet-item-count="311"><span class="facet-item__value">2021</span>
+  <span class="facet-item__count">(311)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2020" rel="nofollow" data-drupal-facet-item-id="facet-dates-2020" data-drupal-facet-item-value="2020" data-drupal-facet-item-count="313"><span class="facet-item__value">2020</span>
+  <span class="facet-item__count">(313)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2019" rel="nofollow" data-drupal-facet-item-id="facet-dates-2019" data-drupal-facet-item-value="2019" data-drupal-facet-item-count="386"><span class="facet-item__value">2019</span>
+  <span class="facet-item__count">(386)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2018" rel="nofollow" data-drupal-facet-item-id="facet-dates-2018" data-drupal-facet-item-value="2018" data-drupal-facet-item-count="479"><span class="facet-item__value">2018</span>
+  <span class="facet-item__count">(479)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2017" rel="nofollow" data-drupal-facet-item-id="facet-dates-2017" data-drupal-facet-item-value="2017" data-drupal-facet-item-count="389"><span class="facet-item__value">2017</span>
+  <span class="facet-item__count">(389)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2016" rel="nofollow" data-drupal-facet-item-id="facet-dates-2016" data-drupal-facet-item-value="2016" data-drupal-facet-item-count="370"><span class="facet-item__value">2016</span>
+  <span class="facet-item__count">(370)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2015" rel="nofollow" data-drupal-facet-item-id="facet-dates-2015" data-drupal-facet-item-value="2015" data-drupal-facet-item-count="418"><span class="facet-item__value">2015</span>
+  <span class="facet-item__count">(418)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2014" rel="nofollow" data-drupal-facet-item-id="facet-dates-2014" data-drupal-facet-item-value="2014" data-drupal-facet-item-count="383"><span class="facet-item__value">2014</span>
+  <span class="facet-item__count">(383)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2013" rel="nofollow" data-drupal-facet-item-id="facet-dates-2013" data-drupal-facet-item-value="2013" data-drupal-facet-item-count="355"><span class="facet-item__value">2013</span>
+  <span class="facet-item__count">(355)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2012" rel="nofollow" data-drupal-facet-item-id="facet-dates-2012" data-drupal-facet-item-value="2012" data-drupal-facet-item-count="436"><span class="facet-item__value">2012</span>
+  <span class="facet-item__count">(436)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2011" rel="nofollow" data-drupal-facet-item-id="facet-dates-2011" data-drupal-facet-item-value="2011" data-drupal-facet-item-count="456"><span class="facet-item__value">2011</span>
+  <span class="facet-item__count">(456)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2010" rel="nofollow" data-drupal-facet-item-id="facet-dates-2010" data-drupal-facet-item-value="2010" data-drupal-facet-item-count="419"><span class="facet-item__value">2010</span>
+  <span class="facet-item__count">(419)</span>
+</a></li><li class="facet-item facet-item--collapsed"><a href="/news?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;f%5B0%5D=facet_dates%3A2009" rel="nofollow" data-drupal-facet-item-id="facet-dates-2009" data-drupal-facet-item-value="2009" data-drupal-facet-item-count="401"><span class="facet-item__value">2009</span>
+  <span class="facet-item__count">(401)</span>
+</a></li></ul>
+</div>
+
+                    </div>
+    </div>
+</div>
+
+
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<div id="block-archivedpressreleases" class="settings-tray-editable block block-general block-block-content block-block-content449acd90-b462-4d67-b9aa-a81f42ee3205 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+      <h2 class="block-title">Archived Press Releases</h2>
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><p><a href="/archives/news-archive"><strong>Archived News</strong></a></p>
+
+<hr />
+<p><a href="/espanol/noticias"><strong>Para Notícias en Español</strong></a></p>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+
+
+<div id="block-forthepress" class="settings-tray-editable block block-general block-block-content block-block-content40f2ce09-a142-4340-8ccc-541f3e0e5336 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                  <h3 class="text-align-left block-header font-family-heading"">  
+                  <div>
+        <div class="field-formatter--string field_title">For the Press</div>
+      </div>
+            </h3>
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><p><a href="/opa/contact-office">Media Contacts</a></p>
+
+<p><a href="/opa/webform/media-inquiries">Media Inquiries</a></p>
+
+<p><a href="/opa/information-journalists">Information for Journalists</a></p>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+
+
+<div id="block-connectwithus" class="settings-tray-editable block block-general block-block-content block-block-content83020c8a-e071-4dc3-873a-5a6d8f9601a8 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                  <h3 class="text-align-left block-header font-family-heading"">  
+                  <div>
+        <div class="field-formatter--string field_title">Connect with us</div>
+      </div>
+            </h3>
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><p><a href="https://public.govdelivery.com/accounts/USDOJ/subscriber/new">Subscribe for Updates</a></p>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+    <div id="block-rssfeedlink" class="settings-tray-editable block block- block-usdoj-news block-usdoj-rss-feed bg-full-width bg-none" data-drupal-settingstray="editable">
+    
+        
+          <a href="/news/rss?end_date=&amp;search_api_fulltext=%20indictment&amp;sort_by=field_date&amp;start_date=&amp;m=1" class="usa_rss">RSS Feed</a>
+      </div>
+
+  </div>
+
+                  
+                <div
+          class="usa-layout-docs__main tablet-lg:grid-col-fill">
+              <div data-drupal-messages-fallback class="hidden"></div><div class="views-element-container">
+<div class="js-view-dom-id-0ed93d0bfef0a07f3bf57cb4ab7f97a0d20acaa1afaec357909e5b980695c262 news-search current-display-page_1">
+  
+  
+  
+
+  <form class="views-exposed-form bef-exposed-form usa-form" data-drupal-selector="views-exposed-form-news-page-1" action="/news" method="get" id="views-exposed-form-news-page-1" accept-charset="UTF-8">
+  
+
+<h1 class="views-title copy-source display-none tablet-lg:display-block">All News</h1>
+
+<div class="node-share display-none tablet-lg:display-block">
+
+<div>
+
+    <div class="usdoj-sharing">
+      <button type="button" class="usdoj-sharing-toggle" tabindex="0" aria-label="Share" aria-expanded="false" aria-controls="sharing-links"><span class="toggle-text">Share</span><span class="toggle-icon"><img src="/themes/custom/usdoj_uswds/assets/img/angle-arrow-right-white.svg" alt="right caret" width="6" height="6" aria-hidden="true" /></span></button>
+
+        <ul style="display:none;" id="sharing-links-24">
+            <li>
+                <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date" target="_blank" title="Share on Facebook" data-event-label="Share on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="http://twitter.com/intent/tweet?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;text=News" target="_blank" title="Share on Twitter" data-event-label="Share on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on LinkedIn" data-event-label="Share on LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+                <a href="http://digg.com/submit?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on Digg" data-event-label="Share on Digg">Digg</a>
+            </li>
+            <li>
+                <a href="http://reddit.com/submit?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;title=News" target="_blank" title="Share on Reddit" data-event-label="Share on Reddit">Reddit</a>
+            </li>
+            <li>
+                <a href="http://pinterest.com/pin/create/button/?url=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;media=https%3A//www.justice.gov/sites/all/modules/features/doj_sharing/images/doj-seal-pin.png&amp;title=News" target="_blank" title="Share on Pinterest" data-event-label="Share on Pinterest">Pinterest</a>
+            </li>
+            <li>
+                <a href="mailto:?body=https://www.justice.gov/news?search_api_fulltext=+indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&subject=News" title="Email" data-event-label="Email">Email</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+
+<div class="grid-container filters facets_on_page">
+    <div class="grid-row grid-gap">
+        <div class="grid-col-12 tablet-lg:grid-col-6">
+                                            <div class="keyword-search">
+                    <div class="form-item usa-label js-form-item form-type-textfield js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext">
+      <label for="edit-search-api-fulltext" class="usa-label control-label">Keyword Search</label>
+          <input data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value=" indictment" size="30" maxlength="128" class="form-text usa-input" />
+        
+  
+  </div>
+
+                </div>
+                    </div>
+        <div class="grid-col-12 tablet-lg:grid-col-6">
+            <div class="grid-row grid-gap">
+                <div class="grid-col-12 mobile-lg:grid-col-6">
+                    <div class="form-item usa-label js-form-item form-type-textfield js-form-type-textfield form-item-start-date js-form-item-start-date">
+      <label for="edit-start-date" class="usa-label control-label">Start Date</label>
+      <div class="usa-input-group">
+          <input class="bef-datepicker form-text usa-input" autocomplete="off" data-drupal-selector="edit-start-date" type="text" id="edit-start-date" name="start_date" value="" size="30" maxlength="128" />
+      <span class="field-suffix usa-input-suffix"><img class="filter-primary-darker" src="/themes/custom/usdoj_uswds/assets/img/usa-icons/calendar_today.svg" alt="Calendar icon." /></span>
+        </div>
+    
+  
+  </div>
+
+                </div>
+                <div class="grid-col-12 mobile-lg:grid-col-6">
+                    <div class="form-item usa-label js-form-item form-type-textfield js-form-type-textfield form-item-end-date js-form-item-end-date">
+      <label for="edit-end-date" class="usa-label control-label">End Date</label>
+      <div class="usa-input-group">
+          <input class="bef-datepicker form-text usa-input" autocomplete="off" data-drupal-selector="edit-end-date" type="text" id="edit-end-date" name="end_date" value="" size="30" maxlength="128" />
+      <span class="field-suffix usa-input-suffix"><img class="filter-primary-darker" src="/themes/custom/usdoj_uswds/assets/img/usa-icons/calendar_today.svg" alt="Calendar icon." /></span>
+        </div>
+    
+  
+  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-row grid-gap">
+        <div class="grid-col-12">
+                            
+                            
+                            <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-news" type="submit" id="edit-submit-news" value="Apply Search" class="button js-form-submit form-submit usa-button" /><input data-drupal-selector="edit-reset" type="submit" id="edit-reset" name="op" value="Reset Search" class="button js-form-submit form-submit usa-button" /></div>
+
+                    </div>
+    </div>
+</div>
+
+<div class="float-right grid-col-6 tablet-lg:grid-col-4">
+    <div class="form-item usa-label js-form-item form-type-select js-form-type-select form-item-sort-by js-form-item-sort-by">
+      <label for="edit-sort-by" class="usa-label control-label">Sort by:</label>
+          <div class="select-wrapper"><select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select usa-select"><option
+            value="field_date" selected="selected">Date</option><option
+            value="search_api_relevance">Relevance</option></select></div>
+        
+  
+  </div>
+
+</div>
+
+
+
+
+
+
+
+</form>
+
+  
+
+      <div class="results-count">
+      5709 Results
+    </div>
+  
+  <div class="rows-wrapper">
+          <div class="views-row">
+    
+<artcle role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/co-director-think-tank-indicted-acting-unregistered-foreign-agent-trafficking-arms-violating" rel="bookmark">
+<span class="field-formatter--string">Co-Director of Think Tank Indicted for Acting as Unregistered Foreign Agent, Trafficking in Arms, Violating U.S. Sanctions Against Iran, and Making False Statements to Federal Agents</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-10T12:00:00Z">July 10, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+
+<article role="article" class="news-content-listing node-speech">
+    <div class="node-content">
+                    <div class="node-type">
+                Speech
+            </div>
+        
+                    <h2 class="news-title">
+                <a href="/opa/speech/deputy-attorney-general-lisa-o-monaco-delivers-remarks-plenary-session-asean-g-7-justice" rel="bookmark">
+<span class="field-formatter--string">Deputy Attorney General Lisa O. Monaco Delivers Remarks at the Plenary Session of the ASEAN &amp; G-7 Justice Ministers’ Interface</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/former-eastern-kentucky-correctional-supervisor-indicted-covering-assault-restrained-inmate" rel="bookmark">
+<span class="field-formatter--string">Former Eastern Kentucky Correctional Supervisor Indicted for Covering Up the Assault of a Restrained Inmate </span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/us-army-financial-counselor-charged-defrauding-gold-star-families" rel="bookmark">
+<span class="field-formatter--string">U.S. Army Financial Counselor Charged with Defrauding Gold Star Families</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/texas-man-sentenced-90-consecutive-life-sentences-2019-mass-shooting-walmart-el-paso-texas" rel="bookmark">
+<span class="field-formatter--string">Texas Man Sentenced to 90 Consecutive Life Sentences for 2019 Mass Shooting at Walmart in El Paso, Texas, Killing 23 People and Injuring 22 Others</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/foreign-national-indicted-international-drug-trafficking" rel="bookmark">
+<span class="field-formatter--string">Foreign National Indicted for International Drug Trafficking</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/cooperation-between-united-states-and-mexican-law-enforcement-leads-significant-actions" rel="bookmark">
+<span class="field-formatter--string">Cooperation Between United States and Mexican Law Enforcement Leads to Significant Actions Against Transnational Drug Trafficking Organization</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+
+<article role="article" class="news-content-listing node-speech">
+    <div class="node-content">
+                    <div class="node-type">
+                Speech
+            </div>
+        
+                    <h2 class="news-title">
+                <a href="/opa/speech/deputy-attorney-general-lisa-o-monaco-delivers-remarks-plenary-session-g-7-justice" rel="bookmark">
+<span class="field-formatter--string">Deputy Attorney General Lisa O. Monaco Delivers Remarks at the Plenary Session of the G-7 Justice Ministers’ Meeting</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-07T12:00:00Z">July 7, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/four-men-charged-superseding-indictment-conspiring-launder-funds-various-fraud-schemes" rel="bookmark">
+<span class="field-formatter--string">Four Men Charged in a Superseding Indictment with Conspiring to Launder Funds from Various Fraud Schemes</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-03T12:00:00Z">July 3, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/three-members-drug-trafficking-organization-plead-guilty-importing-and-distributing" rel="bookmark">
+<span class="field-formatter--string">Three Members of Drug Trafficking Organization Plead Guilty to Importing and Distributing Narcotics</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-07-03T12:00:00Z">July 3, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/mexican-national-pleads-guilty-sex-trafficking-minor" rel="bookmark">
+<span class="field-formatter--string">Mexican National Pleads Guilty to Sex Trafficking a Minor</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-06-30T12:00:00Z">June 30, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+    <div class="views-row">
+    
+<article role="article" class="news-content-listing node-press-release">
+    <div class="node-content">
+                    <div class="node-type">
+                Press Release
+            </div>
+                
+                    <h2 class="news-title">
+                <a href="/opa/pr/philadelphia-business-owner-charged-fraud-and-tax-evasion" rel="bookmark">
+<span class="field-formatter--string">Philadelphia Business Owner Charged with Fraud and Tax Evasion</span>
+</a>
+            </h2>
+                
+        
+                    <div class="node-date">
+                <span class="node-date"><time datetime="2023-06-29T12:00:00Z">June 29, 2023</time>
+</span>
+            </div>
+            </div>
+</article></div>
+
+    </div>
+      <nav aria-label="Pagination" class="usa-pagination">
+    <ul class="usa-pagination__list js-pager__items">
+                                                        <li class="usa-pagination__item usa-pagination__page-no">
+                                           <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=0" class="usa-pagination__button usa-current aria-current=&quot;page" aria-label="Page 1">1</a>
+        </li>
+              <li class="usa-pagination__item usa-pagination__page-no">
+                                           <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=1" class="usa-pagination__button" aria-label="Page 2">2</a>
+        </li>
+              <li class="usa-pagination__item usa-pagination__page-no">
+                                           <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=2" class="usa-pagination__button" aria-label="Page 3">3</a>
+        </li>
+              <li class="usa-pagination__item usa-pagination__page-no">
+                                           <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=3" class="usa-pagination__button" aria-label="Page 4">4</a>
+        </li>
+              <li class="usa-pagination__item usa-pagination__page-no">
+                                           <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=4" class="usa-pagination__button" aria-label="Page 5">5</a>
+        </li>
+                          <li class="usa-pagination__item usa-pagination__overflow" role="presentation">
+          <span> … </span>
+        </li>
+                          <li class="usa-pagination__item usa-pagination__arrow">
+          <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=1" class="usa-pagination__link usa-pagination__next-page" aria-label="Next page" >
+            <span class="usa-pagination__link-text"> Next </span>
+            <svg class="usa-icon" aria-hidden="true" role="img">
+              <use xlink:href="/themes/custom/usdoj_uswds/assets/img/sprite.svg#navigate_next"></use>
+            </svg>
+          </a>
+        </li>
+                          <li class="usa-pagination__item usa-pagination__arrow">
+          <a href="?search_api_fulltext=%20indictment&amp;start_date=&amp;end_date=&amp;sort_by=field_date&amp;page=475" class="usa-pagination__link usa-pagination__next-page" aria-label="Last page" >
+            <span class="usa-pagination__link-text"> Last </span>
+            <svg class="usa-icon" aria-hidden="true" role="img">
+              <use xlink:href="/themes/custom/usdoj_uswds/assets/img/sprite.svg#navigate_next"></use>
+            </svg>
+          </a>
+        </li>
+          </ul>
+  </nav>
+
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+
+          </div>        
+              </div>
+
+            <div class="grid-row grid-gap">
+                  <div class="post-content-region">
+            
+          </div>
+              </div>
+          </div>
+  </main>
+
+  <footer class="usa-footer usa-footer--slim" role="contentinfo">
+
+          <div class="usa-footer__primary-section">
+
+        <div class="usa-footer__primary-content">
+
+                    <div class="grid-container">
+            <div class="grid-row grid-gap">
+              
+              
+              
+                          </div>
+          </div>
+          
+
+            <div class="grid-container">
+              <div class="blocks-wrapper">
+
+
+                                  <p class="text-center margin-bottom-5 footer-logo"><img alt="U.S. Department of Justice seal"
+                    src="/themes/custom/usdoj_uswds/images/doj-main-header-logo.svg"
+                    width="275"></p>
+                
+                                <div>
+                  <div id="block-footeraddress"
+                        class="footer-address-block contextual-region block block-general block-block-content bg-full-width">
+                    <div>
+                      <div class="body">
+                        <ul class="usa-icon-list">
+                          <li class="usa-icon-list__item">
+                            <div class="usa-icon-list__icon">
+                              <img alt="envelope icon"
+                                    src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-mail.svg">
+                            </div>
+                            <div class="usa-icon-list__content">
+                              <p><strong>U.S. Department of Justice</strong><br />
+950 Pennsylvania Avenue NW<br />
+Washington DC 20530</p>
+
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="block-footercontact"
+                        class="footer-contact-block block block-general block-block-content bg-full-width">
+                    <div>
+                      <div class="body">
+                        <ul class="usa-icon-list">
+                          <li class="usa-icon-list__item">
+                            <div class="usa-icon-list__icon">
+                              <img alt="smartphone icon"
+                                    src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-phone.svg">
+                            </div>
+                            <div class="usa-icon-list__content">
+                              <p><a href="https://www.justice.gov/contact-us">Contact the Department</a><br />
+Phone: 202-514-2000<br />
+TTY/ASCII/TDD: 800-877-8339</p>
+
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="block-footersocial"
+                        class="footer-social-block block block-general block-block-content bg-full-width">
+                    <div class="body">
+                      <ul class="usa-icon-list">
+                        <li class="usa-icon-list__item">
+                            <div class="usa-icon-list__icon">
+                              <img alt="smartphone icon"
+                                    src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-smartphone.svg">
+                            </div>
+                          <div class="usa-icon-list__content">
+                                                          <p><a href="https://public.govdelivery.com/accounts/USDOJ/subscriber/new">Signup for Email Updates</a><br />
+<a href="/social-media">Social Media</a></p>
+
+                                                                                      <ul class="inline-list">
+                                                                  <li>
+                                    <a href="http://www.twitter.com/TheJusticeDept" target="_blank">
+                                      <span class="invisible">twitter</span>
+                                      <img src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-twitter.svg" class="social-icon" alt="twitter icon" />
+                                    </a>
+                                  </li>
+                                                                  <li>
+                                    <a href="https://www.facebook.com/DOJ" target="_blank">
+                                      <span class="invisible">facebook</span>
+                                      <img src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-facebook.svg" class="social-icon" alt="facebook icon" />
+                                    </a>
+                                  </li>
+                                                                  <li>
+                                    <a href="http://www.youtube.com/TheJusticeDepartment" target="_blank">
+                                      <span class="invisible">youtube</span>
+                                      <img src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-youtube.svg" class="social-icon" alt="youtube icon" />
+                                    </a>
+                                  </li>
+                                                                  <li>
+                                    <a href="https://www.instagram.com/thejusticedept/" target="_blank">
+                                      <span class="invisible">instagram</span>
+                                      <img src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-instagram.svg" class="social-icon" alt="instagram icon" />
+                                    </a>
+                                  </li>
+                                                                  <li>
+                                    <a href="https://www.linkedin.com/company/usdoj/mycompany/" target="_blank">
+                                      <span class="invisible">linkedin</span>
+                                      <img src="/themes/custom/usdoj_uswds/images/doj-header-footer-icons/doj-icon-footer-linkedin.svg" class="social-icon" alt="linkedin icon" />
+                                    </a>
+                                  </li>
+                                                              </ul>
+                                                      </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div
+              </div>
+                          </div>
+
+        </div>
+      </div>
+    
+          <div class="usa-footer__secondary-section">
+        <div class="grid-container position-relative">
+          
+          <div class="grid-row grid-gap">
+            
+                      <div class="grid-container">
+              <div class="blocks-wrapper">
+                  <div>
+    
+
+
+<div id="block-footercolumn1" class="footer-column1-block settings-tray-editable block block-general block-block-content block-block-content23eb015b-361f-48b2-acb2-736a6e3b52b2 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><ul class="tall">
+	<li><a href="/archives/doj-archive">Archives</a></li>
+	<li><a href="/doj/budget-and-performance">Budget &amp; Performance</a></li>
+	<li><a href="/oip">FOIA</a></li>
+	<!--<li><a href="#">Sitemap</a></li>-->
+</ul>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+
+
+<div id="block-footercolumn2" class="footer-column2-block settings-tray-editable block block-general block-block-content block-block-contentbf3c4da1-c57a-4719-9288-765110cf7470 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><ul class="tall"><li><a href="/accessibility/accessibility-information">Accessibility</a></li>
+<li><a href="/legalpolicies">Legal Policies &amp; Disclaimers</a></li>
+<li><a href="/doj/privacy-policy">Privacy Policy</a></li>
+<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="ffa83eba-8394-4044-b2de-ec7f8f4b3762" href="/employees" title="For Employees">For Employees</a></li>
+</ul></div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+
+
+<div id="block-footercolumn3" class="footer-column3-block settings-tray-editable block block-general block-block-content block-block-contenta666f6e1-ef43-49ba-8781-3a3de47b3a58 bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><ul class="tall">
+	<li><a href="/information-quality">Information Quality</a></li>
+	<li><a href="https://oig.justice.gov/">Office of the Inspector General</a></li>
+	<li><a href="/jmd/eeo-program-status-report">No FEAR&nbsp;Act Data</a></li>
+	<li><a href="/osdbu">Small Business</a></li>
+	<li><a href="https://vote.gov/">Vote.gov</a></li>
+</ul>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+
+
+<div id="block-footercolumn4" class="footer-column4-block settings-tray-editable block block-general block-block-content block-block-contentc77ade55-b6e5-4398-b0b6-a75001c3c52a bg-full-width bg-none block_full_width" data-drupal-settingstray="editable">
+
+  
+    
+      <div class="block-content">
+      <div class="block-general__innerWrapper">
+                          <div class="block-body">
+              
+                  <div>
+        <div class="field-formatter--text-default field-text-format--wysiwyg text-formatted body"><ul class="tall">
+	<li><a href="/espanol">Español</a></li>
+	<!--<li><a class="icon-link" href="#"><svg fill="white" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>Multilingual Resources</a></li>-->
+</ul>
+
+<p><strong class="accent-warm">Have a question about Government Services?</strong></p>
+
+<ul class="tall">
+	<li><a href="https://www.usa.gov/">Contact USA.gov</a></li>
+</ul>
+</div>
+      </div>
+            
+          </div>
+              </div>
+    </div>
+  </div>
+
+  </div>
+
+              </div>
+            </div>
+          
+        </div>
+      </div>
+      </div>
+    
+    <div class="return-to-top grid-container">
+      <a href="#">
+        <img src="/themes/custom/usdoj_uswds/images/doj-icon-back-top-arrow-up.png"
+             alt="Return to the top of the page." width="136" height="76"/>
+        Top</a>
+    </div>
+  </footer>
+
+  </div>
+
+          
+          <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"news","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"end_date":"","search_api_fulltext":" indictment","sort_by":"field_date","start_date":""}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":0}}},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"Links to other government and non-government sites will typically appear with the \u201cexternal link\u201d icon to indicate that you are leaving the Department of Justice website when you click the link.","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["www.justice.gov","www.fbi.gov","www.dea.gov","www.atf.gov","www.ojp.gov","cops.usdoj.gov","justicegrants.usdoj.gov","bja.ojp.gov","bjs.ojp.gov","nij.ojp.gov","ojjdp.ojp.gov","ovc.ojp.gov","smart.ojp.gov","oig.justice.gov","tips.fbi.gov","www.bop.gov","www.usmarshals.gov","bjs.gov","nij.gov","bja.gov","ovc.gov","cops.gov","ojp.gov","www.bja.gov","www.bjs.gov","www.nij.gov","www.ovc.gov","www.cops.usdoj.gov\/","unicor.gov","www.unicor.gov","www.ovcttac.gov","ovc.ojp.gov","www.ojjdp.gov","ada.gov","www.ada.gov","beta.ada.gov","www.ic3.gov","vault.fbi.gov","bankrobbers.fbi.gov","www.deadiversion.usdoj.gov","www.ncjrs.gov","nicic.gov","www.nicic.gov","vcf.gov","www.vcf.gov","www.getsmartaboutdrugs.gov","www.justthinktwice.gov","getsmartaboutdrugs.gov","crimesolutions.ojp.gov","foia.gov","www.foia.gov","www.nsopw.gov","fara.gov","efile.fara.gov","www.fara.gov","data.ojp.usdoj.gov","cde.ucr.cjis.gov","forfeiture.gov","www.forfeiture.gov"]}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":0,"keepRowsOpen":1}},"collapsiblock":{"active_pages":false,"slide_type":1,"slide_speed":200},"ajaxTrustedUrl":{"\/news":true},"chosen":{"selector":"select:visible","minimum_single":5,"minimum_multiple":5,"minimum_width":400,"use_relative_width":false,"options":{"disable_search":false,"disable_search_threshold":0,"allow_single_deselect":false,"search_contains":false,"placeholder_text_multiple":"Click to select options","placeholder_text_single":"Choose an option","no_results_text":"No results match","max_shown_results":null,"inherit_select_classes":true}},"better_exposed_filters":{"datepicker":true,"datepicker_options":[]},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":false},"facets":{"softLimit":{"dates":5,"topics":10,"components":10},"softLimitSettings":{"dates":{"showLessLabel":"Show less","showMoreLabel":"Show more"},"topics":{"showLessLabel":"Show less","showMoreLabel":"Show more"},"components":{"showLessLabel":"Show less","showMoreLabel":"Show more"}}},"user":{"uid":0,"permissionsHash":"b6cfd961a159c6f023024d5992423946f0f6a551d9117074a6a915045565e73a"}}</script>
+<script src="/d9/js/js__Wu6gKki5R12q2ztI-OkIpXSa56knrhTrD7jRT0UYbk.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=fetch"></script>
+<script src="https://unpkg.com/react@16.12.0/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js"></script>
+<script src="/d9/js/js_aiZi9W8teuUJ-tRfM4XUWLrwODovJgLncbIAfqt7Gw8.js"></script>
+
+
+            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4a484dff27","applicationID":"999850360","transactionName":"NFNWYkVQWEZQBUxYVg0ZdVVDWFlbHiJKREkCWmhAXlRBRm00V0RNClhTamFYU0JhB19UegxYQERYXVpQQ0sGWVgNUlhT","queueTime":4,"applicationTime":2656,"atts":"GBRVFA1KS0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+          </html>

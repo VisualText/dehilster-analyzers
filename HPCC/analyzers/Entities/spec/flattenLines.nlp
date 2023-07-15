@@ -1,0 +1,17 @@
+###############################################
+# FILE: flattenLines.pat
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 26/May/20 19:48:00
+# MODIFIED:
+###############################################
+
+@NODES _paragraph
+
+@POST
+splice(1,1);
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@
