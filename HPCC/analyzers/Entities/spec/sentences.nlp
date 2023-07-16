@@ -8,6 +8,11 @@
 
 @NODES _paragraph
 
+@POST
+S("con") = MakeCountCon(G("article"),"sentence");
+addstrval(S("con"),"text",phrasetext());
+single();
+
 @RULES
 _sentence <-
     _xWILD [fail=(_endSent _BLANKLINE)]			### (1)

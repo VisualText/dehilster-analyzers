@@ -14,12 +14,13 @@ def write_to_file(content, filename, mode='wb'):
         
 inputdir = os.path.dirname(os.path.realpath(__file__))
 articlesXML = Element('articles')
+j = 0
 
 for i in range(1,5):
 	url = f"https://www.justice.gov/news?search_api_fulltext=%20indictment&start_date=&end_date=&sort_by=field_date"
 	if i > 1:
 		 url = f"https://www.justice.gov/news?search_api_fulltext=%20indictment&start_date=&end_date=&sort_by=field_date&page={i}"
-	print(url)
+	print('NEW PAGE: ' + url)
 	html = read_url(url)
         
 	soup = BeautifulSoup(html, 'html.parser')
@@ -44,8 +45,15 @@ for i in range(1,5):
 		urlXML.text = link
 		textXML = SubElement(artXML,'text')
 		textXML.text = text
+        
+		zero = ''
+		if j < 10:
+			zero = '0'
+		artfile = f'{inputdir}\\articles\\DOJArticle{zero}{j}.txt';
+		write_to_file(text.encode(), artfile)
+		j = j + 1
 	
-		print(title)
+		print('TITLE: ' + title)
 
-artfile = f'{inputdir}\DOJArticles.xml'
-write_to_file(tostring(articlesXML), artfile)
+xmlfile = f'{inputdir}\DOJArticles.xml'
+write_to_file(tostring(articlesXML), xmlfile)

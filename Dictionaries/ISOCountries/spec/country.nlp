@@ -6,14 +6,19 @@
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@PATH _ROOT _LINE _countryText
 
 @POST
-L("country") = strtolower(strtrim(N("$text",1)));
-X("country",2) = strtolower(strtrim(N("$text",1)));
+L("country") = N("$text");
+L("country") = strsubst(L("country"),"[",0);
+L("country") = strsubst(L("country"),"]",0);
+X("country",2) = L("country");
+X("con",2) = getconcept(G("countries"),L("country"));
+if (X("full",2))
+	addstrval(X("con",2),"full",X("full",2));
+single();
 
 @RULES
-_xNIL <-
-	_xWILD [fail=(_codes)]
-	_codes	### (1)
+_country <-
+	_xWILD [plus fail=(_parens)]	### (1)
 	@@

@@ -1,14 +1,18 @@
 ###############################################
-# FILE: names
+# FILE: countryText
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-7-13 15:41:19
+# CREATED: 2023-6-20 9:52:45
 # MODIFIED:
 ###############################################
 
-@PATH _ROOT _paragraph _sentence
+@NODES _LINE
+
+@POST
+singler(1,1);
 
 @RULES
-_name <-
-	_xWILD [plus match=(_xCAP _nameAbbrevCandidate _nameSuffix)]	### (1)
+_countryText <-
+	_xWILD [fail=(_codes)]
+	_codes	### (1)
 	@@
