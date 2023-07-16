@@ -1,14 +1,16 @@
 ###############################################
-# FILE: init
+# FILE: parens
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-6-20 17:26:9
+# CREATED: 2023-7-16 7:59:45
 # MODIFIED:
 ###############################################
 
-@CODE
+@NODES _LINE
 
-G("iso") = getconcept(findroot(),"iso");
-G("countries") = getconcept(findroot(),"countries");
-
-@@CODE
+@RULES
+_parens <-
+	\(					### (1)
+	_xWILD [fail=(\))]	### (2)
+	\)					### (3)
+	@@

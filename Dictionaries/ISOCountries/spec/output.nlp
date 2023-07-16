@@ -10,4 +10,28 @@
 
 SaveKB("iso-countries.kbb",G("iso"),2);
 
+sortchilds(G("countries"));
+DisplayKB(G("countries"),2);
+L("con") = down(G("countries"));
+
+"countries.dict" << "# Country names in English\n";
+
+while (L("con")) {
+	L("country") = strtolower(conceptname(L("con")));
+	"countries.dict" << L("country") << " country=1";
+	L("full") = strval(L("con"),"full");
+	"countries.dict" << " iso2=" << strval(L("con"),"iso2");
+	"countries.dict" << " iso3=" << strval(L("con"),"iso3");
+	"countries.dict" << "\n";
+
+	if (L("full") && (strendswith(L("full"),"of") || strendswith(L("full"),"the"))) {
+		"countries.dict" << L("full") << " " << L("country") << " country=1";
+		"countries.dict" << " iso2=" << strval(L("con"),"iso2");
+		"countries.dict" << " iso3=" << strval(L("con"),"iso3");
+		"countries.dict" << "\n";
+	}
+
+	L("con") = next(L("con"));
+}
+
 @@CODE

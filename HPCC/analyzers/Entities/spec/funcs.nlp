@@ -8,6 +8,18 @@
 
 @DECL
 
+PNChildCount(L("node")) {
+    L("count") = 0;
+    "debug.txt" << pnname(L("node")) << "-  ";
+    L("node") = pndown(L("node"));
+    while (L("node")) {
+        L("count")++;
+        L("node") = pnnext(L("node"));
+    }
+    "debug.txt" << L("count") << "\n";
+    return L("count");
+}
+
 NumberType(L("node"),L("num")) {
 	if (L("num") >= 1 && L("num") <= 115) {
         pnmakevar(L("node"),"age",1);

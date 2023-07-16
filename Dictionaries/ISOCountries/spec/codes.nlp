@@ -11,6 +11,8 @@
 @POST
 "iso-countries.dict" << N("two") << " iso=2 three=" << N("three") << " name=\"" << X("country",2) << "\"\n";
 "iso-countries.dict" << N("three") << " iso=3 two=" << N("two") << " name=\"" << X("country",2) << "\"\n";
+addstrval(X("con",2),"iso2",N("two"));
+addstrval(X("con",2),"iso3",N("three"));
 
 L("iso") = getconcept(G("iso"),N("two"));
 addstrval(L("iso"),"iso3",N("three"));

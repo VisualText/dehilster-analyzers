@@ -1,0 +1,23 @@
+###############################################
+# FILE: parens
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 8:9:6
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _countryText
+
+@POST
+L("text") = strtolower(N("$text",2));
+if (L("text") != "the") {
+	X("full",2) = L("text");
+}
+single();
+
+@RULES
+_parens <-
+	\(					### (1)
+	_xWILD [fail=(\))]	### (2)
+	\)					### (3)
+	@@

@@ -1,0 +1,20 @@
+###############################################
+# FILE: country
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 7:56:29
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+"country.dict" << strtolower(N("$text",4)) << " country=1\n";
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xNUM				### (2)
+	\t					### (3)
+	_xWILD [fail=(\t)]	### (4)
+	@@
