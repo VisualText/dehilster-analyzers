@@ -13,7 +13,7 @@ singler(2,2);
 
 @RULES
 _endSent <-
-    _xWILD [s one match=(_xALPHA _xNUM)]					### (1)
-    _xWILD [one trig match=(\. \? \!)]						### (2)
-    _xWILD [one match=(_xWHITE _xALPHA _xNUM _xEND _xCTRL)]	### (3)
+    _xWILD [s one match=(_xALPHA _xNUM _phrase)]							### (1)
+    _xWILD [one trig match=(\. \? \!)]								### (2)
+    _xWILD [one match=(_xWHITE _xALPHA _xNUM _xEND _xCTRL _quote)]	### (3)
     @@

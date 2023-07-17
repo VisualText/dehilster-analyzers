@@ -1,0 +1,31 @@
+###############################################
+# FILE: pickins
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 9:17:13
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+L("node") = N(1);
+L("node") = pnprev(L("node"));
+L("phrase") = strtolower(N("$text"));
+L("continue") = 1;
+while (L("node") && L("continue")) {
+	L("text") = strtolower(pnvar(L("node"),"$text"));
+	if (!pnvar(L("node"),"functword")) {
+		L("phrase") = L("text") + " " + L("phrase");
+	} else {
+		L("continue") = 0;
+	}
+	L("node") = pnprev(L("node"));
+}
+G("out") << L("phrase") << "\n";
+
+@RULES
+_xNIL <-
+	department	### (1)
+	@@
+

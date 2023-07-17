@@ -9,9 +9,8 @@
 @CODE
 
 G("caps") = getconcept(findroot(),"caps");
-G("names") = getconcept(findroot(),"names");
-G("article") = getconcept(findroot(),"article");
+rmchildren(G("caps"));
 G("people") = getconcept(findroot(),"people");
-G("city") = getconcept(findroot(),"city");
+rmchildren(G("people"));
 
 @@CODE

@@ -1,0 +1,29 @@
+###############################################
+# FILE: legalPhrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 22/Apr/20 18:14:29
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@PRE
+<1,1> var("department");
+
+@RULES
+_department <-
+	_xALPHA [plus]
+	department
+	@@
+
+@PRE
+<4,4> var("department");
+
+@RULES
+_department <-
+	department
+	of
+	the [opt]
+	_xALPHA [plus]
+	@@

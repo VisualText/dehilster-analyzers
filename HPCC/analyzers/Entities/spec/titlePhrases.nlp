@@ -1,0 +1,44 @@
+###############################################
+# FILE: peoplePhrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 14:23:44
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+###############################################
+# Ronald DiPietro (a Certified Public Accountant)
+###############################################
+
+@POST
+S("con") = AddPerson(N(1),0);
+AddUniqueStr(S("con"),"title",N("title",2));
+single();
+
+@RULES
+_person <-
+	_person	### (1)
+	_titleParen	### (2)
+	@@
+
+###############################################
+# U.S. District Magistrate Judge Amanda M. Knapp of the Northern District of Ohio
+###############################################
+
+@POST
+if (N(3)) {
+	S("con") = AddPerson(N(2),N(3));
+} else {
+	S("con") = AddPerson(N(2),0);
+}
+AddUniqueStr(S("con"),"title",N("$text",1));
+single();
+
+@RULES
+_person <-
+	_title		### (1)
+	_person		### (2)
+	_ofRegion [opt]	### (3)
+	@@

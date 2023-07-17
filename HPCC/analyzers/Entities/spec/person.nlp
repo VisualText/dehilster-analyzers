@@ -1,0 +1,21 @@
+###############################################
+# FILE: person
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 10:27:21
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@PRE
+<1,1> var("human");
+
+@POST
+S("con") = getconcept(G("people"),strtolower(phrasetext()));
+single();
+
+@RULES
+_person <-
+	_titleCaps	### (1)
+	@@

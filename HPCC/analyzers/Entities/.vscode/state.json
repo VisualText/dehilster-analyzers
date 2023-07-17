@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\HPCC\\analyzers\\Entities\\input\\articles\\DOJArticle05.txt",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\HPCC\\analyzers\\Entities\\spec\\phrases.nlp"
+        }
+    ]
+}

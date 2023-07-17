@@ -8,16 +8,102 @@
 
 @DECL
 
-PNChildCount(L("node")) {
-    L("count") = 0;
-    "debug.txt" << pnname(L("node")) << "-  ";
-    L("node") = pndown(L("node"));
-    while (L("node")) {
-        L("count")++;
+###############################################
+# This function goes down the tree trying to find people
+###############################################
+
+AddPeople(L("node"),L("attr"),L("value")) {
+    "addpeople.txt" << "============\n" << pnvar(pnup(L("node")),"$text") << "\n";
+    L("continue") = 1;
+
+    while (L("node") && L("continue")) {
+        L("nname") = pnname(L("node"));
+        "addpeople.txt" << L("nname") << " (" << pnvar(L("node"),"$text") << ")\n";
+        if (L("nname") == "_titleCaps" || L("nname")== "_person") {
+            L("con") = AddPerson(L("node"),0);
+            addstrval(L("con"),L("attr"),L("value"));
+
+        # If you find "all of SOME PLACE" you need to apply it to all the people before
+        } else if (L("nname") == "_residentOf") {
+            # Loop through and put resident on the previous 
+            "addpeople.txt" << "Backing up <<<<<<<<<<<<<\n";
+            L("prev") = pnprev(L("node"));
+            while (L("prev")) {
+                "addpeople.txt" << "  " << pnname(L("prev")) << ": " << pnvar(L("prev"),"$text") << "\n";
+                L("nn") = pnname(L("prev"));
+                if (L("nn") == "_titleCaps" || L("nn")== "_person") {
+                    "addpeople.txt" << "  >> Adding Resident\n";
+                    AddPerson(L("prev"),L("node"));
+                }
+                L("prev") = pnprev(L("prev"));
+            }
+
+        } else if (L("nname") != "and" && L("nname") != "," && L("nname") != "all") {
+            L("continue") = 0;
+        }
         L("node") = pnnext(L("node"));
     }
-    "debug.txt" << L("count") << "\n";
-    return L("count");
+    "addpeople.txt" << "\n";
+}
+
+AddPerson(L("node"),L("region")) {
+    L("con") = pnvar(L("node"),"con");
+    if (!L("con")) {
+        L("name") = strtolower(pnvar(L("node"),"$text"));
+        L("con") = getconcept(G("people"),L("name"));
+        pnmakevar(L("node"),"con",L("con"));
+    }
+    L("name") = conceptname(L("con"));
+
+    if (L("region")) {
+        AddStrValue(L("con"),L("region"),"city");
+        AddStrValue(L("con"),L("region"),"state");
+        AddStrValue(L("con"),L("region"),"country");
+    }
+    return L("con");
+}
+
+AddStrValue(L("con"),L("node"),L("attr")) {
+    L("val") = pnvar(L("node"),L("attr"));
+    if (L("val")) {
+        AddUniqueStr(L("con"),L("attr"),L("val"));
+    }
+}
+
+XMLOut(L("out")) {
+    L("out") << "<people>\n";
+
+    L("con") = down(G("people"));
+
+    while (L("con")) {
+        if (findattrs(L("con"))) {
+            L("out") << "\t<person>\n";
+            L("out") << "\t\t<name>" << conceptname(L("con")) << "</name>\n";
+            AddXMLNumTag(L("out"),L("con"),"age");
+            AddXMLStrTag(L("out"),L("con"),"event");
+            AddXMLStrTag(L("out"),L("con"),"title");
+            AddXMLStrTag(L("out"),L("con"),"region");
+            AddXMLStrTag(L("out"),L("con"),"city");
+            AddXMLStrTag(L("out"),L("con"),"state");
+            AddXMLStrTag(L("out"),L("con"),"country");
+            L("out") << "\t</person>\n";
+        }
+        L("con") = next(L("con"));
+    }
+
+    L("out") << "</people>";
+}
+
+AddXMLStrTag(L("out"),L("con"),L("attr")) {
+    if (strval(L("con"),L("attr"))) {
+        L("out") << "\t\t<" << L("attr") << ">" << strval(L("con"),L("attr")) << "</" << L("attr") << ">\n";
+    }
+}
+
+AddXMLNumTag(L("out"),L("con"),L("attr")) {
+    if (numval(L("con"),L("attr"))) {
+        L("out") << "\t\t<" << L("attr") << ">" << numval(L("con"),L("attr")) << "</" << L("attr") << ">\n";
+    }
 }
 
 NumberType(L("node"),L("num")) {

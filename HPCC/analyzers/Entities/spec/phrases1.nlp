@@ -1,0 +1,23 @@
+###############################################
+# FILE: phrases1
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 11:6:43
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+S("region") = N("$text",2);
+if (N("city",3)) S("city") = N("city",3);
+if (N("state",3)) S("state") = N("state",3);
+single();
+
+@RULES
+_ofRegion <-
+	_xWILD [match=(of for the)]	### (1)
+	_region					### (2)
+	_residentOf				### (3)
+	@@
+		

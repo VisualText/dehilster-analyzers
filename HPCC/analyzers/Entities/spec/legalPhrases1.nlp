@@ -1,0 +1,74 @@
+###############################################
+# FILE: legalPhrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 22/Apr/20 18:14:29
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@RULES
+_title <- _xWILD [plus match=(
+	
+	acting
+	assistant
+	attorney
+	attorneys
+	chief
+	corporal
+	court
+	deputy
+	director
+	district
+	federal
+	general
+	interim
+	judge
+	magistrate
+	principal
+	sargeant
+	sergeant
+	supervisor
+	temporary
+	trial
+	_USA
+
+	)]
+	@@
+
+_agent <- bureau of alcohol \, [opt] tobacco and firearms @@
+_title <- special agent @@
+
+
+@RULES
+_division <- _xWILD [plus match=(
+	
+	army
+	civil
+	counterintelligence
+	counterterrorism
+	criminal
+	cyber
+	dea
+	department
+	director
+	fbi
+	fda
+	import
+	investigation
+	investigative
+	justice
+	national
+	natural
+	resources
+	rights
+	secret
+	security
+	service
+	tax
+	_USA
+
+	)]
+	division
+@@
