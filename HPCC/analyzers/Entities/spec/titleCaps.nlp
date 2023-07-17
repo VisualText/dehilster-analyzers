@@ -1,0 +1,22 @@
+###############################################
+# FILE: titleCaps
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-13 15:41:19
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+L("text") = strtolower(N("$text"));
+if (strlength(L("text")) > 1 && !N("functword")) {
+	S("caps") = getconcept(G("caps"),L("text"));
+	IncrementCount(S("caps"),"count");
+	single();
+}
+
+@RULES
+_titleCaps <-
+	_xWILD [plus match=(_xCAP _nameAbbrevCandidate _nameSuffix \-)]	### (1)
+	@@

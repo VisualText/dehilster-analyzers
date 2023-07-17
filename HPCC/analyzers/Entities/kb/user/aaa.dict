@@ -1,0 +1,44 @@
+certified public accountant s=agent
+federal grand jury s=agent
+federal bureau of investigation s=agent
+fbi s=agent
+internal revenue service s=agent
+major crimes task force s=agent
+postal inspection service s=agent
+agent in charge s=agent
+
+attorney anchortitle=1
+general anchortitle=1
+judge anchortitle=1
+
+eastern direction=1
+western direction=1
+northern direction=1
+central direction=1
+middle direction=1
+southern direction=1
+
+district region=1
+county region=1
+state region=1
+division region=1
+
+# DEPARTMENT
+city department=1
+commerce department=1
+county department=1
+fbi department=1
+food department=1
+front department=1
+jersey department=1
+justice department=1
+metropolitan department=1
+noted department=1
+police department=1
+services department=1
+sheriff department=1
+state department=1
+states department=1
+treasury department=1
+work department=1
+

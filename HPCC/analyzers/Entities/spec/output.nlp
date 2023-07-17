@@ -1,0 +1,14 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 15:32:32
+# MODIFIED:
+###############################################
+
+@CODE
+
+XMLOut(cbuf());
+XMLOut("output.xml");
+
+@@CODE

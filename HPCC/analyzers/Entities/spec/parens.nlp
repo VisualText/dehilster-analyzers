@@ -1,0 +1,21 @@
+###############################################
+# FILE: parens
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-17 13:47:48
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+S("title") = N("$text",3);
+single();
+
+@RULES
+_titleParen <-
+	\(		### (1)
+	a		### (2)
+	_agent	### (3)
+	\)		### (4)
+	@@

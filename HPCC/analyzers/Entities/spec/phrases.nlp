@@ -1,0 +1,135 @@
+###############################################
+# FILE: phrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 11:6:43
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+###############################################
+# Stark County Ohio
+###############################################
+
+@PRE
+<4,4> var("state");
+
+@POST
+S("count") = N("$text",4);
+single();
+
+@RULES
+_location <-
+	_xALPHA		### (1)
+	county		### (2)
+	\, [opt]	### (3)
+	_xALPHA		### (4)
+	@@
+
+###############################################
+# City country
+###############################################
+
+@PRE
+<6,6> var("country");
+
+@POST
+S("city") = N("$text",2);
+S("state") = N("$text",4);
+S("country") = N("$text",6);
+single();
+
+@RULES
+_residentOf <-
+	of				### (1)
+	_xALPHA [plus]	### (2)
+	\,				### (3)
+	_xALPHA [plus]	### (4)
+	\,				### (5)
+	mexico [s]		### (6)
+	@@
+
+###############################################
+# Cities and States
+###############################################
+
+@PRE
+<4,4> var("state");
+
+@POST
+S("city") = N("$text",2);
+S("state") = N("$text",4);
+single();
+
+@RULES
+_residentOf <-
+	of										### (1)
+	_xWILD [min=1 max=3 match=(_xALPHA)]	### (2)
+	\,										### (3)
+	_xALPHA									### (4)
+	@@
+
+@PRE
+<2,2> var("state");
+
+@POST
+S("state") = N("$text",2);
+single();
+
+@RULES
+_residentOf <-
+	of		### (1)
+	_xALPHA	### (2)
+	@@
+
+###############################################
+# Dates
+###############################################
+
+@PRE
+<2,2> vareq("date","month");
+<3,3> var("year");
+
+@RULES
+_date <-
+	in	### (1)
+	_xALPHA	### (2)
+	_xNUM	### (3)
+	@@
+		
+@PRE
+<1,1> vareq("date","month");
+<2,2> var("day");
+<4,4> var("year");
+
+@RULES
+_date <-
+	_xALPHA		### (1)
+	_xNUM		### (2)
+	\, [opt]	### (3)
+	_xNUM		### (4)
+	@@
+
+@PRE
+<1,1> vareq("date","month");
+
+@RULES
+_date <-
+	_xALPHA	### (2)
+	_xNUM	### (3)
+	@@
+
+###############################################
+# Regions
+###############################################	
+
+@PRE
+<1,1> var("direction");
+<2,2> var("region");
+
+@RULES
+_region <-
+	_xALPHA
+	_xALPHA
+	@@

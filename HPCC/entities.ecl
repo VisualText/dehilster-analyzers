@@ -2,13 +2,16 @@ nlp := SERVICE : plugin('nlp'), namespace('nlp'), library('nlp'), CPP, PURE
   string AnalyzeText(const string analyzer, const string txt) : cpp,pure,context,entrypoint='AnalyzeText';
   unicode UnicodeAnalyzeText(const string analyzer, const unicode txt) : cpp,pure,context,entrypoint='AnalyzeTextU';
 END;
+// import nlp from lib_nlp;
 
 article := RECORD
   STRING title;
   STRING url;
   STRING text;
 END;
+
 articles := DATASET('~doj::articles::dojarticles.xml',article,XML('articles/article'));
+articles;
 
 nlpResults := RECORD
   STRING title;
@@ -30,7 +33,9 @@ entities;
 personRec := RECORD
   INTEGER articleID;
   STRING name;
+  STRING event;
   STRING title;
+  STRING region;
   STRING age;
   STRING city;
   STRING state;
@@ -40,7 +45,9 @@ END;
 personRec extractPerson(nlpResults L) := TRANSFORM
   SELF.articleID := L.id;
   SELF.name := XMLTEXT('name');
+  SELF.event := XMLTEXT('event');
   SELF.title := XMLTEXT('title');
+  SELF.region := XMLTEXT('region');
   SELF.age := XMLTEXT('age');
   SELF.city := XMLTEXT('city');
   SELF.state := XMLTEXT('state');
@@ -48,6 +55,6 @@ personRec extractPerson(nlpResults L) := TRANSFORM
 END;
 
 out := PARSE(entities, xmlEntities, extractPerson(LEFT), XML('people/person'));
-OUTPUT(out);
+out;
 
 

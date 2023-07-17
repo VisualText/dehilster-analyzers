@@ -1,0 +1,17 @@
+###############################################
+# FILE: kbDisplay
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 7:43:36
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("people"));
+DisplayKB(G("people"),2);
+
+sortchilds(G("caps"));
+DisplayKB(G("caps"),2);
+
+@@CODE

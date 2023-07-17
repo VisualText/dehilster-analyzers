@@ -1,0 +1,10 @@
+dicttok	nil	# Gen:   Convert input to token list
+nlp	init	# comment
+nlp	abbreviations	# comment
+nlp	lines	# comment
+nlp	paragraphs	# comment
+nlp	flattenLines	# comment
+nlp	sentenceEnders	# comment
+nlp	RemoveWhiteSpace	# comment
+nlp	sentences	# comment
+nlp	pickins	# comment

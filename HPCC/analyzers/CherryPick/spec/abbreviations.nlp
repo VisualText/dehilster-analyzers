@@ -1,0 +1,51 @@
+###############################################
+# FILE: abbreviations.pat
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 22/Apr/20 18:29:10
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_nameToken <- _xNUM _xCAP @@
+
+@RULES
+_USA <- U \. S \. A \. @@
+_USA <- U \. S \. @@
+_AKA <- a \. k \. a \. @@
+_AKA <- aka @@
+_ST <- st \. @@
+
+_month <-
+	_xWILD [one match=(
+		jan
+		feb
+		mar
+		apr
+		jun
+		jul
+		aug
+		sept
+		oct
+		nov
+		dec
+		)]
+	\.
+	@@
+
+_quote <-
+    _xWILD [one match=(\' \")]	### (1)
+    @@
+	
+_nameSuffix <-
+    _xWILD [match=(_xWHITE \,)]			### (1)
+    _xWILD [one match=(jr sr i ii iii)]	### (2)
+    \.									### (3)
+    @@
+	
+_nameAbbrevCandidate <-
+    _xCAPLET [s]	### (1)
+    \.				### (2)
+    @@

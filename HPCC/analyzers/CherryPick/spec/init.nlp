@@ -1,0 +1,19 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 9:15:33
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("filename") = G("$apppath") + "\\input\\pickins.txt";
+"debug.txt" << L("filename") << "\n";
+if (!G("$isdirrun") || G("$isfirstfile")) {
+	G("out") = openfile(L("filename"));
+} else {
+	G("out") = openfile(L("filename"),"app");
+}
+
+@@CODE

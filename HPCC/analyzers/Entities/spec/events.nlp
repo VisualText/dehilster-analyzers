@@ -1,0 +1,59 @@
+###############################################
+# FILE: events
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-17 7:10:17
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+# @RULES
+# _this <- _xSTART _person @@
+
+###############################################
+# Isaiah Worlow, Steven Fluharty, and Tiffany Kerekes are charged 
+###############################################
+
+@POST
+AddPeople(N(1),"event",N("$text",3));
+single();
+
+@RULES
+_event <-
+	_xWILD [plus match=(_titleCaps _person \, and all _residentOf)]	### (1)
+	_xWILD [plus match=(was is are were each)]						### (2)
+	_xWILD [one match=(charged arrested indicted)]					### (3)
+	@@
+
+###############################################
+# charging Ronald DiPietro, Thomas Helmick, and Jason and Rebecca Kachner. 
+###############################################
+
+@POST
+AddPeople(N(2),"event","charged");
+single();
+
+@RULES
+_event <-
+	charging										### (1)
+	_xWILD [plus match=(_titleCaps _person \, and)]	### (2)
+	with											### (3)
+	@@
+
+###############################################
+# One indictment charges that Stephanie Condric of Canton, Ohio
+###############################################
+
+@POST
+addstrval(N("con",4),"event","charged");
+S("type") = "charged";
+single();
+
+@RULES
+_event <-
+	indictment	### (1)
+	charges		### (2)
+	that		### (3)
+	_person		### (4)
+	@@
