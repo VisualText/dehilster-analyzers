@@ -9,6 +9,28 @@
 @PATH _ROOT _paragraph _sentence
 
 ###############################################
+# Eastern District of New York
+###############################################
+
+@PRE
+<1,1> var("direction");
+<2,2> var("region");
+<4,4> var("state");
+
+@POST
+S("region") = N("$text",1) + " " + N("$text",2);
+S("state") = N("$text",4);
+single();
+
+@RULES
+_residentOf <-
+	_xALPHA								### (1)
+	_xALPHA								### (2)
+	of									### (3)
+	_xWILD [match=(_xALPHA _phrase)]	### (4)
+	@@
+
+###############################################
 # Stark County Ohio
 ###############################################
 

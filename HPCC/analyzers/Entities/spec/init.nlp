@@ -8,8 +8,6 @@
 
 @CODE
 
-G("caps") = getconcept(findroot(),"caps");
-rmchildren(G("caps"));
 G("people") = getconcept(findroot(),"people");
 rmchildren(G("people"));
 

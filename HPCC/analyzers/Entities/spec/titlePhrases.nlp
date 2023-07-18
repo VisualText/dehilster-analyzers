@@ -27,6 +27,23 @@ _person <-
 # U.S. District Magistrate Judge Amanda M. Knapp of the Northern District of Ohio
 ###############################################
 
+@PRE
+<1,1> var("plural");
+
+@POST
+L("con") = AddPeople(N(2),"title",N("$text",1));
+single();
+
+@RULES
+_titleConj <-
+	_title																		### (1)
+	_xWILD [plus match=(_titleCaps _person \, and all the _residentOf)] ### (2)	### (2)
+	@@
+
+###############################################
+# U.S. District Magistrate Judge Amanda M. Knapp of the Northern District of Ohio
+###############################################
+
 @POST
 if (N(3)) {
 	S("con") = AddPerson(N(2),N(3));

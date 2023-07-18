@@ -11,8 +11,6 @@
 @POST
 L("text") = strtolower(N("$text"));
 if (strlength(L("text")) > 1 && !N("functword")) {
-	S("caps") = getconcept(G("caps"),L("text"));
-	IncrementCount(S("caps"),"count");
 	single();
 }
 
