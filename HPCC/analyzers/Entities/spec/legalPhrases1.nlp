@@ -8,6 +8,13 @@
 
 @PATH _ROOT _paragraph _sentence
 
+@POST
+L("text") = phrasetext();
+if (strendswith(L("text"),"s")) {
+	S("plural") = 1;
+}
+single();
+
 @RULES
 _title <- _xWILD [plus match=(
 	

@@ -9,7 +9,8 @@
 @DECL
 
 ###############################################
-# This function goes down the tree trying to find people
+# This function goes down the tree trying to find people.
+# It also looks for "all of" for residences which apply to all the previous people in the list
 ###############################################
 
 AddPeople(L("node"),L("attr"),L("value")) {
@@ -19,17 +20,20 @@ AddPeople(L("node"),L("attr"),L("value")) {
     while (L("node") && L("continue")) {
         L("nname") = pnname(L("node"));
         "addpeople.txt" << L("nname") << " (" << pnvar(L("node"),"$text") << ")\n";
+
+        # FIND PERSON
         if (L("nname") == "_titleCaps" || L("nname")== "_person") {
             L("con") = AddPerson(L("node"),0);
             addstrval(L("con"),L("attr"),L("value"));
 
+        # FIND RESIDENT
         # If you find "all of SOME PLACE" you need to apply it to all the people before
         } else if (L("nname") == "_residentOf") {
             # Loop through and put resident on the previous 
             "addpeople.txt" << "Backing up <<<<<<<<<<<<<\n";
             L("prev") = pnprev(L("node"));
             while (L("prev")) {
-                "addpeople.txt" << "  " << pnname(L("prev")) << ": " << pnvar(L("prev"),"$text") << "\n";
+                "addpeople.txt" << "   " << pnname(L("prev")) << ": " << pnvar(L("prev"),"$text") << "\n";
                 L("nn") = pnname(L("prev"));
                 if (L("nn") == "_titleCaps" || L("nn")== "_person") {
                     "addpeople.txt" << "  >> Adding Resident\n";
@@ -38,7 +42,7 @@ AddPeople(L("node"),L("attr"),L("value")) {
                 L("prev") = pnprev(L("prev"));
             }
 
-        } else if (L("nname") != "and" && L("nname") != "," && L("nname") != "all") {
+        } else if (L("nname") != "and" && L("nname") != "," && L("nname") != "_of") {
             L("continue") = 0;
         }
         L("node") = pnnext(L("node"));
@@ -59,6 +63,7 @@ AddPerson(L("node"),L("region")) {
         AddStrValue(L("con"),L("region"),"city");
         AddStrValue(L("con"),L("region"),"state");
         AddStrValue(L("con"),L("region"),"country");
+        AddStrValue(L("con"),L("region"),"region");
     }
     return L("con");
 }

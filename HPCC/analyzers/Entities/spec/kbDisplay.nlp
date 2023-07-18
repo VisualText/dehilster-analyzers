@@ -11,7 +11,4 @@
 sortchilds(G("people"));
 DisplayKB(G("people"),2);
 
-sortchilds(G("caps"));
-DisplayKB(G("caps"),2);
-
 @@CODE
