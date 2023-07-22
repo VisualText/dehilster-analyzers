@@ -14,7 +14,7 @@
 ###############################################
 
 AddPeople(L("node"),L("attr"),L("value")) {
-    "addpeople.txt" << "============\n" << pnvar(pnup(L("node")),"$text") << "\n";
+    "addpeople.txt" << "=================================\n" << pnvar(pnup(L("node")),"$text") << "\n";
     L("continue") = 1;
 
     while (L("node") && L("continue")) {
@@ -25,19 +25,28 @@ AddPeople(L("node"),L("attr"),L("value")) {
         if (L("nname") == "_titleCaps" || L("nname")== "_person") {
             L("con") = AddPerson(L("node"),0);
             addstrval(L("con"),L("attr"),L("value"));
+            pnmakevar(L("node"),"found",1);
 
         # FIND RESIDENT
         # If you find "all of SOME PLACE" you need to apply it to all the people before
         } else if (L("nname") == "_residentOf") {
             # Loop through and put resident on the previous 
-            "addpeople.txt" << "Backing up <<<<<<<<<<<<<\n";
+            "addpeople.txt" << "\n>>>>>>>>>>>>>>> Backing up\n";
             L("prev") = pnprev(L("node"));
-            while (L("prev")) {
-                "addpeople.txt" << "   " << pnname(L("prev")) << ": " << pnvar(L("prev"),"$text") << "\n";
+            L("continue") = 1;
+            L("all") = pnvar(L("node"),"all");
+            L("added") = 0;
+            
+            while (L("prev") && L("continue")) {
+                "addpeople.txt" << "    " << pnname(L("prev")) << ": " << pnvar(L("prev"),"$text") << "\n";
                 L("nn") = pnname(L("prev"));
                 if (L("nn") == "_titleCaps" || L("nn")== "_person") {
-                    "addpeople.txt" << "  >> Adding Resident\n";
-                    AddPerson(L("prev"),L("node"));
+                    "addpeople.txt" << "    >>>>>> Adding Resident\n";
+                    L("con") = AddPerson(L("prev"),L("node"));
+                    L("added") = 1;
+                }
+                if (!L("all") && L("added")) {
+                    L("continue") = 0;
                 }
                 L("prev") = pnprev(L("prev"));
             }
@@ -50,6 +59,18 @@ AddPeople(L("node"),L("attr"),L("value")) {
     "addpeople.txt" << "\n";
 }
 
+AddPeopleAttr(L("node"),L("attr"),L("value")) {
+    while (L("node")) {
+        if (pnvar(L("node"),"found")) {
+            L("con") = pnvar(L("node"),"con");
+            if (L("con")) {
+                addstrval(L("con"),L("attr"),L("value"));
+            }
+        }
+        L("node") = pnnext(L("node"));
+    }
+}
+
 AddPerson(L("node"),L("region")) {
     L("con") = pnvar(L("node"),"con");
     if (!L("con")) {
@@ -57,7 +78,6 @@ AddPerson(L("node"),L("region")) {
         L("con") = getconcept(G("people"),L("name"));
         pnmakevar(L("node"),"con",L("con"));
     }
-    L("name") = conceptname(L("con"));
 
     if (L("region")) {
         AddStrValue(L("con"),L("region"),"city");
@@ -66,6 +86,27 @@ AddPerson(L("node"),L("region")) {
         AddStrValue(L("con"),L("region"),"region");
     }
     return L("con");
+}
+
+AddAffiliation(L("node")) {
+    L("con") = pnvar(L("node"),"con");
+    if (!L("con")) {
+        L("name") = strtolower(pnvar(L("node"),"$text"));
+        L("con") = getconcept(G("people"),L("name"));
+        pnmakevar(L("node"),"con",L("con"));
+    }
+
+    L("node") = pnnext(L("node"));
+    L("continue") = 1;
+    while (L("node") && L("continue")) {
+        L("nname") = pnname(L("node"));
+        if (L("nname") == "_title" || L("nname") == "_agency") {
+            AddUniqueStr(L("con"),"affiliation",pnvar(L("node"),"$text"));
+        } else if (L("nname") != "_of") {
+            L("continue") = 0;
+        }
+        L("node") = pnnext(L("node"));
+    }
 }
 
 AddStrValue(L("con"),L("node"),L("attr")) {

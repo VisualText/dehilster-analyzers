@@ -8,22 +8,6 @@
 
 @PATH _ROOT _paragraph _sentence
 
-@PRE
-<1,1> var("department");
-
 @RULES
-_department <-
-	_xALPHA [plus]
-	department
-	@@
-
-@PRE
-<4,4> var("department");
-
-@RULES
-_department <-
-	department
-	of
-	the [opt]
-	_xALPHA [plus]
-	@@
+_departmentOf <- department _of	@@
+_agency <- bureau of alcohol \, [opt] tobacco and firearms @@

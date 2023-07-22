@@ -8,24 +8,63 @@
 
 @PATH _ROOT _paragraph _sentence
 
+# @POST
+# G("out") << phrasetext() << "\n";
+
+# @RULES
+# _xNIL <-
+# 	_xWILD [plus match=(_xCAP _USA)]	### (1)
+# 	bureau								### (2)
+# 	@@
+
 @POST
-L("node") = N(1);
-L("node") = pnprev(L("node"));
-L("phrase") = strtolower(N("$text"));
-L("continue") = 1;
-while (L("node") && L("continue")) {
-	L("text") = strtolower(pnvar(L("node"),"$text"));
-	if (!pnvar(L("node"),"functword")) {
-		L("phrase") = L("text") + " " + L("phrase");
-	} else {
-		L("continue") = 0;
-	}
-	L("node") = pnprev(L("node"));
-}
-G("out") << L("phrase") << "\n";
+G("out") << phrasetext() << "\n";
 
 @RULES
 _xNIL <-
-	department	### (1)
+	_xWILD [plus match=(_xCAP _USA)]	### (1)
+	for									### (2)
+	_xWILD [plus match=(_xCAP _USA)]	### (3)
 	@@
+
+# @POST
+# G("out") << phrasetext() << "\n";
+
+# @RULES
+# _xNIL <-
+# 	section [trig]						### (1)
+# 	of									### (2)
+# 	_xWILD [plus match=(_xCAP _USA)]	### (3)
+# 	@@
+
+# @POST
+# G("out") << phrasetext() << "\n";
+
+# @RULES
+# _xNIL <-
+# 	department								### (1)
+# 	of										### (2)
+# 	_xWILD [min=1 max=7 match=(_xCAP and)]	### (3)
+# 	@@
+
+# @POST
+# L("node") = N(1);
+# L("node") = pnprev(L("node"));
+# L("phrase") = strtolower(N("$text"));
+# L("continue") = 1;
+# while (L("node") && L("continue")) {
+# 	L("text") = strtolower(pnvar(L("node"),"$text"));
+# 	if (!pnvar(L("node"),"functword")) {
+# 		L("phrase") = L("text") + " " + L("phrase");
+# 	} else {
+# 		L("continue") = 0;
+# 	}
+# 	L("node") = pnprev(L("node"));
+# }
+# G("out") << L("phrase") << "\n";
+
+# @RULES
+# _xNIL <-
+# 	department	### (1)
+# 	@@
 

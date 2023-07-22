@@ -1,0 +1,20 @@
+###############################################
+# FILE: possessive
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-21 17:24:15
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+N("possessive",1) = 1;
+excise(2,3);
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(_title _agency)]	### (1)
+	_quote								### (2)
+	s									### (3)
+	@@

@@ -1,0 +1,24 @@
+###############################################
+# FILE: peopleTitles
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-16 14:23:44
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+###############################################
+# Ronald DiPietro (a Certified Public Accountant)
+###############################################
+
+@POST
+AddAffiliation(N(1));
+single();
+
+@RULES
+_person <-
+	_person									### (1)
+	_of										### (2)
+	_xWILD [plus match=(_title _agency)]	### (3)
+	@@

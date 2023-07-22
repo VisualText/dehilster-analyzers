@@ -9,27 +9,6 @@
 @PATH _ROOT _paragraph _sentence
 
 ###############################################
-# Vadim Konoshchenok, 48, of Tallinn, Estonia
-###############################################
-
-@PRE
-<3,3> var("age");
-
-@POST
-S("con") = AddPerson(N(1),N(5));
-addnumval(S("con"),"age",num(N("$text",3)));
-single();
-
-@RULES
-_person <-
-	_xWILD [one match=(_person _titleCaps)]	### (1)
-	\,										### (2)
-	_xNUM									### (3)
-	\,										### (4)
-	_residentOf								### (5)
-	@@
-
-###############################################
 # Gal Luft, 57,
 ###############################################
 @PRE
@@ -51,13 +30,13 @@ _person <-
 # Melissa Bragg of Canton, Ohio,
 ###############################################
 
-@POST
-S("con") = AddPerson(N(1),N(2));
-single();
+# @POST
+# S("con") = AddPerson(N(1),N(2));
+# single();
 
-@RULES
-_person <-
-	_person	### (1)
-	_residentOf	### (2)
-	@@
+# @RULES
+# _person <-
+# 	_person	### (1)
+# 	_residentOf	### (2)
+# 	@@
 
