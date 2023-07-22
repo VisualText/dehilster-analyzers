@@ -1,15 +1,19 @@
-certified public accountant s=agent
-federal grand jury s=agent
-federal bureau of investigation s=agent
-fbi s=agent
-internal revenue service s=agent
-major crimes task force s=agent
-postal inspection service s=agent
-agent in charge s=agent
+federal grand jury s=agency
+federal bureau of investigation s=agency
+fbi s=agency
+major crimes task force s=agency
+health and human services s=agency
 
+certified public accountant s=title
+agent in charge s=title
+special agent in charge s=title
+pin trial attorneys s=title
+
+of s=of
 of the s=of
-all of s=of
+all of s=of all=1
 for the s=of
+in charge s=incharge
 
 attorney anchortitle=1
 general anchortitle=1

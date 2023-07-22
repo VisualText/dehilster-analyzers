@@ -16,66 +16,133 @@ if (strendswith(L("text"),"s")) {
 single();
 
 @RULES
-_title <- _xWILD [plus match=(
+_title <- _xWILD [min=2 match=(
 	
 	acting
+	administration
+	affairs
+	air
+	allen
+	analyst
+	army
+	asset
+	assets
+	assistance
 	assistant
+	associate
+	attaché
 	attorney
-	attorneys
+	bis
+	border
+	business
+	capital
+	case
+	casualty
+	ccips
 	chief
-	corporal
+	ci
+	city
+	civil
+	commerce
+	commission
+	communications
+	control
+	counterintelligence
+	counterterrorism
+	country
+	county
 	court
+	crime
+	crimes
+	criminal
+	cyber
+	dangerous
+	dea
+	defense
+	department
 	deputy
+	development
 	director
 	district
+	division
+	dod
+	drug
+	enforcement
+	environmental
+	export
+	fbi
 	federal
+	field
+	food
+	force
+	foreign
+	fraud
+	front
+	gang
 	general
+	homeland
+	hsi
+	human
+	inspection
+	inspector
+	integrity
+	intellectual
 	interim
+	international
+	investigation
+	investigations
+	investigative
 	judge
+	justice
+	labor
+	laundering
+	legal
+	litigation
 	magistrate
-	principal
-	sargeant
-	sergeant
-	supervisor
-	temporary
+	marshals
+	metropolitan
+	money
+	national
+	natsec
+	natural
+	ndca
+	obscenity
+	office
+	operations
+	police
+	postal
+	property
+	prosecutions
+	prosecutor
+	prosecutorial
+	protection
+	public
+	recovery
+	resources
+	revenue
+	rights
+	safety
+	salt
+	sdny
+	secret
+	section
+	securities
+	security
+	senior
+	service
+	services
+	small
+	social
+	special
+	state
+	states
+	tax
+	trade
+	treasury
 	trial
+	work
+	_agency
 	_USA
 
 	)]
 	@@
-
-_agent <- bureau of alcohol \, [opt] tobacco and firearms @@
-_title <- special agent @@
-
-
-@RULES
-_division <- _xWILD [plus match=(
-	
-	army
-	civil
-	counterintelligence
-	counterterrorism
-	criminal
-	cyber
-	dea
-	department
-	director
-	fbi
-	fda
-	import
-	investigation
-	investigative
-	justice
-	national
-	natural
-	resources
-	rights
-	secret
-	security
-	service
-	tax
-	_USA
-
-	)]
-	division
-@@

@@ -11,12 +11,16 @@ nlp	phrases	# comment
 nlp	phrases1	# comment
 nlp	legalPhrases	# comment
 nlp	legalPhrases1	# comment
+nlp	legalPhrases2	# comment
+nlp	possessive	# comment
 nlp	parens	# comment
 nlp	titleCaps	# comment
 nlp	humanNames	# comment
 nlp	person	# comment
 nlp	peoplePhrases	# comment
-nlp	titlePhrases	# comment
+nlp	peopleTitles	# comment
+nlp	kbdisplay	# comment
+nlp	peopleAffiliation	# comment
 nlp	events	# comment
 nlp	kbDisplay	# comment
 nlp	output	# comment

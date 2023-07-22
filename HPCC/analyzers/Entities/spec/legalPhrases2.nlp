@@ -1,0 +1,28 @@
+###############################################
+# FILE: legalPhrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 22/Apr/20 18:14:29
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+
+@PRE
+<3,3> varz("name");
+
+@POST
+S("title") = N("$text",1);
+if (N(3))
+	S("agency") = N("$text",3);
+group(2,3,"_agency");
+single();
+
+@RULES
+_title <-
+	_title			### (1)
+	for				### (2)
+	_xCAP [plus]	### (3)
+	@@
+

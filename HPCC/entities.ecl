@@ -1,4 +1,4 @@
-nlp := SERVICE : plugin('nlp'), namespace('nlp'), library('nlp'), CPP, PURE
+﻿nlp := SERVICE : plugin('nlp'), namespace('nlp'), library('nlp'), CPP, PURE
   string AnalyzeText(const string analyzer, const string txt) : cpp,pure,context,entrypoint='AnalyzeText';
   unicode UnicodeAnalyzeText(const string analyzer, const unicode txt) : cpp,pure,context,entrypoint='AnalyzeTextU';
 END;
@@ -24,7 +24,7 @@ nlpResults ExtractEntities(article L, INTEGER c) := TRANSFORM
   SELF.title := L.title;
   SELF.id := c;
   SELF.url := L.url;
-  SELF.xmlEntities := nlp.AnalyzeText('Entities',L.text);
+  SELF.xmlEntities := nlp.AnalyzeText('Test',L.text);
 END;
 
 entities := PROJECT(articles,ExtractEntities(LEFT,COUNTER));
@@ -56,5 +56,4 @@ END;
 
 out := PARSE(entities, xmlEntities, extractPerson(LEFT), XML('people/person'));
 out;
-
 

@@ -21,9 +21,9 @@ single();
 
 @RULES
 _event <-
-	_xWILD [plus match=(_titleCaps _person \, and all _residentOf)]	### (1)
-	_xWILD [plus match=(was is are were each)]						### (2)
-	_xWILD [one match=(charged arrested indicted)]					### (3)
+	_xWILD [plus match=(_titleCaps _person \, of and all _residentOf)]	### (1)
+	_xWILD [plus match=(was is are were each)]							### (2)
+	_xWILD [one match=(charged arrested indicted)]						### (3)
 	@@
 
 ###############################################
@@ -46,14 +46,31 @@ _event <-
 ###############################################
 
 @POST
-addstrval(N("con",4),"event","charged");
-S("type") = "charged";
+AddPeople(N(4),"event","charged");
 single();
 
 @RULES
 _event <-
-	indictment	### (1)
-	charges		### (2)
-	that		### (3)
-	_person		### (4)
+	indictment										### (1)
+	charges											### (2)
+	that											### (3)
+	_xWILD [plus match=(_titleCaps _person \, and)]	### (4)
+	@@
+
+	
+###############################################
+# People were previously assigned to case as TITLE
+###############################################
+
+@POST
+AddPeople(N(1),"title",N("$text",4));
+AddPeopleAttr(N(1),"event","assigned");
+single();
+
+@RULES
+_event <-
+	_xWILD [plus match=(_titleCaps _person \, and)]	### (1)
+	_assigned										### (2)
+	as												### (3)
+	_title											### (4)
 	@@

@@ -1,14 +1,13 @@
 ###############################################
-# FILE: kbDisplay
+# FILE: kbdisplay
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-7-16 7:43:36
+# CREATED: 2023-7-18 15:1:8
 # MODIFIED:
 ###############################################
 
 @CODE
 
-sortchilds(G("people"));
 DisplayKB(G("people"),2);
 
 @@CODE
