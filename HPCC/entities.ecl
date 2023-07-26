@@ -35,6 +35,7 @@ personRec := RECORD
   STRING name;
   STRING event;
   STRING title;
+  STRING affiliation;
   STRING region;
   STRING age;
   STRING city;
@@ -47,6 +48,7 @@ personRec extractPerson(nlpResults L) := TRANSFORM
   SELF.name := XMLTEXT('name');
   SELF.event := XMLTEXT('event');
   SELF.title := XMLTEXT('title');
+  SELF.affiliation := XMLTEXT('affiliation');
   SELF.region := XMLTEXT('region');
   SELF.age := XMLTEXT('age');
   SELF.city := XMLTEXT('city');
