@@ -17,7 +17,7 @@ These are instructions on how to install the HPCC Platform with the NLP Plugin o
 - Enter in your username and password
 - Type: "`sudo su -`" and enter your password
 - Type: "`wget http://visualtext.org/downloads/hpccnlp.sh`"
-- Type: "`sh hpccnlp.sh`"
+- Type: "`sh hpccnlp.sh`" and wait until complete (it can take in between 1 and 2 minutes)
 
 ### Add Data File to Server
 
