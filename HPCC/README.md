@@ -35,7 +35,7 @@ These are instructions on how to install the HPCC Platform with the NLP Plugin o
 
 - Open VSCode
 - Install the ECL and NLP++ Extensions by searching for ECL and NLP
-- Open the folder ""dehilster-analyzers/HPCC/" in VSCode
+- Open the folder "dehilster-analyzers/HPCC/" in VSCode
 - Clock on the "NLP++" Icon in the left-hand vertical bar
 - Click on the file "entities.ecl" file in the ANALZYERS list under
 - Right click on "entities.ecl" and choose "Generate HPCC Manifest File"
