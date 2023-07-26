@@ -1,8 +1,0 @@
-<Manifest>
-    <Resource filename="analyzers/Test/spec/analyzer.seq" />
-    <Resource filename="analyzers/Test/spec/out.nlp" />
-    <Resource filename="analyzers/Test/kb/user/attr.kb" />
-    <Resource filename="analyzers/Test/kb/user/hier.kb" />
-    <Resource filename="analyzers/Test/kb/user/phr.kb" />
-    <Resource filename="analyzers/Test/kb/user/word.kb" />
-</Manifest>
