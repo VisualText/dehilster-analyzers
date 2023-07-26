@@ -24,7 +24,7 @@ nlpResults ExtractEntities(article L, INTEGER c) := TRANSFORM
   SELF.title := L.title;
   SELF.id := c;
   SELF.url := L.url;
-  SELF.xmlEntities := nlp.AnalyzeText('Test',L.text);
+  SELF.xmlEntities := nlp.AnalyzeText('Entities',L.text);
 END;
 
 entities := PROJECT(articles,ExtractEntities(LEFT,COUNTER));
