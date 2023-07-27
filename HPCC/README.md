@@ -13,7 +13,7 @@ These are instructions on how to install the HPCC Platform with the NLP Plugin o
 ### Create and Launch HPCC Server 
 
 - Open up Powershell
-- Type: "`wsl --install Ubuntu`" (if you want to reset your WSL to start fresh, type in "`wsl --unregister Ubuntu`")
+- Type: "`wsl --install -d Ubuntu`" (if you want to reset your WSL to start fresh, type in "`wsl --unregister Ubuntu`")
 - Enter in your username and password
 - Type: "`sudo su -`" and enter your password
 - Type: "`wget http://visualtext.org/downloads/hpccnlp.sh`"
