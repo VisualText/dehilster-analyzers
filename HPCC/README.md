@@ -9,6 +9,7 @@ These are instructions on how to install the HPCC Platform with the NLP Plugin o
 - Open up Powershell
 - connect to the folder where you want to clone the de Hilster analyzers
 - Type: "`git clone https://github.com/visualtext/dehilster-analyzers`"
+- Open the "HPCC" folder in VSCode
 
 ### Create and Launch HPCC Server 
 
