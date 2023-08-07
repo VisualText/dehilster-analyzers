@@ -1,0 +1,19 @@
+###############################################
+# FILE: headerZones
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-10-6 19:10:53
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("header") = N("header",1);
+single();
+
+@RULES
+_headerZone <-
+	_header							### (1)
+	_xWILD [fail=(_header _xEND)]	### (2)
+	@@

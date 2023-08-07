@@ -1,0 +1,24 @@
+###############################################
+# FILE: kbinit.nlp
+# SUBJ: Call the DumpKB function
+# AUTH: Your Name
+# CREATED: 2020-11-19 8:40:53
+# MODIFIED:
+###############################################
+
+@CODE
+
+if (G("$isdirrun")) {
+    L("write") = "app";
+} else {
+    L("write") = "w";
+}
+
+L("debugpath") = G("$kbpath") + "debug.txt";
+G("debug") = openfile(L("debugpath"),L("write"));
+
+L("vocab") = G("$kbpath") + "vocab.dictt";
+# L("vocab") = "vocab.dict";
+G("vocab") = openfile(L("vocab"),"app");
+
+@@CODE

@@ -1,0 +1,16 @@
+###############################################
+# FILE: textZone
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 16:18:31
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_textZone <-
+	_textStart						### (1)
+	_xWILD [plus fail=(_textEnd)]	### (2)
+	_textEnd						### (3)
+	@@

@@ -1,0 +1,25 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-30 9:15:52
+# MODIFIED:
+###############################################
+
+@DECL
+
+AddWordRoot(L("word"),L("root")) {
+	L("w") = strsubst(L("word"),"_", " ");
+	L("w") = strsubst(L("w"),"-", " - ");
+	L("w") = strsubst(L("w"),"'", " ' ");
+	L("r") = strsubst(L("root"),"_", " ");
+
+	if (L("w") != L("word") || L("r") != L("root")) {
+		L("r") = "\"" + L("r") + "\"";
+		"debug.txt" << L("w") << " -- " << L("r") << "\n";
+	} else {
+		G("out") << L("w") << " l=" << L("r") << "\n";
+	}
+}
+
+@@DECL

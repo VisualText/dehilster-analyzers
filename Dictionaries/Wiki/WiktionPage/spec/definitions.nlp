@@ -1,0 +1,22 @@
+###############################################
+# FILE: dict
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 15:17:59
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerZone _headerZone
+
+@POST
+L("text") = strtrim(N("text"));
+L("text") = strsubst(L("text"),"# ",0);
+G("vocab") << " def=\"" << L("text") << "\"";
+
+if (N("isa")) G("vocab") << " isa=" << N("isa");
+if (N("is")) G("vocab") << " is=" << N("is");
+
+@RULES
+_xNIL <-
+	_list	### (1)
+	@@

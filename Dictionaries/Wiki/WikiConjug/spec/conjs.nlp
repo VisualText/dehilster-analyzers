@@ -1,0 +1,19 @@
+###############################################
+# FILE: conjs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 11:31:49
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conj _data
+
+@POST
+group(2,2,"_conj");
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_token	### (2)
+	_xEND	### (3)
+	@@

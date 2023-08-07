@@ -1,0 +1,19 @@
+###############################################
+# FILE: pos
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 11:1:43
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conj _pos
+
+@POST
+X("con",3) = getconcept(X("con",2),N("$text",3));
+
+@RULES
+_xNIL <-
+	en	### (1)
+	\-
+	_xALPHA
+	@@

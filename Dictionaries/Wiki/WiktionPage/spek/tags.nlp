@@ -1,0 +1,41 @@
+###############################################
+# FILE: text
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 16:13:53
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_textEnd <-
+	\<		### (1)
+	\/		### (2)
+	text	### (3)
+	\>		### (4)
+	@@
+
+@RULES
+_textStart <-
+	\<					### (1)
+	text				### (2)
+	_xWILD [fail=(\>)]	### (3)
+	\>					### (4)
+	@@
+
+@POST
+X("word",1) = N("$text",4);
+single();
+
+@RULES
+_word <-
+	\<		### (1)
+	title	### (2)
+	\>		### (3)
+	_xALPHA	### (4)
+	\<		### (5)
+	\/		### (6)
+	title	### (7)
+	\>		### (8)
+	@@

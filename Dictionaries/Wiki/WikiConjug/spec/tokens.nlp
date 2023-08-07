@@ -1,0 +1,26 @@
+###############################################
+# FILE: tokens
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 11:18:37
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conj _data
+
+@POST
+L("con") = MakeCountCon(X("con",3),"conj");
+addstrval(L("con"),"word",N("$text",2));
+X("conj",2)++;
+
+@RULES
+_conj <-
+	_xSTART	### (1)
+	_xALPHA	### (2)
+	_xEND	### (3)
+	@@
+
+@RULES
+_token <-
+	_xWILD [plus match=(_xALPHA \_ _xNUM)]	### (1)
+	@@

@@ -1,0 +1,19 @@
+###############################################
+# FILE: conjuWhiteSpace
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-22 8:39:46
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conjugation
+
+@POST
+X("up",3) = 1;
+excise(1,1);
+noop();
+
+@RULES
+_xNIL <-
+    _xWHITE [s] ### (1)
+    @@

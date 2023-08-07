@@ -1,0 +1,22 @@
+###############################################
+# FILE: equals
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 11:5:33
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conj _data
+
+@POST
+L("con") = MakeCountCon(X("con",3),"attr");
+addstrval(L("con"),"attr",N("$text",1));
+addstrval(L("con"),"val",N("$text",3));
+X("conj",2)++;
+
+@RULES
+_xNIL <-
+	_token	### (1)
+	\=		### (2)
+	_token	### (3)
+	@@

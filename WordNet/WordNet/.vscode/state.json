@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\WordNet\\WordNet\\input\\dict\\index.noun",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Emoji\\spec\\final.nlp"
+        }
+    ]
+}

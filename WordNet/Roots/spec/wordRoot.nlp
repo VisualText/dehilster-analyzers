@@ -1,0 +1,23 @@
+###############################################
+# FILE: wordRoot
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-29 14:53:5
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+if (!X("processed")) {
+	AddWordRoot(N("$text",2),N("$text",4));
+}
+
+@RULES
+_xNIL <-
+	_xSTART							### (1)
+	_xWILD [plus fail=(_xWHITE)]	### (2)
+	_xWHITE							### (3)
+	_xWILD [plus fail=(_xEND)]		### (4)
+	_xEND							### (5)
+	@@

@@ -5,7 +5,7 @@ echo "========================================================================";
 echo "=  Download deb file";
 echo "========================================================================";
 
-wget http://hpccdeb.visualtext.org -O hpccnlp.deb;
+wget http://visualtext.org/downloads/hpccnlp.deb;
 
 echo " "
 echo "========================================================================";

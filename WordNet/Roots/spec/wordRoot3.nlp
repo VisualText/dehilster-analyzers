@@ -1,0 +1,26 @@
+###############################################
+# FILE: wordRoot3
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-29 14:53:5
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("processed") = 1;
+AddWordRoot(N("$text",2),N("$text",4));
+AddWordRoot(N("$text",2),N("$text",6));
+"three.txt" << phrasetext() << "\n";
+
+@RULES
+_xNIL <-
+	_xSTART							### (1)
+	_xWILD [plus fail=(_xWHITE)]	### (2)
+	_xWHITE							### (3)
+	_xWILD [plus fail=(_xWHITE)]	### (4)
+	_xWHITE							### (5)
+	_xWILD [plus fail=(_xEND)]		### (6)
+	_xEND							### (7)
+	@@

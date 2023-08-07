@@ -1,0 +1,17 @@
+###############################################
+# FILE: kbBuild
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 14:31:27
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone _languageZone
+
+@POST
+AddWord(X("word",1),X("language",3),N(1));
+
+@RULES
+_xNIL <-
+	_headerZone	### (1)
+	@@

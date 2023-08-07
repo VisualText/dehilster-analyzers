@@ -1,0 +1,29 @@
+###############################################
+# FILE: listWords
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 16:58:22
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerZone _headerZone _list
+
+@POST
+X("is",4) = N("$text",3);
+
+@RULES
+_xNIL <-
+	_be		### (1)
+	_det	### (2)
+	_xALPHA	### (3)
+	@@
+
+@POST
+X("isa",4) = N("$text",2);
+
+@RULES
+_xNIL <-
+	_det	### (1)
+	_xALPHA	### (2)
+	@@
+

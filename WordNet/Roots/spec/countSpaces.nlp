@@ -1,0 +1,17 @@
+###############################################
+# FILE: countSpaces
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-30 9:19:23
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("spaces")++;
+
+@RULES
+_xNIL <-
+	_xWHITE	### (1)
+	@@

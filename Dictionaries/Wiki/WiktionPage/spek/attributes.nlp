@@ -1,0 +1,50 @@
+###############################################
+# FILE: hasMeaning
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-7 15:39:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _textZone _headerZone _LINE
+
+@POST X("lang") = N("lang");
+@RULES _xNIL <- _langauge @@
+
+@POST
+if (X("pessoa",3)) {
+    X("pessoa2",3) = N("$text",1);
+} else {
+    X("pessoa",3) = N("$text",1);
+}
+X("meaning",3) = 1;
+@RULES _xNIL <- _pessoa	@@
+
+@POST X("numero",3) = X("numero",4); X("meaning",3) = 1;
+@RULES _xNIL <- _numero	@@
+
+@POST X("tempo",3) = X("tempo",4); X("meaning",3) = 1;
+@RULES _xNIL <- _tempo	@@
+
+@POST X("root",3) = X("root",4); X("meaning",3) = 1;
+@RULES _xNIL <- _root	@@
+
+@POST
+X("stem",3) = N("$text",6);
+X("verb",3) = N("$text",8);
+IncrementCount(G("conjugations"),"count");
+AddUniqueCon(G("conjugations"),N("$text",8));
+single();
+
+@RULES
+_conjug <-
+    _xWILD [match=(\{)]	### (1)
+    conj				### (2)
+    \/					### (3)
+    _xALPHA				### (4)
+    \|					### (5)
+    _xALPHA				### (6)
+    \|					### (7)
+    _xALPHA				### (8)
+    _xWILD [match=(\})]	### (9)
+    @@
