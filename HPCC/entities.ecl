@@ -1,8 +1,4 @@
-﻿nlp := SERVICE : plugin('nlp'), namespace('nlp'), library('nlp'), CPP, PURE
-  string AnalyzeText(const string analyzer, const string txt) : cpp,pure,context,entrypoint='AnalyzeText';
-  unicode UnicodeAnalyzeText(const string analyzer, const unicode txt) : cpp,pure,context,entrypoint='AnalyzeTextU';
-END;
-// import nlp from lib_nlp;
+﻿import nlp from lib_nlp;
 
 article := RECORD
   STRING title;

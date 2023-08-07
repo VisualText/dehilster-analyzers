@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Wiki\\WikiConjug\\input\\text02.txt",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Wiki\\WikiConjug\\spec\\equals.nlp"
+        }
+    ]
+}

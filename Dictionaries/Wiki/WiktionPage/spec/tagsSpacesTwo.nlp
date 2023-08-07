@@ -1,0 +1,29 @@
+###############################################
+# FILE: tagsSpacesTwo
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-17 11:56:20
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("language") = N("$text",2);
+"lang.txt" << N("$text",2) << "\n";
+single();
+
+@RULES
+_language <-
+	_langStart						### (1)
+	_xWILD [plus fails=(_langEnd)]	### (2)
+	_langEnd						### (3)
+	@@
+
+@RULES
+_conjugation <-
+	_startConju					### (1)
+	_xWILD [plus fails=(\})]	### (2)
+	\}							### (3)
+	\}							### (4)
+	@@

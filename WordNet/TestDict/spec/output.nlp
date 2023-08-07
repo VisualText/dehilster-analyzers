@@ -1,0 +1,13 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-31 7:6:38
+# MODIFIED:
+###############################################
+
+@CODE
+
+DisplayKB(findroot(),2);
+
+@@CODE

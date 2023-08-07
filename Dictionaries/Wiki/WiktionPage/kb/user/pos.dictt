@@ -1,0 +1,13 @@
+noun ps=noun
+verb ps=verb
+adjective ps=adjective
+adverb ps=adverb
+pronoun ps=pronoun
+prepsition ps=prepsition
+conjunction ps=conjunction
+
+a s=det
+an s=det
+is s=be
+
+en lang=en

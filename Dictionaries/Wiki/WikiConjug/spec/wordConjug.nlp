@@ -1,0 +1,26 @@
+###############################################
+# FILE: wordConjug
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 10:44:8
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("con",2) = getconcept(G("words"),N("$text",1));
+group(1,1,"_word");
+group(6,6,"_conj");
+
+@RULES
+_xNIL <-
+	_xALPHA						### (1)
+	\:							### (2)
+	_xWHITE						### (3)
+	\{							### (4)
+	\{							### (5)
+	_xWILD [pluse fail=(\})]	### (6)
+	\}							### (7)
+	\}							### (8)
+	@@

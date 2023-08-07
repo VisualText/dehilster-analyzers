@@ -1,0 +1,771 @@
+walk
+{{also|Walk|WalK}}
+==English==
+{{wikipedia}}
+[[File:Muybridge horse walking animated.gif|thumb|right|A horse walking.]]
+
+===Pronunciation===
+* {{a|UK}} {{enPR|wôk}}, {{IPA|en|/wɔːk/}}
+* {{audio|en|en-uk-walk.ogg|Audio (UK)}}
+* {{a|US}} {{enPR|wôk}}, {{IPA|en|/wɔk/}}
+* {{a|cot-caught}} {{enPR|wäk}}, {{IPA|en|/wɑk/}}
+* {{audio|en|en-us-walk.ogg|Audio (US)}}
+* {{audio|en|en-au-walk.ogg|Audio (AU)}}
+* {{rhymes|en|ɔːk|s=1}}
+* {{homophones|en|wok}} {{qualifier|in accents with the [[cot-caught merger]]}}
+
+===Etymology 1===
+{{root|en|ine-pro|*welH-}}
+From {{inh|en|enm|walken|t=to move, roll, turn, revolve, toss}}, from {{inh|en|ang|wealcan|t=to move round, revolve, roll, turn, toss}}, {{m|ang|ġewealcan|t=to go, traverse}}; and {{inh|en|enm|walkien|t=to roll, stamp, walk, wallow}}, from {{inh|en|ang|wealcian|t=to curl, roll up}}; both from {{inh|en|gmw-pro|*walkan}}, from {{inh|en|gem-pro|*walkaną}}, {{m|gem-pro|*walkōną|t=to twist, turn, roll about, full}}, from {{der|en|ine-pro|*walg-|t=to twist, turn, move}}. Cognate with {{cog|sco|walk|t=to walk}}, {{cog|stq|walkje|t=to full; drum; flex; mill}}, {{cog|fy|swalkje|t=to wander, roam}}, {{cog|nl|walken|t=to full, work hair or felt}}, {{cog|nl|zwalken|t=to wander about}}, {{cog|de|walken|t=to flex, full, mill, drum}}, {{cog|da|valke|t=to waulk, full}}, {{cog|la|valgus|t=bandy-legged, bow-legged}}, {{cog|sa|वल्गति||amble, bound, leap, dance}}. More at {{l|en|vagrant}} and {{l|en|whelk}}. Doublet of {{l|en|waulk}}.
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|intransitive}} To [[move]] on the [[feet]] by [[alternately]] [[setting]] each [[foot]] (or pair or group of feet, in the case of animals with four or more feet) [[forward]], with at least one foot on the [[ground]] at all times. Compare '''[[run]]'''.
+#: {{ux|en|To '''walk''' briskly for an hour every day is to keep fit.}}
+#* {{RQ:Besant Ivory Gate|chapter=Prologue|page=16|passage=Athelstan Arundel walked home all the way, foaming and raging. {{...}} His mother lived at Pembridge Square, which is four good measured miles from Lincoln's Inn. He walked the whole way, '''walking''' through crowds, and under the noses of dray-horses, carriage-horses, and cart-horses, without taking the least notice of them.}}
+#* {{RQ:Maxwell Mirror and the Lamp|chapter=XXXIII|page=257|passage=Edward Churchill still attended to his work in a hopeless mechanical manner like a sleep-walker who '''walks''' safely on a well-known round. But his Roman collar galled him, his cossack stifled him, his biretta was as uncomfortable as a merry-andrew's cap and bells.}}
+# {{lb|en|intransitive|colloquial|legal}} To "[[walk free]]", i.e. to win, or avoid, a criminal court case, particularly when [[actually]] [[guilty]].
+#: {{ux|en|If you can’t present a better case, that robber is going to '''walk'''.}}
+# {{lb|en|intransitive|colloquial|euphemistic}} Of an object, to go [[missing]] or be [[stolen]].
+#: {{ux|en|If you leave your wallet lying around, it’s going to '''walk'''.}}
+# {{lb|en|intransitive|cricket|of a batsman}} To walk off the field, as if [[given]] [[out]], after the [[fielding]] [[side]] [[appeal]]s and before the [[umpire]] has [[ruled]]; done as a matter of [[sportsmanship]] when the batsman believes he is out.
+# {{lb|en|transitive}} To travel (a distance) by walking.
+#: {{ux|en|I '''walk''' two miles to school every day.}}
+#: {{ux|en|The museum’s not far from here &ndash; you can '''walk''' it.}}
+#* {{RQ:Besant Ivory Gate|chapter=Prologue|page=16|passage=Athelstan Arundel '''walked''' home all the way, foaming and raging. {{...}} His mother lived at Pembridge Square, which is four good measured miles from Lincoln's Inn. He '''walked''' the whole way, walking through crowds, and under the noses of dray-horses, carriage-horses, and cart-horses, without taking the least notice of them.}}
+# {{lb|en|transitive}} To take for a walk or accompany on a walk.
+#: {{ux|en|I '''walk''' the dog every morning.}}
+#: {{ux|en|Will you '''walk''' me home?}}
+#* {{RQ:Shakespeare Merry Wives|act=II|scene=ii|page=47|passage=I will rather trust{{...}}a thief to '''walk''' my ambling gelding.}}
+# {{lb|en|transitive|baseball}} To allow a batter to reach base by pitching four [[ball|balls]].
+# {{lb|en|transitive}} To move something by [[shifting]] between two positions, as if it were walking.
+#: {{ux|en|I carefully '''walked''' the ladder along the wall.}}
+# {{lb|en|transitive}} To [[full]]; to [[beat]] cloth to give it the consistency of [[felt]].
+# {{lb|en|transitive}} To [[traverse]] by walking (or analogous gradual movement).
+#: {{ux|en|I '''walked''' the streets aimlessly.}}
+#: {{ux|en|Debugging this computer program involved '''walking''' the heap.}}
+# {{lb|en|transitive|aviation}} To operate the left and right [[throttle]]s of (an aircraft) in alternation.
+#* {{quote-journal|en|year=1950|journal=Flying Magazine|volume=46|issue=3|page=18
+|passage=Still keeping his tail in the air, Red coaxed the “Airknocker” ahead and as we grasped his struts he slowly retarded the throttle. We '''walked''' the plane between two tiedown blocks and not until we had tied the struts did Red cut the switch.}}
+# {{lb|en|intransitive|colloquial}} To leave, resign.
+#: {{ux|en|If we don't offer him more money he'll '''walk'''.}}
+#* {{RQ:Spenser Ireland|page=39|passage=He will make their cowes and garrans to '''walk'''.}}
+# {{lb|en|transitive}} To push (a vehicle) alongside oneself as one walks.
+#* {{quote-book|en|year=1994|author=John Forester|title=Bicycle Transportation: A Handbook for Cycling Transportation Engineers|pageurl=http://books.google.com/books?id=Qz4kAulpimgC&pg=PA245&dq=%22walked+his+bicycle%22|page=245|publisher=MIT Press
+|passage=The county had a successful defense only because the judge kept telling the jury at every chance that the cyclist should have '''walked''' his bicycle like a pedestrian.}}
+# To behave; to pursue a course of life; to conduct oneself.
+#* {{RQ:Taylor Holy Living}}, [https://books.google.com/books?id=xIVmAAAAcAAJ&pg=PA35 page 35]
+#*: We '''walk''' perversely with God, and he will '''walk''' crookedly toward us.
+# To be stirring; to be abroad; to go restlessly about; said of things or persons expected to remain quiet, such as a sleeping person, or the spirit of a dead person.
+#* '''October 9, 1550''', {{w|Hugh Latimer}}, ''sermon preached at Stamford'', [https://books.google.com/books?id=R-pCAQAAMAAJ&pg=PA94 link]
+#*: I heard a pen '''walking''' in the chimney behind the cloth.
+#* {{quote-book|1=en|year=1936|author=Rollo Ahmed|title=The Black Art|publisher=Long|location=London|page=32|passage=There have been reports of cases where, in the event of a girl having died, a man was chosen to go through the marriage ceremony and even have intercourse with the body, before burial, so that she might not "'''walk'''".}}
+# {{lb|en|obsolete}} To be in motion; to act; to move.
+#* {{RQ:Spenser Faerie Queene|year=1590|book=II|canto=IV|stanza=5|page=233|passage=her toung did '''walke''' / In fowle reproch.}}
+#* {{RQ:Shakespeare Winter's Tale|act=III|scene=iii|page=288|passage=I have heard, but not believed, the spirits of the dead / May '''walk''' again.}}
+#* {{RQ:Jonson Catiline}}, [https://archive.org/details/catilinehisconsp00jons_1/page/n56/mode/1up link]
+#*: Do you think I'd '''walk''' in any plot?
+# {{lb|en|transitive|historical}} To put, keep, or train (a [[puppy]]) in a walk, or training area for [[dogfighting]].
+# {{lb|en|transitive|informal|hotel}} To move a guest to another hotel if their confirmed reservation is not available on day of check-in.
+
+=====Conjugation=====
+{{en-conj|old=1}}
+
+=====Synonyms=====
+* {{sense|move upon two feet}} See [[Thesaurus:walk]]
+* {{sense|colloquial: go free}} be [[acquit]]ted, [[get off]], [[go free]]
+* {{sense|be stolen}} be/get [[steal|stolen]]; {{q|British}} be/get [[nick]]ed, be/get [[pinch]]ed
+* {{sense|beat cloth}} {{l|en|full}}, {{l|en|waulk}} {{qualifier|obsolete}}
+
+=====Antonyms=====
+* [[run]]
+
+=====Hyponyms=====
+{{col4|en
+|forwalk
+|walk away from
+|walk away with
+|walk in
+|walk into
+|walk off
+|walk on
+|walk out
+|walk over
+|walk through
+|walk tall
+}}
+
+=====Derived terms=====
+{{col4|en
+|dogwalk|frog-walk|walkathon|walker|Walker|walkies|walkie-talkie|walkman|Walkman|walkover|walk the floor
+|walk the plank|walk-through}}
+
+=====Related terms=====
+{{col4|en|title=Terms related to ''walk'' (verb)|walk in circles|walk it|walk it off|walk like an Egyptian|walk off with|walk on air|walk on the wild side|walk the beat|walk the floor|walk the walk}}
+
+=====Descendants=====
+* {{desc|cpi|walkee}}
+
+=====Translations=====
+{{trans-top|to move on the feet}}{{multitrans|data=
+* Abkhaz: {{t|ab|ацара}}
+* Afar: {{t|aa|gexe}}
+* Afrikaans: {{tt+|af|loop}}
+* Ainu: {{tt|ain|アㇵカス|tr=ahkas}}, {{tt|ain|アㇷ゚カス|tr=apkas}}
+* Akatek: {{t|knj|b'ey}}
+* Aklanon: {{t|akl|eakaw}}
+* Albanian: {{tt+|sq|eci}}
+* Amharic: {{tt|am|ተራመደ}}, {{tt|am|መራመድ}}
+* Arabic: {{tt+|ar|مَشَى}}, {{tt|ar|تَمَشَّى}}
+*: Hijazi Arabic: {{tt|acw|مِشي|tr=miši}}, {{tt|acw|يِمشي|tr=yimši}} {{qualifier|imperfect}}
+*: South Levantine Arabic: {{tt+|ajp|مشى|tr=maša}}
+* Aramaic:
+*: Assyrian Neo-Aramaic: {{t|aii|ܗܲܠܸܟ݂|tr=haliḵ}}, {{t|aii|ܚܵܕܹܪ|tr=ḵādēr}}, {{t|aii|ܪܵܓ݂ܹܠ|tr=rāḡēl}}, {{t|aii|ܓ̰ܵܘܹܓ̰|tr=jāwēj}}
+*: Classical Syriac: {{tt|syc|ܗܠܟ|tr=halek}}
+* Armenian: {{tt+|hy|քայլել}}
+* Assamese: {{tt|as|খোজ কাঢ়}}, {{tt|as|বুল}} {{q|less common in Standard}}
+* Asturian: {{tt+|ast|andar}}
+* Azerbaijani: {{tt+|az|yerimək}}, {{tt+|az|gəzmək}}
+* Basque: {{tt|eu|ibili}}
+* Belarusian: {{tt|be|ісці́}}, {{tt|be|хадзі́ць}}, {{tt|be|гуля́ць}} {{qualifier|leisurely}}, {{tt|be|[[ісці́]] [[пе́шшу]]}}
+* Bengali: {{tt|bn|হাঁটা}}, {{tt+|bn|চলা}}
+* Bikol Central: {{tt+|bcl|lakaw}}
+* Bulgarian: {{tt+|bg|хо́дя}}, {{tt+|bg|вървя́}}, {{tt+|bg|оти́вам}}
+* Burmese: {{tt+|my|လျှောက်}}, {{tt+|my|လမ်းလျှောက်}}
+* Catalan: {{tt+|ca|caminar}}
+* Chechen: {{t|ce|лела}}
+* Cherokee: {{tt|chr|ᎠᎢ}}
+* Cheyenne: {{tt|chy|-amehné}}
+* Chinese:
+*: Cantonese: {{tt+|yue|行|tr=haang4}}, {{tt|yue|行路|tr=haang4 lou6}} {{qualifier|on streets}}
+*: Dungan: {{tt|dng|зу}}
+*: Hakka: {{tt|hak|行|tr=hàng}}, {{tt|hak|行路|tr=hàng-lu}} {{qualifier|on streets}}
+*: Mandarin: {{tt+|cmn|走|tr=zǒu}}, {{tt+|cmn|走路|tr=zǒulù}} {{qualifier|on streets}}, {{tt+|cmn|步行|tr=bùxíng}}, {{tt+|cmn|行走|tr=xíngzǒu}}, {{tt+|cmn|行|tr=xíng}} {{qualifier|literary}}
+*: Min Nan: {{tt+|nan|行|tr=kiâⁿ}}, {{tt+|nan|行路|tr=kiâⁿ-lō͘}} {{qualifier|on streets}}
+*: Wu: {{tt|wuu|走}}, {{tt|wuu|跑}}
+* Coptic: {{tt|cop|ⲙⲟⲟϣⲉ}}
+* Czech: {{tt+|cs|jít}}, {{tt+|cs|chodit}}
+* Danish: {{tt+|da|gå}}
+* Dhivehi: {{t-needed|dv}}
+* Dutch: {{tt+|nl|lopen}}
+* Egyptian: {{t-egy|hꜣj|h=h-A-D54}}
+* Esperanto: {{tt+|eo|promeni}}, {{tt|eo|piediri}}, {{tt+|eo|marŝi}}
+* Estonian: {{tt+|et|kõndima}}
+* Finnish: {{tt+|fi|kävellä}}, {{tt+|fi|käydä}} {{q|poetic or archaic}}, {{t+|fi|lampsia}}, {{t|fi|lompsia}}, {{t+|fi|käppäillä}}, {{t+|fi|köpöttää}}, {{t+|fi|linkuttaa}}, {{t+|fi|tepastella}}, {{t+|fi|taapertaa}}, {{t+|fi|tallustaa}}, {{t+|fi|tallata}}, {{t|fi|talsia}}, {{t+|fi|dallata}}
+* French: {{tt+|fr|marcher}}, {{tt+|fr|se promener}}
+* Ga: {{tt|gaa|nyiɛmɔ}}
+* Galician: {{tt+|gl|camiñar}}, {{tt+|gl|andar}}
+* Georgian: {{tt|ka|სვლა}}, {{tt|ka|სიარული}}
+* German: {{tt+|de|gehen}}
+* Gothic: {{tt|got|𐍈𐌰𐍂𐌱𐍉𐌽}}
+* Greek: {{tt+|el|περπατάω}}
+*: Ancient: {{tt|grc|βαδίζω}}, {{tt|grc|στείχω}}, {{tt|grc|βαίνω}}, {{tt|grc|περιπατέω}}, {{tt|grc|πορεύω|alt=πορεύομαι}}, {{tt|grc|ὁδοιπορέω}}, {{tt|grc|πατέω}}, {{tt|grc|πεζεύω}}
+* Gujarati: {{t-needed|gu}}
+* Hawaiian: {{tt|haw|hele}} {{tt|haw|wāwae}}
+* Hebrew: {{tt+|he|הָלַךְ|tr=halákh}}
+* Hindi: {{tt+|hi|टहलना}}, {{tt+|hi|चलना}}, {{tt+|hi|जाना}}
+* Hungarian: {{tt+|hu|jár}}, {{tt+|hu|megy}}, {{tt+|hu|sétál}}, {{tt+|hu|gyalogol}}, {{tt|hu|gyalog megy}}
+* Ibanag: {{t|ibg|lakad}}
+* Icelandic: {{tt+|is|ganga}}, {{tt|is|labba}} {{qualifier|informal}}
+* Ido: {{tt+|io|promenar}}
+* Indonesian: {{tt+|id|jalan}}
+* Ingrian: {{t|izh|männä}}, {{t|izh|käyvvä}}, {{t|izh|lovata}}
+* Interlingua: {{tt|ia|promenar}}, {{tt|ia|ambular}}
+* Irish: {{tt|ga|siúil}}
+* Isan: {{t-needed|tts}}
+* Italian: {{tt+|it|camminare}}, {{tt|it|andare a piedi}}
+* Japanese: {{tt+|ja|歩く|tr=あるく, aruku}}
+* Javanese: {{t+|jv|mlaku}}
+* Kabuverdianu: {{tt|kea|anda}}, {{tt|kea|andá}}
+* Kannada: {{t-needed|kn}}
+* Kashubian: {{t|csb|chòdzëc}}
+* Kazakh: {{tt+|kk|жүру}}
+* Khmer: {{tt+|km|ដើរ}}
+* Kikuyu: {{t|ki|thiĩ}}
+* Korean: {{tt+|ko|걷다}}, {{tt+|ko|가다}}, {{tt+|ko|걸어가다}}
+* Krio: {{tt|kri|waka}}
+* Kurdish:
+*: Central Kurdish: {{tt+|ckb|ڕۆیشتن}}, {{tt|ckb|پیاسە کردن}}
+* Kyrgyz: {{tt+|ky|жүрүү}}, {{tt+|ky|басуу}}
+* Lao: {{tt|lo|ຍ່າງ}}, {{tt|lo|ດຸ່ງ}}
+* Latgalian: {{tt|ltg|īt}}, {{tt|ltg|staiguot}}, {{tt|ltg|veižuot}}
+* Latin: {{tt+|la|gradior}}, {{tt+|la|ambulō}}, {{tt|la|vadō}}
+* Latvian: {{tt|lv|iet}}, {{tt|lv|staigāt}}
+* Lithuanian: {{tt+|lt|eiti}}, {{tt|lt|vaikščioti}}
+* Livonian: {{tt|liv|kǟdõ}}
+* Lombard: {{tt+|lmo|andà}}
+* Lü: {{tt|khb|ᦵᦤᦲᧃ}}
+* Lushootseed: {{tt|lut|ʔibəš}}
+* Luxembourgish: {{tt+|lb|goen}}, {{tt|lb|trëppelen}}, {{tt|lb|spadséieren}}
+* Macedonian: {{tt|mk|оди}}, {{tt|mk|пешачи}}, {{tt|mk|шета}} {{qualifier|to go for a walk}}, {{tt|mk|иде}}
+* Magahi: {{tt|mag|𑂥𑂳𑂪𑂪|tr=bulal}}
+* Malay: {{tt+|ms|berjalan}}
+* Malayalam: {{t-needed|ml}}
+* Maltese: {{tt|mt|mexa}}
+* Manchu: {{tt|mnc|ᠶᠠᠪᡠᠮᠪᡳ}}, {{t|mnc|ᡶᡝᠯᡳᠶᡝᠮᠪᡳ}}
+* Maore Comorian: {{tt|swb|endra|alt=uendra}}
+* Maori: {{tt|mi|haere-ā-waewae}}, {{tt|mi|whakaraka}}, {{tt|mi|wawake}}, {{tt|mi|haere mā raro}}
+* Mapudungun: {{tt|arn|xekan}}
+* Marathi: {{tt|mr|chalane|n}}
+* Mbyá Guaraní: {{t|gun|guata}}
+* Middle English: {{tt|enm|walken}}
+* Mongolian: {{tt|mn|явган явах}}
+*: Classical Mongolian: {{tt|cmg|ᠶᠠᠪᠤᠮᠤᠢ}}
+* Nahuatl: {{tt+|nah|nenemi}}
+* Nepali: {{tt+|ne|हिँड्नु}}
+* Ngarrindjeri: {{tt|nay|noppun}}
+* Ngunawal: {{tt|xul|yerrabi}}
+* Norman: {{tt|nrf|marchi}}
+* Norwegian: {{tt+|no|gå}}, {{tt+|no|spasere}}
+* Occitan: {{tt+|oc|caminar}}
+* Old English: {{tt|ang|gān}}
+* Oriya: {{t|or|ଆସିବା}}
+* Oromo: {{t|om|deemuu}}
+* Ossetian: {{t|os|цӕуын}}
+* Pashto: {{t-needed|ps}}
+* Persian: {{tt+|fa|راه رفتن|tr=râh raftan}}, {{tt|fa|پیاده رفتن|tr=piyâde raftan}}
+* Pipil: {{tt|ppl|nejnemi}}, {{tt|ppl|nehnemi}}
+* Plautdietsch: {{tt|pdt|gonen}}
+* Polish: {{tt+|pl|iść}}, {{tt+|pl|chodzić}}
+* Portuguese: {{tt+|pt|andar}}, {{tt+|pt|caminhar}}
+* Punjabi: {{tt|pa|ਚਲਣਾ}}
+* Quechua: {{tt+|qu|riy}}
+* Rapa Nui: {{t|rap|ha'ere}}
+* Romani: {{t|rom|phirel}}
+* Romanian: {{tt+|ro|merge}}, {{tt+|ro|umbla}}
+* Romansch: {{tt|rm|chaminar}}
+* Russian: {{tt+|ru|ходи́ть|impf}} {{qualifier|abstract verb}}, {{tt+|ru|идти́|impf}} {{qualifier|concrete verb}}, {{tt+|ru|шага́ть|impf}}, {{tt|ru|[[идти́]] [[пешко́м]]|impf}}, {{tt+|ru|гуля́ть|impf}} {{qualifier|leisurely}}
+* Saho: {{t|ssy|gerhe}}
+* Samoan: {{tt|sm|e savali}}
+* Sanskrit: {{tt+|sa|चलति}}
+* Saterland Frisian: {{tt|stq|gunge}}, {{tt|stq|loope}}, {{tt|stq|treede}}
+* Scottish Gaelic: {{tt|gd|coisich}}
+* Serbo-Croatian:
+*: Cyrillic: {{tt|sh|хо́дати|impf}}, {{tt|sh|хо̀дити|pf}}, {{tt|sh|ѝћи|impf}} {{qualifier|informal}}, {{tt|sh|че́пати|impf}} (Croatian), {{tt|sh|ше́тати|impf}}, {{tt|sh|проше́тати|pf}}
+*: Roman: {{tt+|sh|hódati|impf}}, {{tt+|sh|hòditi|pf}}, {{tt|sh|ìći|impf}} {{qualifier|informal}}, {{tt+|sh|čépati|impf}} (Croatian), {{tt+|sh|šétati|impf}}, {{tt+|sh|prošétati|pf}}
+* Shan: {{t-needed|shn}}
+* Sicilian: {{tt+|scn|caminari}}, {{tt|scn|jiri pedi pedi}}, {{tt|scn|passijari}}
+* Sindhi: {{t|sd|هلڻ}}
+* Slovak: {{tt+|sk|ísť}}, {{tt|sk|ísť krokom}}, {{tt|sk|ísť peši}}, {{tt|sk|chodiť}}
+* Slovene: {{tt+|sl|hoditi}}, {{tt+|sl|iti}}
+* Somali: {{t|so|tegid}}
+* Sorbian:
+*: Lower Sorbian: {{tt|dsb|chójźiś|impf}}, {{tt|dsb|[[pśechójźowaś]] se|impf}}
+* Spanish: {{tt+|es|caminar}}, {{tt+|es|andar}}
+* Sundanese: {{tt|su|papah}}
+* Swahili: {{tt|sw|kutembea}}
+* Swedish: {{tt+|sv|gå}}, {{tt|sv|gå till fots}} {{qualifier|idionomic}}
+* Sylheti: {{tt|syl|ꠀꠐꠣ}}
+* Tagalog: {{tt|tl|maglakad}}
+* Tahitian: {{tt|ty|haere}}
+* Tajik: {{tt+|tg|гаштан}}
+* Tamil: {{tt+|ta|நட}}
+* Tatar: {{tt+|tt|йөрергә}}
+* Tausug: {{t|tsg|panaw}}
+* Telugu: {{tt+|te|నడుచుట}}
+* Ternate: {{t|tft|tagi}}
+* Tetum: {{t|tet|la'o}}
+* Thai: {{tt+|th|เดิน}}
+* Tibetan: {{tt|bo|གོམ་པ་རྒྱག}}, {{tt|bo|ཞབས་གོམ་བཀྱོན}} {{qualifier|honorific}}
+* Tidore: {{t|tvo|tagi}}
+* Tok Pisin: {{tt|tpi|wokabaut}}
+* Turkish: {{tt+|tr|yürümek}}
+* Turkmen: {{tt|tk|ýöremek}}
+* Tuvan: {{tt|tyv|кылаштаар}}
+* Ukrainian: {{tt+|uk|ходи́ти}}, {{tt+|uk|іти́}}, {{tt|uk|[[іти́]] [[кро́ком]]}}, {{tt|uk|гуля́ти}} {{qualifier|leisurely}}, {{tt|uk|[[іти́]] [[пі́шки]]}}
+* Urdu: {{tt|ur|ٹہلنا|tr=ṭahalnā}}, {{tt|ur|چلنا|tr=calnā}}, {{tt|ur|جانا|tr=jānā}}
+* Uyghur: {{tt|ug|ماڭماق}}
+* Uzbek: {{tt+|uz|yurmoq}}
+* Venetian: {{tt+|vec|caminar}}, {{tt|vec|caminare}}
+* Vietnamese: {{tt+|vi|đi}}, {{tt+|vi|đi bộ}}
+* Walloon: {{tt+|wa|roter}}
+* Waray-Waray: {{tt|war|lakaw}}, {{tt|war|lakat}}
+* Welsh: {{tt+|cy|cerdded}}
+* West Frisian: {{tt+|fy|gean}}
+* White Hmong: {{tt|mww|taug kev}}
+* Xhosa: {{tt|xh|hamba|alt=-hamba}}
+* Yiddish: {{tt|yi|גיין}}, {{tt|yi|שפּאַצירן}}
+* Zazaki: {{t|zza|pay şiyen}}, {{t|zza|luwen}}
+* Zealandic: {{tt|zea|loôpe}}
+* Zhuang: {{tt|za|byaij}}, {{tt|za|yamq}}
+* Zulu: {{tt+|zu|hamba|alt=-hamba}}
+}}
+{{trans-bottom}}
+
+<!--Note: put COLLOQUIAL or SLANG translations in this table, where these exist-->
+{{trans-top|colloquial: to avoid a criminal court case}}{{multitrans|data=
+* Danish: {{tt|da|gå fri}}
+* Dutch: {{t|nl|vrijuit gaan}}
+* French: {{t+|fr|ficher le camp}}
+* German: {{tt|de|[[freilassen|freigelassen]] [[werden]]}}, {{tt|de|freikommen}}
+* Hungarian: {{tt|hu|[[megúszik|megússza]]}}, {{tt+|hu|meglép}}, {{tt+|hu|elmenekül}}
+* Norwegian: {{tt|no|slippe løs}}
+* Russian: {{tt+|ru|выйти сухи́м из воды́}} {{qualifier|not limited to criminal cases}}
+* Swedish: {{tt|sv|slippa lös}}
+}}
+{{trans-bottom}}
+
+<!--Note: put COLLOQUIAL or SLANG translations in this table, where these exist-->
+{{trans-top|colloquial: to be stolen}}{{multitrans|data=
+* Catalan: {{t|ca|estar robado}}
+* Finnish: {{tt|fi|lähteä kävelemään}}
+* French: {{tt+|fr|s'envoler}}, {{tt+|fr|se barrer}}
+* German: {{tt+|de|wegkommen}}
+* Italian: {{t|it|stare rubato}}, {{t|it|essere rubato}}
+* Latin: {{t|la|clepor}}
+* Portuguese: {{t|pt|estar robado}}
+* Russian: {{tt+|ru|испари́ться}} {{qualifier|colloquial}}, {{tt|ru|бы́ли вы́несенны|p|pf}} {{qualifier|past tense}}
+* Spanish: {{t|es|estar robado}}
+* Swedish: {{tt|sv|få fötter}}
+}}
+{{trans-bottom}}
+
+{{trans-top|cricket: to walk off the field voluntarily}}
+{{trans-bottom}}
+
+{{trans-top|to travel a distance by walking}}{{multitrans|data=
+* Azerbaijani: {{tt+|az|gəzmək}}, {{tt|az|dolanmaq}}, {{tt+|az|dolaşmaq}}, {{tt|az|aylanmaq}}
+* Bulgarian: {{t+|bg|преминавам}}
+* Catalan: {{tt+|ca|fer}}, {{tt+|ca|caminar}}
+* Czech: {{tt+|cs|jít}}
+* Danish: {{tt+|da|gå}}, {{tt|da|vandre}} {{qualifier|long distances}}
+* Dutch: {{tt+|nl|lopen}}, {{tt+|nl|wandelen}}
+* Finnish: {{tt+|fi|kävellä}}, {{tt|fi|[[kulkea]] [[jalan]]}}
+* French: {{tt+|fr|marcher}}, {{tt|fr|[[faire]] [distance] [[à pied]]}}
+* German: {{tt+|de|laufen}}
+* Hebrew: {{tt+|he|הָלַךְ|tr=halákh}}
+* Hungarian: {{tt+|hu|gyalogol}}, {{tt+|hu|legyalogol}}, {{tt|hu|[[gyalog]] [[megtesz|tesz meg]]}}
+* Italian: {{tt+|it|camminare}}
+* Japanese: {{tt+|ja|歩く|tr=aruku}}
+* Korean: {{tt+|ko|걸어가다}}
+* Latin: {{tt+|la|ambulo}}, {{tt|la|vado}}, {{tt+|la|gradior}}
+* Macedonian: {{tt|mk|пешачи}}
+* Middle English: {{t|enm|walken}}
+* Norwegian: {{tt+|no|gå}}, {{tt+|no|vandre}}, {{tt+|no|spasere}}
+* Occitan: {{tt+|oc|marchar}}
+* Portuguese: {{tt+|pt|andar}}, {{tt+|pt|caminhar}}
+* Russian: {{tt+|ru|ходи́ть|impf}} {{qualifier|abstract verb}}, {{tt+|ru|идти́|impf}} {{qualifier|concrete verb}}, {{tt+|ru|пойти́|pf}}, {{tt+|ru|проходить}}, {{tt+|ru|пройти}}
+* Scottish Gaelic: {{tt|gd|coisich}}
+* Sicilian: {{tt|scn|firrijari}}, {{tt|scn|jiri pedi pedi}}, {{tt|scn|passijari}}
+* Slovene: {{tt|sl|prehoditi}}
+* Spanish: {{tt+|es|caminar}}, {{tt+|es|pasear}}
+* Swedish: {{tt+|sv|gå}}, {{tt+|sv|promenera}} {{qualifier|in a relaxed manner}}, {{tt+|sv|vandra}} {{qualifier|long distances}}
+* Tagalog: {{tt|tl|parada}}
+* Walloon: {{tt+|wa|roter}}, {{tt+|wa|mårtchî}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to take for a walk}}{{multitrans|data=
+* Arabic: {{tt|ar|تمشّى}}
+* Azerbaijani: {{tt+|az|gəzdirmək}}
+* Bulgarian: {{t+|bg|разхождам}}
+* Catalan: {{tt+|ca|passejar}}
+* Chinese:
+*: Mandarin: {{tt+|cmn|遛|tr=liú}}
+* Danish: {{tt|da|gå tur med}}
+* Dutch: {{tt+|nl|uitlaten}}
+* Finnish: {{tt|fi|kävelyttää}}, {{tt|fi|ulkoiluttaa}}, {{tt+|fi|taluttaa}} {{qualifier|to take for a walk}}; {{tt+|fi|saattaa}} {{qualifier|to accompany}}
+* French: {{tt+|fr|accompagner}} (someone), {{tt+|fr|raccompagner}} (someone, back to their starting point, usually home), {{tt+|fr|promener}} (dog)
+* German: {{tt+|de|ausführen}}, {{tt+|de|begleiten}}
+* Hebrew: {{tt+|he|הוֹלִיך|tr=holíkh}}, {{tt|he|לָקַח לְטִיּוּל|tr=lakákh l'tiyúl}}
+* Hungarian: {{q|accompany a person}} {{tt+|hu|kísér}}, {{tt+|hu|elkísér}}, {{tt+|hu|hazakísér}}, {{q|walk a dog}} {{tt+|hu|sétáltat}}, {{tt+|hu|megsétáltat}}, {{tt|hu|[[levisz]] [[sétálni]]}}
+* Italian: {{tt|it|portare fuori}}
+* Japanese: {{tt+|ja|散歩|tr=sanpo suru|alt=散歩する}}
+* Korean: {{tt|ko|거닐다}}
+* Kurdish:
+*: Central Kurdish: {{tt|ckb|پیاسە کردن}}
+* Latin: {{tt+|la|ambulo}}, {{tt|la|inambulo}}
+* Macedonian: {{tt|mk|шета}}, {{tt|mk|прошетува}}
+* Norwegian: {{tt|no|gå på tur med}}, {{tt|no|gå ut med hunden}} {{qualifier|walk the dog}}
+* Persian: {{tt|fa|راه بردن|tr=râh bordan}}
+* Polish: {{tt+|pl|wyprowadzać|impf}}, {{tt+|pl|wyprowadzić|pf}} {{qualifier|dog}}
+* Portuguese: {{tt+|pt|passear}}
+* Romanian: {{t+|ro|plimba}}
+* Russian: {{tt+|ru|выгу́ливать|impf}}, {{tt+|ru|вы́гулять|pf}} {{qualifier|only of pets, sometimes children}}
+* Sicilian: {{tt+|scn|nèsciri}}, {{tt|scn|purtari fora}},  {{tt|scn|purtari a passijari}}
+* Slovene: {{tt|sl|sprehoditi}}
+* Spanish: {{tt+|es|pasear}}, {{tt+|es|acompañar}}
+* Swedish: {{tt|sv|gå ut och gå}}, {{tt|sv|gå ut med hunden}} {{qualifier|walk the dog}}
+* Tagalog: {{tt|tl|lakarin}}, {{tt|tl|ilakad}}
+* Vietnamese: {{tt+|vi|đi dạo}}
+* Walloon: {{tt+|wa|pormoenner}}, {{tt|wa|racpagnter}} {{qualifier|people}}, {{tt+|wa|raconcoister}} {{qualifier|people}}
+* Zazaki: {{t|zza|çarnayen}}
+}}
+{{trans-bottom}}
+
+{{trans-top|baseball: to allow to advance after four balls}}{{multitrans|data=
+* Chickasaw: {{tt|cic|aya}}
+* Finnish: {{tt|fi|[[antaa]] [[vapaataival]]}}
+* Japanese: {{tt+|ja|四球|tr=shikyū}}
+* Korean: {{tt+|ko|사구}}
+}}
+{{trans-bottom}}
+
+{{trans-top|move something by shifting between two positions}}{{multitrans|data=
+* Finnish: {{tt|fi|kävelyttää}}, {{tt+|fi|taluttaa}}
+* Russian: {{tt+|ru|проходить|impf}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to full cloth}}{{multitrans|data=
+* Finnish: {{tt|fi|vanuttaa}}, {{tt+|fi|huovuttaa}}
+* French: {{tt+|fr|battre}}
+* Italian: {{t|it|sodare}}
+* Korean: {{t-check|ko|무두질하다}} <!-- link as t-SOP if non-idiomatic; put marked word in |alt=; see [[User:Kephir/gadgets/xte#Translation_fixing]] -->
+* Middle English: {{t|enm|walken}}
+* Russian: {{tt+|ru|почувствовать|pf}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to traverse by walking (or analogous gradual movement)}}{{multitrans|data=
+* Catalan: {{tt+|ca|voltar}}
+* Finnish: {{tt+|fi|kävellä}}
+* French: {{tt+|fr|parcourir}}
+* Japanese: {{tt+|ja|歩き回る|tr=arukimawaru}}
+* Russian: {{tt+|ru|ходить|impf}}
+* Scottish Gaelic: {{tt|gd|coisich}}
+}}
+{{trans-bottom}}
+
+{{trans-top|colloquial: to leave, resign}}{{multitrans|data=
+* Finnish: {{tt+|fi|lähteä}}
+* French: {{tt+|fr|se barrer}}, {{tt+|fr|se tirer}}, {{tt+|fr|se casser}}
+* Norwegian: {{tt+|no|gå}}
+* Russian: {{tt+|ru|уйти́}} {{qualifier|colloquial}}, {{tt+|ru|уходить|impf}}
+* Swedish: {{tt+|sv|gå}}, {{tt+|sv|sluta}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to push vehicle alongside oneself}}{{multitrans|data=
+* Finnish: {{tt+|fi|taluttaa}}
+* Swedish: {{tt+|sv|leda}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to behave}}{{multitrans|data=
+* Finnish: {{tt+|fi|käyttäytyä}}
+* Middle English: {{t|enm|walken}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to be stirring}}{{multitrans|data=
+* Finnish: {{tt+|fi|vaeltaa}}, {{tt+|fi|kulkea}}
+* Middle English: {{t|enm|walken}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to be in motion}}{{multitrans|data=
+* Finnish: {{tt|fi|[[olla]] [[liikkeellä]]}}, {{tt+|fi|liikkua}}, {{tt+|fi|kulkea}}
+* Middle English: {{t|enm|walken}}
+}}
+{{trans-bottom}}
+
+{{trans-top|to put, keep, or train in a walk}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Akan: {{t-check|ak|nantew}}
+* Vietnamese: {{t+check|vi|đi bộ}} (1), {{t+check|vi|mang}} (2), {{t+check|vi|dẫn|alt=dẫn ''direct object'' đi}} (2, ''when the direct object is a person or an animal''), {{t+check|vi|bỏ|alt=bỏ đi}} (3), {{t+check|vi|dẫn}} + ''direct object'' + {{t+check|vi|đi}} [[từng]] [[bước]] [[một]] (2; <!--this belongs on the corresponding Vietnamese page literally "to lead ... every one step"-->)
+{{trans-bottom}}
+
+===Etymology 2===
+From {{inh|en|enm|walk}}, {{m|enm|walke}}, {{m|enm|walc}}, from {{inh|en|ang|*wealc}} (as in {{cog|ang|wealcspinl}}) and {{m|ang|ġewealc|t=a rolling motion, attack}}, from {{inh|en|gem-pro|*walką}}. Cognate with {{cog|is|válk|t=a rolling around, a tossing to and fro, trouble, distress}}.
+
+====Noun====
+{{en-noun}}
+
+# A trip made by walking.
+#: {{ux|en|I take a '''walk''' every morning.}}
+# A distance walked.
+#: {{ux|en|It’s a long '''walk''' from my house to the library.}}
+# {{lb|en|sports}} An Olympic Games track event requiring that the heel of the leading foot touch the ground before the toe of the trailing foot leaves the ground.
+# A manner of walking; a person's style of walking.
+#: {{ux|en|The Ministry of Silly '''Walks''' is underfunded this year.}}
+# A path, [[sidewalk]]/[[pavement]] or other maintained place on which to walk.
+#: {{cot|en|trail}}
+#* {{quote-text|en|year=1902|author=John Buchan|title=The Outgoing of the Tide
+|passage=And then it appeared to the young man that he was walking his love up the grass '''walk''' of Heriotside, with the house close by him.}}
+# {{lb|en|figurative}} A person's [[conduct]] or [[course]] in [[life]].
+#* {{quote-book|en|year=1887|author=Sir Thomas Henry Hall Caine|author2=Sir Hall Caine|author3=John Parker Anderson|title=Life of Samuel Taylor Coleridge|page=136
+|passage=Men like Stuart who had no desire to extol Coleridge's virtues, and other witnesses quite as hostile, to whom a moral dereliction could hardly be a mortal offence, were loud in praise of the purity of his '''walk''' in life.}}
+# {{lb|en|poker}} A situation where all players [[fold]] to the [[big blind]], as their first [[action]] (instead of [[call]]ing or [[raise|raising]]), once they get their [[card]]s.
+# {{senseid|en|baseball}} {{lb|en|baseball}} An award of first base to a batter following four balls being thrown by the pitcher; known in the rules as a "base on balls".
+#: {{ux|en|The pitcher now has two '''walks''' in this inning alone.}}
+# In [[coffee]], [[coconut]], and other [[plantation]]s, the space between them. <!--the plants? def is from W1913.-->
+# {{lb|en|Caribbean|Belize|Guyana|Jamaica}} An area of an [[estate]] planted with fruit-bearing trees.<ref>Lise Winer (ed.), ''Dictionary of the English/Creole of Trinidad and Tobago'', McGill-Queen’s University Press, 2008, p.{{nbsp}}940.<sup>[https://books.google.ca/books?id=_n82hsbDJBMC&printsec=frontcover#v=onepage&q&f=false]</sup></ref>
+#* {{quote-book|en|year=1755|author=William Belgrove|title=A Treatise upon Husbandry or Planting|location=Boston|page=14|url=https://archive.org/details/treatiseuponhusb00belg
+|passage=Twenty Acres of Land well kept in a Plantain '''Walk''', will afford a very considerable Support, as Plantains are as hearty a Food as [[eddoe|Eddoes]], and the Plantain '''Walk''' may be a Nursery for declining Slaves, as well as to fatten old Cattle when they are past Labour.}}
+#* {{quote-text|en|year=1803|author={{w|Robert Charles Dallas}}|title=The History of the Maroons|location=London|publisher=Longman and Rees|section=Volume 1, Letter 4, [https://archive.org/details/cihm_44228/page/n224/mode/1up page 80]
+|passage=For half a mile from Vaughansfield the road, now a mere track, leads through pastures and a coffee-'''walk''' to the foot of a very steep hill {{...}}}}
+#* '''1961''', {{w|Wilson Harris}}, ''The Far Journey of Oudin'', Book 2, Chapter 6, in ''The Guyana Quartet'', London: Faber and Faber, 1985, p.{{nbsp}}150,<sup>[https://archive.org/details/guyanaquartet00harr]</sup>
+#*: One day he knew he would build this identical palace for himself. Not next to the road like now—where the present cottage was—but half a mile inside the coconut '''walk'''.
+#* {{quote-book|en|year=1995|author={{w|Olive Senior}}|chapter=Window|title=Discerner of Hearts|location=Toronto|publisher=McClelland & Stewart|page=66|url=https://archive.org/details/discernerofheart00oliv
+|passage=He couldn’t sleep and took to walking outside at night, to look at the stars, to feel the cool air, and for a long time wasn’t even conscious that he always ended up standing in the darkness of the cocoa '''walk''' staring at the shutters of Bridget’s room.}}
+# {{lb|en|historical}} A place for keeping and training [[puppy|puppies]] for [[dogfighting]].
+# {{lb|en|historical}} An [[enclosed]] [[area]] in which a [[gamecock]] is [[confine]]d to prepare him for fighting.
+# {{lb|en|graph theory}} A [[sequence]] of alternating [[vertex|vertices]] and [[edge|edges]], where each edge's endpoints are the preceding and following vertices in the sequence.
+# {{lb|en|colloquial}} Something very easily accomplished; a [[walk in the park]].
+#* '''1980''', Robert Barr, ''The Coming Out Present'' (episode of ''Detective'', BBC radio drama; around 16 min 20 sec)
+#*: And for the strongroom itself, he can tell us where to find the combination of the day. We had allowed four hours, Joe, but with this help, once you get us inside, it's a '''walk'''! I've been timing it.
+# {{lb|en|UK|finance|slang|dated}} A [[cheque]] drawn on a [[bank]] that was not a member of the London Clearing and whose [[sort code]] was allocated on a one-off basis; they had to be "walked" (hand-delivered by messengers).
+
+=====Synonyms=====
+* {{sense|trip made by walking}} {{l|en|stroll}} {{qualifier|slow walk}}, [[hike]] {{qualifier|long walk}}, [[trek]] {{qualifier|long walk}}
+* {{sense|distance walked}} {{l|en|hike}} {{qualifier|if long}}, [[trek]] {{qualifier|if long}}
+* {{sense|manner of walking}} {{l|en|gait}}
+* {{sense|path}} {{l|en|footpath}}, {{l|en|path}}, {{qualifier|British}} [[pavement]], {{qualifier|US}} [[sidewalk]]
+
+=====Hyponyms=====
+{{col4|en|title=Hyponyms of ''walk'' (noun)
+|cakewalk
+|catwalk
+|farmer's walk
+|intentional walk
+|perp walk
+|race walk
+|random walk
+|sidewalk
+|[[space walk]] / [[spacewalk]]
+|sponsored walk
+|whistle walk
+}}
+
+=====Derived terms=====
+{{col4|en
+|elephant walk
+|sidewalk
+|spacewalk
+|walkthrough
+}}
+
+=====Related terms=====
+{{rel4|en|title=Terms related to ''walk'' (noun)|boardwalk|walk in the park|walk in the snow|walk on the wild side|walk policy}}
+
+=====Translations=====
+{{trans-top|trip made by walking}}
+* Afrikaans: {{t+|af|loop}}
+* Arabic: {{t|ar|مَسِير}}
+* Armenian: {{t+|hy|զբոսանք}}
+* Belarusian: {{t|be|пагуля́нка|f}}, {{t|be|прагу́лка|f}}, {{t|be|спа́цыр|m}}
+* Bulgarian: {{t+|bg|разхо́дка|f}}
+* Catalan: {{t+|ca|passejada|m}}, {{t+|ca|passeig|m}}
+* Chinese:
+*: Mandarin: {{t+|cmn|散步|tr=sànbù}}, {{t+|cmn|漫步|tr=mànbù}}
+* Czech: {{t+|cs|procházka|f}}
+* Danish: {{t+|da|gåtur|c}}, {{t|da|vandretur|c}} {{qualifier|a longer distance}}
+* Dutch: {{t+|nl|wandeling|f}}
+* Esperanto: {{t|eo|marŝo}}
+* Estonian: {{t|et|jalutuskäik}}
+* Finnish: {{t+|fi|kävely}}, {{t|fi|kävelyretki}}
+* French: {{t+|fr|promenade|f}}, {{t+|fr|balade|f}}, {{t+|fr|marche|f}}
+* German: {{t+|de|Spaziergang|m}}
+* Hebrew: {{t+|he|טִיּוּל|m|tr=tiyúl}}, {{t+|he|הָלִיכָה|f|tr=halikhá}}
+* Hindi: {{t|hi|सैर|f}}
+* Hungarian: {{t+|hu|séta}}
+* Irish: {{t|ga|siúl|m}}
+* Italian: {{t+|it|camminata|f}}, {{t+|it|passeggiata|f}}
+* Japanese: {{t+|ja|散歩|tr=さんぽ, sanpo}}
+* Korean: {{t+|ko|산책(散策)}}
+* Kurdish:
+*: Central Kurdish: {{t|ckb|پیاسھ}}, {{t+|ckb|ڕۆیشتن}}
+* Latin: {{t+|la|iter}}, {{t+|la|via|f}}, {{t|la|perigrinatio}}
+* Luxembourgish: {{t+|lb|Spadséiergang|m}}, {{t|lb|Promenad|f}}
+* Macedonian: {{t|mk|прошетка|f}}
+* Middle English: {{t|enm|walk}}
+* Norwegian:
+*: Bokmål: {{t|nb|gåtur|m}}, {{t+|nb|spasertur|m}}
+*: Nynorsk: {{t|nn|gåtur|m}}, {{t|nn|spasertur|m}}
+* Occitan: {{t+|oc|passejada|f}}
+* Persian: {{t+|fa|پیاده‌روی|tr=piyâde-ravi}}
+* Polish: {{t+|pl|spacer|m}}
+* Portuguese: {{t+|pt|caminhada}}
+* Romanian: {{t+|ro|plimbare|f}}
+* Russian: {{t+|ru|ходьба́|f}}, {{t+|ru|прогу́лка|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|ше́тња|f}}
+*: Roman: {{t+|sh|šétnja|f}}
+* Slovak: {{t|sk|prechádzka|f}}
+* Slovene: {{t|sl|sprehod|m}}
+* Spanish: {{t+|es|paseo|m}}
+* Swedish: {{t+|sv|promenad|c}}, {{t+|sv|vandring|c}} {{qualifier|a longer distance}}
+* Tagalog: {{t+|tl|lakad}}
+* Taos: {{t|twf|cìa’áne}}
+* Telugu: {{t+|te|నడక}}
+* Turkish: {{t+|tr|yürüyüş}}
+* Ukrainian: {{t|uk|прогуля́нка|f}}, {{t|uk|прогу́лька|f}}
+* Vietnamese: {{t+|vi|đi dạo|alt=sự đi dạo}}
+* Welsh: {{t+|cy|tro|m}}
+{{trans-bottom}}
+
+{{trans-top|distance walked}}
+* Afrikaans: {{t|af|stap}}
+* Catalan: {{t+|ca|passejada|f}}
+* Danish: {{t+|da|gåtur|c}}, {{t|da|vandretur|c}} {{qualifier|a longer distance}}
+* Dutch: {{t+|nl|wandeling|f}}
+* Finnish: {{t+|fi|kävely}}, {{t+|fi|kävelymatka}}
+* German: {{t+|de|Weg|m}}
+* Japanese: {{t+|ja|徒歩|tr=と​ほ, toho}}
+* Kurdish:
+*: Central Kurdish: {{t+|ckb|ڕۆیشتن}}
+* Latvian: {{t+|lv|ceļš}}
+* Occitan: {{t+|oc|passejada|f}}
+* Portuguese: {{t+|pt|caminhada|f}}
+* Romanian: {{t+|ro|plimbare|f}}, {{t+|ro|drum|n}}
+* Spanish: {{t+|es|trecho|m}}, {{t+|es|trayecto|m}}
+* Swedish: {{t+|sv|promenad|c}}, {{t+|sv|vandring|c}} {{qualifier|a long distance}}
+* Tagalog: {{t|tl|nilakad}}
+{{trans-bottom}}
+
+{{trans-top|manner of walking}}
+* Arabic: {{t|ar|مِشْيَة|f}}
+* Bulgarian: {{t+|bg|похо́дка}}, {{t+|bg|вървеж|m}}
+* Danish: {{t+|da|gang|c}}, {{t|da|gangart|c}}
+* Dutch: {{t+|nl|loopje|n}}
+* Finnish: {{t|fi|kävelytyyli}}
+* French: {{t+|fr|démarche|f}}
+* Greek:
+*: Ancient: {{t|grc|βάδισμα|n}}
+* Hebrew: {{t|he|צורת הליכה|f|tr=tsurát halikhá}}
+* Irish: {{t|ga|siúl|m}}
+* Korean: {{t|ko|걸음새}}
+* Latin: {{t|la|incessus|m}}
+* Luxembourgish: {{t|lb|Gang|m}}
+* Macedonian: {{t|mk|од|m}}
+* Portuguese: {{t+|pt|andar|m}}, {{t+|pt|andadura|f}}
+* Romanian: {{t+|ro|pas|n}}, {{t+|ro|mers|n}}
+* Russian: {{t+|ru|похо́дка}} {{qualifier|poetic}}
+* Scottish Gaelic: {{t|gd|coiseachd|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|хо̑д|f}}
+*: Roman: {{t+|sh|hȏd|f}}
+* Spanish: {{t+|es|andar|m}}, {{t+|es|andares|m}}
+* Swedish: {{t+|sv|gång|c}}
+* Tagalog: {{t|tl|paglakad}}
+{{trans-bottom}}
+
+{{trans-top|maintained place on which to walk}}
+* Afrikaans: {{t+|af|pad}}
+* Bulgarian: {{t|bg|алея за разходка}}
+* Catalan: {{t+|ca|passeig|m}}
+* Danish: {{t|da|fodsti|c}}
+* Dutch: {{t+|nl|pad|n}}
+* Esperanto: {{t|eo|promeno}}
+* Finnish: {{t+|fi|kävelytie}}
+* French: {{t+|fr|allée|f}}
+* Greek:
+*: Ancient: {{t|grc|περίπατος|m}}
+* Irish: {{t|ga|siúlán|m}}
+* Japanese: {{t+|ja|歩道|tr=ほどう, hodō}}
+* Latin: {{t|la|ambulacrum|n}}
+* Macedonian: {{t|mk|патека|f}}, {{t|mk|врвица|f}}
+* Middle English: {{t|enm|walk}}
+* Portuguese: {{t+|pt|caminho|m}}
+* Romanian: {{t+|ro|cărare|f}}, {{t+|ro|alee|f}}, {{t+|ro|drum|n}}; {{t+|ro|potecă|f}} {{qualifier|mountain path}}
+* Spanish: {{t+|es|paseo|m}}
+* Swedish: {{t+|sv|gång}}
+* Tagalog: {{t|tl|lakaran}}
+* Telugu: {{t|te|కాలి బాట}}
+{{trans-bottom}}
+
+{{trans-top|baseball: instance of walking a batter}}
+* Finnish: {{t|fi|vapaataival}}
+* French: {{t+|fr|but-sur-balles|m}}
+* Japanese: {{t+|ja|四球|tr=しきゅう, shikyū}}
+{{trans-bottom}}
+
+{{trans-top|graph theory: a sequence of alternating vertices and edges}}
+* Finnish: {{t+|fi|kulku}}
+* Hebrew: {{t+|he|הילוך|m}}
+* Russian: {{t+|ru|прохо́д|m}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Latin: {{qualifier|1,3}} {{t-check|la|ambulatio}}
+* Vietnamese: {{qualifier|1,3}} {{t-check|vi|[[đường]] [[đi]]}} <!-- was "[[đường]] [[đi]]" - assumed sum-of-parts; if an idiom, remove the wikilinks to the individual words. see [[User:Kephir/gadgets/xte#Translation_fixing]] -->, {{qualifier|2}} {{t-check|vi|[[cách]] [[bước]] đi}} <!-- was "[[cách]] [[bước]] đi" - assumed sum-of-parts; if an idiom, remove the wikilinks to the individual words. see [[User:Kephir/gadgets/xte#Translation_fixing]] -->
+{{trans-bottom}}
+
+===References===
+<references/>
+
+===Anagrams===
+* {{anagrams|en|a=aklw|lawk}}
+
+[[Category:en:Gaits]]
+[[Category:en:Horse gaits]]
+
+==Manx==
+
+===Etymology===
+Borrowed from {{bor|gv|en|waulk}}.
+
+===Verb===
+{{head|gv|verb|verbal noun|walkal|or|walkey|past participle|walkit}}
+
+# to [[full]] {{qualifier|cloth}}, [[waulk]], [[tuck]]
+
+====Synonyms====
+* {{l|gv|tuck}}
+* {{l|gv|giallee}}
+
+====Derived terms====
+* {{l|gv|walker|gloss=tucker}}
+* {{l|gv|walkeyder|gloss=fuller, tucker}}
+
+==Middle English==
+
+===Etymology 1===
+From {{inh|enm|ang|ġewealc}}, from {{inh|enm|gmw-pro|*gawalk}}, {{m|gmw-pro|*walk}}, from {{inh|enm|gem-pro|*walką}}.
+
+====Alternative forms====
+* {{alter|enm|walc|walke}}
+
+====Pronunciation====
+* {{IPA|enm|/walk/}}
+
+====Noun====
+{{enm-noun|-}}
+
+# [[turning]], [[tossing]]
+# {{l|en|walk}}, [[journey]]
+# [[walking]], [[movement]]
+# [[pathway]], [[trail]]
+
+=====Descendants=====
+* {{desc|en|walk}}
+* {{desc|sco|walk}}
+
+=====References=====
+* {{R:MED Online|walk(e|n|MED51580}}
+
+===Etymology 2===
+
+====Verb====
+{{head|enm|verb}}
+
+# {{alt form|enm|wakien}}
+
+=====Related terms=====
+* {{l|enm|wake|gloss=a [[watch]], [[vigil]]}}
+* {{l|enm|waken|gloss=to [[wake]]}}
+* {{l|enm|wakien|gloss=to [[watch]], [[awake]]}}
+* {{l|enm|waknen|gloss=to be [[arouse]]d from sleep}}
+
+===Etymology 3===
+
+====Verb====
+{{head|enm|verb}}
+
+# {{alt form|enm|walken}}
+
+[[Category:enm:Travel]]
+
+==Polish==
+
+===Pronunciation===
+{{pl-p}}
+
+===Noun===
+{{head|pl|noun form|g=f}}
+
+# {{inflection of|pl|walka||gen|p}}

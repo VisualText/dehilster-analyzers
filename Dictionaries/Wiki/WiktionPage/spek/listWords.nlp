@@ -1,0 +1,17 @@
+###############################################
+# FILE: listWords
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 16:58:22
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerZone _headerZone _list
+
+@POST
+X("text",4) = X("text",4) + " " + N("$text",1);
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(_xALPHA _xNUM _xPUNCT)]	### (1)
+	@@

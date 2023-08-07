@@ -1,0 +1,32 @@
+###############################################
+# FILE: tagsSpaces
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-11-17 11:50:37
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_langEnd <-
+	\-							### (1)
+	_xWILD [plus match=(\})]	### (2)
+	\=							### (3)
+	@@
+
+@RULES
+_langStart <-
+	\=							### (1)
+	_xWILD [plus match=(\{)]	### (2)
+	\-							### (3)
+	@@
+		
+@RULES
+_startConju <-
+	\{		### (1)
+	\{		### (2)
+	conj	### (3)
+	\.		### (4)
+	_xALPHA	### (5)
+	@@

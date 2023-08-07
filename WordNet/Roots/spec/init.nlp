@@ -1,0 +1,13 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-7-30 9:16:32
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("out") = "roots-en.dict";
+
+@@CODE

@@ -23,8 +23,8 @@ while (L("group")) {
 		L("emoji") = down(L("subgroup"));
 		while (L("emoji")) {
 			L("dict") << conceptname(L("emoji")) << " emoji=1 des=\"" << strval(L("emoji"),"description") << "\"";
-			# L("dict") << " g=\"" << strval(L("group"),"description") << "\"";
-			# L("dict") << " sg=\"" << strval(L("subgroup"),"description") << "\"";
+			L("dict") << " g=\"" << strval(L("group"),"description") << "\"";
+			L("dict") << " sg=\"" << strval(L("subgroup"),"description") << "\"";
 			L("dict") << "\n";
 			L("emoji") = next(L("emoji"));
 		}

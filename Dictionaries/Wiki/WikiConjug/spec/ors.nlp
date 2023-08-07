@@ -1,0 +1,39 @@
+###############################################
+# FILE: ors
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 10:50:53
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _conj
+
+@POST
+group(2,2,"_data");
+X("count",2)++;
+
+@RULES
+_xNIL <-
+	\|								### (1)
+	_xWILD [plus fail=(\| _xEND)]	### (2)
+	_xEND							### (3)
+	@@
+
+@POST
+group(2,2,"_pos");
+
+@RULES
+_xNIL <-
+	_xSTART							### (1)
+	_xWILD [plus fail=(\| _xEND)]	### (2)
+	@@
+
+@POST
+group(1,1,"_data");
+X("count",2)++;
+
+@RULES
+_xNIL <-
+	_xWILD [plus fail=(\|)]	### (1)
+	\| [lookahead]			### (2)
+	@@

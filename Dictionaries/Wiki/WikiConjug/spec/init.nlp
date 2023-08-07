@@ -1,0 +1,13 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-8-5 11:44:43
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("words") = getconcept(findroot(),"words");
+
+@@CODE

@@ -1,0 +1,10 @@
+tokenize	nil	# Gen:   Convert input to token list
+nlp	init	# comment
+nlp	KBFuncs	# comment
+nlp	Lines	# comment
+nlp	wordConjug	# comment
+nlp	ors	# comment
+nlp	pos	# comment
+nlp	tokens	# comment
+nlp	equals	# comment
+nlp	output	# comment
