@@ -19,7 +19,7 @@ nlp	humanNames	# comment
 nlp	person	# comment
 nlp	peoplePhrases	# comment
 nlp	peopleTitles	# comment
-nlp	kbdisplay	# comment
+nlp	kbDisplay	# comment
 nlp	peopleAffiliation	# comment
 nlp	events	# comment
 nlp	kbDisplay	# comment
