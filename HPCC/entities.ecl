@@ -1,4 +1,4 @@
-﻿import nlp from lib_nlp;
+import nlp from lib_nlp;
 
 article := RECORD
   STRING title;

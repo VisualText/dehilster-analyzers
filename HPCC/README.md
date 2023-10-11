@@ -9,15 +9,16 @@ These are instructions on how to install the HPCC Platform with the NLP Plugin o
 - Open up Powershell
 - connect to the folder where you want to clone the de Hilster analyzers
 - Type: "`git clone https://github.com/visualtext/dehilster-analyzers`"
+- Open the "HPCC" folder in VSCode
 
 ### Create and Launch HPCC Server 
 
 - Open up Powershell
-- Type: "`wsl --install Ubuntu`" (if you want to reset your WSL to start fresh, type in "`wsl --unregister Ubuntu`")
+- Type: "`wsl --install -d Ubuntu`" (if you want to reset your WSL to start fresh, type in "`wsl --unregister Ubuntu`")
 - Enter in your username and password
 - Type: "`sudo su -`" and enter your password
 - Type: "`wget http://visualtext.org/downloads/hpccnlp.sh`"
-- Type: "`sh hpccnlp.sh`"
+- Type: "`sh hpccnlp.sh`" and wait until complete (it can take in between 1 and 2 minutes)
 
 ### Add Data File to Server
 
