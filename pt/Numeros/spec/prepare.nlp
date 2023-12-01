@@ -1,0 +1,17 @@
+###############################################
+# FILE: prepare
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:48:37
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("palavra",2) = strtolower(N("$treetext",1));
+
+@RULES
+_xNIL <-
+	_palavra	### (1)
+	@@
