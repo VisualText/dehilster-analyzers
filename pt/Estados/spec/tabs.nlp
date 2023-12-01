@@ -1,0 +1,41 @@
+###############################################
+# FILE: tabs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:43:59
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(17,17,"_hdi");
+group(15,15,"_gdp");
+group(13,13,"_density");
+group(11,11,"_pop");
+group(9,9,"_area");
+group(7,7,"_capital");
+group(5,5,"_abrev");
+group(3,3,"_name");
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xWHITE				### (2)
+	_xWILD [fail=(\t)]	### (3)
+	\t					### (4)
+	_xWILD [fail=(\t)]	### (5)
+	\t					### (6)
+	_xWILD [fail=(\t)]	### (7)
+	\t					### (8)
+	_xWILD [fail=(\t)]	### (9)
+	\t					### (10)
+	_xWILD [fail=(\t)]	### (11)
+	\t					### (12)
+	_xWILD [fail=(\t)]	### (13)
+	\t					### (14)
+	_xWILD [fail=(\t)]	### (15)
+	\t					### (16)
+	_xWILD [plus]		### (17)
+	_xEND				### (18)
+	@@

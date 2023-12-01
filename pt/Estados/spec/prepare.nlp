@@ -1,0 +1,25 @@
+###############################################
+# FILE: prepare
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:48:37
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("name",2) = strtolower(N("$text",1));
+
+@RULES
+_xNIL <-
+	_name	### (1)
+	@@
+
+@POST
+X("abrev",2) = strtolower(N("$text",1));
+
+@RULES
+_xNIL <-
+	_abrev	### (1)
+	@@

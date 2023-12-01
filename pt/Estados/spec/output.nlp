@@ -1,0 +1,17 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 21:20:45
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"estados.dict" << N("name") << " abrev=\"" << N("abrev") << "\" estado=1\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

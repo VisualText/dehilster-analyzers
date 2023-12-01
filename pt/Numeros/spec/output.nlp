@@ -1,0 +1,33 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 21:20:45
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"numeros.dict" << N("palavra");
+if (N("num") && N("num") != "000") "numeros.dict" << " num=" << N("num") << " numero=1";
+"numeros.dict" << " " << G("type") << "=1";
+"numeros.dict" << "\n";
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@
+
+@POST
+G("type") = "cardinal";
+@RULES
+_xNIL <-
+	_cardinal	### (1)
+	@@
+
+@POST
+G("type") = "ordinal";
+@RULES
+_xNIL <-
+	_ordinal	### (1)
+	@@

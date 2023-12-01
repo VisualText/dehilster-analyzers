@@ -1,0 +1,39 @@
+###############################################
+# FILE: tabs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:43:59
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(6,6,"_pron");
+group(4,4,"_palavra");
+group(2,2,"_num");
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xWILD [fail=(\t)]	### (3)
+	\t					### (4)
+	_xWILD [fail=(\t)]	### (5)
+	\t					### (6)
+	_xWILD [plus]		### (7)
+	_xEND				### (8)
+	@@
+
+
+@POST
+group(4,4,"_palavra");
+group(2,2,"_num");
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xWILD [fail=(\t)]	### (2)
+	\t					### (3)
+	_xWILD [plus]		### (4)
+	_xEND				### (5)
+	@@

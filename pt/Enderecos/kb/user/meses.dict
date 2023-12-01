@@ -1,0 +1,25 @@
+janeiro mes=1 num=1
+fevereiro mes=1 num=2
+março mes=1 num=3
+abril mes=1 num=4
+maio mes=1 num=5
+junho mes=1 num=6
+julho mes=1 num=7
+agosto mes=1 num=8
+setembro mes=1 num=9
+outubro mes=1 num=10
+novembro mes=1 num=11
+dezembro mes=1 num=12
+
+jan mes=janeiro num=1
+fev mes=fevereiro num=2
+mar mes=março num=3
+abr mes=abril num=4
+maio mes=maio num=5
+jun mes=junho num=6
+jul mes=julho num=7
+ago mes=agosto num=8
+set mes=setembro num=9
+out mes=outubro num=10
+nov mes=novembro num=11
+dez mes=dezembro num=12

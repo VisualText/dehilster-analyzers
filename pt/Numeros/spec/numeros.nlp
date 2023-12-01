@@ -1,0 +1,44 @@
+###############################################
+# FILE: numeros
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 21:39:52
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _num
+
+@POST
+L("potencia") = strpiece(N("$text",3),3,strlength(N("$text",3)));
+
+if (L("potencia")) {
+	L("pot") = num(L("potencia"));
+	L("c") = 1;
+	while (L("c")++ < L("pot")) {
+		L("zeros") = L("zeros") + "000";
+	}
+} else {
+	L("zeros") = 0;
+	L("pot") = 0;
+}
+
+if (L("pot") <= 6) {
+	L("str") = N("$text",1) + N("$text",2) + "000" + L("zeros");
+	X("num",2) = L("str");
+}
+
+@RULES
+_xNIL <-
+	_xNUM	### (1)
+	_xNUM	### (1)
+	_xNUM	### (1)
+	@@
+
+@POST
+L("str") = N("$text",1);
+X("num",2) = L("str");
+
+@RULES
+_xNIL <-
+	_xNUM	### (1)
+	@@

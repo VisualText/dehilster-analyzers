@@ -1,0 +1,18 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:51:37
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"lograouro.dict" << N("abrev") << " completo=\"" << N("completo") << "\" lograouro=1\n";
+single();
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@
