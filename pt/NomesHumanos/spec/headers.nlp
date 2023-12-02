@@ -1,0 +1,17 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-12-2 7:40:53
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_header");
+
+@RULES
+_xNIL <-
+	GÉNERO	### (1)
+	@@

@@ -1,0 +1,22 @@
+###############################################
+# FILE: tabs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 20:43:59
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(4,4,"_nome");
+group(2,2,"_genero");
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xWILD [fail=(\t)]	### (2)
+	\t					### (3)
+	_xWILD [plus]		### (4)
+	_xEND				### (5)
+	@@

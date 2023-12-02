@@ -1,0 +1,20 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-11-30 21:20:45
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+L("gen") = "f";
+if (N("genero") == "masculinos")
+	L("gen") = "m";
+"pt-nomes.dict" << N("nome") << " genero=\"" << L("gen") << "\" pessoa=1\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@
