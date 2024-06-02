@@ -1,0 +1,17 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:26:4
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("out") = "timezones.dict";
+G("out") << "# Timezone Abbreviations\n";
+G("kb") = "timezones.kbb";
+G("kb") << "# Timezone Abbreviations\n";
+G("timezones") = getconcept(findroot(),"timeszones");
+
+@@CODE

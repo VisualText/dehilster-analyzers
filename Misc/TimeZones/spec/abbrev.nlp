@@ -1,0 +1,25 @@
+###############################################
+# FILE: abbrev
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:53:51
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("abbrev") = strtolower(N("$text",2));
+L("con") = findconcept(G("timezones"),L("abbrev"));
+if (L("con")) {
+	X("con",2) = MakeCountCon(L("con"),L("abbrev"));
+	IncrementCount(L("con"),"ambig");
+} else {
+	X("con",2) = getconcept(G("timezones"),strtolower(L("abbrev")));
+}
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xALPHA				### (2)
+	@@

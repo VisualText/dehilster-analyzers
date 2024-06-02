@@ -1,0 +1,36 @@
+###############################################
+# FILE: utc
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:28:32
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("sign") = N("$text",2);
+S("hour") = num(N("$text",3));
+S("min") = num(N("$text",5));
+single();
+
+@RULES
+_utc <-
+	utc							### (1)
+	_xWILD [match=(\+ \- ±)]	### (2)
+	_xNUM						### (3)
+	\:							### (4)
+	_xNUM						### (5)
+	@@
+
+@POST
+S("sign") = N("$text",2);
+S("hour") = num(N("$text",3));
+single();
+
+@RULES
+_utc <-
+	utc							### (1)
+	_xWILD [match=(\+ \- ±)]	### (2)
+	_xNUM						### (3)
+	@@

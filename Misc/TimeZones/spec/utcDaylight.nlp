@@ -1,0 +1,26 @@
+###############################################
+# FILE: utcDaylight
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 9:39:43
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("daylight") = X("daylight",2);
+if (L("daylight")) {
+	L("con") = getconcept(G("timezones"),L("daylight"));
+	L("day") = makeconcept(L("con"),"daylight");
+	addnumval(L("day"),"hour",pnvar(N(1),"hour"));
+	addnumval(L("day"),"min",pnvar(N(1),"min"));
+	addstrval(L("day"),"sign",pnvar(N(1),"sign"));
+}
+
+@RULES
+_xNIL <-
+	_utc	### (1)
+	\n		### (2)
+	_xEND	### (3)
+	@@
