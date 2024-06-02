@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\dehilster-analyzers\\Misc\\DateTests\\input\\text.txt",
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Misc\\DateTests\\spec\\datetime.nlp"
+        }
+    ]
+}

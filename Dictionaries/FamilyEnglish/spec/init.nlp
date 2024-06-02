@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 15:49:0
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("out") = "en-family.dict"
+G("out") << "# Family words in English\n";
+
+@@CODE
