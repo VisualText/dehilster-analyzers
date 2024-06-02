@@ -1,0 +1,30 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 9:0:41
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("timezones.kbb",G("timezones"),2);
+
+L("timezone") = down(G("timezones"));
+while (L("timezone")) {
+    L("sign") = strval(L("timezone"),"sign");
+    L("hour") = numval(L("timezone"),"hour");
+    L("min") = numval(L("timezone"),"min");
+    L("descr") = strval(L("timezone"),"descr");
+    L("ambig") = numval(L("timezone"),"ambig");
+    G("out") << conceptname(L("timezone")) << " timezone=1 sign=" << L("sign") << " hour=" << L("hour");
+    if (L("min")) G("out") << " min=" << L("min");
+    if (L("ambig")) {
+        L("ambig") = L("ambig") + 1;
+        G("out") << " ambig=" << L("ambig");
+    }
+    G("out") << " descr=\"" << L("descr") << "\"\n";
+    L("timezone") = next(L("timezone"));
+}
+
+@@CODE

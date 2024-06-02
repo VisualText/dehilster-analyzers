@@ -1,0 +1,39 @@
+###############################################
+# FILE: timezone
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:18:39
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("con") = X("con",2);
+L("abbrev") = N("$text",2);
+L("descr") = N("$text",5);
+L("descrLower") = strtolower(N("$text",5));
+L("hour") = N("hour",7);
+L("min") = N("hour",7);
+L("sign") = N("sign",7);
+addnumval(L("con"),"hour",num(L("hour")));
+addnumval(L("con"),"min",num(L("min")));
+addstrval(L("con"),"sign",L("sign"));
+addstrval(L("con"),"descr",L("descr"));
+if (strcontains("daylight",L("descrLower"))) {
+	addnumval(L("con"),"daylight",1);
+}
+else if (strcontains("standard",L("descrLower"))) {
+	addnumval(L("con"),"standard",1);
+}
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xALPHA				### (2)
+	_daylight [opt]		### (3)
+	\t					### (4)
+	_xWILD [fail=(\t)]	### (5)
+	\t					### (6)
+	_utc				### (7)
+	@@

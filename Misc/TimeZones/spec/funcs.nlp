@@ -1,0 +1,15 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 9:39:3
+# MODIFIED:
+###############################################
+
+@DECL
+
+MyFunction(L("var")) {
+
+}
+
+@@DECL

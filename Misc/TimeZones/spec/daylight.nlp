@@ -1,0 +1,25 @@
+###############################################
+# FILE: daylight
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:59:11
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("daylight",2) = strtolower(N("$text",7));
+group(3,8,"_daylight");
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_xALPHA	### (2)
+	_xWHITE	### (3)
+	\(		### (4)
+	_xALPHA	### (5)
+	\/		### (6)
+	_xALPHA	### (7)
+	\)		### (8)
+	@@
