@@ -1,0 +1,14 @@
+###############################################
+# FILE: highlight
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 21:15:33
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_xNIL <-
+	_testdate	### (1)
+	@@

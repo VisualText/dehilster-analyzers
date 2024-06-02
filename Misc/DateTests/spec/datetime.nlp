@@ -1,0 +1,23 @@
+###############################################
+# FILE: datetime
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 20:55:28
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_testdate");
+"textdates.txt" << N("$text",2) << "\n";
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(\" \')]	### (1)
+	_xWILD [plus fail=(\" \')]	### (2)
+	_xWILD [one match=(\" \')]	### (3)
+	\,							### (4)
+	datetime					### (5)
+	\(							### (6)
+	@@

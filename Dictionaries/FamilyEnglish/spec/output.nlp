@@ -1,0 +1,25 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 15:29:52
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE
+ 
+@POST
+L("family") = strtolower(N("$text",1)); 
+L("diff") = deaccent(L("family"));
+L("ending") = " family=1\n";
+G("out") << L("family") << L("ending");
+
+if (L("family") != L("diff")) {
+	G("out") << L("diff") << L("ending");
+}
+
+
+@RULES
+_xNIL <-
+	_family
+	@@
