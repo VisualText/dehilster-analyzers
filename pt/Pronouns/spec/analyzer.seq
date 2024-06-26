@@ -1,0 +1,9 @@
+dicttokz	nil	# Gen:   Convert input to token list
+nlp	init	# comment
+nlp	KBFuncs	# comment
+nlp	funcs	# comment
+nlp	LinesDictTokZ	# comment
+nlp	tags	# comment
+nlp	pronome	# comment
+nlp	pronomes	# comment
+nlp	output	# comment

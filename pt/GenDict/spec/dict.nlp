@@ -1,0 +1,25 @@
+###############################################
+# FILE: dict
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-26 6:46:47
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("verbs") = getconcept(findroot(),"verbs");
+
+L("verb") = down(G("verbs"));
+
+while (L("verb")) {
+    L("conjugation") = down(L("verb"));
+    L("root") = conceptname(L("verb"));
+    while (L("conjugation")) {
+        "pt-verbs1000.dict" << conceptname(L("conjugation")) << " verb=1 root=" << L("root") << "\n"; 
+        L("conjugation") = next(L("conjugation"));
+    }
+    L("verb") = next(L("verb"));
+}
+
+@@CODE

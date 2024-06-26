@@ -1,0 +1,19 @@
+###############################################
+# FILE: tenseZone
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:31:48
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("tense") = N("tense",1);
+single();
+
+@RULES
+_tenseZone <-
+	_tense							### (1)
+	_xWILD [fail=(_tense _title)]	### (2)
+	@@

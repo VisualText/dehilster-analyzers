@@ -1,0 +1,31 @@
+###############################################
+# FILE: tense
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:21:1
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("title") = N("$text",2);
+"debug.txt" << "Tense Group: " << S("title") << " ===========\n";
+single();
+
+@RULES
+_title <-
+	_verbTenseTitle	### (1)
+	_LINE			### (2)
+	@@
+
+@POST
+S("tense") = N("$text",2);
+"debug.txt" << "Tense: " << S("tense") << "\n";
+single();
+
+@RULES
+_tense <-
+	_verbTenseSubtitle	### (1)
+	_LINE				### (2)
+	@@

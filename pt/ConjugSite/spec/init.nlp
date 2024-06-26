@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:22:21
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("verbs") = getconcept(findroot(),"verbs");
+G("word") = getconcept(G("verbs"),G("$inputhead"));
+
+@@CODE

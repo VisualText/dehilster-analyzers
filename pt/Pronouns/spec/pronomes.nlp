@@ -1,0 +1,19 @@
+###############################################
+# FILE: pronomes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-26 7:35:2
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _pronomeZone _pronome
+
+@POST
+L("pro") = strtolower(N("$text",1));
+L("con") = getconcept(G("pronomes"),L("pro"));
+AddAttrs(X(2),L("con"),L("pro"));
+
+@RULES
+_xNIL <-
+	_xALPHA	### (1)
+	@@

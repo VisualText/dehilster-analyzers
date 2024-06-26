@@ -1,0 +1,103 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 8:42:47
+# MODIFIED:
+###############################################
+
+@DECL
+
+CleanInfo(L("info")) {
+    L("inf") = strsubst(L("info"),"-lo",0);
+    L("inf") = strsubst(L("inf"),"-o",0);
+    L("inf") = strsubst(L("inf"),"quando ",0);
+    L("inf") = strsubst(L("inf"),"que ",0);
+    L("inf") = strsubst(L("inf"),"se ",0);
+    return L("inf");
+}
+
+AddConjugationTense(L("word"),L("title"),L("tense"),L("person"),L("conjugation")) {
+    "debug.txt" << "AddConjugationTense: " << conceptname(L("word")) << " ti: " << L("title")<< " ten: " << L("tense") << " " << L("person") << " " << L("conjugation") << "\n";
+
+    if (L("title") == "Indicativo")
+    {  
+        if (L("tense") == "Presente" ) {
+            AddConjugation(L("word"),L("person"),"p",L("conjugation"));
+        }
+        else if (L("tense") == "Pretérito Imperfeito" ) {
+            AddConjugation(L("word"),L("person"),"pi",L("conjugation"));
+        }
+        else if (L("tense") == "Pretérito Perfeito" ) {
+            AddConjugation(L("word"),L("person"),"pp",L("conjugation"));
+        }
+        else if (L("tense") == "Pretérito Mais-que-perfeito" ) {
+            AddConjugation(L("word"),L("person"),"pmp",L("conjugation"));
+        }
+        else if (L("tense") == "Futuro do Presente" ) {
+            AddConjugation(L("word"),L("person"),"fps",L("conjugation"));
+        }
+        else if (L("tense") == "Futuro do Pretérito" ) {
+            AddConjugation(L("word"),L("person"),"fpt",L("conjugation"));
+        }
+    }
+    else if (L("title") == "Subjuntivo")
+    {
+        if (L("tense") == "Presente" ) {
+            AddConjugation(L("word"),L("person"),"ps",L("conjugation"));
+        }
+        else if (L("tense") == "Pretérito Imperfeito" ) {
+            AddConjugation(L("word"),L("person"),"pis",L("conjugation"));
+        }
+        else if (L("tense") == "Futuro" ) {
+            AddConjugation(L("word"),L("person"),"fs",L("conjugation"));
+        }        
+    }
+    else if (L("title") == "Imperativo")
+    {
+        if (L("tense") == "Imperativo Afirmativo" ) {
+            AddConjugation(L("word"),L("person"),"ia",L("conjugation"));
+        }
+        else if (L("tense") == "Imperativo Negativo" ) {
+            AddConjugation(L("word"),L("person"),"in",L("conjugation"));
+        }
+    }
+    else if (L("title") == "Infinitivo")
+    {
+        if (L("tense") == "Infinitivo Pessoal" ) {
+            AddConjugation(L("word"),L("person"),"ip",L("conjugation"));
+        }
+    }
+}
+
+AddConjugation(L("word"),L("person"),L("abbrev"),L("conjugation")) {
+
+    if (L("person") == "eu") {
+        AddWordAttr(L("word"),L("conjugation"),"1","s",L("abbrev"));
+    }
+    else if (L("person") == "tu") {
+        AddWordAttr(L("word"),L("conjugation"),"2","s",L("abbrev"));
+    }
+    else if (L("person") == "ele" || L("person") == "você") {
+        AddWordAttr(L("word"),L("conjugation"),"3","s",L("abbrev"));
+    }
+    else if (L("person") == "nós") {
+        AddWordAttr(L("word"),L("conjugation"),"1","p",L("abbrev"));
+    }
+    else if (L("person") == "vós") {
+        AddWordAttr(L("word"),L("conjugation"),"2","p",L("abbrev"));
+    }
+    else if (L("person") == "eles" || L("person") == "vocês") {
+        AddWordAttr(L("word"),L("conjugation"),"3","p",L("abbrev"));
+    }
+}
+
+AddWordAttr(L("word"),L("conjugation"),L("pessoa"),L("numero"),L("tempo")) {
+    L("con") = getconcept(L("word"),L("conjugation"));
+    L("meaning") = MakeCountCon(L("con"),"meaning");
+    AddUniqueStr(L("meaning"),"pes",L("pessoa"));
+    AddUniqueStr(L("meaning"),"num",L("numero"));
+    AddUniqueStr(L("meaning"),"tem",L("tempo"));
+}
+
+@@DECL

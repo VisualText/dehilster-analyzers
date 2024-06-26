@@ -1,0 +1,41 @@
+###############################################
+# FILE: conjugation
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:16:44
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _titleZone _tenseZone
+
+@POST
+L("title") = X("title",2);
+L("tense") = X("tense",3);
+if (L("tense") == "Infinitivo Pessoal"
+	|| L("tense") == "Imperativo Negativo"
+	|| L("tense") == "Imperativo Afirmativo
+ 	) {
+
+	S("person") = N("$text",8);
+	S("conjug") = N("$text",5);
+	# "debug.txt" << "conjugation: " << S("person") << " " << S("conjug") << "\n";
+}
+else{
+	S("person") = N("$text",2);
+	S("conjug") = N("$text",5);
+	# "debug.txt" << "conjugation: " << S("person") << " " << S("conjug") << "\n";	
+}
+
+single();
+
+@RULES
+_conjugation <-
+	_LINE	### (1)
+	_LINE	### (2)
+	_LINE	### (3)
+	_classF	### (4)
+	_LINE	### (5)
+	_LINE	### (6)
+	_LINE	### (7)
+	_LINE	### (8)
+	@@
