@@ -15,7 +15,7 @@ SaveKB("pt-pronomes-auto.kbb",G("pronomes"),2);
 # Read in the hand edited kbb file
 ###############################################
 
-G("proedit") = getconcept(findroot(),"pronomes");
+G("proedit") = getconcept(findroot(),"pronomesedit");
 L("dict") = "pt-pronomes.dict";
 
 L("pronome") = down(G("proedit"));
@@ -23,8 +23,8 @@ while (L("pronome")) {
     L("pro") = conceptname(L("pronome"));
     L("dict") << L("pro") << " pro=";
     L("dict") << strval(L("pronome"),"type");
-    if (numval(L("pronome"),"p")) {
-        L("dict") << " p=" << numval(L("pronome"),"p");
+    if (strval(L("pronome"),"p")) {
+        L("dict") << " p=" << strval(L("pronome"),"p");
     }
     if (strval(L("pronome"),"n")) {
         L("dict") << " n=" << strval(L("pronome"),"n");
