@@ -1,0 +1,16 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:24:38
+# MODIFIED:
+###############################################
+
+@CODE
+
+if (G("$islastfile") || G("$isdirrun")) {
+    sortchilds(G("verbs"));
+    SaveKB("verbs.kbb",G("verbs"),2);
+}
+
+@@CODE

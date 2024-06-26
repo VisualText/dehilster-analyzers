@@ -1,0 +1,2465 @@
+<div class="content-card bg--w b-shad--default--d b-radius--10--d pv--10 ph--15 mb--30">
+ <h1 class="page-title">
+  Verbo Desejar
+ </h1>
+ <div class="verb-info">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio
+    </strong>
+    :
+    <span>
+     <span class="f">
+      desejando
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Particípio passado
+    </strong>
+    :
+    <span>
+     <span>
+     </span>
+     <span class="f">
+      desejado
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Infinitivo
+    </strong>
+    : desejar
+   </span>
+  </p>
+  <p class="verb-info--sec">
+   <span class="verb-info--detail">
+    <strong>
+     Tipo de verbo
+    </strong>
+    : regular
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Transitividade
+    </strong>
+    : transitivo direto,  transitivo direto e indireto,  intransitivo e  pronominal
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Separação silábica
+    </strong>
+    : de-se-
+    <u>
+     jar
+    </u>
+   </span>
+  </p>
+ </div>
+ <div class="conj-main" id="conjugacao">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         deseja
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejavas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejávamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejáveis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejavam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejaste
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejou
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejastes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejaras
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejáramos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejáreis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejarei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejarás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejará
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejaremos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejareis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejarão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejarias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejaríamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejaríeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejariam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu
+        </span>
+        <span class="f">
+         desejes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles
+        </span>
+        <span class="f">
+         desejem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu
+        </span>
+        <span class="f">
+         desejasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós
+        </span>
+        <span class="f">
+         desejássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós
+        </span>
+        <span class="f">
+         desejásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles
+        </span>
+        <span class="f">
+         desejassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu
+        </span>
+        <span class="f">
+         desejares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós
+        </span>
+        <span class="f">
+         desejarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós
+        </span>
+        <span class="f">
+         desejardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles
+        </span>
+        <span class="f">
+         desejarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseja
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseje
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejai
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         desejes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         deseje
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         desejem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         desejarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="mt--40">
+  <style>
+   @media (min-width:0px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:0;height:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:0;}}@media (min-width:270px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:250px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:320px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:300px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:356px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:336px;height:320px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:320px;}}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{position:sticky;overflow:hidden;padding:0px;padding-top:20px;z-index:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311::before{z-index:-1;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{margin:auto;position:unset;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div::before, #div-gpt-sg-f8ca454fb5a796542db0151b864a3311::after{top:0;position:absolute;}
+  </style>
+  <div class="ad-unit ad-unit--pt-br #div-gpt-sg-f8ca454fb5a796542db0151b864a3311" id="div-gpt-sg-f8ca454fb5a796542db0151b864a3311">
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação com pronome oblíquo átono o
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      desejando-o
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejo-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         deseja-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         deseja-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejai-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejava-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejávamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejávei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejavam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejei-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejaste-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejou-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejaste-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejara-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejáramo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejárei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejá-lo-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejá-lo-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejá-lo-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejá-lo-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejá-lo-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejá-lo-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejá-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejá-lo-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejá-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejá-lo-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejá-lo-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejá-lo-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu o
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu o
+        </span>
+        <span class="f">
+         desejes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele o
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós o
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós o
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles o
+        </span>
+        <span class="f">
+         desejem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu o
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu o
+        </span>
+        <span class="f">
+         desejasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele o
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós o
+        </span>
+        <span class="f">
+         desejássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós o
+        </span>
+        <span class="f">
+         desejásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles o
+        </span>
+        <span class="f">
+         desejassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu o
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu o
+        </span>
+        <span class="f">
+         desejares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele o
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós o
+        </span>
+        <span class="f">
+         desejarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós o
+        </span>
+        <span class="f">
+         desejardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles o
+        </span>
+        <span class="f">
+         desejarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseja-o
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseje-o
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejemo-lo
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejai-o
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejem-no
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         desejes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         deseje
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         desejem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         desejarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação pronominal
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      desejando-se
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal-reflexa">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejo-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejas-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         deseja-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejais-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejava-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejavas-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejava-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejávamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejáveis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejavam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejei-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejaste-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejou-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejastes-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejara-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejaras-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejara-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejáramo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejáreis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejaram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejar-me-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejar-te-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejar-se-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejar-nos-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejar-vos-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejar-se-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         desejar-me-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         desejar-te-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         desejar-se-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         desejar-nos-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         desejar-vos-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         desejar-se-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu me
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu te
+        </span>
+        <span class="f">
+         desejes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele se
+        </span>
+        <span class="f">
+         deseje
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós nos
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós vos
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles se
+        </span>
+        <span class="f">
+         desejem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu me
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu te
+        </span>
+        <span class="f">
+         desejasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele se
+        </span>
+        <span class="f">
+         desejasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós nos
+        </span>
+        <span class="f">
+         desejássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós vos
+        </span>
+        <span class="f">
+         desejásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles se
+        </span>
+        <span class="f">
+         desejassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu me
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu te
+        </span>
+        <span class="f">
+         desejares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele se
+        </span>
+        <span class="f">
+         desejar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós nos
+        </span>
+        <span class="f">
+         desejarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós vos
+        </span>
+        <span class="f">
+         desejardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles se
+        </span>
+        <span class="f">
+         desejarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseja-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         deseje-se
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejemo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejai-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejem-se
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não te
+        </span>
+        <span class="f">
+         desejes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         deseje
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não nos
+        </span>
+        <span class="f">
+         desejemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não vos
+        </span>
+        <span class="f">
+         desejeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         desejem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span class="f">
+         desejar-me
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejares-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejar-se
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejarmo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejardes-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         desejarem-se
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="content-reviewer">
+  Conteúdo revisto em fevereiro de 2017.
+                Lexicógrafa responsável:
+  <a href="/autor/flavia-neves/">
+   Flávia Neves
+  </a>
+ </div>
+</div>

@@ -1,0 +1,1668 @@
+<div class="content-card bg--w b-shad--default--d b-radius--10--d pv--10 ph--15 mb--30">
+ <h1 class="page-title">
+  Verbo Coordenar
+ </h1>
+ <div class="verb-info">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio
+    </strong>
+    :
+    <span>
+     <span class="f">
+      coordenando
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Particípio passado
+    </strong>
+    :
+    <span>
+     <span>
+     </span>
+     <span class="f">
+      coordenado
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Infinitivo
+    </strong>
+    : coordenar
+   </span>
+  </p>
+  <p class="verb-info--sec">
+   <span class="verb-info--detail">
+    <strong>
+     Tipo de verbo
+    </strong>
+    : regular
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Transitividade
+    </strong>
+    : transitivo
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Separação silábica
+    </strong>
+    : co-or-de-
+    <u>
+     nar
+    </u>
+   </span>
+  </p>
+ </div>
+ <div class="conj-main" id="conjugacao">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordeno
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordena
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenavas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenávamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenáveis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenavam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenaste
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenou
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenastes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenaras
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenáramos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenáreis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenarei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenarás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenará
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenaremos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenareis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenarão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenarias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenaríamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenaríeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenariam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu
+        </span>
+        <span class="f">
+         coordene
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu
+        </span>
+        <span class="f">
+         coordenes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele
+        </span>
+        <span class="f">
+         coordene
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós
+        </span>
+        <span class="f">
+         coordenemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós
+        </span>
+        <span class="f">
+         coordeneis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles
+        </span>
+        <span class="f">
+         coordenem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu
+        </span>
+        <span class="f">
+         coordenasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu
+        </span>
+        <span class="f">
+         coordenasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele
+        </span>
+        <span class="f">
+         coordenasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós
+        </span>
+        <span class="f">
+         coordenássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós
+        </span>
+        <span class="f">
+         coordenásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles
+        </span>
+        <span class="f">
+         coordenassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu
+        </span>
+        <span class="f">
+         coordenares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós
+        </span>
+        <span class="f">
+         coordenarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós
+        </span>
+        <span class="f">
+         coordenardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles
+        </span>
+        <span class="f">
+         coordenarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordena
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordene
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenai
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         coordenes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         coordene
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         coordenemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         coordeneis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         coordenem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         coordenarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="mt--40">
+  <style>
+   @media (min-width:0px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:0;height:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:0;}}@media (min-width:270px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:250px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:320px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:300px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:356px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:336px;height:320px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:320px;}}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{position:sticky;overflow:hidden;padding:0px;padding-top:20px;z-index:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311::before{z-index:-1;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{margin:auto;position:unset;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div::before, #div-gpt-sg-f8ca454fb5a796542db0151b864a3311::after{top:0;position:absolute;}
+  </style>
+  <div class="ad-unit ad-unit--pt-br #div-gpt-sg-f8ca454fb5a796542db0151b864a3311" id="div-gpt-sg-f8ca454fb5a796542db0151b864a3311">
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação com pronome oblíquo átono o
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      coordenando-o
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordeno-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordena-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordena-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenai-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenava-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenávamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenávei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenavam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenei-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenaste-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenou-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenaste-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordenara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordenara-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordenara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordenáramo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordenárei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordenaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordená-lo-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordená-lo-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordená-lo-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordená-lo-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordená-lo-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordená-lo-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         coordená-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         coordená-lo-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         coordená-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         coordená-lo-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         coordená-lo-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         coordená-lo-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu o
+        </span>
+        <span class="f">
+         coordene
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu o
+        </span>
+        <span class="f">
+         coordenes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele o
+        </span>
+        <span class="f">
+         coordene
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós o
+        </span>
+        <span class="f">
+         coordenemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós o
+        </span>
+        <span class="f">
+         coordeneis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles o
+        </span>
+        <span class="f">
+         coordenem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu o
+        </span>
+        <span class="f">
+         coordenasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu o
+        </span>
+        <span class="f">
+         coordenasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele o
+        </span>
+        <span class="f">
+         coordenasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós o
+        </span>
+        <span class="f">
+         coordenássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós o
+        </span>
+        <span class="f">
+         coordenásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles o
+        </span>
+        <span class="f">
+         coordenassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu o
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu o
+        </span>
+        <span class="f">
+         coordenares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele o
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós o
+        </span>
+        <span class="f">
+         coordenarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós o
+        </span>
+        <span class="f">
+         coordenardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles o
+        </span>
+        <span class="f">
+         coordenarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordena-o
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordene-o
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenemo-lo
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenai-o
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         coordenem-no
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         coordenes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         coordene
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         coordenemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         coordeneis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         coordenem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         coordenarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

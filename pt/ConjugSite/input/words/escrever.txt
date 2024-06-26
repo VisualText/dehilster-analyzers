@@ -1,0 +1,2458 @@
+<div class="content-card bg--w b-shad--default--d b-radius--10--d pv--10 ph--15 mb--30">
+ <h1 class="page-title">
+  Verbo Escrever
+ </h1>
+ <div class="verb-info">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio
+    </strong>
+    :
+    <span>
+     <span class="f">
+      escrevendo
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Particípio passado
+    </strong>
+    :
+    <span>
+     <span>
+     </span>
+     <span class="f">
+      escrito
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Infinitivo
+    </strong>
+    : escrever
+   </span>
+  </p>
+  <p class="verb-info--sec">
+   <span class="verb-info--detail">
+    <strong>
+     Tipo de verbo
+    </strong>
+    : regular
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Transitividade
+    </strong>
+    : transitivo direto,  transitivo indireto,  transitivo direto e indireto,  intransitivo e  pronominal
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Separação silábica
+    </strong>
+    : es-cre-
+    <u>
+     ver
+    </u>
+   </span>
+  </p>
+ </div>
+ <div class="conj-main" id="conjugacao">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreves
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreve
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escreveis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrevem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevíamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevíeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreviam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevi
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreveste
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreveu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevestes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevera
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreveras
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevera
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevêramos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevêreis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escreverei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreverás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreverá
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escreveremos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevereis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreverão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escreveria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreverias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreveria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escreveríamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escreveríeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveriam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu
+        </span>
+        <span class="f">
+         escrevesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós
+        </span>
+        <span class="f">
+         escrevêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós
+        </span>
+        <span class="f">
+         escrevêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles
+        </span>
+        <span class="f">
+         escrevessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu
+        </span>
+        <span class="f">
+         escreveres
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós
+        </span>
+        <span class="f">
+         escrevermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós
+        </span>
+        <span class="f">
+         escreverdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles
+        </span>
+        <span class="f">
+         escreverem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreve
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreva
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevei
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         escreva
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escrever
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escreveres
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escrever
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escrevermos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escreverdes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         escreverem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="mt--40">
+  <style>
+   @media (min-width:0px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:0;height:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:0;}}@media (min-width:270px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:250px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:320px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:300px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:356px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:336px;height:320px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:320px;}}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{position:sticky;overflow:hidden;padding:0px;padding-top:20px;z-index:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311::before{z-index:-1;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{margin:auto;position:unset;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div::before, #div-gpt-sg-f8ca454fb5a796542db0151b864a3311::after{top:0;position:absolute;}
+  </style>
+  <div class="ad-unit ad-unit--pt-br #div-gpt-sg-f8ca454fb5a796542db0151b864a3311" id="div-gpt-sg-f8ca454fb5a796542db0151b864a3311">
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação com pronome oblíquo átono o
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      escrevendo-o
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevo-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreve-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreve-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrevem-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevia-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevia-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevia-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevíamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevíei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreviam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevi-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreveste-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreveu-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escreveste-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevera-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevera-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevera-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevêramo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevêrei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevê-lo-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevê-lo-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevê-lo-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevê-lo-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevê-lo-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrevê-lo-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevê-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevê-lo-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevê-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevê-lo-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevê-lo-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrevê-lo-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu o
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu o
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele o
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós o
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós o
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles o
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu o
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu o
+        </span>
+        <span class="f">
+         escrevesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele o
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós o
+        </span>
+        <span class="f">
+         escrevêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós o
+        </span>
+        <span class="f">
+         escrevêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles o
+        </span>
+        <span class="f">
+         escrevessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu o
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu o
+        </span>
+        <span class="f">
+         escreveres
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele o
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós o
+        </span>
+        <span class="f">
+         escrevermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós o
+        </span>
+        <span class="f">
+         escreverdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles o
+        </span>
+        <span class="f">
+         escreverem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreve-o
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreva-o
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevamo-lo
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevei-o
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevam-no
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         escreva
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escrever
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escreveres
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escrever
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escrevermos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escreverdes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         escreverem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação pronominal
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      escrevendo-se
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal-reflexa">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevo-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreves-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreve-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escreveis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrevem-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevia-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrevias-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevia-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevíamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevíeis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreviam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevi-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreveste-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escreveu-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevemo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevestes-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrevera-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escreveras-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrevera-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrevêramo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrevêreis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escreveram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrever-me-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrever-te-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrever-se-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrever-nos-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrever-vos-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrever-se-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         escrever-me-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         escrever-te-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         escrever-se-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         escrever-nos-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         escrever-vos-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         escrever-se-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu me
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu te
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele se
+        </span>
+        <span class="f">
+         escreva
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós nos
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós vos
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles se
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu me
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu te
+        </span>
+        <span class="f">
+         escrevesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele se
+        </span>
+        <span class="f">
+         escrevesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós nos
+        </span>
+        <span class="f">
+         escrevêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós vos
+        </span>
+        <span class="f">
+         escrevêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles se
+        </span>
+        <span class="f">
+         escrevessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu me
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu te
+        </span>
+        <span class="f">
+         escreveres
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele se
+        </span>
+        <span class="f">
+         escrever
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós nos
+        </span>
+        <span class="f">
+         escrevermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós vos
+        </span>
+        <span class="f">
+         escreverdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles se
+        </span>
+        <span class="f">
+         escreverem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreve-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreva-se
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevamo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevei-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevam-se
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não te
+        </span>
+        <span class="f">
+         escrevas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         escreva
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não nos
+        </span>
+        <span class="f">
+         escrevamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não vos
+        </span>
+        <span class="f">
+         escrevais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         escrevam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span class="f">
+         escrever-me
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreveres-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrever-se
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escrevermo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreverdes-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         escreverem-se
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

@@ -1,0 +1,2458 @@
+<div class="content-card bg--w b-shad--default--d b-radius--10--d pv--10 ph--15 mb--30">
+ <h1 class="page-title">
+  Verbo Estender
+ </h1>
+ <div class="verb-info">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio
+    </strong>
+    :
+    <span>
+     <span class="f">
+      estendendo
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Particípio passado
+    </strong>
+    :
+    <span>
+     <span>
+     </span>
+     <span class="f">
+      estendido
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Infinitivo
+    </strong>
+    : estender
+   </span>
+  </p>
+  <p class="verb-info--sec">
+   <span class="verb-info--detail">
+    <strong>
+     Tipo de verbo
+    </strong>
+    : regular
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Transitividade
+    </strong>
+    : transitivo e  pronominal
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Separação silábica
+    </strong>
+    : es-ten-
+    <u>
+     der
+    </u>
+   </span>
+  </p>
+ </div>
+ <div class="conj-main" id="conjugacao">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estende
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendíamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendíeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendiam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendi
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendeste
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendeu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendestes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendera
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estenderas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendera
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendêramos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendêreis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estenderei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estenderás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estenderá
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estenderemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendereis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estenderia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estenderias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estenderia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estenderíamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estenderíeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderiam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu
+        </span>
+        <span class="f">
+         estendas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós
+        </span>
+        <span class="f">
+         estendais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles
+        </span>
+        <span class="f">
+         estendam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu
+        </span>
+        <span class="f">
+         estendesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós
+        </span>
+        <span class="f">
+         estendêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós
+        </span>
+        <span class="f">
+         estendêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles
+        </span>
+        <span class="f">
+         estendessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu
+        </span>
+        <span class="f">
+         estenderes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós
+        </span>
+        <span class="f">
+         estendermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós
+        </span>
+        <span class="f">
+         estenderdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles
+        </span>
+        <span class="f">
+         estenderem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estende
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenda
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendei
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estendas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estenda
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estendais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estendam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estender
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estenderes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estender
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estendermos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estenderdes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estenderem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="mt--40">
+  <style>
+   @media (min-width:0px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:0;height:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:0;}}@media (min-width:270px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:250px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:320px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:300px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:356px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:336px;height:320px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:320px;}}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{position:sticky;overflow:hidden;padding:0px;padding-top:20px;z-index:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311::before{z-index:-1;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{margin:auto;position:unset;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div::before, #div-gpt-sg-f8ca454fb5a796542db0151b864a3311::after{top:0;position:absolute;}
+  </style>
+  <div class="ad-unit ad-unit--pt-br #div-gpt-sg-f8ca454fb5a796542db0151b864a3311" id="div-gpt-sg-f8ca454fb5a796542db0151b864a3311">
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação com pronome oblíquo átono o
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      estendendo-o
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendo-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estende-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estende-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendem-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendia-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendia-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendia-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendíamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendíei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendiam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendi-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendeste-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendeu-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendeste-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendera-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendera-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendera-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendêramo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendêrei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendê-lo-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendê-lo-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendê-lo-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendê-lo-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendê-lo-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendê-lo-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendê-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendê-lo-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendê-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendê-lo-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendê-lo-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendê-lo-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu o
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu o
+        </span>
+        <span class="f">
+         estendas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele o
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós o
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós o
+        </span>
+        <span class="f">
+         estendais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles o
+        </span>
+        <span class="f">
+         estendam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu o
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu o
+        </span>
+        <span class="f">
+         estendesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele o
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós o
+        </span>
+        <span class="f">
+         estendêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós o
+        </span>
+        <span class="f">
+         estendêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles o
+        </span>
+        <span class="f">
+         estendessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu o
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu o
+        </span>
+        <span class="f">
+         estenderes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele o
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós o
+        </span>
+        <span class="f">
+         estendermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós o
+        </span>
+        <span class="f">
+         estenderdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles o
+        </span>
+        <span class="f">
+         estenderem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estende-o
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenda-o
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendamo-lo
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendei-o
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendam-no
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estendas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estenda
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estendais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estendam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estender
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estenderes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estender
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estendermos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estenderdes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estenderem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação pronominal
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      estendendo-se
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal-reflexa">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendo-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendes-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estende-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendeis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendem-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendia-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendias-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendia-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendíamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendíeis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estendiam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendi-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estendeste-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendeu-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendemo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendestes-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estendera-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estenderas-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estendera-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estendêramo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estendêreis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estenderam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estender-me-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estender-te-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estender-se-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estender-nos-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estender-vos-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estender-se-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estender-me-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estender-te-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estender-se-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estender-nos-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estender-vos-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estender-se-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu me
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu te
+        </span>
+        <span class="f">
+         estendas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele se
+        </span>
+        <span class="f">
+         estenda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós nos
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós vos
+        </span>
+        <span class="f">
+         estendais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles se
+        </span>
+        <span class="f">
+         estendam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu me
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu te
+        </span>
+        <span class="f">
+         estendesses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele se
+        </span>
+        <span class="f">
+         estendesse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós nos
+        </span>
+        <span class="f">
+         estendêssemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós vos
+        </span>
+        <span class="f">
+         estendêsseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles se
+        </span>
+        <span class="f">
+         estendessem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu me
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu te
+        </span>
+        <span class="f">
+         estenderes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele se
+        </span>
+        <span class="f">
+         estender
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós nos
+        </span>
+        <span class="f">
+         estendermos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós vos
+        </span>
+        <span class="f">
+         estenderdes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles se
+        </span>
+        <span class="f">
+         estenderem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estende-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenda-se
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendamo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendei-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendam-se
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não te
+        </span>
+        <span class="f">
+         estendas
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         estenda
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não nos
+        </span>
+        <span class="f">
+         estendamos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não vos
+        </span>
+        <span class="f">
+         estendais
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         estendam
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span class="f">
+         estender-me
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenderes-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estender-se
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estendermo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenderdes-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estenderem-se
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

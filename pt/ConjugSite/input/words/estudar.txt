@@ -1,0 +1,2458 @@
+<div class="content-card bg--w b-shad--default--d b-radius--10--d pv--10 ph--15 mb--30">
+ <h1 class="page-title">
+  Verbo Estudar
+ </h1>
+ <div class="verb-info">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio
+    </strong>
+    :
+    <span>
+     <span class="f">
+      estudando
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Particípio passado
+    </strong>
+    :
+    <span>
+     <span>
+     </span>
+     <span class="f">
+      estudado
+     </span>
+    </span>
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Infinitivo
+    </strong>
+    : estudar
+   </span>
+  </p>
+  <p class="verb-info--sec">
+   <span class="verb-info--detail">
+    <strong>
+     Tipo de verbo
+    </strong>
+    : regular
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Transitividade
+    </strong>
+    : transitivo direto,  intransitivo e  pronominal
+   </span>
+   <span class="verb-info--detail">
+    <strong>
+     Separação silábica
+    </strong>
+    : es-tu-
+    <u>
+     dar
+    </u>
+   </span>
+  </p>
+ </div>
+ <div class="conj-main" id="conjugacao">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estuda
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudais
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudavas
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudava
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudávamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudáveis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudavam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudaste
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudou
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudastes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudaras
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudara
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudáramos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudáreis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudarei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudarás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudará
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudaremos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudareis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudarão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudarias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudaria
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudaríamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudaríeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudariam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu
+        </span>
+        <span class="f">
+         estudes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles
+        </span>
+        <span class="f">
+         estudem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu
+        </span>
+        <span class="f">
+         estudasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós
+        </span>
+        <span class="f">
+         estudássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós
+        </span>
+        <span class="f">
+         estudásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles
+        </span>
+        <span class="f">
+         estudassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu
+        </span>
+        <span class="f">
+         estudares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós
+        </span>
+        <span class="f">
+         estudarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós
+        </span>
+        <span class="f">
+         estudardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles
+        </span>
+        <span class="f">
+         estudarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estuda
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estude
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudai
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estudes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estude
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não
+        </span>
+        <span class="f">
+         estudem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por
+        </span>
+        <span class="f">
+         estudarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="mt--40">
+  <style>
+   @media (min-width:0px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:0;height:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:0;}}@media (min-width:270px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:250px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:320px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:300px;height:290px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:290px;}}@media (min-width:356px){#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{width:336px;height:320px;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{height:320px;}}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311{position:sticky;overflow:hidden;padding:0px;padding-top:20px;z-index:0;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311::before{z-index:-1;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div{margin:auto;position:unset;}#div-gpt-sg-f8ca454fb5a796542db0151b864a3311 > div::before, #div-gpt-sg-f8ca454fb5a796542db0151b864a3311::after{top:0;position:absolute;}
+  </style>
+  <div class="ad-unit ad-unit--pt-br #div-gpt-sg-f8ca454fb5a796542db0151b864a3311" id="div-gpt-sg-f8ca454fb5a796542db0151b864a3311">
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação com pronome oblíquo átono o
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      estudando-o
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudo-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estuda-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estuda-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudai-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudava-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudava-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudávamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudávei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudavam-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudei-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudaste-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudou-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudaste-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudara-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudara-o
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudáramo-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudárei-lo
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram-no
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudá-lo-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudá-lo-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudá-lo-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudá-lo-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudá-lo-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudá-lo-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudá-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudá-lo-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudá-lo-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudá-lo-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudá-lo-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudá-lo-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu o
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu o
+        </span>
+        <span class="f">
+         estudes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele o
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós o
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós o
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles o
+        </span>
+        <span class="f">
+         estudem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu o
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu o
+        </span>
+        <span class="f">
+         estudasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele o
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós o
+        </span>
+        <span class="f">
+         estudássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós o
+        </span>
+        <span class="f">
+         estudásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles o
+        </span>
+        <span class="f">
+         estudassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu o
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu o
+        </span>
+        <span class="f">
+         estudares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele o
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós o
+        </span>
+        <span class="f">
+         estudarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós o
+        </span>
+        <span class="f">
+         estudardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles o
+        </span>
+        <span class="f">
+         estudarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estuda-o
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estude-o
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudemo-lo
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudai-o
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudem-no
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estudes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estude
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não o
+        </span>
+        <span class="f">
+         estudem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudar
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudares
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudar
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudarmos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudardes
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         por o
+        </span>
+        <span class="f">
+         estudarem
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <h2 class="pronominal-titulo">
+  Conjugação pronominal
+ </h2>
+ <div class="verb-info mt--20">
+  <p class="verb-info--main">
+   <span class="verb-info--detail">
+    <strong>
+     Gerúndio:
+    </strong>
+    <span>
+     <span class="f">
+      estudando-se
+     </span>
+    </span>
+   </span>
+  </p>
+ </div>
+ <div class="" id="conjugacao-pronominal-reflexa">
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Indicativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudo-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudas-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estuda-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudais-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudava-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudavas-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudava-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudávamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudáveis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudavam-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudei-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudaste-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudou-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudamo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudastes-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Mais-que-perfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudara-me
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudaras-te
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudara-se
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudáramo-nos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudáreis-vos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudaram-se
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudar-me-ei
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudar-te-ás
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudar-se-á
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudar-nos-emos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudar-vos-eis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudar-se-ão
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro do Pretérito
+      </h4>
+      <p>
+       <span>
+        <span>
+         eu
+        </span>
+        <span class="f">
+         estudar-me-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         tu
+        </span>
+        <span class="f">
+         estudar-te-ias
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         ele
+        </span>
+        <span class="f">
+         estudar-se-ia
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         nós
+        </span>
+        <span class="f">
+         estudar-nos-íamos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         vós
+        </span>
+        <span class="f">
+         estudar-vos-íeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         eles
+        </span>
+        <span class="f">
+         estudar-se-iam
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-three">
+    <h3 class="verb-tense verb-tense--title">
+     Subjuntivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Presente
+      </h4>
+      <p>
+       <span>
+        <span>
+         que eu me
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que tu te
+        </span>
+        <span class="f">
+         estudes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que ele se
+        </span>
+        <span class="f">
+         estude
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que nós nos
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que vós vos
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         que eles se
+        </span>
+        <span class="f">
+         estudem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Pretérito Imperfeito
+      </h4>
+      <p>
+       <span>
+        <span>
+         se eu me
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se tu te
+        </span>
+        <span class="f">
+         estudasses
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se ele se
+        </span>
+        <span class="f">
+         estudasse
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se nós nos
+        </span>
+        <span class="f">
+         estudássemos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se vós vos
+        </span>
+        <span class="f">
+         estudásseis
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         se eles se
+        </span>
+        <span class="f">
+         estudassem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Futuro
+      </h4>
+      <p>
+       <span>
+        <span>
+         quando eu me
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando tu te
+        </span>
+        <span class="f">
+         estudares
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando ele se
+        </span>
+        <span class="f">
+         estudar
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando nós nos
+        </span>
+        <span class="f">
+         estudarmos
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando vós vos
+        </span>
+        <span class="f">
+         estudardes
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         quando eles se
+        </span>
+        <span class="f">
+         estudarem
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="conj-row">
+   <div class="col-two-third">
+    <h3 class="verb-tense verb-tense--title">
+     Imperativo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Afirmativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estuda-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estude-se
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudemo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudai-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudem-se
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Imperativo Negativo
+      </h4>
+      <p>
+       <span>
+        --
+       </span>
+       <br/>
+       <span>
+        <span>
+         não te
+        </span>
+        <span class="f">
+         estudes
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         estude
+        </span>
+        <span>
+         você
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não nos
+        </span>
+        <span class="f">
+         estudemos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não vos
+        </span>
+        <span class="f">
+         estudeis
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span>
+         não se
+        </span>
+        <span class="f">
+         estudem
+        </span>
+        <span>
+         vocês
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-one-third mt--20--m">
+    <h3 class="verb-tense verb-tense--title">
+     Infinitivo
+    </h3>
+    <div>
+     <div class="verb-col">
+      <h4 class="verb-tense verb-tense--subtitle">
+       Infinitivo Pessoal
+      </h4>
+      <p>
+       <span>
+        <span class="f">
+         estudar-me
+        </span>
+        <span>
+         eu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudares-te
+        </span>
+        <span>
+         tu
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudar-se
+        </span>
+        <span>
+         ele
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudarmo-nos
+        </span>
+        <span>
+         nós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudardes-vos
+        </span>
+        <span>
+         vós
+        </span>
+       </span>
+       <br/>
+       <span>
+        <span class="f">
+         estudarem-se
+        </span>
+        <span>
+         eles
+        </span>
+       </span>
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

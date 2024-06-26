@@ -1,0 +1,19 @@
+###############################################
+# FILE: kbConjugation
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:38:0
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _titleZone _tenseZone
+
+@POST
+L("person") = CleanInfo(N("person"));
+L("conjug") = CleanInfo(N("conjug"));
+AddConjugationTense(G("word"),X("title",2),X("tense",3),L("person"),L("conjug"));
+
+@RULES
+_xNIL <-
+	_conjugation	### (1)
+	@@

@@ -1,0 +1,58 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 12:59:13
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_classF");
+
+@RULES
+_xNIL <-
+	span	### (1)
+	class	### (2)
+	\=		### (3)
+	\"		### (4)
+	f		### (5)
+	@@
+
+@POST
+pnrename(X(2),"_verbTenseSubtitle");
+
+@RULES
+_xNIL <-
+	verb		### (1)
+	\-			### (2)
+	tense		### (3)
+	\-			### (4)
+	\-			### (5)
+	subtitle	### (6)
+	@@
+
+@POST
+pnrename(X(2),"_verbTenseTitle");
+
+@RULES
+_xNIL <-
+	verb		### (1)
+	\-			### (2)
+	tense		### (3)
+	\-			### (4)
+	\-			### (5)
+	title	### (6)
+	@@
+
+@POST
+pnrename(X(2),"_pronome");
+
+@RULES
+_pronome <-
+	conjugação	### (1)
+	com			### (3)
+	pronome		### (5)
+	@@
+		

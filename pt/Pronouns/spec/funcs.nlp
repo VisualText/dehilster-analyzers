@@ -1,0 +1,101 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-26 7:49:16
+# MODIFIED:
+###############################################
+
+@DECL
+
+AddAttrs(L("node"),L("con"),L("pro")) {
+    L("type") = GetType(L("node"));
+    AddUniqueStr(L("con"),"type",L("type"));
+    if (strstartswith(L("pro"),"v")) {
+        AddUniqueNum(L("con"),"p",2);
+        if (strendswith(L("pro"),"s")) {
+            AddUniqueStr(L("con"),"n","p");
+        }
+        else {
+            AddUniqueStr(L("con"),"n","s");
+        }
+        return;
+    }
+    if (strstartswith(L("pro"),"no") || L("pro") == "nós") {
+        AddUniqueNum(L("con"),"p",3);
+        if (strendswith(L("pro"),"s")) {
+            AddUniqueStr(L("con"),"n","p");
+        }
+        else {
+            AddUniqueStr(L("con"),"n","s");
+        }
+        return;
+    }
+    if (strstartswith(L("pro"),"te") || strstartswith(L("pro"),"ti")) {
+        AddUniqueNum(L("con"),"p",2);
+        if (strendswith(L("pro"),"s")) {
+            AddUniqueStr(L("con"),"n","p");
+        }
+        else {
+            AddUniqueStr(L("con"),"n","s");
+        }
+        return;
+    }
+    if (strendswith(L("pro"),"e") || strendswith(L("pro"),"es") || strendswith(L("pro"),"o") || strendswith(L("pro"),"os")) {
+        AddUniqueStr(L("con"),"g","m");
+    }
+    else if (strendswith(L("pro"),"a") || strendswith(L("pro"),"as")) {
+        AddUniqueStr(L("con"),"g","f");
+    }
+}
+
+GetType(L("node"))
+{
+    while (L("node")) {
+        if (pnname(L("node")) == "_title") {
+            L("phrase") = pnvar(L("node"),"title");
+            L("type") = TranslatePronounType(L("phrase"));
+            "debug.txt" << "   found: " << L("phrase") << " type: " << L("type") << "\n";
+            return TranslatePronounType(L("phrase"));
+        }
+        L("node") = pnprev(L("node"));
+    }
+    return 0;
+}
+
+TranslatePronounType(L("phrase"))
+{
+    if (strcontains("Subject", L("phrase"))) {
+        return "p";
+    }
+    if (strcontains("Direct", L("phrase"))) {
+        return "od";
+    }
+    if (strcontains("Indirect", L("phrase"))) {
+        return "oi";
+    }
+    if (strcontains("Reflexive", L("phrase"))) {
+        return "r";
+    }
+    if (strcontains("Prepositional", L("phrase"))) {
+        return "pr";
+    }
+    if (strcontains("Possessive", L("phrase"))) {
+        return "p";
+    }
+    if (strcontains("Demonstrative", L("phrase"))) {
+        return "d";
+    }
+    if (strcontains("Relative", L("phrase"))) {
+        return "rl";
+    }
+    if (strcontains("Interrogative", L("phrase"))) {
+        return "i";
+    }
+    if (strcontains("Indefinite", L("phrase"))) {
+        return "id";
+    }
+    return "1";
+}
+
+@@DECL

@@ -1,0 +1,13 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-26 7:35:47
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("pronomes") = getconcept(findroot(),"pronomes");
+
+@@CODE

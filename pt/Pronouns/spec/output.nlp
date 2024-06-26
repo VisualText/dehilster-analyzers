@@ -1,0 +1,39 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-26 7:36:32
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("pronomes"));
+SaveKB("pt-pronomes-auto.kbb",G("pronomes"),2);
+
+###############################################
+# Read in the hand edited kbb file
+###############################################
+
+G("proedit") = getconcept(findroot(),"pronomes");
+L("dict") = "pt-pronomes.dict";
+
+L("pronome") = down(G("proedit"));
+while (L("pronome")) {
+    L("pro") = conceptname(L("pronome"));
+    L("dict") << L("pro") << " pro=";
+    L("dict") << strval(L("pronome"),"type");
+    if (numval(L("pronome"),"p")) {
+        L("dict") << " p=" << numval(L("pronome"),"p");
+    }
+    if (strval(L("pronome"),"n")) {
+        L("dict") << " n=" << strval(L("pronome"),"n");
+    }
+    if (strval(L("pronome"),"g")) {
+        L("dict") << " g=" << strval(L("pronome"),"g");
+    }
+    L("dict") << "\n";
+    L("pronome") = next(L("pronome"));
+}
+
+@@CODE
