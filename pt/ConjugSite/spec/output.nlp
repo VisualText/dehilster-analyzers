@@ -8,7 +8,7 @@
 
 @CODE
 
-if (G("$islastfile") || G("$isdirrun")) {
+if (G("$islastfile") || !G("$isdirrun")) {
     sortchilds(G("verbs"));
     SaveKB("verbs.kbb",G("verbs"),2);
 }

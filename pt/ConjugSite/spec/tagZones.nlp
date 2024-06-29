@@ -1,0 +1,21 @@
+###############################################
+# FILE: tagZones
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:31:48
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_pronomeZone <-
+	_pronome					### (1)
+	_xWILD [fail=(_pronome)]	### (2)
+	@@
+
+@RULES
+_detailZone <-
+	_detail									### (1)
+	_xWILD [fail=(_detail _verbTenseTitle)]	### (2)
+	@@

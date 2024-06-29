@@ -1,0 +1,27 @@
+###############################################
+# FILE: details
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-27 7:41:14
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _detailZone
+
+@POST
+X("detail",2) = N("$text",2);
+
+@RULES
+_xNIL <-
+	_strong	### (1)
+	_LINE	### (2)
+	@@
+
+@POST
+X("value",2) = N("$text",2);
+
+@RULES
+_xNIL <-
+	_classF	### (1)
+	_LINE	### (2)
+	@@

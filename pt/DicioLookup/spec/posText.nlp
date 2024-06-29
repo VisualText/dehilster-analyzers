@@ -1,0 +1,29 @@
+###############################################
+# FILE: posText
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-28 10:54:38
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+pnrename(N(2),"_posText");
+
+@RULES
+_xNIL <-
+	_classCL
+	_LINE
+	@@
+
+@POST
+AddVerbAttrs(N("$text",3));
+pnrename(N(3),"_verbo");
+
+@RULES
+_xNIL <-
+	_flexão
+	_LINE
+	_LINE
+	@@

@@ -1,0 +1,139 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-28 10:57:16
+# MODIFIED:
+###############################################
+
+@DECL
+
+AddVerbAttrs(L("root")) {
+    L("con") = MakeCountCon(G("word"),"pos");
+    AddUniqueStr(L("con"),"pos","v");
+    AddUniqueStr(L("con"),"root",L("root"));
+}
+
+AddWordAttrs(L("text")) {
+    L("con") = POS(L("text"));
+    AddUniqueStr(L("con"),"text",L("text"));
+}
+
+POS(L("text")) {
+    L("con") = MakeCountCon(G("word"),"pos");
+
+    if (strstartswith(L("text"), "verb")) {
+        L("con") = AddPOS(L("con"),"v");
+        VerbType(L("con"),L("text"));
+    } else if (strstartswith(L("text"), "subst")) {
+        L("con") = AddPOS(L("con"),"s");
+        NounType(L("con"),L("text"));
+    } else if (strstartswith(L("text"), "adj")) {
+        L("con") = AddPOS(L("con"),"adj");
+    } else if (strstartswith(L("text"), "adv")) {
+        L("con") = AddPOS(L("con"),"adv");
+    } else if (strstartswith(L("text"), "pron")) {
+        L("con") = AddPOS(L("con"),"pro");
+        PronounType(L("con"),L("text"));
+    } else if (strstartswith(L("text"), "prep")) {
+        L("con") = AddPOS(L("con"),"prep");
+    } else if (strstartswith(L("text"), "conj")) {
+        L("con") = AddPOS(L("con"),"conj");
+    } else if (strstartswith(L("text"), "interj")) {
+        L("con") = AddPOS(L("con"),"inter");
+    } else if (strstartswith(L("text"), "art")) {
+        L("con") = AddPOS(L("con"),"art");
+    } else if (strstartswith(L("text"), "num")) {
+        L("con") = AddPOS(L("con"),"num");
+    } else if (strstartswith(L("text"), "pronom")) {
+        L("con") = AddPOS(L("con"),"pronom");
+    } else if (strstartswith(L("text"), "adv")) {
+        L("con") = AddPOS(L("con"),"adv");
+    } else if (strstartswith(L("text"), "prep")) {
+        L("con") = AddPOS(L("con"),"prep");
+    } else if (strstartswith(L("text"), "conj")) {
+        L("con") = AddPOS(L("con"),"conj");
+    } else if (strstartswith(L("text"), "interj")) {
+        L("con") = AddPOS(L("con"),"interj");
+    } else if (strstartswith(L("text"), "art")) {
+        L("con") = AddPOS(L("con"),"art");
+    } else if (strstartswith(L("text"), "num")) {
+        L("con") = AddPOS(L("con"),"num");
+    }
+    return L("con");
+}
+
+AddPOS(L("con"),L("pos")) {
+    addstrval(L("con"),"pos",L("pos"));
+    return L("con");
+}
+
+VerbType(L("con"),L("text"))
+{
+    if (strcontains("regência múltipla", L("text"))) {
+        addstrval(L("con"),"tipo","rm");
+    }
+    if (strcontains("transitivo direto", L("text"))) {
+        addstrval(L("con"),"tipo","td");
+    }
+    if (strcontains("transitivo indireto", L("text"))) {
+        addstrval(L("con"),"tipo","ti");
+    }
+    if (strcontains("bitransitivo", L("text"))) {
+        addstrval(L("con"),"tipo","bi");
+    }
+    if (strcontains("pronominal", L("text"))) {
+        addstrval(L("con"),"tipo","pro");
+    }
+    if (strcontains("intransitivo", L("text"))) {
+        addstrval(L("con"),"tipo","i");
+    }
+}
+
+NounType(L("con"),L("text"))
+{
+    if (strcontains("masc", L("text"))) {
+        addstrval(L("con"),"gen","m");
+    }
+    if (strcontains("fem", L("text"))) {
+        addstrval(L("con"),"gen","f");
+    }
+
+}
+
+PronounType(L("con"),L("text"))
+{
+    if (strcontains("indefinido", L("text"))) {
+        L("abbrev") = "id";
+    }
+    if (strcontains("Direct", L("text"))) {
+        L("abbrev") = "od";
+    }
+    if (strcontains("Indirect", L("text"))) {
+        L("abbrev") = "oi";
+    }
+    if (strcontains("Reflexive", L("text"))) {
+        L("abbrev") = "r";
+    }
+    if (strcontains("Prepositional", L("text"))) {
+        L("abbrev") = "pr";
+    }
+    if (strcontains("Possessive", L("text"))) {
+        L("abbrev") = "p";
+    }
+    if (strcontains("Demonstrative", L("text"))) {
+        L("abbrev") = "d";
+    }
+    if (strcontains("Relative", L("text"))) {
+        L("abbrev") = "rl";
+    }
+    if (strcontains("Interrogative", L("text"))) {
+        L("abbrev") = "i";
+    }
+    if (strcontains("Indefinite", L("text"))) {
+        L("abbrev") = "id";
+    }
+    addstrval(L("con"),"type",L("abbrev"));
+}
+
+@@DECL

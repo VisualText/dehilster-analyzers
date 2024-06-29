@@ -12,11 +12,24 @@ G("verbs") = getconcept(findroot(),"verbs");
 
 L("verb") = down(G("verbs"));
 
+L("out") = "pt-verbs1000.dict"
+
 while (L("verb")) {
+    L("word") = conceptname(L("verb"));
+    L("details") = getconcept(L("verb"),"details");
+    L("inf") = strval(L("details"),"inf");
+
+    L("ger") = strval(L("details"),"ger");
+     OutputWord(L("out"),L("ger"),L("inf"));
+    L("part") = strval(L("details"),"part");
+     OutputWord(L("out"),L("part"),L("inf"));
+
     L("conjugation") = down(L("verb"));
-    L("root") = conceptname(L("verb"));
     while (L("conjugation")) {
-        "pt-verbs1000.dict" << conceptname(L("conjugation")) << " verb=1 root=" << L("root") << "\n"; 
+        L("conjug") = conceptname(L("conjugation"));
+        if (L("conjug") != "details") {
+            OutputWord(L("out"),L("conjug"),L("inf"));
+        }
         L("conjugation") = next(L("conjugation"));
     }
     L("verb") = next(L("verb"));

@@ -1,0 +1,19 @@
+###############################################
+# FILE: details
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-27 7:41:14
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _detailZone _LINE _value
+
+@POST
+if (X("detail",2) == "Transitividade") {
+	single();
+}
+
+@RULES
+_trans <-
+	_xWILD [fail=(\, e)]
+	@@

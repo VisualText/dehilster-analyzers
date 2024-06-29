@@ -1,0 +1,18 @@
+###############################################
+# FILE: word
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-28 11:35:21
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+G("word") = getconcept(G("words"),N("$text",2));
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_LINE	### (2)
+	@@
