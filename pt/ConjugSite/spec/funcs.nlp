@@ -17,6 +17,60 @@ CleanInfo(L("info")) {
     return L("inf");
 }
 
+DetailAbbrev(L("detail")) {
+    if (L("detail") == "Gerúndio") {
+        return "ger";
+    }
+    else if (L("detail") == "Particípio passado") {
+        return "part";
+    }
+    else if (L("detail") == "Infinitivo") {
+        return "inf";
+    }
+    else if (L("detail") == "Tipo de verbo") {
+        return "tipo";
+    }
+    else if (L("detail") == "Transitividade") {
+        return "trans";
+    }
+    else {
+        return L("detail");
+    }
+}
+
+TransAbbrev(L("trans")) {
+    if (L("trans") == "transitivo direto") {
+        return "dir";
+    }
+    else if (L("trans") == "intransitivo") {
+        return "intr";
+    }
+    else if (L("trans") == "pronominal") {
+        return "pro";
+    }
+    else {
+        return L("trans");
+    }
+}
+
+AddDetail(L("word"),L("detail"),L("value"),L("trans")) {
+    if (!strcontains("silábica",L("detail"))) {
+        L("abbrev") = DetailAbbrev(L("detail"));
+        L("con") = getconcept(L("word"),"details");
+        if (L("trans") == 1) {
+            AddUniqueStr(L("con"),L("abbrev"),TransAbbrev(L("value")));
+        }
+        else if (L("trans") == 0 && L("abbrev") != "trans") {
+            AddUniqueStr(L("con"),L("abbrev"),L("value"));
+        }
+    }
+}
+
+AddTrans(L("word"),L("trans")) {
+    L("con") = getconcept(L("word"),"details");
+    AddUniqueStr(L("con"),"trans",L("trans"));
+}
+
 AddConjugationTense(L("word"),L("title"),L("tense"),L("person"),L("conjugation")) {
     "debug.txt" << "AddConjugationTense: " << conceptname(L("word")) << " ti: " << L("title")<< " ten: " << L("tense") << " " << L("person") << " " << L("conjugation") << "\n";
 

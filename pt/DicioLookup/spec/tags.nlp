@@ -1,0 +1,32 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-28 10:49:25
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_classCL");
+
+@RULES
+_xNIL <-
+	class	### (1)
+	\=		### (2)
+	\"		### (3)
+	cl		### (4)
+	\"		### (5)
+	@@
+
+@POST
+pnrename(X(2),"_flexão");
+
+@RULES
+_xNIL <-
+	flexão	### (1)
+	do		### (2)
+	verbo	### (3)
+	@@
+		

@@ -9,6 +9,29 @@
 @NODES _LINE
 
 @POST
+pnrename(X(2),"_strong");
+
+@RULES
+_xNIL <-
+	\<		### (1)
+	strong	### (2)
+	\>		### (3)
+	@@
+		
+@POST
+pnrename(X(2),"_detail");
+
+@RULES
+_xNIL <-
+	verb	### (1)
+	\-		### (2)
+	info	### (3)
+	\-		### (4)
+	\-		### (5)
+	detail	### (6)
+	@@
+		
+@POST
 pnrename(X(2),"_classF");
 
 @RULES

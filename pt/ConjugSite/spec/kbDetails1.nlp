@@ -1,0 +1,19 @@
+###############################################
+# FILE: kbConjugation
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:38:0
+# MODIFIED:
+###############################################
+
+@PATH _ROOT
+
+@POST
+L("detail") = N("detail");
+L("value") = N("value");
+AddDetail(G("word"),L("detail"),L("value"),0);
+
+@RULES
+_xNIL <-
+	_detailZone	### (1)
+	@@

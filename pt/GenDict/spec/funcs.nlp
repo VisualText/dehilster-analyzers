@@ -1,0 +1,15 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-27 11:7:13
+# MODIFIED:
+###############################################
+
+@DECL
+
+OutputWord(L("out"),L("word"),L("inf")) {
+    L("out") << L("word") << " verb=1 root=" << L("inf") << "\n";
+}
+
+@@DECL

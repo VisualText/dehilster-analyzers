@@ -1,0 +1,18 @@
+###############################################
+# FILE: posPhrase
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-28 13:26:9
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posText
+
+@POST
+AddWordAttrs(N("$text",1));
+single();
+
+@RULES
+_pos <-
+	_xWILD [plus fail=(_xEND \,)]	### (1)
+	@@

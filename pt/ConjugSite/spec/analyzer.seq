@@ -4,10 +4,15 @@ nlp	KBFuncs	# comment
 nlp	funcs	# comment
 nlp	LinesDictTokZ	# comment
 nlp	tags	# comment
-nlp	pronomeZone	# comment
+nlp	tagZones	# comment
+nlp	details	# comment
+nlp	details1	# comment
+nlp	details2	# comment
 nlp	tense	# comment
 nlp	tenseZone	# comment
 nlp	titleZone	# comment
 nlp	conjugation	# comment
-nlp	kbConjugation	# comment
+/nlp	kbConjugation	# comment
+nlp	kbDetails	# comment
+nlp	kbDetails1	# comment
 nlp	output	# comment

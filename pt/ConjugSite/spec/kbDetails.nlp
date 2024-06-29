@@ -1,0 +1,18 @@
+###############################################
+# FILE: kbConjugation
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-25 13:38:0
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _detailZone _LINE _value
+
+@POST
+L("detail") = X("detail",2);
+AddDetail(G("word"),L("detail"),N("$text",1),1);
+
+@RULES
+_xNIL <-
+	_trans	### (1)
+	@@
