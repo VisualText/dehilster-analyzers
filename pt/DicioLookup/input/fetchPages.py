@@ -29,6 +29,13 @@ good_counter = 0
 orphan_counter = 0
 wordcount = len(words)
 
+processed_path = fullpath("processed.txt")
+processed = []
+if os.path.exists(processed_path):
+    with open(processed_path, "r", encoding="utf-8") as file:
+        processed = file.read().splitlines()
+process_counter = len(processed)
+
 orphan_file = fullpath("orphans.txt")
 orphans = []
 if os.path.exists(orphan_file):
@@ -36,11 +43,17 @@ if os.path.exists(orphan_file):
         orphans = file.read().splitlines()
 orphan_counter = len(orphans)
 
+# orphan_new = fullpath("orphans-fixed.txt")
+# with open(orphan_new, "w", encoding="utf-8") as file:
+#     for o in orphans:
+#         file.write(o.lower() + "\n")
+
 # Iterate over each word
 for word in words:
     counter += 1
+    word = word.lower()
     output_file = fullpath(f"{word}.txt","words")
-    if os.path.exists(output_file):
+    if word in processed:
         good_counter += 1
         continue
     if word in orphans:
@@ -66,6 +79,11 @@ for word in words:
             html = content_card_div.prettify()
             f.write(word + "\n")
             f.write(html)
+        
+        # Write the word to the process file
+        with open(processed_path, "a", encoding="utf-8") as process_file:
+            process_file.write(word + "\n")
+
     else:
         orphan_counter += 1
         print(f"   ===> not in Dicio...")
