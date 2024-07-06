@@ -8,6 +8,13 @@
 
 @DECL
 
+QuickSaveToKB(L("con"),L("name")) {
+    L("filepath") = G("$kbpath") + L("name") + ".kbb";
+    L("file") = openfile(L("filepath"));
+    SaveKB(L("file"),L("con"),2);
+    closefile(L("file"));
+}
+
 CleanInfo(L("info")) {
     L("inf") = strsubst(L("info"),"-lo",0);
     L("inf") = strsubst(L("inf"),"-o",0);

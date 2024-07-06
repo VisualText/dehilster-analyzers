@@ -230,8 +230,8 @@ ChildCount(L("con")) {
 ###############################################
 
 SaveToKB(L("con"),L("name")) {
-    L("filepath") = G("$kbpath") + L("name") + ".kbb";
-    L("file") = openfile(L("filepath"));
+    L("filepath") = G("$kbpath") + L("name") + ".kbbb";
+    L("file") = openfile(L("filepath"),"app");
     SaveKB(L("file"),L("con"),2);
     closefile(L("file"));
 }
@@ -269,7 +269,7 @@ DisplayFileName() {
 }
 
 DisplayKBRecurse(L("file"),L("parent"),L("level"),L("display type")) {
-	if (L("level") == 0) {
+	if (L("level") == 0 && G("$isfirstfile")) {
 		L("file") << conceptname(L("parent")) << "\n";
 	}
 	L("con") = down(L("parent"));
