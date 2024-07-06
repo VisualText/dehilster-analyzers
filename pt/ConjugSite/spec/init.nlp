@@ -9,6 +9,7 @@
 @CODE
 
 G("verbs") = getconcept(findroot(),"verbs");
+rmchildren(G("verbs"));
 G("word") = getconcept(G("verbs"),G("$inputhead"));
 
 @@CODE
