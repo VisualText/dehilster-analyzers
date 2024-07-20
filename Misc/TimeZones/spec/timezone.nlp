@@ -14,7 +14,7 @@ L("abbrev") = N("$text",2);
 L("descr") = N("$text",5);
 L("descrLower") = strtolower(N("$text",5));
 L("hour") = N("hour",7);
-L("min") = N("hour",7);
+L("min") = N("min",7);
 L("sign") = N("sign",7);
 addnumval(L("con"),"hour",num(L("hour")));
 addnumval(L("con"),"min",num(L("min")));
