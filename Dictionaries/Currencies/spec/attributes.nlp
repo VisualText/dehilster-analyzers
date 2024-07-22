@@ -1,0 +1,24 @@
+###############################################
+# FILE: attributes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:33:18
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _trGroup _LINE
+
+@POST
+S("con") = getconcept(G("currency"),N("text",5));
+addstrval(S("con"),"code",N("text",4));
+addstrval(S("con"),"currency",N("text",3));
+addstrval(S("con"),"country",N("text",2));
+
+@RULES
+_xNIL <-
+	_tdGroup	### (1)
+	_tdGroup	### (2)
+	_tdGroup	### (3)
+	_tdGroup	### (4)
+	_tdGroup	### (5)
+	@@

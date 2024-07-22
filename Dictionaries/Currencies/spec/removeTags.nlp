@@ -1,0 +1,30 @@
+###############################################
+# FILE: removeTags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:58:22
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+excise(1,3);
+
+@RULES
+_xNIL <-
+	\<		### (1)
+	strong	### (2)
+	\>		### (3)
+	@@
+
+@POST
+excise(1,4);
+
+@RULES
+_xNIL <-
+	\<		### (1)
+	\/		### (2)
+	strong	### (3)
+	\>		### (4)
+	@@

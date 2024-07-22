@@ -1,0 +1,65 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:19:17
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_trOpen");
+
+@RULES
+_xNIL <-
+	\<					### (1)
+	tr					### (2)
+	_xWILD [fail=(\>)]	### (3)
+	\>					### (4)
+	@@
+
+@POST
+pnrename(X(2),"_trClosed");
+
+@RULES
+_xNIL <-
+	\<					### (1)
+	\/
+	tr					### (2)
+	\>					### (4)
+	@@
+
+@RULES
+_tdOpen <-
+	\<					### (1)
+	td					### (2)
+	_xWILD [fail=(\>)]	### (3)
+	\>					### (4)
+	@@
+
+@RULES
+_tdClosed <-
+	\<					### (1)
+	\/
+	td					### (2)
+	\>					### (4)
+	@@
+	
+@RULES
+_aOpen <-
+	\<					### (1)
+	a					### (2)
+	_xWILD [fail=(\>)]	### (3)
+	\>					### (4)
+	@@
+
+@RULES
+_aClosed <-
+	\<					### (1)
+	\/
+	a					### (2)
+	\>					### (4)
+	@@
+
+
