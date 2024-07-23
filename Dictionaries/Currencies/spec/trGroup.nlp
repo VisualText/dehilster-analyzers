@@ -1,0 +1,16 @@
+###############################################
+# FILE: tdGroup
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:22:31
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_trGroup <-
+	_trOpen						### (1)
+	_xWILD [fail=(_trClosed)]	### (2)
+	_trClosed					### (3)
+	@@

@@ -1,0 +1,13 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:33:52
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("currency") = getconcept(findroot(),"currency");
+
+@@CODE

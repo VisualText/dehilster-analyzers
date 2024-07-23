@@ -1,0 +1,20 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-22 17:35:42
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("currency"));
+SaveKB("currency.kbb",G("currency"),2);
+
+L("con") = down(G("currency"));
+while (L("con")) {
+    
+    L("con") = next(L("con"));
+}
+
+@@CODE
