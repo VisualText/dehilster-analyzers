@@ -9,10 +9,13 @@
 @PATH _ROOT _trGroup _LINE
 
 @POST
-S("con") = getconcept(G("currency"),N("text",5));
-addstrval(S("con"),"code",N("text",4));
-addstrval(S("con"),"currency",N("text",3));
-addstrval(S("con"),"country",N("text",2));
+L("curr") = strsubst(N("text",5),".",0);
+L("curr") = strsubst(L("curr"),",",0);
+X("con",2) = getconcept(G("currency"),L("curr"));
+L("con") = getconcept(X("con",2),N("text",4));
+AddUniqueStr(L("con"),"currency",N("text",3));
+AddUniqueStr(L("con"),"country",N("text",2));
+pnrename(N(3),"_name");
 
 @RULES
 _xNIL <-
