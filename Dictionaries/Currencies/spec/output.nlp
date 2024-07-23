@@ -11,9 +11,12 @@
 sortchilds(G("currency"));
 SaveKB("currency.kbb",G("currency"),2);
 
+L("dict") = "currency.dict";
+L("dict") << "# Currency Symbols\n";
+
 L("con") = down(G("currency"));
 while (L("con")) {
-    
+    "currency.dict" << conceptname(L("con")) << " currency=" << strval(L("con"),"name") << "\n";
     L("con") = next(L("con"));
 }
 
