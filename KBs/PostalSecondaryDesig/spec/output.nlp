@@ -1,0 +1,44 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-31 8:32:23
+# MODIFIED:
+###############################################
+
+@DECL
+
+OutputDictLine(L("out"),L("design")) {
+    L("name") = conceptname(L("design"));
+    L("out") << L("name") << " secdesignator=1";
+    L("abbrev") = strval(L("design"),"abbrev");
+    L("full") = strval(L("design"),"full");
+
+    if (L("abbrev") && L("abbrev") != L("name")) {
+        L("out") << " abbrev=\"" << strval(L("design"),"abbrev") << "\"";
+    }
+    if (L("full") && L("full") != L("name")) {
+        L("out") << " full=\"" << strval(L("design"),"full") << "\"";
+    }
+    L("out") << "\n";
+}
+
+@@DECL
+
+@CODE
+
+sortchilds(G("designators"));
+
+L("dict") = G("filename") + ".dict";
+L("dict") << "# Secondary Postal Designators\n";
+
+L("design") = down(G("designators"));
+while (L("design")) {
+    OutputDictLine(L("dict"),L("design"));
+    L("design") = next(L("design"));
+}
+
+L("kbb") = G("filename") + ".kbb";
+SaveKB(L("kbb"),G("designators"),2);
+
+@@CODE

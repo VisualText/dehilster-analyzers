@@ -1,0 +1,20 @@
+###############################################
+# FILE: anchors
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-31 8:25:35
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("text",2) = strsubst(strtolower(N("$text",2)),"**",0);
+single();
+
+@RULES
+_anchor <-
+	_aStart
+	_xWILD [fail=(_aEND)]
+	_aEND
+	@@

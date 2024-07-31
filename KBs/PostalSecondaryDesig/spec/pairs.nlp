@@ -1,0 +1,26 @@
+###############################################
+# FILE: pairs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-31 8:38:27
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+if (N("text",1) != "description" && !strstartswith(N("text",1),"blank")) {
+	S("con") = getconcept(G("designators"),N("text",2));
+	addstrval(S("con"),"full",N("text",1));
+
+	S("con") = getconcept(G("designators"),N("text",1));
+	"full.txt" << N("text",1) << "\n";
+	addstrval(S("con"),"abbrev",N("text",2));
+}
+single();
+
+@RULES
+_row <-
+	_LINE	### (1)
+	_LINE	### (2)
+	@@
