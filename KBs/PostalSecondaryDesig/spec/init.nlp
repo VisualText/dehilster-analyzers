@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-7-31 8:31:59
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("filename") = "en-postal-secondary-designators";
+G("designators") = getconcept(findroot(),"designators");
+
+@@CODE
