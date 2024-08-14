@@ -15,7 +15,7 @@ DictDisplayAttr(L("con"),L("attr")) {
 	if (L("count") > 1) L("str") = L("str") + "[";
     L("first") = 1;
 	while (L("vals")) {
-        L("val") = getstrval(L("vals"));
+        L("val") = strtolower(getstrval(L("vals")));
         if (!L("first"))
         	L("str") = L("str") + ",";
 		L("str") = L("str") + QuoteIfNeeded(L("val"));

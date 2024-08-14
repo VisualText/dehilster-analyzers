@@ -11,8 +11,8 @@
 sortchilds(G("currency"));
 SaveKB("currency.kbb",G("currency"),2);
 
-L("dict") = "currency.dict";
-L("dict") << "# Currency Symbols\n";
+G("dict") = "currency.dict";
+G("dict") << "# Currency Symbols\n";
 
 L("con") = down(G("currency"));
 while (L("con")) {

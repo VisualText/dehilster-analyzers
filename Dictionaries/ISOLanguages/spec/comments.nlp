@@ -1,14 +1,14 @@
 ###############################################
-# FILE: init
+# FILE: comments
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-6-20 12:3:8
+# CREATED: 2024-8-14 14:18:20
 # MODIFIED:
 ###############################################
 
 @CODE
 
-G("langs") = getconcept(findroot(),"langs");
-G("languages") = getconcept(findroot(),"languages");
+G("file2") << "# 2 letter ISO language codes\n";
+G("file3") << "# 3 letter ISO language codes\n";
 
 @@CODE

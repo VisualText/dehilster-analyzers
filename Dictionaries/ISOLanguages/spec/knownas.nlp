@@ -1,0 +1,21 @@
+###############################################
+# FILE: knownas
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-8-15 0:30:55
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _description
+
+@POST
+group(4,4,"_knownAs");
+
+@RULES
+_xNIL <-
+	also					### (1)
+	known					### (2)
+	as						### (3)
+	_xWILD [fail=(_xEND)]	### (4)
+	_xEND					### (5)
+	@@

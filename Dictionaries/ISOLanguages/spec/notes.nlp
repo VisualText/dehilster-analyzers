@@ -1,0 +1,20 @@
+###############################################
+# FILE: language
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-8-14 16:26:5
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _language
+
+@POST
+X("note",3) = N("$text",2);
+single();
+
+@RULES
+_note <-
+	\(					### (1)
+	_xWILD [fail=(\))]	### (2)
+	\)					### (3)
+	@@

@@ -10,22 +10,22 @@
 
 SaveKB("emojis.kbb",G("emojis"),2);
 
-L("dict") = "emojis.dict";
+G("dict") = "emojis.dict";
 
 L("group") = down(G("emojis"));
 while (L("group")) {
-	L("dict") << "# GROUP: " << strval(L("group"),"description") << "\n";
+	G("dict") << "# GROUP: " << strval(L("group"),"description") << "\n";
 
 	L("subgroup") = down(L("group"));
 	while (L("subgroup")) {
-		L("dict") << "# SUBGROUP: " << strval(L("subgroup"),"description") << "\n";
+		G("dict") << "# SUBGROUP: " << strval(L("subgroup"),"description") << "\n";
 
 		L("emoji") = down(L("subgroup"));
 		while (L("emoji")) {
-			L("dict") << conceptname(L("emoji")) << " emoji=1 des=\"" << strval(L("emoji"),"description") << "\"";
-			L("dict") << " g=\"" << strval(L("group"),"description") << "\"";
-			L("dict") << " sg=\"" << strval(L("subgroup"),"description") << "\"";
-			L("dict") << "\n";
+			G("dict") << conceptname(L("emoji")) << " emoji=1 des=\"" << strval(L("emoji"),"description") << "\"";
+			G("dict") << " g=\"" << strval(L("group"),"description") << "\"";
+			G("dict") << " sg=\"" << strval(L("subgroup"),"description") << "\"";
+			G("dict") << "\n";
 			L("emoji") = next(L("emoji"));
 		}
 		L("subgroup") = next(L("subgroup"));

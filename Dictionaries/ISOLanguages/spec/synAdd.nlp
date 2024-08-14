@@ -1,0 +1,17 @@
+###############################################
+# FILE: languages
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-6-20 11:39:57
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _description _knownAs
+
+@POST
+addstrval(X("langcon",2),"synonym",strtolower(N("$text",1)));
+
+@RULES
+_xNIL <-
+	_synonym	### (1)
+	@@
