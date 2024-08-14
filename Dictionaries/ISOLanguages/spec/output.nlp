@@ -8,20 +8,53 @@
 
 @CODE
 
-sortchilds(G("langs"));
 L("file2") = "iso-languages2.dict";
 L("file3") = "iso-languages3.dict";
+L("dict") = "en-languages.dict";
+L("isokbb") = "iso-languages.kbb";
+L("langkbb") = "en-languages.kbb";
+L("langdict") = "en-languages.dict";
 
+L("file2") << "# 2 letter ISO language codes\n";
+L("file3") << "# 3 letter ISO language codes\n";
+
+sortchilds(G("langs"));
 L("lang") = down(G("langs"));
 while (L("lang")) {
 	L("attrs") = DictDisplayAttr(L("lang"),"language");
-	L("file2") << conceptname(L("lang")) << " iso=2 " << L("attrs") << "\n";
-	L("file3") << strval(L("lang"),"iso2") << " iso=3 " << L("attrs") << "\n";
-	if (strval(L("lang"),"iso2") != strval(L("lang"),"iso3"))
-		L("file3") << strval(L("lang"),"iso3") << " iso=4 " << L("attrs") << "\n";
+	L("iso") = conceptname(L("lang"));
+	L("iso2") = strval(L("lang"),"iso2");
+	if (strlength(L("iso")) == 2) {
+		L("file2") << L("iso") << " iso=2 " << L("attrs") << "\n";
+	} else
+		L("file3") << L("iso") << L("iso2") << " iso=3 " << L("attrs") << "\n";
 	L("lang") = next(L("lang"));
 }
 
-SaveKB("iso-languages.kbb",G("langs"),2);
+L("isokbb") << "# ISO Language codes\n";
+SaveKB(L("isokbb"),G("langs"),2);
+
+L("langkbb") << "# Human languages in English\n";
+sortchilds(G("languages"));
+SaveKB(L("langkbb"),G("languages"),2);
+
+L("langdict") << "# Human languages in English\n";
+L("lang") = down(G("languages"));
+while (L("lang")) {
+	L("attrs") = DictDisplayAttr(L("lang"),"language");
+	L("language") = conceptname(L("lang"));
+	L("iso2") = strval(L("lang"),"iso2");
+	L("iso3") = strval(L("lang"),"iso3");
+	L("langdict") << L("language") << " language=1 laiso2=" << L("iso2") << " iso3=" << L("iso3") << "\n";
+
+	L("syns") = findvals(L("lang"),"synonym");
+	while (L("syns")) {
+		L("syn") = getstrval(L("syns"));
+		L("langdict") << L("syn") << " language=1 laiso2=" << L("iso2") << " iso3=" << L("iso3") << " standard=" << QuoteIfNeeded(L("language")) << "\n";
+		L("syns") = nextval(L("syns"));
+	}
+
+	L("lang") = next(L("lang"));
+}
 
 @@CODE

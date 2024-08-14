@@ -1,0 +1,18 @@
+###############################################
+# FILE: synonyms
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-8-15 0:45:3
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _description _knownAs
+
+@POST
+group(1,1,"_synonym");
+
+@RULES
+_note <-
+	_xWILD [fail=(or \, _xEND)]			### (1)
+	_xWILD [one match=(or \, _xEND)]	### (2)
+	@@	

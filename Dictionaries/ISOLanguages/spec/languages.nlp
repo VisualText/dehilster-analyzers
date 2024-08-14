@@ -9,10 +9,19 @@
 @PATH _ROOT _LINE _language
 
 @POST
-addstrval(X("con",2),"language",N("$text",1));
-single();
+L("lang") = strtolower(N("$text",1));
+
+X("langcon",2) = getconcept(G("languages"),L("lang"));
+if (X("note",3)) {
+	addstrval(X("langcon",2),"note",X("note",3));
+}
+addstrval(X("langcon",2),"iso2",strval(X("con2",2),"iso"));
+addstrval(X("langcon",2),"iso3",strval(X("con2",2),"iso3"));
+
+addstrval(X("con",2),"language",L("lang"));
+addstrval(X("con2",2),"language",L("lang"));
 
 @RULES
-_lang <-
-	_xWILD [plus fail=(\, _xEND)]
+_xNIL <-
+	_lang	### (1)
 	@@

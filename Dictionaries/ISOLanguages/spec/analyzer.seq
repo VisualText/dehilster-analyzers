@@ -7,5 +7,10 @@ nlp	codes	# comment
 nlp	RemoveWhiteSpace	# comment
 nlp	RemoveWhiteSpace2	# comment
 nlp	label	# comment
+nlp	knownas	# comment
+nlp	synonyms	# comment
+nlp	notes	# comment
+nlp	language	# comment
 nlp	languages	# comment
+nlp	synAdd	# comment
 nlp	output	# comment

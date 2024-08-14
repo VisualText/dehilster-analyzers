@@ -384,7 +384,7 @@ KBDump() {
         L("kbbfile") = G("$kbpath") + G("$inputhead") + ".kbb";
     }
 
-    L("dict") = openfile(L("dictfile"),1);
+    G("dict") = openfile(L("dictfile"),1);
     L("kbb") = openfile(L("kbbfile"),1);
 
     DisplayKBRecurse(L("kbb"),G("words"),0,1);
@@ -393,19 +393,19 @@ KBDump() {
     while (L("word")) {
         L("meaning") = down(L("word"));
         while (L("meaning")) { 
-            L("dict") << conceptname(L("word"));
-            AddWordAttribute(L("dict"),L("meaning"),"pos");
-            AddWordAttribute(L("dict"),L("meaning"),"lang");
-            AddWordAttribute(L("dict"),L("meaning"),"root");
-            AddWordAttribute(L("dict"),L("meaning"),"pessoa");
-            AddWordAttribute(L("dict"),L("meaning"),"numero");
-            AddWordAttribute(L("dict"),L("meaning"),"tempo");
-            L("dict") << "\n";
+            G("dict") << conceptname(L("word"));
+            AddWordAttribute(G("dict"),L("meaning"),"pos");
+            AddWordAttribute(G("dict"),L("meaning"),"lang");
+            AddWordAttribute(G("dict"),L("meaning"),"root");
+            AddWordAttribute(G("dict"),L("meaning"),"pessoa");
+            AddWordAttribute(G("dict"),L("meaning"),"numero");
+            AddWordAttribute(G("dict"),L("meaning"),"tempo");
+            G("dict") << "\n";
             L("meaning") = next(L("meaning"));
         }
         L("word") = next(L("word"));
     }
-    closefile(L("dict"));
+    closefile(G("dict"));
 }
 
 AddWordAttribute(L("file"),L("meaning"),L("attr")) {
