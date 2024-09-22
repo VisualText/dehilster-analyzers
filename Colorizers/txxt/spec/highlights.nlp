@@ -1,0 +1,26 @@
+###############################################
+# FILE: highlights
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-12 14:58:54
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("text") = N("$text",2)
+single();
+
+@RULES
+_highlightFired <-
+	_openFired					### (1)
+	_xWILD [fail=(_closeFired)]	### (2)
+	_closeFired					### (3)
+	@@
+
+_highlightParens <-
+	_openParens						### (1)
+	_xWILD [fail=(_closeParens)]	### (2)
+	_closeParens					### (3)
+	@@

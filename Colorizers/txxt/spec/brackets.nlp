@@ -1,0 +1,15 @@
+###############################################
+# FILE: brackets
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-12 14:57:30
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@RULES
+_openFired <- \< \< \< @@
+_closeFired <- \> \> \> @@
+_openParens <- \( \( \( @@
+_closeParens <- \) \) \) @@

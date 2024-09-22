@@ -1,0 +1,14 @@
+###############################################
+# FILE: rest
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-12 15:2:14
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@RULES
+_rest <-
+	_xWILD [fail=(_highlightFired _highlightParens)]
+	@@

@@ -1,0 +1,16 @@
+###############################################
+# FILE: rules
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-9 14:21:0
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_rule <-
+	_rules					### (1)
+	_xWILD [fail=(_atat)]	### (2)
+	_atat					### (3)
+	@@
