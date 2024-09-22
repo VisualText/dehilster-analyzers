@@ -1,0 +1,38 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-10 8:6:39
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("out") << "<html><body style=\"background-color:rgb(32,32,32);color:white;\"><pre>\n";
+
+L("line") = pndown(pnroot());
+
+while (L("line")) {
+    
+    L("node") = pndown(L("line"));
+    while (L("node")) {
+        L("name") = pnname(L("node"));
+        "debug" << L("name") << "\n";
+        if (L("name") == "_highlightFired") {
+            "debug" << "highlight fired\n";
+            AddTag(L("node"),"rgb(127,127,255)");
+        } else if (L("name") == "_highlightParens") {
+            AddTag(L("node"),"green");
+        } else {
+            G("out") << pnvar(L("node"),"$text");
+        }
+        L("node") = pnnext(L("node"));
+    }
+    G("out") << "\n";
+    L("line") = pnnext(L("line"));
+}
+
+
+G("out") << "</pre></body></html>\n";
+
+@@CODE

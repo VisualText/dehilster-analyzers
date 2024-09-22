@@ -1,0 +1,45 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-10 8:6:39
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("line") = pndown(pnroot());
+while (L("line")) {
+    L("node") = pndown(L("line"));
+    while (L("node")) {
+        L("name") = pnname(L("node"));
+        if (L("name") == "_indent") {
+            L("num") = pnvar(L("node"),"indent");
+            L("i") = 0;
+            while (L("i") < L("num")) {
+                G("out") << "&nbsp;";
+                L("i")++;
+            }
+        } else if (L("name") == "_concept") {
+            G("out") << AddTag(L("node"),"#f8fa87");
+        } else if (L("name") == "_token") {
+            G("out") << AddTag(L("node"),"#4e8e3c");
+        } else if (L("name") == "_num") {
+            G("out") << AddTag(L("node"),"#add8e6");
+        } else if (L("name") == "_string") {
+            G("out") << AddTag(L("node"),"#d2b48c");
+        } else if (L("name") == "_type") {
+            G("out") << AddTag(L("node"),"#93bffb");
+        } else if (L("name") == "_fired") {
+            G("out") << AddTag(L("node"),"#dc1b1b");
+        } else {
+            G("out") << pnvar(L("node"),"$text");
+        }
+        L("node") = pnnext(L("node"));
+    }
+    G("out") << "\n";
+
+    L("line") = pnnext(L("line"));
+}
+
+@@CODE
