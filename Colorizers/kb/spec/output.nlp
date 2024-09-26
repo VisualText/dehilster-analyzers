@@ -9,7 +9,7 @@
 @CODE
 
 L("line") = pndown(pnroot());
-L("color") = "#93bffb";
+L("color") = "kb0";
 
 while (L("line")) {
     L("node") = pndown(L("line"));
@@ -20,28 +20,29 @@ while (L("line")) {
         if (L("name") == "_indent") {
             L("indent") = num(pnvar(L("node"),"len"));
             "debug.txt" << "Indent level: " << L("indent") << "\n";
-            L("color") = "#93bffb";
             if (L("indent") == 2) {
-                L("color") = "yellow";
+                L("color") = "kb1";
             } else if (L("indent") == 4) {
-                L("color") = "#309030";
+                L("color") = "kb2";
             } else if (L("indent") == 6) {
-                L("color") = "#ff50ff";
+                L("color") = "kb3";
             } else {
                 L("color") = "white";
             }
             G("out") << RepeatStr(L("indent"), "&nbsp;");
 
         } else if (L("name") == "_value" && pndown(L("node")) && pnname(pndown(L("node"))) == "_string") {
-            G("out") << AddTag(L("node"),"#d2b48c");
+            G("out") << AddTag(L("node"),"string");
         } else if (L("name") == "_comment") {
-            G("out") << AddTag(L("node"),"green");
+            G("out") << AddTag(L("node"),"comment");
         } else if (L("name") == "_concept") {
             G("out") << AddTag(L("node"),L("color"));
         } else if (L("name") == "_string") {
-            G("out") << AddTag(L("node"),"#d2b48c");
+            G("out") << AddTag(L("node"),"string");
         } else if (L("name") == "_attr") {
-            G("out") << AddTag(L("node"),"#93bffb");
+            G("out") << AddTag(L("node"),"attr");
+        } else if (L("name") == "_value") {
+            G("out") << AddTag(L("node"),"value");
         } else {
             G("out") << pnvar(L("node"),"$text");
         }

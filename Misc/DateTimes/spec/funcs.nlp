@@ -8,6 +8,31 @@
 
 @DECL
 
+AddDate(L("node")) {
+    L("con") = MakeCountConPad(G("datetimes"),"date",3);
+    CopyPNAttrsToCon(L("node"),L("con"));
+}
+
+AddTime(L("node")) {
+    L("con") = MakeCountCon(G("datetimes"),"time");
+    CopyPNAttrsToCon(L("node"),L("con"));
+}
+
+CopyPNAttrsToCon(L("node"),L("con")) {
+    L("attrs") = pnvarnames(L("node"));
+    while (L("attrs")[L("i")++]) {
+        L("attr") = L("attrs")[ L("i") ];
+        L("val") = pnvar(L("node"),L("attr"));
+        "debug" << "attr: " << L("attr") << " val: " << L("val") << "\n";
+        # L("type") = num(L("val"));
+        # if (L("type")) {
+        #     addnumval(L("con"),L("attr"),L("val"));
+        # } else {
+        #     addstrval(L("con"),L("attr"),L("val"));
+        # }
+    }
+}
+
 NumberType(L("node"),L("num")) {
     if (L("num") >= 1 && L("num") <= 12) {
         pnmakevar(L("node"),"month",1);

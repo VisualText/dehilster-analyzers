@@ -1,0 +1,16 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-25 10:9:6
+# MODIFIED:
+###############################################
+
+@DECL
+
+AddTLD(L("tld"),L("node")) {
+    L("con") = getconcept(G("tld"),pnvar(L("tld"),"$text"));
+    addstrval(L("con"),"sub",pnvar(L("node"),"$text"));
+}
+
+@@DECL

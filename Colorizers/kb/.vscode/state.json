@@ -4,7 +4,7 @@
             "name": "Analyzer",
             "type": "state",
             "currentTextFile": "c:\\git\\dehilster-analyzers\\Colorizers\\kb\\input\\en-languages.kbb",
-            "currentPassFile": "c:\\git\\dehilster-analyzers\\Colorizers\\kb\\spec\\attrs.nlp"
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Colorizers\\kb\\spec\\output.nlp"
         }
     ]
 }

@@ -8,6 +8,6 @@
 
 @CODE
 
-G("out") << "<html><body style=\"background-color:rgb(32,32,32);color:white;\"><pre>\n";
+G("out") << "<html><header><link rel=\"stylesheet\" href=\"http://nluglob.org/nlpfix/highlight.css\"></header><body style=\"background-color:rgb(32,32,32);color:white;\"><pre>\n";
 
 @@CODE

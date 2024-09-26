@@ -1,0 +1,22 @@
+###############################################
+# FILE: tlds
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-25 10:1:36
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+singler(2,2);
+
+@RULES
+_tld <-
+	\>								### (1)
+	_xWILD [plus fail=(\<)]			### (2)
+	\<								### (3)
+	\/								### (4)
+	_xWILD [one match=(a strong)]	### (5)
+	@@
+
