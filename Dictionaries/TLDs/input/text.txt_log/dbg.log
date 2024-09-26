@@ -1,0 +1,14 @@
+[Pass 1 time: 0.045 sec     tokenize]
+[Pass 2 time: 0 sec     init]
+[Pass 3 time: 0 sec     KBFuncs]
+[Pass 4 time: 0.135 sec     tlds]
+[Pass 5 time: 93.115 sec     dots]
+[Pass 6 time: 2.925 sec     output]
+[Input file: c:\git\dehilster-analyzers\Dictionaries\TLDs\input\text.txt]
+[Total passes: 6]
+[Total time: 96.225 sec]
+[Time per 1000 chars (96.225/423278): 0.227333 sec]
+[Time per pass per 1000 chars: 0.0378888]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\git\dehilster-analyzers\Dictionaries\TLDs\input\text.txt	6	96.225	423278	0.227333	0.0378888
+[Clean time: 0.003 sec]

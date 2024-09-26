@@ -1,0 +1,14 @@
+[Pass 1 time: 0.001 sec     dicttok]
+[Pass 2 time: 0 sec     init]
+[Pass 3 time: 0 sec     KBFuncs]
+[Pass 4 time: 0 sec     tlds]
+[Pass 5 time: 0 sec     dots]
+[Pass 6 time: 0.011 sec     output]
+[Input file: c:\git\dehilster-analyzers\Dictionaries\TLDs\input\text01.txt]
+[Total passes: 6]
+[Total time: 0.013 sec]
+[Time per 1000 chars (0.013/362): 0.0359116 sec]
+[Time per pass per 1000 chars: 0.00598527]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\git\dehilster-analyzers\Dictionaries\TLDs\input\text01.txt	6	0.013	362	0.0359116	0.00598527
+[Clean time: 0.001 sec]

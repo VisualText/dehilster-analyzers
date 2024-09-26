@@ -17,8 +17,8 @@ PnCount(L("node")) {
     return L("count");
 }
 
-AddTag(L("node"),L("color")) {
-    G("out") << "<span style=\"color:" << L("color") << ";\">";
+AddTag(L("node"),L("class")) {
+    G("out") << "<span class=\"" << L("class") << "\">";
     G("out") << pnvar(L("node"),"$text") << "</span>";
 }
 

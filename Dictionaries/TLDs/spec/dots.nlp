@@ -1,0 +1,32 @@
+###############################################
+# FILE: dots
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-25 10:6:47
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _tld
+
+@POST
+X("con",2) = getconcept(G("tld"),N("$text",4));
+addstrval(X("con",2),"sub",N("$text",2));
+
+@RULES
+_xNIL <-
+	\.						### (1)
+	_xWILD [fail=(\.)]		### (2)
+	\.						### (3)
+	_xWILD [fail=(_xEND)]	### (4)
+	_xEND					### (5)
+	@@
+
+@POST
+X("con",2) = getconcept(G("tld"),N("$text",2));
+
+@RULES
+_xNIL <-
+	\.						### (1)
+	_xWILD [fail=(_xEND)]	### (2)
+	_xEND					### (3)
+	@@

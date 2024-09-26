@@ -9,7 +9,7 @@
 @DECL
 
 AddTag(L("node"),L("color")) {
-    G("out") << "<span style=\"color:" << L("color") << ";\">";
+    G("out") << "<span class=\"" << L("color") << "\">";
     G("out") << pnvar(L("node"),"$text") << "</span>";
 }
 

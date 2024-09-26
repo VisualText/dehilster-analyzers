@@ -21,17 +21,17 @@ while (L("line")) {
                 L("i")++;
             }
         } else if (L("name") == "_concept") {
-            G("out") << AddTag(L("node"),"#f8fa87");
+            G("out") << AddTag(L("node"),"function");
         } else if (L("name") == "_token") {
-            G("out") << AddTag(L("node"),"#4e8e3c");
+            G("out") << AddTag(L("node"),"word");
         } else if (L("name") == "_num") {
-            G("out") << AddTag(L("node"),"#add8e6");
+            G("out") << AddTag(L("node"),"number");
         } else if (L("name") == "_string") {
-            G("out") << AddTag(L("node"),"#d2b48c");
+            G("out") << AddTag(L("node"),"string");
         } else if (L("name") == "_type") {
-            G("out") << AddTag(L("node"),"#93bffb");
+            G("out") << AddTag(L("node"),"type");
         } else if (L("name") == "_fired") {
-            G("out") << AddTag(L("node"),"#dc1b1b");
+            G("out") << AddTag(L("node"),"fired");
         } else {
             G("out") << pnvar(L("node"),"$text");
         }

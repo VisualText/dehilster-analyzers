@@ -9,14 +9,15 @@
 @NODES _rule
 
 @POST
-group(2,2,"_suggested");
-group(4,4,"_nodes");
+group(3,3,"_suggested");
+group(5,5,"_nodes");
 
 @RULES
 _xNIL <-
-	_xSTART						### (1)
-	_xWILD [fail=(_suggests)]	### (2)
-	_suggests					### (3)
-	_xWILD [fail=(_xEND)]		### (4)
-	_xEND						### (5)
+	_xSTART							### (1)
+	_xWILD [match=(_rules _nl _tl)]	### (2)
+	_xWILD [fail=(_suggests)]		### (3)
+	_suggests						### (4)
+	_xWILD [fail=(_xEND)]			### (5)
+	_xEND							### (6)
 	@@
