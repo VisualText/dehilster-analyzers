@@ -8,7 +8,7 @@
 
 @CODE
 
-G("out") << "</pre></body></html>\n";
+G("out") << "</pre>\n";
 
 closefile(G("out"));
 

@@ -4,7 +4,7 @@
             "name": "Analyzer",
             "type": "state",
             "currentTextFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Countries\\input\\countries.txt",
-            "currentPassFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Countries\\spec\\parens.nlp"
+            "currentPassFile": "c:\\git\\dehilster-analyzers\\Dictionaries\\Countries\\spec\\country.nlp"
         }
     ]
 }

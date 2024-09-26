@@ -1,0 +1,1453 @@
+tld
+  aaa
+  aarp
+  abb
+  abbott
+  abbvie
+  abc
+  able
+  abogado
+  abudhabi
+  ac
+  academy
+  accenture
+  accountant
+  accountants
+  aco
+  actor
+  ad
+  ads
+  adult
+  ae: sub=[ac,co,net,org,sch]
+  aeg
+  aero: sub=[cargo,charter]
+  aetna
+  af: sub=[com,edu,gov,net,org]
+  afl
+  africa
+  ag: sub=[co,com,net,nom,org]
+  agakhan
+  agency
+  ai: sub=[com,net,off,org]
+  aig
+  airbus
+  airforce
+  airtel
+  akdn
+  al: sub=[com,edu,net,org]
+  alibaba
+  alipay
+  allfinanz
+  allstate
+  ally
+  alsace
+  alstom
+  am: sub=[co,com,net,north,org,radio,south]
+  amazon
+  americanexpress
+  americanfamily
+  amex
+  amfam
+  amica
+  amsterdam
+  analytics
+  android
+  anquan
+  anz
+  ao: sub=[co,it]
+  aol
+  apartments
+  app
+  apple
+  aq
+  aquarelle
+  ar: sub=[com,int,net,org]
+  arab
+  aramco
+  archi
+  army
+  arpa
+  art
+  arte
+  as
+  asda
+  asia
+  associates
+  at: sub=[co,or]
+  athleta
+  attorney
+  au: sub=[asn,com,id,info,net,org]
+  auction
+  audi
+  audible
+  audio
+  auspost
+  author
+  auto
+  autos
+  aw: sub=com
+  aws
+  ax
+  axa
+  az: sub=[biz,co,com,edu,gov,info,int,mil,name,net,org,pp,pro]
+  azure
+  ba: sub=[co,com]
+  baby
+  baidu
+  banamex
+  band
+  bank
+  bar
+  barcelona
+  barclaycard
+  barclays
+  barefoot
+  bargains
+  baseball
+  basketball
+  bauhaus
+  bayern
+  bb: sub=[co,com,net,org]
+  bbc
+  bbt
+  bbva
+  bcg
+  bcn
+  bd: sub=[ac,com,net,org]
+  be
+  beats
+  beauty
+  beer
+  bentley
+  berlin
+  best
+  bestbuy
+  bet
+  bf
+  bg
+  bh: sub=[biz,cc,com,edu,me,name,net,org]
+  bharti
+  bi: sub=[co,com,edu,info,mo,net,or,org]
+  bible
+  bid
+  bike
+  bing
+  bingo
+  bio
+  biz: sub=auz
+  bj: sub=com
+  black
+  blackfriday
+  blockbuster
+  blog
+  bloomberg
+  blue
+  bm: sub=[com,net,org]
+  bms
+  bmw
+  bn: sub=[com,net,org]
+  bnpparibas
+  bo: sub=[com,net,org,tv]
+  boats
+  boehringer
+  bofa
+  bom
+  bond
+  boo
+  book
+  booking
+  bosch
+  bostik
+  boston
+  bot
+  boutique
+  box
+  br: sub=[abc,adm,adv,agr,am,aparecida,app,arq,art,ato,belem,bhz,bib,bio,blog,bmd,boavista,bsb,campinas,caxias,cim,cng,cnt,com,coop,curitiba,des,det,dev,ecn,eco,edu,emp,enf,eng,esp,etc,eti,far,flog,floripa,fm,fnd,fortal,fot,foz,fst,g12,geo,ggf,gov,gru,imb,ind,inf,jampa,jor,lel,log,macapa,maceio,manaus,mat,med,mil,mus,natal,net,nom,not,ntr,odo,org,palmas,poa,ppg,pro,psc,psi,qsl,radio,rec,recife,rep,rio,salvador,seg,sjc,slg,srv,taxi,tec,teo,tmp,trd,tur,tv,vet,vix,vlog,wiki,zlg]
+  bradesco
+  bridgestone
+  broadway
+  broker
+  brother
+  brussels
+  bs: sub=[com,net,org]
+  bt: sub=[com,org]
+  build
+  builders
+  business
+  buy
+  buzz
+  bv
+  bw: sub=[ac,co,net,org]
+  by: sub=[com,minsk,net]
+  bz: sub=[co,com,net,org,za]
+  bzh
+  ca
+  cab
+  cafe
+  cal
+  call
+  calvinklein
+  cam
+  camera
+  camp
+  canon
+  capetown
+  capital
+  capitalone
+  car
+  caravan
+  cards
+  care
+  career
+  careers
+  cars
+  casa
+  case
+  cash
+  casino
+  cat
+  catering
+  catholic
+  cba
+  cbn
+  cbre
+  cc
+  cd: sub=[com,net,org]
+  center
+  ceo
+  cern
+  cf
+  cfa
+  cfd
+  cg
+  ch
+  chanel
+  channel
+  charity
+  chase
+  chat
+  cheap
+  chintai
+  christmas
+  chrome
+  church
+  ci: sub=[ac,co,com,ed,edu,go,in,int,net,nom,or,org]
+  cipriani
+  circle
+  cisco
+  citadel
+  citi
+  citic
+  city
+  ck: sub=[biz,co,edu,gen,gov,info,net,org]
+  cl
+  claims
+  cleaning
+  click
+  clinic
+  clinique
+  clothing
+  cloud
+  club
+  clubmed
+  cm: sub=[co,com,net]
+  cn: sub=[ac,ah,bj,com,cq,fj,gd,gs,gx,gz,ha,hb,he,hi,hk,hl,hn,jl,js,jx,ln,mo,net,nm,nx,org,qh,sc,sd,sh,sn,sx,tj,tw,xj,xz,yn,zj]
+  co: sub=[com,net,nom]
+  coach
+  codes
+  coffee
+  college
+  cologne
+  com: sub=[ae,africa,br,cn,co,de,eu,gr,hk,hu,it,jpn,kr,mex,no,nv,"pty-ltd",qc,ru,sa,se,uk,us,za]
+  commbank
+  community
+  company
+  compare
+  computer
+  comsec
+  condos
+  construction
+  consulting
+  contact
+  contractors
+  cooking
+  cool
+  coop
+  corsica
+  country
+  coupon
+  coupons
+  courses
+  cpa
+  cr: sub=[co,ed,fi,go,or,sa]
+  credit
+  creditcard
+  creditunion
+  cricket
+  crown
+  crs
+  cruise
+  cruises
+  cu: sub=com
+  cuisinella
+  cv: sub=[com,edu,int,net,nome,org,publ]
+  cw: sub=[com,net]
+  cx
+  cy: sub=[ac,biz,com,ekloges,ltd,name,net,org,parliament,press,pro,tm]
+  cymru
+  cyou
+  cz: sub=co
+  dabur
+  dad
+  dance
+  data
+  date
+  dating
+  datsun
+  day
+  dclk
+  dds
+  de: sub=[co,com]
+  deal
+  dealer
+  deals
+  degree
+  delivery
+  dell
+  deloitte
+  delta
+  democrat
+  dental
+  dentist
+  desi
+  design
+  dev
+  dhl
+  diamonds
+  diet
+  digital
+  direct
+  directory
+  discount
+  discover
+  dish
+  diy
+  dj
+  dk: sub=[biz,co]
+  dm: sub=[co,com,net,org]
+  dnp
+  do: sub=[art,com,net,org,sld,web]
+  docs
+  doctor
+  dog
+  domains
+  dot
+  download
+  drive
+  dtv
+  dubai
+  dunlop
+  dupont
+  durban
+  dvag
+  dvr
+  dz: sub=com
+  earth
+  eat
+  ec: sub=[com,fin,info,med,net,org,pro]
+  eco
+  edeka
+  edu
+  education
+  ee: sub=[co,com,fie,med,pri]
+  eg: sub=[com,edu,eun,gov,info,name,net,org,tv]
+  email
+  emerck
+  energy
+  engineer
+  engineering
+  enterprises
+  epson
+  equipment
+  er
+  ericsson
+  erni
+  es: sub=[com,edu,gob,nom,org]
+  esq
+  estate
+  et: sub=[biz,com,info,name,net,org]
+  eu
+  eurovision
+  eus
+  events
+  exchange
+  expert
+  exposed
+  express
+  extraspace
+  fage
+  fail
+  fairwinds
+  faith
+  family
+  fan
+  fans
+  farm
+  farmers
+  fashion
+  fast
+  fedex
+  feedback
+  ferrari
+  ferrero
+  fi
+  fidelity
+  fido
+  film
+  final
+  finance
+  financial
+  fire
+  firestone
+  firmdale
+  fish
+  fishing
+  fit
+  fitness
+  fj: sub=[ac,biz,com,info,name,net,org,pro]
+  fk: sub=co
+  flickr
+  flights
+  flir
+  florist
+  flowers
+  fly
+  fm: sub=radio
+  fo
+  foo
+  food
+  football
+  ford
+  forex
+  forsale
+  forum
+  foundation
+  fox
+  fr: sub=[aeroport,asso,avocat,chambagri,"chirurgiens-dentistes",com,"experts-comptables","geometre-expert",gouv,medecin,nom,notaires,pharmacien,port,prd,presse,tm,veterinaire]
+  free
+  fresenius
+  frl
+  frogans
+  frontier
+  ftr
+  fujitsu
+  fun
+  fund
+  furniture
+  futbol
+  fyi
+  ga
+  gal
+  gallery
+  gallo
+  gallup
+  game
+  games
+  gap
+  garden
+  gay
+  gb
+  gbiz
+  gd
+  gdn
+  ge: sub=[com,edu,gov,mil,net,org,pvt]
+  gea
+  gent
+  genting
+  george
+  gf
+  gg: sub=[co,net,org]
+  ggee
+  gh: sub=[com,edu,org]
+  gi: sub=[com,gov,ltd,org]
+  gift
+  gifts
+  gives
+  giving
+  gl: sub=[co,com,edu,net,org]
+  glass
+  gle
+  global
+  globo
+  gm
+  gmail
+  gmbh
+  gmo
+  gmx
+  gn: sub=[com,gov,net,org]
+  godaddy
+  gold
+  goldpoint
+  golf
+  goo
+  goodyear
+  goog
+  google
+  gop
+  got
+  gov
+  gp: sub=[com,mobi,net,org]
+  gq
+  gr: sub=[com,edu,net,org]
+  grainger
+  graphics
+  gratis
+  green
+  gripe
+  grocery
+  group
+  gs
+  gt: sub=[com,ind,net,org]
+  gu: sub=com
+  gucci
+  guge
+  guide
+  guitars
+  guru
+  gw
+  gy: sub=[co,com,net]
+  hair
+  hamburg
+  hangout
+  haus
+  hbo
+  hdfc
+  hdfcbank
+  health
+  healthcare
+  help
+  helsinki
+  here
+  hermes
+  hiphop
+  hisamitsu
+  hitachi
+  hiv
+  hk: sub=[com,edu,gov,idv,inc,ltd,net,org,公司]
+  hkt
+  hm
+  hn: sub=[com,edu,net,org]
+  hockey
+  holdings
+  holiday
+  homedepot
+  homegoods
+  homes
+  homesense
+  honda
+  horse
+  hospital
+  host
+  hosting
+  hot
+  hotels
+  hotmail
+  house
+  how
+  hr: sub=com
+  hsbc
+  ht: sub=[adult,art,asso,com,edu,firm,info,net,org,perso,pol,pro,rel,shop]
+  hu: sub=[2000,agrar,bolt,casino,city,co,erotica,erotika,film,forum,games,hotel,info,ingatlan,jogasz,konyvelo,lakas,media,news,org,priv,reklam,sex,shop,sport,suli,szex,tm,tozsde,utazas,video]
+  hughes
+  hyatt
+  hyundai
+  ibm
+  icbc
+  ice
+  icu
+  id: sub=[biz,co,my,or,web]
+  ie
+  ieee
+  ifm
+  ikano
+  il: sub=[ac,co,muni,net,org]
+  im: sub=[ac,co,com,net,org]
+  co.im: sub=[ltd,plc]
+  imamat
+  imdb
+  immo
+  immobilien
+  in: sub=[5g,6g,ahmdabad,ai,am,bihar,biz,business,ca,cn,co,com,coop,cs,delhi,dr,er,firm,gen,gujarat,ind,info,int,internet,io,me,net,org,pg,post,pro,travel,tv,uk,up,us]
+  inc
+  industries
+  infiniti
+  info: sub=auz
+  ing
+  ink
+  institute
+  insurance
+  insure
+  int
+  international
+  intuit
+  investments
+  io
+  ipiranga
+  iq: sub=com
+  ir: sub=co
+  irish
+  is
+  ismaili
+  ist
+  istanbul
+  it: sub=[abr,abruzzo,ag,agrigento,al,alessandria,"alto-adige",altoadige,an,ancona,"andria-barletta-trani","andria-trani-barletta",andriabarlettatrani,andriatranibarletta,ao,aosta,aoste,ap,aq,aquila,ar,arezzo,"ascoli-piceno",ascolipiceno,asti,at,av,avellino,ba,balsan,bari,"barletta-trani-andria",barlettatraniandria,bas,basilicata,belluno,benevento,bergamo,bg,bi,biella,bl,bn,bo,bologna,bolzano,bozen,br,brescia,brindisi,bs,bt,bz,ca,cagliari,cal,calabria,caltanissetta,cam,campania,"campidano-medio",campidanomedio,campobasso,"carbonia-iglesias",carboniaiglesias,"carrara-massa",carraramassa,caserta,catania,catanzaro,cb,ce,"cesena-forli",cesenaforli,ch,chieti,ci,cl,cn,co,como,cosenza,cr,cremona,crotone,cs,ct,cuneo,cz,"dell-ogliastra",dellogliastra,"emilia-romagna",emiliaromagna,emr,en,enna,fc,fe,fermo,ferrara,fg,fi,firenze,florence,fm,foggia,"forli-cesena",forlicesena,fr,"friuli-v-giulia","friuli-ve-giulia","friuli-vegiulia","friuli-venezia-giulia","friuli-veneziagiulia","friuli-vgiulia","friuliv-giulia","friulive-giulia",friulivegiulia,"friulivenezia-giulia",friuliveneziagiulia,friulivgiulia,frosinone,fvg,ge,genoa,genova,go,gorizia,gr,grosseto,"iglesias-carbonia",iglesiascarbonia,im,imperia,is,isernia,kr,"la-spezia",laquila,laspezia,latina,laz,lazio,lc,le,lecce,lecco,li,lig,liguria,livorno,lo,lodi,lom,lombardia,lombardy,lt,lu,lucania,lucca,macerata,mantova,mar,marche,"massa-carrara",massacarrara,matera,mb,mc,me,"medio-campidano",mediocampidano,messina,mi,milan,milano,mn,mo,modena,mol,molise,"monza-brianza","monza-e-della-brianza",monza,monzabrianza,monzaebrianza,monzaedellabrianza,ms,mt,na,naples,napoli,no,novara,nu,nuoro,og,ogliastra,"olbia-tempio",olbiatempio,or,oristano,ot,pa,padova,padua,palermo,parma,pavia,pc,pd,pe,perugia,"pesaro-urbino",pesarourbino,pescara,pg,pi,piacenza,piedmont,piemonte,pisa,pistoia,pmn,pn,po,pordenone,potenza,pr,prato,pt,pu,pug,puglia,pv,pz,ra,ragusa,ravenna,rc,re,"reggio-calabria","reggio-emilia",reggiocalabria,reggioemilia,rg,ri,rieti,rimini,rm,rn,ro,roma,rome,rovigo,sa,salerno,sar,sardegna,sardinia,sassari,savona,si,sic,sicilia,sicily,siena,siracusa,so,sondrio,sp,sr,ss,suedtirol,sv,ta,taa,taranto,te,"tempio-olbia",tempioolbia,teramo,terni,tn,to,torino,tos,toscana,tp,tr,"trani-andria-barletta","trani-barletta-andria",traniandriabarletta,tranibarlettaandria,trapani,"trentino-a-adige","trentino-aadige","trentino-alto-adige","trentino-altoadige","trentino-s-tirol","trentino-stirol","trentino-sud-tirol","trentino-sudtirol","trentino-sued-tirol","trentino-suedtirol",trentino,"trentinoa-adige",trentinoaadige,"trentinoalto-adige",trentinoaltoadige,"trentinos-tirol","trentinosud-tirol",trentinosudtirol,"trentinosued-tirol",trentinosuedtirol,trento,treviso,trieste,ts,turin,tuscany,tv,ud,udine,umb,umbria,"urbino-pesaro",urbinopesaro,va,"val-d-aosta","val-daosta","vald-aosta",valdaosta,"valle-d-aosta","valle-daosta","valled-aosta",valledaosta,vao,varese,vb,vc,vda,ve,ven,veneto,venezia,venice,verbania,vercelli,verona,vi,"vibo-valentia",vibovalentia,vicenza,viterbo,vr,vs,vt,vv]
+  itau
+  itv
+  jaguar
+  java
+  jcb
+  je: sub=[co,net,org]
+  jeep
+  jetzt
+  jewelry
+  jio
+  jll
+  jm: sub=[com,net,org]
+  jmp
+  jnj
+  jo: sub=[com,name,net,org,sch]
+  jobs
+  joburg
+  jot
+  joy
+  jp: sub=[akita,co,gr,kyoto,ne,or,osaka,saga,tokyo]
+  jpmorgan
+  jprs
+  juegos
+  juniper
+  kaufen
+  kddi
+  ke: sub=[ac,co,go,info,me,mobi,ne,or,sc]
+  kerryhotels
+  kerrylogistics
+  kerryproperties
+  kfh
+  kg: sub=[com,net,org]
+  kh: sub=[com,edu,net,org]
+  ki: sub=[biz,com,edu,gov,info,mobi,net,org,phone,tel]
+  kia
+  kids
+  kim
+  kindle
+  kitchen
+  kiwi
+  km: sub=[com,nom,org,tm]
+  kn: sub=[com,edu,gov]
+  koeln
+  komatsu
+  kosher
+  kp
+  kpmg
+  kpn
+  kr: sub=[co,go,ms,ne,or,pe,re,seoul]
+  krd
+  kred
+  kuokgroup
+  kw: sub=[com,edu,net,org]
+  ky: sub=[com,net,org]
+  kyoto
+  kz: sub=[com,org]
+  la
+  lacaixa
+  lamborghini
+  lamer
+  lancaster
+  land
+  landrover
+  lanxess
+  lasalle
+  lat
+  latino
+  latrobe
+  law
+  lawyer
+  lb: sub=[com,edu,net,org]
+  lc: sub=[co,com,l,net,org,p]
+  lds
+  lease
+  leclerc
+  lefrak
+  legal
+  lego
+  lexus
+  lgbt
+  li
+  lidl
+  life
+  lifeinsurance
+  lifestyle
+  lighting
+  like
+  lilly
+  limited
+  limo
+  lincoln
+  link
+  lipsy
+  live
+  living
+  lk: sub=[assn,com,edu,grp,hotel,ltd,ngo,org,soc,web]
+  llc
+  llp
+  loan
+  loans
+  locker
+  locus
+  lol
+  london
+  lotte
+  lotto
+  love
+  lpl
+  lplfinancial
+  lr: sub=[com,org]
+  ls: sub=[co,net,org]
+  lt
+  ltd
+  ltda
+  lu
+  lundbeck
+  luxe
+  luxury
+  lv: sub=[asn,com,conf,edu,id,mil,net,org]
+  ly: sub=[com,id,med,net,org,plc,sch]
+  ma: sub=[ac,co,net,org,press]
+  madrid
+  maif
+  maison
+  makeup
+  man
+  management
+  mango
+  map
+  market
+  marketing
+  markets
+  marriott
+  marshalls
+  mattel
+  mba
+  mc: sub=[asso,tm]
+  mckinsey
+  md
+  me
+  med
+  media
+  meet
+  melbourne
+  meme
+  memorial
+  men
+  menu
+  merckmsd
+  mg: sub=[co,com,mil,net,nom,org,prd,tm]
+  mh
+  miami
+  microsoft
+  mil
+  mini
+  mint
+  mit
+  mitsubishi
+  mk: sub=[com,edu,inf,net,org]
+  ml: sub=[com,info,net,org]
+  mlb
+  mls
+  mm: sub=[biz,com,net,org,per]
+  mma
+  mn
+  mo: sub=[com,net,org]
+  mobi
+  mobile
+  moda
+  moe
+  moi
+  mom
+  monash
+  money
+  monster
+  mormon
+  mortgage
+  moscow
+  moto
+  motorcycles
+  mov
+  movie
+  mp
+  mq
+  mr: sub=[edu,org,perso]
+  ms: sub=[co,com,org]
+  msd
+  mt: sub=[com,edu,net,org]
+  mtn
+  mtr
+  mu: sub=[ac,co,com,net,nom,or,org]
+  museum
+  music
+  mv: sub=com
+  mw: sub=[ac,co,com,coop,edu,int,net,org]
+  mx: sub=[com,net,org]
+  my: sub=[com,mil,name,net,org]
+  mz: sub=[co,edu,net,org]
+  na: sub=[alt,cc,co,com,edu,info,net,org,school]
+  nab
+  nagoya
+  name
+  navy
+  nba
+  nc
+  ne: sub=[com,info,int,org,perso]
+  nec
+  net: sub=[auz,gb,hu,in,jp,ru,se,uk]
+  netbank
+  netflix
+  network
+  neustar
+  new
+  news
+  next
+  nextdirect
+  nexus
+  nf: sub=[arts,com,firm,info,net,org,other,per,rec,store,web]
+  nfl
+  ng: sub=[com,edu,gov,i,mobi,name,net,org,sch]
+  gov.ng: sub=lg
+  ngo
+  nhk
+  ni: sub=[ac,biz,co,com,edu,gob,in,info,int,mil,net,nom,org,web]
+  nico
+  nike
+  nikon
+  ninja
+  nissan
+  nissay
+  nl: sub=[co,com,net]
+  no: sub=[co,fhs,folkebibl,fylkesbibl,gs,idrett,museum,priv,uenorge,vgs]
+  nokia
+  norton
+  now
+  nowruz
+  nowtv
+  np: sub=[aero,asia,biz,com,coop,info,mil,mobi,museum,name,net,org,pro,travel]
+  nr: sub=[biz,com,info,net,org]
+  nra
+  nrw
+  ntt
+  nu: sub=co
+  nyc
+  nz: sub=[ac,co,geek,gen,health,iwi,kiwi,maori,net,org,school]
+  net.nz: sub=co
+  obi
+  observer
+  office
+  okinawa
+  olayan
+  olayangroup
+  ollo
+  om: sub=[biz,co,com,edu,gov,med,mil,museum,net,org,pro,sch]
+  omega
+  one
+  ong
+  onl
+  online
+  ooo
+  open
+  oracle
+  orange
+  org: sub=[ae,hk,us]
+  organic
+  origins
+  osaka
+  otsuka
+  ott
+  ovh
+  pa: sub=[abo,com,edu,gob,ing,med,net,nom,org,sld]
+  page
+  panasonic
+  paris
+  pars
+  partners
+  parts
+  party
+  pay
+  pccw
+  pe: sub=[com,edu,gob,mil,net,nom,org]
+  pet
+  pf: sub=[asso,com,edu,gov,org]
+  pfizer
+  pg: sub=[com,net,org]
+  ph: sub=[com,net,org]
+  pharmacy
+  phd
+  philips
+  phone
+  photo
+  photography
+  photos
+  physio
+  pics
+  pictet
+  pictures
+  pid
+  pin
+  ping
+  pink
+  pioneer
+  pizza
+  pk: sub=[biz,com,net,org,web]
+  pl: sub=[agro,aid,atm,augustow,auto,"babia-gora",bedzin,beskidy,bialowieza,bialystok,bielawa,bieszczady,biz,boleslawiec,bydgoszcz,bytom,cieszyn,com,czeladz,czest,dlugoleka,edu,elblag,elk,glogow,gmina,gniezno,gorlice,grajewo,gsm,ilawa,info,jaworzno,"jelenia-gora",jgora,kalisz,karpacz,kartuzy,kaszuby,katowice,"kazimierz-dolny",kepno,ketrzyn,klodzko,kobierzyce,kolobrzeg,konin,konskowola,kutno,lapy,lebork,legnica,lezajsk,limanowa,lomza,lowicz,lubin,lukow,mail,malbork,malopolska,mazowsze,mazury,media,miasta,mielec,mielno,mil,mragowo,naklo,net,nieruchomosci,nom,nowaruda,nysa,olawa,olecko,olkusz,olsztyn,opoczno,opole,org,ostroda,ostroleka,ostrowiec,ostrowwlkp,pc,pila,pisz,podhale,podlasie,polkowice,pomorskie,pomorze,powiat,priv,prochowice,pruszkow,przeworsk,pulawy,radom,"rawa-maz",realestate,rel,rybnik,rzeszow,sanok,sejny,sex,shop,sklep,skoczow,slask,slupsk,sos,sosnowiec,"stalowa-wola",starachowice,stargard,suwalki,swidnica,swiebodzin,swinoujscie,szczecin,szczytno,szkola,targi,tarnobrzeg,tgory,tm,tourism,travel,turek,turystyka,tychy,ustka,walbrzych,warmia,warszawa,waw,wegrow,wielun,wlocl,wloclawek,wodzislaw,wolomin,wroclaw,zachpomor,zagan,zarow,zgora,zgorzelec]
+  place
+  play
+  playstation
+  plumbing
+  plus
+  pm
+  pn: sub=[co,net,org]
+  pnc
+  pohl
+  poker
+  politie
+  porn
+  post: sub=[com,edu,org]
+  pr: sub=[at,biz,ch,com,de,eu,fr,info,isla,it,name,net,nl,org,pro,uk]
+  pramerica
+  praxi
+  press
+  prime
+  pro: sub=[aaa,aca,acct,arc,avocat,bar,bus,chi,chiro,cpa,den,dent,eng,jur,law,med,min,nur,nurse,pharma,prof,prx,recht,rel,teach,vet]
+  prod
+  productions
+  prof
+  progressive
+  promo
+  properties
+  property
+  protection
+  pru
+  prudential
+  ps: sub=[com,net,org]
+  pt: sub=[co,com,org]
+  pub
+  pw
+  pwc
+  py: sub=[com,coop,edu,net,org]
+  qa: sub=[com,edu,mil,name,net,org,sch]
+  qpon
+  quebec
+  quest
+  racing
+  radio
+  re
+  read
+  realestate
+  realtor
+  realty
+  recipes
+  red
+  redstone
+  redumbrella
+  rehab
+  reise
+  reisen
+  reit
+  reliance
+  ren
+  rent
+  rentals
+  repair
+  report
+  republican
+  rest
+  restaurant
+  review
+  reviews
+  rexroth
+  rich
+  richardli
+  ricoh
+  ril
+  rio
+  rip
+  ro: sub=[arts,co,com,firm,info,ne,nom,nt,or,org,rec,sa,srl,store,tm,www]
+  rocks
+  rodeo
+  rogers
+  room
+  rs: sub=[co,edu,in,org]
+  rsvp
+  ru: sub=[adygeya,bashkiria,bir,cbg,com,dagestan,grozny,kalmykia,kustanai,marine,mordovia,msk,mytis,nalchik,net,nov,org,pp,pyatigorsk,spb,vladikavkaz,vladimir]
+  rugby
+  ruhr
+  run
+  rw: sub=[ac,co,net,org]
+  rwe
+  ryukyu
+  sa: sub=[com,edu,med,net,org,pub,sch]
+  saarland
+  safe
+  safety
+  sakura
+  sale
+  salon
+  samsclub
+  samsung
+  sandvik
+  sandvikcoromant
+  sanofi
+  sap
+  sarl
+  sas
+  save
+  saxo
+  sb: sub=[com,net,org]
+  sbi
+  sbs
+  sc: sub=[com,net,org]
+  scb
+  schaeffler
+  schmidt
+  scholarships
+  school
+  schule
+  schwarz
+  science
+  scot
+  sd: sub=[com,info,net]
+  se: sub=com
+  search
+  seat
+  secure
+  security
+  seek
+  select
+  sener
+  services
+  seven
+  sew
+  sex
+  sexy
+  sfr
+  sg: sub=[com,edu,net,org]
+  sh
+  shangrila
+  sharp
+  shell
+  shia
+  shiksha
+  shoes
+  shop
+  shopping
+  shouji
+  show
+  si: sub=[ae,at,cn,co,de,uk,us]
+  silk
+  sina
+  singles
+  site
+  sj
+  sk: sub=org
+  ski
+  skin
+  sky
+  skype
+  sl: sub=[com,edu,net,org]
+  sling
+  sm
+  smart
+  smile
+  sn: sub=[art,com,edu,org,perso,univ]
+  sncf
+  so: sub=[com,net,org]
+  soccer
+  social
+  softbank
+  software
+  sohu
+  solar
+  solutions
+  song
+  sony
+  soy
+  spa
+  space
+  sport
+  spot
+  sr
+  srl
+  ss: sub=[biz,co,com,me,net]
+  st
+  stada
+  staples
+  star
+  statebank
+  statefarm
+  stc
+  stcgroup
+  stockholm
+  storage
+  store
+  stream
+  studio
+  study
+  style
+  su: sub=[abkhazia,adygeya,aktyubinsk,arkhangelsk,armenia,ashgabad,azerbaijan,balashov,bashkiria,bryansk,bukhara,chimkent,dagestan,"east-kazakhstan",exnet,georgia,grozny,ivanovo,jambyl,kalmykia,kaluga,karacol,karaganda,karelia,khakassia,krasnodar,kurgan,kustanai,lenug,mangyshlak,mordovia,msk,murmansk,nalchik,navoi,"north-kazakhstan",nov,obninsk,penza,pokrovsk,sochi,spb,tashkent,termez,togliatti,troitsk,tselinograd,tula,tuva,vladikavkaz,vladimir,vologda]
+  sucks
+  supplies
+  supply
+  support
+  surf
+  surgery
+  suzuki
+  sv: sub=[com,edu,gob,org]
+  swatch
+  swiss
+  sx
+  sy: sub=com
+  sydney
+  systems
+  sz: sub=[co,org]
+  tab
+  taipei
+  talk
+  taobao
+  target
+  tatamotors
+  tatar
+  tattoo
+  tax
+  taxi
+  tc: sub=[com,net,org,pro]
+  tci
+  td: sub=[com,net,org,tourism]
+  tdk
+  team
+  tech
+  technology
+  tel
+  temasek
+  tennis
+  teva
+  tf
+  tg
+  th: sub=[ac,co,in,or]
+  thd
+  theater
+  theatre
+  tiaa
+  tickets
+  tienda
+  tips
+  tires
+  tirol
+  tj: sub=[ac,aero,biz,co,com,coop,dyn,go,info,int,mil,museum,my,name,net,org,per,pro,web]
+  tjmaxx
+  tjx
+  tk
+  tkmaxx
+  tl: sub=[com,net,org]
+  tm
+  tmall
+  tn: sub=[agrinet,com,defense,edunet,ens,fin,ind,info,intl,nat,net,org,perso,rnrt,rns,rnu,tourism]
+  to
+  today
+  tokyo
+  tools
+  top
+  toray
+  toshiba
+  total
+  tours
+  town
+  toyota
+  toys
+  tr: sub=[av,bbs,biz,com,dr,gen,info,name,net,org,tel,tv,web]
+  trade
+  trading
+  training
+  travel
+  travelers
+  travelersinsurance
+  trust
+  trv
+  tt: sub=[biz,co,com,info,jobs,mobi,name,net,org,pro]
+  tube
+  tui
+  tunes
+  tushu
+  tv
+  tvs
+  tw: sub=[club,com,ebiz,game,idv,mil,net,org]
+  tz: sub=[ac,co,go,hotel,info,me,mil,mobi,ne,or,sc,tv]
+  ua: sub=[biz,cherkassy,cherkasy,chernigov,chernivtsi,chernovtsy,ck,cn,co,com,crimea,cv,dn,dnepropetrovsk,dnipropetrovsk,donetsk,dp,edu,gov,if,in,"ivano-frankivsk",kh,kharkiv,kharkov,kherson,khmelnitskiy,kiev,kirovograd,km,kr,ks,kyiv,lg,lt,lugansk,lutsk,lviv,mk,net,nikolaev,od,odesa,odessa,org,pl,poltava,pp,rivne,rovno,rv,sebastopol,sm,sumy,te,ternopil,uz,uzhgorod,vinnica,vn,volyn,yalta,zaporizhzhe,zhitomir,zp,zt]
+  ubank
+  ubs
+  ug: sub=[ac,co,com,go,ne,or,org,sc]
+  uk: sub=[ac,co,gov,ltd,me,net,org,plc,sch]
+  sch.uk: sub=["barking-dagenham",barnet,barnsley,bathnes,beds,bexley,bham,blackburn,blackpool,bolton,bournemouth,"bracknell-forest",bradford,brent,doncaster]
+  unicom
+  university
+  uno
+  uol
+  ups
+  us
+  uy: sub=[com,edu,net,org]
+  uz: sub=[biz,co,com,net,org]
+  va
+  vacations
+  vana
+  vanguard
+  vc: sub=[com,net,org]
+  ve: sub=[co,com,info,net,org,web]
+  vegas
+  ventures
+  verisign
+  vermögensberater
+  vermögensberatung
+  versicherung
+  vet
+  vg
+  vi: sub=[co,com,net,org]
+  viajes
+  video
+  vig
+  viking
+  villas
+  vin
+  vip
+  virgin
+  visa
+  vision
+  viva
+  vivo
+  vlaanderen
+  vn: sub=[ac,biz,com,edu,gov,health,info,int,name,net,org,pro]
+  vodka
+  volvo
+  vote
+  voting
+  voto
+  voyage
+  vu: sub=[com,net,org]
+  wales
+  walmart
+  walter
+  wang
+  wanggou
+  watch
+  watches
+  weather
+  weatherchannel
+  webcam
+  weber
+  website
+  wed
+  wedding
+  weibo
+  weir
+  wf
+  whoswho
+  wien
+  wiki
+  williamhill
+  win
+  windows
+  wine
+  winners
+  wme
+  wolterskluwer
+  woodside
+  work
+  works
+  world
+  wow
+  ws: sub=[com,net,org]
+  wtc
+  wtf
+  xbox
+  xerox
+  xihuan
+  xin
+  xxx
+  xyz
+  yachts
+  yahoo
+  yamaxun
+  yandex
+  ye: sub=[com,net,org]
+  yodobashi
+  yoga
+  yokohama
+  you
+  youtube
+  yt
+  yun
+  za: sub=[co,net,org,web]
+  zappos
+  zara
+  zero
+  zip
+  zm: sub=[co,com,org]
+  zone
+  zuerich
+  zw: sub=[co,org]
+  ελ
+  ευ
+  бг
+  бел
+  дети
+  ею
+  католик
+  ком
+  мкд
+  мон
+  москва
+  онлайн
+  орг
+  рус
+  рф: sub=[ком,нет,орг]
+  сайт
+  срб: sub=[ак,пр,упр]
+  укр
+  қаз
+  հայ
+  ישראל
+  קום
+  ابوظبي
+  ارامكو
+  الاردن
+  البحرين
+  الجزائر
+  السعودية
+  العليان
+  المغرب
+  امارات
+  ایران
+  بارت
+  بازار
+  بيتك
+  بھارت: sub=كمپنی
+  تونس
+  سودان
+  سورية
+  شبكة
+  عراق
+  عرب
+  عمان
+  فلسطين
+  قطر
+  كاثوليك
+  كوم
+  مصر
+  مليسيا
+  موريتانيا
+  موقع
+  همراه
+  پاكستان
+  پاکستان
+  ڀارت
+  कॉम
+  नेट
+  भारत: sub=कंपनी
+  भारतम्
+  भारोत
+  संगठन
+  বাংলা
+  ভারত: sub=কোম্পানি
+  ভাৰত
+  ਭਾਰਤ: sub=ਕੰਪਨੀ
+  ભારત: sub=કંપની
+  ଭାରତ
+  இந்தியா: sub=நிறுவனம்
+  இலங்கை
+  சிங்கப்பூர்
+  భారత్: sub=కంపెనీ
+  ಭಾರತ
+  ഭാരതം
+  ලංකා
+  คอม
+  ไทย: sub=ธุรกิจ
+  ລາວ
+  გე
+  みんな
+  アマゾン
+  クラウド
+  グーグル
+  コム
+  ストア
+  セール
+  ファッション
+  ポイント
+  世界
+  中信
+  中国
+  中國
+  中文网
+  亚马逊
+  企业
+  佛山
+  信息
+  健康
+  八卦
+  公司
+  公益
+  台湾
+  台灣
+  商城
+  商店
+  商标
+  嘉里
+  嘉里大酒店
+  在线
+  大拿
+  天主教
+  娱乐
+  家電
+  广东
+  微博
+  慈善
+  我爱你
+  手机
+  招聘
+  政务
+  政府
+  新加坡
+  新闻
+  时尚
+  書籍
+  机构
+  淡马锡
+  游戏
+  澳門
+  点看
+  移动
+  组织机构
+  网址
+  网店
+  网站
+  网络
+  联通
+  谷歌
+  购物
+  通販
+  集团
+  電訊盈科
+  飞利浦
+  食品
+  餐厅
+  香格里拉
+  香港: sub=[個人,公司,政府,教育,組織,網絡]
+  닷넷
+  닷컴
+  삼성
+  한국
+

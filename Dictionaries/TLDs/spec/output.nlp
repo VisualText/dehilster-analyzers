@@ -1,0 +1,25 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-9-25 10:8:49
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("tld.kbb",G("tld"),2);
+
+L("dict") = "tld.dict";
+L("tld") = down(G("tld"));
+while (L("tld")) {
+    L("dict") << conceptname(L("tld")) << " tld=1\n";
+    L("subs") = findvals(L("tld"),"sub");
+    while (L("subs")) {
+        L("dict") << getstrval(L("subs")) << " tdl=" << QuoteIfNeeded(conceptname(L("tld"))) << " sub=1\n";
+        L("subs") = nextval(L("subs"));
+    }
+    L("tld") = next(L("tld"));
+}
+
+@@CODE

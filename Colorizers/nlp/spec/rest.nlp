@@ -12,6 +12,7 @@
 _rest <-
 	_xWILD [fail=(
 			_at
+			_atat
 			_attr
 			_comment 
 			_concept 
@@ -24,6 +25,7 @@ _rest <-
 			_rules
 			_space 
 			_string 
+			_suggest
 			_suggests
 			_tab
 			_variable
