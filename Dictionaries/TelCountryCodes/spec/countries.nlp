@@ -1,0 +1,22 @@
+###############################################
+# FILE: countries
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 16:35:40
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("con") = getconcept(G("codes"),str(N("$text",4)));
+addstrval(S("con"),"country",N("$text",2));
+single();
+
+@RULES
+_country <-
+	_xSTART				### (1)
+	_xWILD [fail=(\t)]	### (2)
+	\t					### (3)
+	_xNUM				### (4)
+	@@

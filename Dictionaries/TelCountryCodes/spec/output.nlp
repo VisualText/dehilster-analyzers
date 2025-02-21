@@ -1,0 +1,35 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 16:39:23
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("codes"));
+SaveKB("tel-country-codes.kbb",G("codes"),2);
+
+L("dict") = "tel-country-codes.dict"
+L("dict") << "# Telephone country codes\n";
+L("con") = down(G("codes"));
+
+while (L("con")) {
+    L("dict") << conceptname(L("con")) << " ccode=1 country=";
+    L("attr") = findattr(L("con"),"country");
+    L("attrs") = attrvals(L("attr"));
+    L("countries") = 0;
+    while (L("attrs")) {
+        L("countries") = L("countries") + getstrval(L("attrs"));
+        if (nextval(L("attrs"))) {
+            L("countries") = L("countries") + ",";
+        }
+        L("attrs") = nextval(L("attrs"));
+    }
+    L("dict") << QuoteIfNeeded(L("countries"));
+    L("dict") <<"\n";
+    L("con") = next(L("con"));
+}
+
+@@CODE
