@@ -1,4 +1,4 @@
-tokenize	nil	# Gen:   Convert input to token list
-nlp	Lines	# comment
-nlp	parens	# comment
-nlp	country	# comment
+dicttok	nil	# Gen:   Convert input to token list
+/nlp	parens	# comment
+/nlp	Lines	# comment
+/nlp	country	# comment
