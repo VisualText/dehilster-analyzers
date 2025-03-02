@@ -1,0 +1,16 @@
+###############################################
+# FILE: body
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:27:36
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_body <-
+	_bodyStart					### (1)
+	_xWILD [fail=(_bodyEnd)]	### (2)
+	_bodyEnd					### (3)
+	@@

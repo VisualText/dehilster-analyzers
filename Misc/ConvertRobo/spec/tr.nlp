@@ -1,0 +1,22 @@
+###############################################
+# FILE: tr
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 9:28:50
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _table
+
+@POST
+X("rows",3)++;
+single();
+
+@RULES
+_tr <-
+	_trStart						### (1)
+	_xWILD [fail=(_trEnd _trStart)]	### (2)
+	_trEnd							### (3)
+	@@
+
+#	movecleft

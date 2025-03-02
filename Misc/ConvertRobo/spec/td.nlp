@@ -1,0 +1,20 @@
+###############################################
+# FILE: td
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 9:28:50
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _table _tr
+
+@POST
+X("columns",4)++;
+single();
+
+@RULES
+_td <-
+	_tdStart						### (1)
+	_xWILD [fail=(_tdEnd _tdStart)]	### (2)
+	_tdEnd							### (3)
+	@@

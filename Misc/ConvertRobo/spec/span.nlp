@@ -1,0 +1,20 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:32:16
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@POST
+S("text") = N("$text",2);
+single();
+
+@RULES
+_span <-
+	_spanStart					### (1)
+	_xWILD [fail=(_spanEnd)]	### (2)
+	_spanEnd					### (3)
+	@@

@@ -1,0 +1,32 @@
+###############################################
+# FILE: inParas
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:38:46
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _para
+
+@POST
+S("text") = N("$text",2);
+single();
+
+@RULES
+_bold <-
+	_spanBold					### (1)
+	_xWILD [fail=(_spanEnd)]	### (2)
+	_spanEnd					### (3)
+	@@
+
+@POST
+S("href") = strsubst(N("href",1),".htm",".md");
+S("text") = N("$text",2);
+single();
+
+@RULES
+_a <-
+	_aStart					### (1)
+	_xWILD [fail=(_aEnd)]	### (2)
+	_aEnd					### (3)
+	@@

@@ -1,0 +1,17 @@
+###############################################
+# FILE: tableColumns
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-2 8:59:56
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _table
+
+@POST
+X("columns",3) = N("columns",1);
+
+@RULES
+_xNIL <-
+	_tr	### (1)
+	@@

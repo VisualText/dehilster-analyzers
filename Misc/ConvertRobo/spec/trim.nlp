@@ -1,0 +1,21 @@
+###############################################
+# FILE: trim
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 22:15:43
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+excise(4,4);
+excise(2,2);
+
+@RULES
+_xNIL <-
+	_xSTART					### (1)
+	_xWILD [fail=(_body)]	### (2)
+	_body					### (3)
+	_xWILD [fail=(xEnd)]	### (4)
+	@@

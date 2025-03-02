@@ -1,0 +1,28 @@
+###############################################
+# FILE: paraEmpty
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-2 11:27:44
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@POST
+L("node") = pndown(N(1));
+L("has text") = 0;
+while (L("node") && !L("has text")) {
+	L("name") = pnname(L("node"));
+	if (strpiece(L("name"),0,0) != "_" || pnvar(L("node"),"text")) {
+		L("has text") = 1;
+	}
+	L("node") = pnnext(L("node"));
+}
+if (!L("has text")) {
+	N("empty",1) = 1;
+}
+
+@RULES
+_xNIL <-
+	_para	### (1)
+	@@

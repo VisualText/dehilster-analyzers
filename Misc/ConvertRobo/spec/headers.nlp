@@ -1,0 +1,34 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:32:16
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@POST
+S("text") = N("$text",2);
+single();
+
+@RULES
+_headerOne <-
+	_hOneStart					### (1)
+	_xWILD [fail=(_hOneEnd)]	### (2)
+	_hOneEnd					### (3)
+	@@
+
+@POST
+S("text") = N("$text",2);
+if (S("text") == "See Also") {
+	S("see also") = 1;
+}
+single();
+
+@RULES
+_headerTwo <-
+	_hTwoStart					### (1)
+	_xWILD [fail=(_hTwoEnd)]	### (2)
+	_hTwoEnd					### (3)
+	@@

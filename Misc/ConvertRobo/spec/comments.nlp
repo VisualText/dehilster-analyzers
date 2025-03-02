@@ -1,0 +1,19 @@
+###############################################
+# FILE: inParas
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:38:46
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body
+
+@POST
+excise(1,3);
+
+@RULES
+_comment <-
+	_commentStart				### (1)
+	_xWILD [fail=(_commentEnd)]	### (2)
+	_commentEnd					### (3)
+	@@

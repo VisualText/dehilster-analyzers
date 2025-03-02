@@ -1,0 +1,19 @@
+###############################################
+# FILE: nestedSpans
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-25 17:24:2
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _para
+
+@POST
+if (X("type",3) == "monospace" && N("type",1) == "monospace") {
+	splice(1,1);
+}
+
+@RULES
+_xNIL <-
+	_span
+	@@

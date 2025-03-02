@@ -1,0 +1,23 @@
+###############################################
+# FILE: lists
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 10:59:52
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@RULES
+_ol <-
+	_olStart				### (1)
+	_xWILD [fail=(_olEnd)]	### (2)
+	_olEnd					### (3)
+	@@
+
+@RULES
+_ul <-
+	_ulStart				### (1)
+	_xWILD [fail=(_ulEnd)]	### (2)
+	_ulEnd					### (3)
+	@@

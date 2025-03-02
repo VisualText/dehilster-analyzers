@@ -1,0 +1,29 @@
+###############################################
+# FILE: seeAlso
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-2 10:16:5
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@PRE
+<1,1> var("see also");
+
+@POST
+L("node") = pnnext(N(1));
+L("stop") = 0;
+while (L("node") && !L("stop")) {
+	if (pnname(L("node")) == "_para") {
+		pnmakevar(L("node"),"see also",1);
+	} else {
+		L("stop") = 1;
+	}
+	L("node") = pnnext(L("node"));
+}
+
+@RULES
+_xNIL <-
+	_headerTwo	### (1)
+	@@
