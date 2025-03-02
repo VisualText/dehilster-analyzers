@@ -1,0 +1,16 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:32:16
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@RULES
+_li <-
+	_liStart				### (1)
+	_xWILD [fail=(_liEnd)]	### (2)
+	_liEnd					### (3)
+	@@

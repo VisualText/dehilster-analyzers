@@ -1,0 +1,17 @@
+###############################################
+# FILE: tables
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-21 9:8:18
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@RULES
+_table <-
+	_tableStart					### (1)
+	_xWILD [fail=(_tableEnd)]	### (2)
+	_tableEnd					### (3)
+	@@
+

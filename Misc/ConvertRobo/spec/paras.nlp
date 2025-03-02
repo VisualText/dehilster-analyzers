@@ -1,0 +1,16 @@
+###############################################
+# FILE: paras
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:29:42
+# MODIFIED:
+###############################################
+
+@NODES _body
+
+@RULES
+_para <-
+	_paraStart									### (1)
+	_xWILD [fail=(_paraEnd _paraStart _tdEnd)]	### (2)
+	_paraEnd									### (3)
+	@@

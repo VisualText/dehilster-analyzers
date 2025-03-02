@@ -1,0 +1,17 @@
+###############################################
+# FILE: paraType
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-25 16:28:19
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _para _paraStart
+
+@POST
+pnmakevar(X(3),"type",N("$text",1));
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(bold italic monospace)]	### (1)
+	@@

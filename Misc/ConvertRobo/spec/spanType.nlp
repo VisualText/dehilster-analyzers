@@ -1,0 +1,22 @@
+###############################################
+# FILE: spanType
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-25 16:16:30
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _body _span _spanStart
+
+@POST
+if (!pnvar(X(3),N("$text",1))) {
+	pnmakevar(X(3),N("$text",1),1);
+}
+if (!pnvar(X(4),"SP") && pnvar(X(4),"SP")) {
+	pnmakevar(X(3),"SP",pnvar(X(4),"SP"));
+}
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(bold italic underline monospace)]	### (1)
+	@@

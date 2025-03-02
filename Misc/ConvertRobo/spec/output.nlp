@@ -1,0 +1,241 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 20:40:0
+# MODIFIED:
+###############################################
+
+@DECL
+
+Prose(L("out"),L("node")) {
+	if (!L("node")) {
+		return;
+	}
+	if (pnvar(L("node"),"type") == "monospace" &&
+		pnvar(pnprev(L("node")),"type") != "monospace") {
+		L("out") << "```\n";
+		L("block") = 1;
+	}
+	L("para") = pndown(L("node"));
+	"para.txt" << "=======\nentire: " << pnvar(L("para"),"$text") << "\n";
+
+	while (L("para")) {
+		L("text") = pnvar(L("para"),"$text");
+		"para.txt" << "para: " << pnname(L("para")) << " " << L("text") << "   '" << pnvar(L("para"),"SP") << "'\n";
+		if (pnvar(L("para"),"SP") && !L("lastbr")) {
+			L("out") << " ";
+		}
+		L("lastbr") = 0;
+		L("paraname") = pnname(L("para"));
+		if (L("paraname") == "_para") {
+			Prose(L("out"),L("para"));
+		}
+		else if (L("paraname") == "_a") {
+			L("out") << "[" << pnvar(L("para"),"text") << "](" << pnvar(L("para"),"href") << ")";
+		} else if (L("paraname") == "_span") {
+			Spans(L("out"),L("para"),L("block"));
+		} else if (L("paraname") == "_quote") {
+			L("out") << "\"";
+		} else if (L("paraname") == "_br") {
+			L("out") << "\n";
+			L("lastbr") = 1;
+		} else if (L("paraname") == "_lt") {
+			L("out") << "<";
+		} else if (L("paraname") == "_gt") {
+			L("out") << ">";
+		} else if (L("paraname") == "$") {
+			L("out") << "\\$";
+		} else if (L("paraname") == "_font") {
+			L("out") << pnvar(L("para"),"text");
+		} else if (strpiece(L("paraname"),0,0) != "_" || strlength(L("paraname")) == 1) {
+			L("out") << L("text");
+		} else if (L("paraname") == "$") {
+			L("out") << "\\$" << L("text");
+		}
+		if (L("text") == "," || L("text") == "." || L("text") == "!" || L("text") == "?") {
+			L("out") << " ";
+		}
+		L("para") = pnnext(L("para"));
+	}
+	
+	if (pnvar(L("node"),"see also")) {
+		L("next") = pnnext(L("node"));
+		if (pnvar(L("next"),"see also") && !pnvar(L("next"),"empty")) {
+			L("out") << ",";
+		}
+	} else if (pnname(L("node")) == "_para") {
+		L("out") << "\n";
+	}
+		
+	if (pnvar(L("node"),"type") == "monospace" &&
+		pnvar(pnnext(L("node")),"type") != "monospace") {
+		L("out") << "\n```";
+	}
+}
+
+Spans(L("out"),L("node"),L("block")) {
+	if (!L("node")) {
+		return;
+	}
+
+	"span.txt" << "entire: " << pnvar(L("node"),"$text") << "\n";
+	L("span") = pndown(L("node"));
+	if (pnvar(L("span"),"SP")) {
+		L("out") << " ";
+	}
+
+	# movecleft
+	if (!L("block")) {
+		if (pnvar(L("node"),"bold")) {
+			"span.txt" << "    bold\n";
+			L("out") << "**";
+		}
+		if (pnvar(L("node"),"italic")) {
+			L("out") << "*";
+		}
+		if (pnvar(L("node"),"underline")) {
+			L("out") << "<ul>";
+		}
+	}
+	
+	while (L("span")) {
+		L("token") = pnvar(L("span"),"$text");
+		L("name") = pnname(L("span"));
+		"span.txt" << "   span: " << L("name") << " " << L("token") << "\n";
+		if (pnvar(L("span"),"SP") && L("name") != "_spanStart") {
+			L("out") << " ";
+		}
+		L("lastbr") = 0;
+		if (L("name") == "_br") {
+			L("out") << "\n";
+			L("lastbr") = 1;
+		}
+		else if (L("name") == "$") {
+			L("out") << "\\$";
+		}	
+		else if (strpiece(L("name"),0,0) != "_") {
+			L("out") << L("token");
+		}
+		else if (L("token") == "," || L("token") == "." || L("token") == "!" || L("token") == "?") {
+			L("out") << " ";
+		}
+		L("span") = pnnext(L("span"));
+	}
+
+	if (!L("block")) {
+		if (pnvar(L("node"),"underline")) {
+			L("out") << "</ul>";
+		}
+		if (pnvar(L("node"),"italic")) {
+			L("out") << "*";
+		}
+		if (pnvar(L("node"),"bold")) {
+			L("out") << "**";
+		}
+	}
+}
+
+@@DECL
+
+@NODES _ROOT
+
+@POST
+# L("path") = G("$apppath") + "input\\converted\\" + G("$inputhead") + ".md";
+# L("path") = G("$apppath") + "input\\converted\\NLP_PP_Stuff\\" + G("$inputhead") + ".md";
+L("path") = G("$apppath") + "input\\" + G("$inputhead") + ".md";
+"path.txt" << L("path") << "\n";
+
+L("pathhtml") = G("$inputhead") + ".htm";
+L("out") = openfile(L("path"),"w");
+
+L("node") = pndown(N(1));
+while (L("node")) {
+	L("name") = pnname(L("node"));
+	"debug.txt" << "name: " << L("name") << "\n";
+	if (L("name") == "_headerOne") {
+		L("out") << "\n# " << pnvar(L("node"),"text") << "\n";
+	}
+	else if (L("name") == "_headerTwo") {
+		L("out") << "\n## " << pnvar(L("node"),"text") << "\n";
+	}
+	else if (L("name") == "_para") {
+		Prose(L("out"),L("node"));
+		L("out") << "\n";
+	}
+	else if (L("name") == "_table" && pnvar(L("node"),"rows") == 1 && pnvar(L("node"),"columns") == 1) {
+		L("n") = pnnext(pndown(pnnext(pndown(L("node")))));
+		Prose(L("out"),L("n"));
+		L("out") << "\n";
+	}
+	else if (L("name") == "_table") {
+		L("tr") = pndown(L("node"));
+		L("tr") = pnnext(L("tr"));
+		L("first") = 1;
+		L("out") << "\n\n";
+
+		while (L("tr")) {
+			L("count") = 0;
+			if (pnname(L("tr")) == "_tr") {
+				L("td") = pndown(L("tr"));
+				L("td") = pnnext(L("td"));
+				while (L("td")) {
+					if (pnname(L("td")) == "_td") {
+						L("out") << "| ";
+						Prose(L("out"),L("td"));
+						L("count")++;
+					}
+					L("td") = pnnext(L("td"));
+				}
+				L("out") << "|";
+			}
+			
+			L("tr") = pnnext(L("tr"));
+			
+			if (L("first") && L("count")) {
+				L("i") = 0;
+				L("out") << "\n|";
+				while (L("i") < L("count")) {
+					L("out") << " --- |";
+					L("i")++;
+				}
+				L("first") = 0;
+			}
+			L("out") << "\n";
+		}
+
+		L("out") << "\n";
+	}
+	else if (L("name") == "_ol" || L("name") == "_ul") {
+		L("li") = pndown(L("node"));
+		L("li") = pnnext(L("li"));
+		L("first") = 1;
+
+		while (L("li")) {
+			if (pnname(L("li")) == "_li") {
+				L("text") = pndown(L("li"));
+				L("text") = pnnext(L("text"));
+				if (L("name") == "_ul") {
+					L("out") << "- ";
+				} else {
+					L("out") << "1. ";
+				}
+				Prose(L("out"),L("li"));
+			}
+			L("out") << "\n";
+			L("li") = pnnext(L("li"));
+		}
+		L("out") << "\n";
+	}
+	L("node") = pnnext(L("node"));
+}
+
+# Link to older html file
+L("out") << "\n\nOriginal HTML help file: [" << G("$inputhead") << "](" << L("pathhtml") << ")\n";
+
+closefile(L("out"));
+
+@RULES
+_xNIL <-
+	_body	### (1)
+	@@

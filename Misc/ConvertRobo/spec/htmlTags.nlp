@@ -1,0 +1,87 @@
+###############################################
+# FILE: htmlTags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-2-20 19:59:20
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES	
+_bodyStart <- \< body \> 	@@
+_bodyEnd <- \< \/ body \> 	@@
+
+_hOneStart <- \< h 1 \> 	@@
+_hOneEnd <- \< \/ h 1 \> 	@@
+_hTwoStart <- \< h 2 \> 	@@
+_hTwoEnd <- \< \/ h 2 \> 	@@
+
+_br <- \< br \> 	@@
+
+_paraStart <- \< p _xWILD [fail=(\>)] \> 	@@
+_paraEnd <- \< \/ p \> 	@@
+
+_fontStart <- \< font _xWILD [fail=(\>)] \> 	@@
+_fontEnd <- \< \/ font \> 	@@
+
+_tableStart <- \< table _xWILD [fail=(\>)] \> 	@@
+_tableEnd <- \< \/ table \> 	@@
+_trStart <- \< tr _xWILD [fail=(\>)] \> 	@@
+_trEnd <- \< \/ tr \> 	@@
+_tdStart <- \< td _xWILD [fail=(\>)] \> 	@@
+_tdEnd <- \< \/ td \> 	@@
+
+_olStart <- \< ol _xWILD [fail=(\>)] \> 	@@
+_olEnd <- \< \/ ol \> 	@@
+_ulStart <- \< ul _xWILD [fail=(\>)] \> 	@@
+_ulEnd <- \< \/ ul \> 	@@
+_liStart <- \< li _xWILD [fail=(\>)] \> 	@@
+_liEnd <- \< \/ li \> 	@@
+
+_commentStart <- \< \! \- \- @@
+_commentEnd <- \- \- \> 	@@
+
+_nbsp <- \& nbsp \;		@@
+_lt <- \& lt \;		@@
+_gt <- \& gt \;		@@
+
+@POST
+S("SP") = N("SP",1);
+single();
+@RULES
+_spanStart <-
+	\<					### (1)
+	span				### (2)
+	_xWILD [fail=(\>)]	### (3)
+	\>					### (4)
+	@@
+
+_spanEnd <- \< \/ span \> 	@@
+_aEnd <- \< \/ a \> 	@@
+
+@POST
+S("href") = N("$text",6);
+single();
+@RULES
+_aStart <-
+	\<					### (1)
+	a					### (2)
+	href				### (3)
+	\=					### (4)
+	\"					### (5)
+	_xWILD [fail=(\")]	### (6)
+	\"					### (7)
+	\>					### (8)
+	@@
+
+@POST
+S("SP") = N("SP",1);
+single();
+@RULES
+_quote <-
+	\&		### (1)
+	quot	### (2)
+	\;		### (3)
+	@@
+		
