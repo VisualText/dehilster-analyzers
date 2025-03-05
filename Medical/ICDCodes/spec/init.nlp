@@ -1,0 +1,18 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-5 16:9:46
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("codes") = getconcept(findroot(),"codes");
+L("code") = getconcept(G("codes"),"3");
+L("code") = getconcept(G("codes"),"4");
+L("code") = getconcept(G("codes"),"5");
+L("code") = getconcept(G("codes"),"6");
+L("code") = getconcept(G("codes"),"7");
+
+@@CODE

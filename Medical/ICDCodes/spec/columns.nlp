@@ -1,0 +1,35 @@
+###############################################
+# FILE: columns
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-5 15:20:57
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+
+L("text") = N("$raw",1);
+N("number",1) = strtrim(strpiece(L("text"),0,4));
+N("code",1) = strtrim(strpiece(L("text"),6,13));
+N("header",1) = strtrim(strpiece(L("text"),14,14));
+N("descr",1) = strtrim(strpiece(L("text"),16,76));
+N("description") = strtrim(strpiece(L("text"),77,strlength(L("text"))-1));
+
+# Parent logic
+L("len") = findconcept(G("codes"),str(strlength(N("code"))));
+replaceval(L("len"),"code",N("code"));
+L("parent") = findconcept(G("codes"),str(strlength(N("code"))-1));
+if (L("parent")) {
+	L("parent code") = strval(L("parent"),"code");
+}
+
+"icd10.csv" << N("code",1) << "," << L("parent code") << "," << N("header",1) << "," << N("descr",1) << "," << N("description") << "\n";
+
+G("code") = N("code",1);
+
+@RULES
+_xNIL <-
+	_LINE
+	@@
