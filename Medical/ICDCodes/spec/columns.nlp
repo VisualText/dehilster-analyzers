@@ -27,6 +27,13 @@ if (L("parent")) {
 
 "icd10.csv" << N("code",1) << "," << L("parent code") << "," << N("header",1) << "," << N("descr",1) << "," << N("description") << "\n";
 
+L("descr") = strsubst(N("description"),"'","''");
+if (L("parent code")) {
+	"icd10.sql" << "insert into ICD_code (code,parent_code,description) values ('" << N("code",1) << "','" << L("parent code") << "','" << L("descr") << "');\n";
+} else {
+	"icd10.sql" << "insert into ICD_code (code,description) values ('" << N("code",1) << "','" << L("descr") << "');\n";
+}
+
 G("code") = N("code",1);
 
 @RULES
