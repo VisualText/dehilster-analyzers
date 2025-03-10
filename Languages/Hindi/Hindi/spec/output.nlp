@@ -1,0 +1,13 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-9 14:49:20
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("brain.kbb",findroot(),2);
+
+@@CODE
