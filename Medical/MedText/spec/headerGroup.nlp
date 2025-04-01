@@ -1,0 +1,19 @@
+###############################################
+# FILE: headerGroup
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 10:52:49
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("text") = N("text",1);
+single();
+
+@RULES
+_headerGroup <-
+	_header										### (1)
+	_xWILD [fail=(_header _xEND _separator)]	### (2)
+	@@

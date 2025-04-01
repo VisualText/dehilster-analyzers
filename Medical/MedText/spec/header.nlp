@@ -1,0 +1,20 @@
+###############################################
+# FILE: header
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 10:58:8
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+pnrename(X(2),"_header");
+pnmakevar(X(2),"text",N("text",2));
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_bold	### (2)
+	_xEND	### (3)
+	@@

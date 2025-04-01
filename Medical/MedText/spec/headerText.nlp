@@ -1,0 +1,22 @@
+###############################################
+# FILE: headerText
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 11:21:56
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(3,3,"_text");
+X("text header",2) = 1;
+X("text",2) = N("$text",3);
+
+@RULES
+_xNIL <-
+	_xSTART					### (1)
+	_bold					### (2)
+	_xWILD [fail=(_xEND)]	### (3)
+	_xEND					### (4)
+	@@

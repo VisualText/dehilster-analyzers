@@ -1,0 +1,26 @@
+###############################################
+# FILE: name
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 13:58:42
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _patientName _text
+
+@POST
+
+L("con") = getconcept(G("text"),"patient");
+addstrval(L("con"),"name",phrasetext());
+addstrval(L("con"),"first",N("$text",2));
+addstrval(L("con"),"last",N("$text",3));
+if (N("gender",2))
+	addstrval(L("con"),"gender",N("gender",2));
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_xALPHA	### (2)
+	_xALPHA	### (3)
+	_xEND	### (4)
+	@@

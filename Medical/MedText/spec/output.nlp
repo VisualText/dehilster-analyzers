@@ -1,0 +1,77 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 14:1:48
+# MODIFIED:
+###############################################
+
+@CODE
+
+if (G("$islastfile") || !G("$isdirrun")) {
+    SaveKB("medtexts.kbb",G("texts"),2);
+
+    L("out") = "medtext.sql";
+    L("patient id") = 0;
+
+    L("text") = down(G("texts"));
+    while (L("text")) {
+
+        ## Patient Table
+        L("patient id")++;
+        L("patient") = findconcept(L("text"),"patient");
+        L("birthdate") = findconcept(L("patient"),"birthdate");
+        L("out") << "INSERT INTO Patient (patient_id, name, birthdate, gender) VALUES (";
+        L("out") << SQLAddNum(L("patient id"),0);
+        L("out") << SQLAddConStr(L("patient"),"name",1);
+        L("out") << SQLAddConStr(L("birthdate"),"date",1);
+        L("out") << SQLAddConStr(L("patient"),"gender",1);
+        L("out") << ");\n";
+
+        ## Text Table
+        L("text id")++;
+        L("out") << "INSERT INTO Medical_Text (text_id, patient_id, text_content, date_created) VALUES (";
+        L("out") << SQLAddNum(L("text id"),0);
+        L("out") << SQLAddNum(L("patient id"),1);
+
+        ## Text
+        L("out") << ", '";
+        L("txt") = findconcept(L("text"),"text");
+        L("t") = down(L("txt"));
+        while (L("t")) {
+            L("out") << SQLEscapeText(strval(L("t"),"text")) << "\n";
+            L("t") = next(L("t"));
+        }
+        L("out") << "'";
+        L("out") << SQLFindConStr(L("text"),"discharge","date",1);
+        L("out") << ");\n";
+
+        ## Encounter Table
+        L("encounter id")++;
+        L("out") << "INSERT INTO Encounter (encounter_id, patient_id, medical_text_id, admission_date, discharge_date) VALUES (";
+        L("out") << SQLAddNum(L("encounter id"),0);
+        L("out") << SQLAddNum(L("patient id"),1);
+        L("out") << SQLAddNum(L("text id"),1);
+        L("out") << SQLFindConStr(L("text"),"admission","date",1);
+        L("out") << SQLFindConStr(L("text"),"discharge","date",1);
+        L("out") << ");\n";
+
+        ## Coding Assignment Table
+        L("codes") = findconcept(L("text"),"codes");
+        L("code") = down(L("codes"));
+        while (L("code")) {
+            L("assignment id")++;
+            L("out") << "INSERT INTO Coding_Assignment (assignment_id, text_id, code, coder_id) VALUES (";
+            L("out") << SQLAddNum(L("assignment id"),0);
+            L("out") << SQLAddNum(L("text id"),1);
+            L("out") << strsubst(SQLAddConName(L("code"),1),".",0);
+            L("out") << ", 1";
+            L("out") << ");\n";
+            L("code") = next(L("code"));
+        }
+
+        L("text") = next(L("text"));
+    }
+}
+
+@@CODE
