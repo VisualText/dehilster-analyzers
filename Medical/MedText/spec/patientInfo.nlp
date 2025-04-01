@@ -1,0 +1,33 @@
+###############################################
+# FILE: patientInfo
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 11:42:14
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+if (N("text header",1)) {
+	if (N("header",1) == "Patient Name") {
+		pnrename(N(1),"_patientName");
+	} else if (N("header",1) == "Date of Admission") {
+		pnrename(N(1),"_patientDate");
+		N("type",1) = "admission";
+	} else if (N("header",1) == "Date of Discharge") {
+		pnrename(N(1),"_patientDate");
+		N("type",1) = "discharge";
+	} else if (N("header",1) == "Birthdate") {
+		pnrename(N(1),"_patientDate");
+		N("type",1) = "birthdate";
+	} else if (N("header",1) == "Reason for Admission") {
+		pnrename(N(1),"_reasonForAdmission");
+		addstrval(G("text"),"reason",N("text",1));
+	}
+}
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

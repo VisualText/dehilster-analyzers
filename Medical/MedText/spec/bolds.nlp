@@ -1,0 +1,36 @@
+###############################################
+# FILE: bolds
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 10:48:28
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("text") = N("$text",4);
+X("header") = N("$text",4);
+single();
+
+@RULES
+_bold <-
+	_xSTART				### (1)
+	\*					### (2)
+	\*					### (3)
+	_xWILD [fail=(\:)]	### (4)
+	\:					### (5)
+	\*					### (6)
+	\*					### (7)
+	@@
+
+@POST
+pnrename(X(2),"_separator");
+
+@RULES
+_xNIL <-
+	\-
+	\-
+	\-
+	@@
+		

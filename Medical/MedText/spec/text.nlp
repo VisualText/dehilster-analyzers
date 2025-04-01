@@ -1,0 +1,21 @@
+###############################################
+# FILE: text
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-31 17:48:38
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+L("text") = N("$text",1);
+
+L("con") = getconcept(G("text"),"text");
+L("text con") = MakeCountCon(L("con"),"text");
+addstrval(L("text con"),"text",N("$text",1));
+
+@RULES
+_xNIL <-
+	_headerGroup	### (1)
+	@@

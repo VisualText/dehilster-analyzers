@@ -1,0 +1,33 @@
+###############################################
+# FILE: dates
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 14:4:16
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _patientDate _text
+
+@POST
+
+if (X("type",2) == "birthdate") {
+	L("patient") = getconcept(G("text"),"patient");
+	L("con") = getconcept(L("patient"),"birthdate");
+} else {
+	L("con") = makeconcept(G("text"),X("type",2));
+}
+addstrval(L("con"),"date",phrasetext());
+addnumval(L("con"),"month",num(N("$text",2)));
+addnumval(L("con"),"day",num(N("$text",4)));
+addnumval(L("con"),"year",num(N("$text",6)));
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_xNUM	### (2)
+	\/		### (3)
+	_xNUM	### (4)
+	\/		### (5)
+	_xNUM	### (6)
+	_xEND	### (7)
+	@@

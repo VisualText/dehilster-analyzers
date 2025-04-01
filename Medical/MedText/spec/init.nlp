@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 11:46:3
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("texts") = getconcept(findroot(),"texts");
+G("text") = MakeCountCon(G("texts"),"text");
+
+@@CODE

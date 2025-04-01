@@ -1,0 +1,58 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-31 19:1:34
+# MODIFIED:
+###############################################
+
+@DECL
+
+GenderStr(L("gender")) {
+    if (L("gender") == "female")
+        return "f";
+    else if (L("gender") == "male")
+        return "m";
+    return L("gender");
+}
+
+SQLEscapeText(L("text")) {
+    L("text") = strsubst(L("text"), "'", "''"); ## escape single quotes
+    L("text") = strsubst(L("text"), "\n", "\\n"); ## escape newlines
+    return L("text");
+}
+
+SQLFindConStr(L("concept"),L("name"),L("attr"),L("append")) {
+    L("con") = findconcept(L("concept"),L("name"));
+    if (L("append")) {   
+        L("text") = ", ";
+    }
+    return L("text") + "'" + strval(L("con"),L("attr")) + "'";
+}
+
+SQLAddConName(L("concept"),L("append")) {
+    if (L("append")) {   
+        L("text") = ", ";
+    }
+    return L("text") + "'" + conceptname(L("concept")) + "'";
+}
+
+SQLAddConStr(L("concept"),L("attr"),L("append")) {
+    L("str") = strval(L("concept"),L("attr"));
+    if (L("attr") == "gender") {
+        L("str") = GenderStr(L("str"));
+    }
+    if (L("append")) {   
+        L("text") = ", ";
+    }
+    return L("text") + "'" + L("str") + "'";
+}
+
+SQLAddNum(L("num"),L("append")) {
+    if (L("append")) {   
+        L("text") = ", ";
+    }
+    return L("text") + str(L("num"));
+}
+
+@@DECL

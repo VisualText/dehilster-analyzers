@@ -1,0 +1,31 @@
+###############################################
+# FILE: codes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 11:4:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerGroup _LINE
+
+@POST
+if (X("text",2) == "ICD-10 Codes") {
+	L("node") = group(2,2,"_code");
+	X("code",3) = N("$text",2);
+	group(4,4,"_description");
+	X("description",3) = N("$text",4);
+	pnrename(X(2),"_icd10");
+	
+	L("con") = getconcept(G("text"),"codes");
+	L("code con") = makeconcept(L("con"),N("$text",2));
+	addstrval(L("code con"),"description",N("$text",4));
+}
+
+@RULES
+_xNIL <-
+	\-						### (1)
+	_xWILD [fail=(\:)]		### (2)
+	\:						### (3)
+	_xWILD [fail=(_xEND)]	### (4)
+	_xEND					### (5)
+	@@

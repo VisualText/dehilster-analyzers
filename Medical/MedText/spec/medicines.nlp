@@ -1,0 +1,22 @@
+###############################################
+# FILE: codes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2025-3-29 11:4:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _headerGroup _LINE
+
+@POST
+if (X("text",2) == "Discharge Medications") {
+	pnrename(X(3),"_med");
+	X("med",3) = N("$text",2);
+}
+
+@RULES
+_xNIL <-
+	\-						### (1)
+	_xWILD [fail=(_xEND)]	### (2)
+	_xEND					### (3)
+	@@
