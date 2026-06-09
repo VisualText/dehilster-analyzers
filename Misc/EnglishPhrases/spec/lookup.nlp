@@ -1,0 +1,108 @@
+###############################################
+# FILE: lookup
+# SUBJ: Lexical lookup -> create part-of-speech nodes
+#
+# Each alphabetic token carries dictionary flags from dicttokz:
+#   - open-class flags from en-full.dict:  "noun" "verb" "adj" "adv" ...
+#     plus "pos num" = how many parts of speech the word has.
+#   - closed-class category from en-function-words.dict, e.g.
+#     "articles" "prepositions" "possessivePronouns" "personalPronounsNominative"
+#     "quantifiers" "coordinatingConjunctions" ... plus "functword".
+#
+# Closed-class (function) words are a small, reliable set, so we PIN them to a
+# single part of speech here.  That leaves only genuine open-class ambiguity
+# (a word that is e.g. both noun and verb) for the context rules in disambig.
+#
+# We RENAME each token in place (rather than wrapping it in a parent) so the
+# dictionary flags travel with the node and stay readable as N("noun"), etc.,
+# in the disambiguation pass.
+#
+# Note: the broad function-word buckets "generalAdjectivesAdverbs" and
+# "vagueNouns" overlap heavily with ordinary content words (old, long, ...),
+# so we deliberately let those FALL THROUGH to the open-class logic.
+###############################################
+
+@NODES _ROOT
+
+@POST
+	# --- the infinitive marker "to" is its own little category ---
+	if (N("$text",1) == "to" || N("$text",1) == "To") {
+		pnrename(N(1),"_to");
+
+	# --- conjunctions: only pin words that are reliably conjunctions, i.e. a
+	#     function-word tagged conj, or one of the explicit conj buckets.  An
+	#     open-class word that merely *can* be a conj (e.g. "before", which is
+	#     usually a preposition) falls through to context disambiguation. ---
+	} else if ((N("functword") && N("conj")) || N("coordinatingConjunctions")
+			|| N("subordinatingConjunctions") || N("correlativeConjunctions")) {
+		pnrename(N(1),"_conj");
+
+	# --- determiners: articles, demonstratives, possessives, quantifiers ---
+	} else if (N("articles") || N("demonstrativePronouns")
+			|| N("interrogativeDeterminers") || N("possessivePronouns")
+			|| N("quantifiers")) {
+		pnrename(N(1),"_det");
+
+	# --- pronouns ---
+	} else if (N("personalPronounsNominative") || N("personalPronounsAccusative")
+			|| N("reflexivePronouns") || N("indefinitePronouns")
+			|| N("interrogativePronouns")) {
+		pnrename(N(1),"_pron");
+
+	# --- auxiliary / copula verbs ---
+	#     Modals and have/do come from otherAuxiliaries; the be-forms come from
+	#     the supplemental en-copula.dict (pos=copula).
+	} else if (N("copula") || N("otherAuxiliaries")) {
+		pnrename(N(1),"_aux");
+
+	# --- prepositions ---
+	#     A true preposition (of/to/in/...) has no verb reading.  A word tagged
+	#     a preposition that is ALSO a verb (e.g. "like") is left open-class so
+	#     context can decide: subject + "like" -> verb; "looks like X" -> prep.
+	} else if (N("prepositions") && !N("verb")) {
+		pnrename(N(1),"_prep");
+
+	# --- closed-class adverbs ---
+	} else if (N("intensifiers") || N("locativeAdverbs")
+			|| N("pronominalAdverbs") || N("prepositionalAdverbs")
+			|| N("adverbialGenitives")) {
+		pnrename(N(1),"_adv");
+
+	# --- interjections ---
+	} else if (N("interjections")) {
+		pnrename(N(1),"_intj");
+
+	#############################################
+	# OPEN CLASS
+	#############################################
+	} else if (N("pos num") > 1) {
+		pnrename(N(1),"_ambig");
+	} else if (N("noun")) {
+		pnrename(N(1),"_noun");
+	} else if (N("verb")) {
+		pnrename(N(1),"_verb");
+	} else if (N("adj")) {
+		pnrename(N(1),"_adj");
+	} else if (N("adv")) {
+		pnrename(N(1),"_adv");
+	} else if (N("det")) {
+		pnrename(N(1),"_det");
+	} else if (N("prep")) {
+		pnrename(N(1),"_prep");
+	} else if (N("pro")) {
+		pnrename(N(1),"_pron");
+	} else if (N("conj")) {
+		# a word whose only part of speech is conjunction (e.g. "than",
+		# "because") - not a function word, so it lands here.
+		pnrename(N(1),"_conj");
+
+	# --- unknown word (e.g. a proper noun not in the dictionary): treat as a
+	#     noun so it still participates in phrase building. ---
+	} else {
+		pnrename(N(1),"_noun");
+	}
+	N("text",1) = N ("$text",1);
+@RULES
+_xNIL <-
+	_xALPHA	### (1)
+	@@

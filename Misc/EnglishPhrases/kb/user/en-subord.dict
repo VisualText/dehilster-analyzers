@@ -1,0 +1,21 @@
+# Subordinating conjunctions.
+#   subord=1     : reliably a subordinator (rarely anything else) - tag always
+#   subordprep=1 : also a preposition - tag as a subordinator only when a full
+#                  clause follows (handled contextually in subord.nlp)
+when subord=1
+whenever subord=1
+while subord=1
+although subord=1
+though subord=1
+because subord=1
+if subord=1
+unless subord=1
+whereas subord=1
+wherever subord=1
+whether subord=1
+once subord=1
+after subordprep=1
+before subordprep=1
+as subordprep=1
+since subordprep=1
+until subordprep=1

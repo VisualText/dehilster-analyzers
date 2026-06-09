@@ -1,0 +1,33 @@
+###############################################
+# FILE: funcs
+# SUBJ: Helper functions for disambiguation
+###############################################
+
+@DECL
+
+###############################################
+# IsNom: is this node a nominal element, i.e. something that can sit
+# inside a noun phrase as a modifier or head (noun / adjective / a still
+# ambiguous word that can be a noun or adjective but is NOT a preposition)?
+###############################################
+IsNom(L("n")) {
+	L("nm") = pnname(L("n"));
+	if (L("nm") == "_noun" || L("nm") == "_adj")
+		return 1;
+	if (L("nm") == "_ambig"
+			&& (pnvar(L("n"),"noun") || pnvar(L("n"),"adj"))
+			&& !pnvar(L("n"),"prep"))
+		return 1;
+	return 0;
+}
+
+###############################################
+# IsType: convenience test of a node's label.
+###############################################
+IsType(L("n"),L("type")) {
+	if (pnname(L("n")) == L("type"))
+		return 1;
+	return 0;
+}
+
+@@DECL

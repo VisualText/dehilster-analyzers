@@ -1,0 +1,22 @@
+###############################################
+# FILE: np
+# SUBJ: Build noun phrases (bottom-up)
+#
+# A noun phrase is an optional determiner, any number of adjectives, then one
+# or more nouns (the last being the head, earlier ones noun-modifiers):
+#       (det) (adj)* (noun)+
+# A lone pronoun is also a complete noun phrase.
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_NP <-
+	_xWILD [opt match=(_det)]	### (1) optional determiner
+	_xWILD [star match=(_adj)]	### (2) adjective modifiers
+	_xWILD [plus match=(_noun)]	### (3) noun head (and noun modifiers)
+	@@
+
+_NP <-
+	_pron	### (1) a pronoun stands alone as a noun phrase
+	@@

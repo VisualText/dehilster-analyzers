@@ -1,0 +1,96 @@
+###############################################
+# FILE: predicate
+# SUBJ: Ensure every clause has a verb (predicate repair)
+#
+# A finite clause must have a verb.  When disambiguation leaves a clause with no
+# verb, the real verb has usually collapsed into a noun.  This runs after the
+# relative/subordinate markers are tagged, and treats commas, subordinators
+# (_sub) and relative pronouns (_relpro) as clause boundaries, so each clause is
+# checked on its own - e.g. the verbless subordinate clause in
+#   "When a bright star runs ..., the pressure can ..."
+# is repaired even though the main clause already has a verb ("can").
+#
+# Per clause, with no verb/auxiliary:
+#   * Imperative: opens with a verb-capable noun + object  -> promote the first.
+#   * Declarative: a verb-capable noun right after the subject head (only
+#     adjectives/adverbs between) is the verb; we stop at the first
+#     preposition/conjunction so a noun inside the subject's modifiers is safe.
+#
+# (A "chained" repair for subjects whose head was mis-tagged an adjective -
+#  "a bright [star]/adj [runs]/noun" - was tried and removed: the pattern
+#  "det adj noun" is identical whether the noun is the verb or the subject head
+#  ("These drifting clouds ... gather"), so it mis-fired.  Left as a known edge.)
+###############################################
+
+@DECL
+
+# Evaluate the clause that just ended and repair it if it has no verb.
+RepairClause(L("first"),L("second"),L("hasverb"),L("cand")) {
+	# imperative
+	if (L("first") && pnname(L("first")) == "_noun" && pnvar(L("first"),"verb")
+			&& L("second")
+			&& (pnname(L("second")) == "_det" || pnname(L("second")) == "_pron")) {
+		pnrename(L("first"),"_verb");
+		return;
+	}
+	# declarative: verb-capable noun right after the subject head
+	if (!L("hasverb") && L("cand"))
+		pnrename(L("cand"),"_verb");
+}
+
+@@DECL
+
+@CODE
+
+L("n") = pndown(pnroot());
+L("hasverb") = 0;
+L("headSeen") = 0;
+L("blocked") = 0;
+L("cand") = 0;
+L("first") = 0;
+L("second") = 0;
+L("idx") = 0;
+
+while (L("n")) {
+	L("name") = pnname(L("n"));
+
+	if (L("name") == "." || L("name") == "?" || L("name") == "!"
+			|| L("name") == "," || L("name") == "_sub" || L("name") == "_relpro") {
+		RepairClause(L("first"),L("second"),L("hasverb"),L("cand"));
+		L("hasverb") = 0;
+		L("headSeen") = 0;
+		L("blocked") = 0;
+		L("cand") = 0;
+		L("first") = 0;
+		L("second") = 0;
+		L("idx") = 0;
+	} else if (strlength(L("name")) == 1) {
+		L("skip") = 1;		# stray punctuation (e.g. a quote mark): ignore
+	} else {
+		L("idx") = L("idx") + 1;
+		if (L("idx") == 1) L("first") = L("n");
+		if (L("idx") == 2) L("second") = L("n");
+
+		if (L("name") == "_verb" || L("name") == "_aux") {
+			L("hasverb") = 1;
+		} else if (!L("blocked") && L("name") == "_noun") {
+			if (!L("headSeen"))
+				L("headSeen") = 1;			# subject head
+			else if (!L("cand")) {
+				if (pnvar(L("n"),"verb"))
+					L("cand") = L("n");		# verb-capable noun right after head
+				else
+					L("blocked") = 1;
+			}
+		} else if (L("headSeen") && !L("cand")
+				&& L("name") != "_adj" && L("name") != "_adv") {
+			L("blocked") = 1;	# prep/conj/det/... after head: inside-subject, stop
+		}
+	}
+
+	L("n") = pnnext(L("n"));
+}
+
+RepairClause(L("first"),L("second"),L("hasverb"),L("cand"));
+
+@@CODE

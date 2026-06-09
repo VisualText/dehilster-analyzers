@@ -1,0 +1,212 @@
+###############################################
+# FILE: disambig
+# SUBJ: Context disambiguation of open-class words (run recursively)
+#
+# Function words are already pinned, so the only ambiguity left is among the
+# open classes: noun / verb / adjective / adverb.  Each rule encodes a
+# well-known English principle and renames exactly one _ambig node.  The pass
+# runs as "rec" (recursively) so the rules feed one another until the sentence
+# stabilises.
+#
+# Core principles, applied in order of reliability:
+#   * a determiner/possessive starts a noun phrase;
+#   * adjectives stack before the head noun;
+#   * an ambiguous noun/verb right after an ADJECTIVE is the head NOUN
+#     (adjectives modify nouns), but right after a NOUN/PRONOUN it can be a VERB;
+#   * the infinitive "to" and a subject pronoun both force a following verb.
+#
+# Each rule guards itself in @CHECK: fail() makes the engine try the next rule
+# at this position instead of acting wrongly.
+###############################################
+
+@NODES _ROOT
+
+###############################################
+# 1. PREPOSITION:  an open-class word that can be a preposition and is
+#    followed by a determiner or pronoun heads a prepositional phrase.
+#    (Catches words like "before" that are usually prepositions.)
+###############################################
+@CHECK
+	if (!(N("prep",1) && (IsType(N(2),"_det") || IsType(N(2),"_pron"))))
+		fail();
+@POST
+	pnrename(N(1),"_prep");
+@RULES
+_xNIL <-
+	_ambig	### (1)
+	_xANY	### (2)
+	@@
+
+###############################################
+# 2. INFINITIVE VERB:  "to" + ambiguous-verb  ->  verb  ("to fall")
+###############################################
+@CHECK
+	if (!N("verb",2))
+		fail();
+@POST
+	pnrename(N(2),"_verb");
+@RULES
+_xNIL <-
+	_to	### (1)
+	_ambig	### (2)
+	@@
+
+###############################################
+# 3. SUBJECT (PRONOUN) VERB:  pronoun + ambiguous-verb  ->  verb
+#    ("he saw", "she left")
+###############################################
+@CHECK
+	if (!N("verb",2))
+		fail();
+@POST
+	pnrename(N(2),"_verb");
+@RULES
+_xNIL <-
+	_pron	### (1)
+	_ambig	### (2)
+	@@
+
+###############################################
+# 3b. AUXILIARY VERB:  auxiliary/modal (+ optional adverbs) + ambiguous-verb
+#     forces the verb reading.  ("can swim", "will race", "is reading",
+#     "does not like", "was broken")
+###############################################
+@CHECK
+	if (!N("verb",3))
+		fail();
+@POST
+	pnrename(N(3),"_verb");
+@RULES
+_xNIL <-
+	_aux						### (1)
+	_xWILD [star match=(_adv)]	### (2) optional adverbs (e.g. "not", "quickly")
+	_ambig						### (3)
+	@@
+
+###############################################
+# 3c. VP-COORDINATION VERB:  a coordinating conjunction + ambiguous-verb that is
+#     followed by an object (determiner/pronoun/adjective/noun) is a second
+#     verb sharing the subject.  ("stopped and ate the lunch", "packed and
+#     drove the road")
+###############################################
+@CHECK
+	if (!N("coord",1))		# and / but / or / nor / yet  (en-coord.dict)
+		fail();
+	if (!N("verb",2))
+		fail();
+	# require a clear object start (determiner/pronoun) after the verb, so that
+	# NP coordination with an adjective ("wars and long droughts") is not
+	# mistaken for a second verb.
+	if (!(IsType(N(3),"_det") || IsType(N(3),"_pron")))
+		fail();
+@POST
+	pnrename(N(2),"_verb");
+@RULES
+_xNIL <-
+	_conj	### (1) and / but / or
+	_ambig	### (2) the verb
+	_xANY	### (3) its object
+	@@
+
+###############################################
+# 4. PREMODIFIER ADJECTIVE:  an ambiguous word that can be an adjective and
+#    sits immediately before another nominal is a prenominal adjective.
+#    ("quick brown ...", "light rain", "old man", "heavy books")
+###############################################
+@CHECK
+	if (!(N("adj",1) && IsNom(N(2))))
+		fail();
+@POST
+	pnrename(N(1),"_adj");
+@RULES
+_xNIL <-
+	_ambig	### (1)
+	_xANY	### (2)
+	@@
+
+###############################################
+# 5. HEAD NOUN:  determiner/adjective + an ambiguous word that can be a noun
+#    but is NOT adjective-capable is the head noun of the phrase.
+#    Adjective-capable words stay available as premodifiers (rule 4), so the
+#    head is the first purely-nominal word after the modifiers.
+#    ("brown fox" -> fox, "heavy books" -> books, "the park", "his house")
+###############################################
+@CHECK
+	if (!(N("noun",2) && !N("adj",2)))
+		fail();
+@POST
+	pnrename(N(2),"_noun");
+@RULES
+_xNIL <-
+	_xWILD [one match=(_det _adj)]	### (1)
+	_ambig							### (2)
+	@@
+
+###############################################
+# 7. NOUN-NOUN COMPOUND:  determiner + noun + ambiguous-noun  ->  the second
+#    word is a noun (head of the compound).  ("the kitchen table")
+#    An "-ing" word here is a participle, not a compound head, so skip it.
+###############################################
+@CHECK
+	if (!N("noun",3))
+		fail();
+	if (strendswith(N("$text",3),"ing"))
+		fail();
+	# if the third word is a likely verb (verb-capable and followed by an
+	# object/adjunct) it is the clause verb, not a compound head: skip.
+	# ("the dogs chased the ball", "this process repeats again")
+	if (N("verb",3) && (IsType(N(4),"_det") || IsType(N(4),"_pron")
+			|| IsType(N(4),"_adj") || IsType(N(4),"_adv")))
+		fail();
+@POST
+	pnrename(N(3),"_noun");
+@RULES
+_xNIL <-
+	_det			### (1)
+	_noun			### (2)
+	_ambig			### (3)
+	_xANY [opt]		### (4) lookahead
+	@@
+
+###############################################
+# 8. POST-NOMINAL VERB:  a noun/pronoun subject + ambiguous-verb followed by a
+#    complement or adjunct (preposition, adverb, determiner, pronoun, or
+#    adjective) is the clause verb.  ("fox jump over", "material rushes inward",
+#    "universe builds the chemistry", "explosion scatters heavy elements")
+#    Requiring a noun/pronoun subject (not an adjective) keeps object nouns like
+#    "books" in "her heavy books on ..." from being read as verbs; requiring a
+#    following complement keeps end-of-phrase nouns like "home" in "the long
+#    walk home" as nouns.
+###############################################
+@CHECK
+	if (!N("verb",3))
+		fail();
+	if (!(IsType(N(4),"_prep") || IsType(N(4),"_adv") || IsType(N(4),"_det")
+			|| IsType(N(4),"_pron") || IsType(N(4),"_adj")))
+		fail();
+@POST
+	pnrename(N(3),"_verb");
+@RULES
+_xNIL <-
+	_xWILD [one match=(_noun _pron)]	### (1) subject
+	_xWILD [star match=(_adv)]			### (2) optional adverbs
+	_ambig							### (3) the verb
+	_xANY							### (4) complement / adjunct
+	@@
+
+###############################################
+# 9. PRONOUN AS DETERMINER:  a determiner-like pronoun (other, each, both, ...)
+#    between a determiner and a nominal is acting as an adjective.
+#    ("the other boats", "the each side")
+###############################################
+@CHECK
+	if (!IsNom(N(3)))
+		fail();
+@POST
+	pnrename(N(2),"_adj");
+@RULES
+_xNIL <-
+	_det	### (1)
+	_pron	### (2)
+	_xANY	### (3)
+	@@

@@ -1,0 +1,7 @@
+# Relative pronouns (relpro=1).  These reliably introduce a relative clause.
+# ("that" is also a relative pronoun but only after a noun, so it is handled
+#  contextually in relpro.nlp, not flagged here.)
+who relpro=1
+whom relpro=1
+which relpro=1
+whose relpro=1

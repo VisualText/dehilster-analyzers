@@ -1,0 +1,11 @@
+# Copula (be-forms) - missing from en-function-words.dict
+# root=be gives the lemma; the same pattern (root=...) can be added to any
+# inflected verb or noun so the analyzer can report the base form.
+is functword=1 pos=copula root=be
+are functword=1 pos=copula root=be
+was functword=1 pos=copula root=be
+were functword=1 pos=copula root=be
+am functword=1 pos=copula root=be
+be functword=1 pos=copula root=be
+been functword=1 pos=copula root=be
+being functword=1 pos=copula root=be

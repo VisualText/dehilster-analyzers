@@ -1,0 +1,20 @@
+###############################################
+# FILE: subclause
+# SUBJ: Group subordinate (adverbial) clauses
+#
+# A subordinate clause runs from the subordinating conjunction through its own
+# verb group and that verb's complements:
+#       sub (pre-verb phrases)* VG (post-verb phrases)*
+# Examples: "[When the rain stopped], the children played",
+#           "she slept early [because she was tired]".
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_SUBCLAUSE <-
+	_sub									### (1) subordinating conjunction
+	_xWILD [star match=(_NP _PP _adj _adv _noun _pron _prep _det _aux _relpro _RELCLAUSE)]	### (2) up to the verb
+	_VG										### (3) the clause verb
+	_xWILD [star match=(_NP _PP _adj _adv _noun _prep _det)]		### (4) the verb's complements
+	@@
