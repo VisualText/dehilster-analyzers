@@ -1,0 +1,25 @@
+###############################################
+# FILE: relpro
+# SUBJ: Tag relative pronouns so they are not swallowed into a noun phrase
+#
+# who / which / whom / whose are flagged relpro=1 in en-relpro.dict, and "that"
+# is a relative by text.  A relative pronoun follows the noun it modifies
+# ("the man who ...", "the city which ..."), whereas a sentence-initial
+# interrogative ("Who took the ball?", "Which road ...?") does not - so we tag
+# _relpro only when a noun precedes.  They arrive as different parts of speech
+# (who/whom as pronouns, which/whose as determiners), so we match any node and
+# key off the flag/text.
+###############################################
+
+@NODES _ROOT
+
+@CHECK
+	if (!(N("relpro",2) || N("$text",2) == "that" || N("$text",2) == "That"))
+		fail();
+@POST
+	pnrename(N(2),"_relpro");
+@RULES
+_xNIL <-
+	_noun	### (1) the antecedent noun
+	_xANY	### (2) the relative pronoun
+	@@

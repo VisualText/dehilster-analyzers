@@ -1,0 +1,16 @@
+###############################################
+# FILE: pp
+# SUBJ: Build prepositional phrases (bottom-up)
+#
+# A prepositional phrase is a preposition followed by its noun-phrase object:
+#       prep + NP
+# Noun phrases were built in the previous pass, so we can attach to them here.
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_PP <-
+	_prep	### (1) preposition
+	_NP		### (2) object noun phrase
+	@@

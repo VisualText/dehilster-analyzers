@@ -1,0 +1,67 @@
+###############################################
+# FILE: buildKB
+# SUBJ: Build a knowledge-base concept tree from the parse tree
+#
+# Mirrors the final parse tree into the KB under G("sentences") so it can be
+# saved (.kbb) and dumped to JSON:
+#
+#   sentences
+#     sentence1 .. sentenceN
+#       phrase1 .. phraseM        type = NP | VG | PP   (nested for PP -> NP)
+#         word1 .. wordK          text = "...", pos = noun | verb | ...
+#
+# MakeCountCon() creates the numbered child concepts that JsonKB renders as
+# JSON arrays.
+###############################################
+
+@DECL
+
+#---------------------------------------------------------------
+# Recursively copy the children of a parse node into KB concepts.
+#---------------------------------------------------------------
+BuildPhrase(L("parent"),L("node")) {
+	L("child") = pndown(L("node"));
+	while (L("child")) {
+		L("name") = pnname(L("child"));
+		if (strlength(L("name")) > 1) {				# skip bare punctuation
+			L("tag") = strpiece(L("name"),1,strlength(L("name")) - 1);
+			if (pndown(L("child"))) {
+				# a phrase node (NP / VG / PP ...): record its type and recurse
+				L("con") = MakeCountCon(L("parent"),"phrase");
+				addstrval(L("con"),"type",L("tag"));
+				BuildPhrase(L("con"),L("child"));
+			} else {
+				# a leaf word: record its text and disambiguated part of speech
+				L("con") = MakeCountCon(L("parent"),"word");
+				addstrval(L("con"),"text",pnvar(L("child"),"$text"));
+				addstrval(L("con"),"pos",L("tag"));
+				# lemma, when the dictionary supplies a root form
+				L("root") = pnvar(L("child"),"root");
+				if (L("root"))
+					addstrval(L("con"),"root",L("root"));
+				# possessive marker (from the possessive pass)
+				if (pnvar(L("child"),"possessive"))
+					addnumval(L("con"),"possessive",1);
+			}
+		}
+		L("child") = pnnext(L("child"));
+	}
+}
+
+@@DECL
+
+@CODE
+
+#---------------------------------------------------------------
+# Driver: one sentence concept per _SENT node.
+#---------------------------------------------------------------
+L("sent") = pndown(pnroot());
+while (L("sent")) {
+	if (pnname(L("sent")) == "_SENT") {
+		L("scon") = MakeCountCon(G("sentences"),"sentence");
+		BuildPhrase(L("scon"),L("sent"));
+	}
+	L("sent") = pnnext(L("sent"));
+}
+
+@@CODE

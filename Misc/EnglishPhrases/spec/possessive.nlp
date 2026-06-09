@@ -1,0 +1,25 @@
+###############################################
+# FILE: possessive
+# SUBJ: Rejoin the possessive clitic "'s"
+#
+# The tokenizer splits "John's" into three tokens: John ' s.  The stray
+# apostrophe and "s" break the noun phrase.  Here we mark the possessor noun
+# with a "possessive" feature and excise the "' s" so the possessor stays
+# adjacent to the thing it possesses ("John's brother" -> John brother, with
+# John flagged possessive), letting the normal NP rule group them.
+###############################################
+
+@NODES _ROOT
+
+@CHECK
+	if (N("$text",3) != "s" && N("$text",3) != "S")
+		fail();
+@POST
+	N("possessive",1) = 1;
+	excise(2,3);
+@RULES
+_xNIL <-
+	_xWILD [one match=(_noun _ambig)]	### (1) the possessor (still ambiguous here)
+	\'								### (2) apostrophe
+	_xWILD [one match=(_noun _ambig)]	### (3) the clitic "s"
+	@@

@@ -1,0 +1,38 @@
+###############################################
+# FILE: subord
+# SUBJ: Tag subordinating conjunctions that introduce adverbial clauses
+#
+# The words are marked in en-subord.dict, not hard-coded here:
+#   subord=1     reliably a subordinator           -> always tag _sub
+#   subordprep=1 also a preposition (after/before/  -> tag _sub only when a full
+#                as/since/until)                       clause (subject + verb) follows
+###############################################
+
+@NODES _ROOT
+
+# Preposition-ambiguous subordinator followed by a clause (subject + verb).
+# "before he left" / "after the rain stopped" -> subordinator; "before the walk"
+# (no verb) is left as a preposition for the PP pass.
+@CHECK
+	if (!N("subordprep",1))
+		fail();
+@POST
+	pnrename(N(1),"_sub");
+@RULES
+_xNIL <-
+	_xWILD [one match=(_prep _conj _adv)]			### (1) the candidate word
+	_xWILD [one match=(_pron _det)]					### (2) subject start
+	_xWILD [star match=(_adj _noun _adv _aux _pron)]	### (3) rest of subject
+	_verb										### (4) the clause verb
+	@@
+
+# Reliable subordinators: tag wherever they appear.
+@CHECK
+	if (!N("subord",1))
+		fail();
+@POST
+	pnrename(N(1),"_sub");
+@RULES
+_xNIL <-
+	_xANY	### (1)
+	@@

@@ -1,0 +1,30 @@
+###############################################
+# FILE: defaults
+# SUBJ: Resolve any still-ambiguous words by part-of-speech preference
+#
+# Anything the context rules could not settle is given its most likely part of
+# speech using the usual English frequency preference:
+#     noun > verb > adjective > adverb > preposition > pronoun
+###############################################
+
+@NODES _ROOT
+
+@POST
+	if (N("noun",1))
+		pnrename(N(1),"_noun");
+	else if (N("verb",1))
+		pnrename(N(1),"_verb");
+	else if (N("adj",1))
+		pnrename(N(1),"_adj");
+	else if (N("adv",1))
+		pnrename(N(1),"_adv");
+	else if (N("prep",1))
+		pnrename(N(1),"_prep");
+	else if (N("pro",1))
+		pnrename(N(1),"_pron");
+	else
+		pnrename(N(1),"_noun");
+@RULES
+_xNIL <-
+	_ambig	### (1)
+	@@

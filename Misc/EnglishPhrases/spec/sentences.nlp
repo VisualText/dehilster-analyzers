@@ -1,0 +1,17 @@
+###############################################
+# FILE: sentences
+# SUBJ: Group the phrase sequence of each sentence under a _SENT node
+#
+# All phrases for one sentence (up to and including the closing ./?/!) are
+# gathered so the final structure is sentence -> phrases -> words.
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_SENT <-
+	_xWILD [plus match=(_CLAUSE _cc _SUBCLAUSE _RELCLAUSE _NP _PP _VG _conj _adj _adv _noun _verb
+						_pron _relpro _sub _prep _to _aux _intj _det
+						\, \; \: \')]						### (1) phrases + inner punctuation
+	_xWILD [opt match=( \. \? \! )]						### (2) sentence ender
+	@@

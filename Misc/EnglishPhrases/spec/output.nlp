@@ -1,0 +1,72 @@
+###############################################
+# FILE: output
+# SUBJ: Print a readable phrase breakdown of each sentence
+#
+# Walks the final tree from the root and writes, for every sentence, its
+# phrase structure (noun phrases, verb groups, prepositional phrases) down to
+# each word tagged with its disambiguated part of speech.
+# Output goes to "phrases.txt" (in the input <file>_log directory).
+###############################################
+
+@DECL
+
+#---------------------------------------------------------------
+# Indentation: spaces() requires num >= 1 (NLP++ has no empty string).
+#---------------------------------------------------------------
+spaces(L("num")) {
+	L("i") = 1;
+	L("s") = "  ";
+	while (L("i")++ < L("num")) {
+		L("s") = L("s") + "  ";
+	}
+	return L("s");
+}
+
+#---------------------------------------------------------------
+# Recursively print the children of a node.  Phrase nodes are printed as
+# bracketed groups; leaf words are printed as  word / pos.
+#---------------------------------------------------------------
+PrintTree(L("out"),L("n"),L("level")) {
+	L("child") = pndown(L("n"));
+	while (L("child")) {
+		L("name") = pnname(L("child"));
+		if (strlength(L("name")) > 1) {				# skip bare punctuation
+			L("tag") = strpiece(L("name"),1,strlength(L("name")) - 1);
+			if (pndown(L("child"))) {
+				L("out") << spaces(L("level")) << L("tag") << " [\n";
+				PrintTree(L("out"),L("child"),L("level") + 1);
+				L("out") << spaces(L("level")) << "]\n";
+			} else {
+				L("out") << spaces(L("level")) << pnvar(L("child"),"$text")
+						<< " / " << L("tag");
+				L("root") = pnvar(L("child"),"root");		# lemma, if the dictionary has one
+				if (L("root"))
+					L("out") << " [" << L("root") << "]";
+				L("out") << "\n";
+			}
+		}
+		L("child") = pnnext(L("child"));
+	}
+}
+
+@@DECL
+
+@CODE
+
+G("pf") = "phrases.txt";
+G("snum") = 0;
+
+L("sent") = pndown(pnroot());
+while (L("sent")) {
+	if (pnname(L("sent")) == "_SENT") {
+		G("snum") = G("snum") + 1;
+		G("pf") << "SENTENCE " << str(G("snum")) << "\n";
+		PrintTree(G("pf"),L("sent"),1);
+		G("pf") << "\n";
+	}
+	L("sent") = pnnext(L("sent"));
+}
+
+JsonOut("output.json",G("sentences"),2);
+
+@@CODE

@@ -1,0 +1,31 @@
+###############################################
+# FILE: coord
+# SUBJ: Wrap coordinated main clauses
+#
+# Using the _cc markers from coordtag, wrap the run of phrases on each side of
+# a clause coordinator into a _CLAUSE:
+#       [clause] cc [clause]
+# Example: "[he ran] and [she walked]".
+###############################################
+
+@NODES _ROOT
+
+# The clause that precedes a coordinator.
+@POST
+	group(1,1,"_CLAUSE");
+@RULES
+_xNIL <-
+	_xWILD [plus match=(_SUBCLAUSE _RELCLAUSE _NP _PP _VG _conj _adj _adv
+						_noun _verb _pron _prep _to _aux _det \, \; \:)]	### (1)
+	_cc [lookahead]												### (2)
+	@@
+
+# The clause that follows a coordinator.
+@POST
+	group(2,2,"_CLAUSE");
+@RULES
+_xNIL <-
+	_cc															### (1)
+	_xWILD [plus match=(_SUBCLAUSE _RELCLAUSE _NP _PP _VG _conj _adj _adv
+						_noun _verb _pron _prep _to _aux _det \, \; \:)]	### (2)
+	@@

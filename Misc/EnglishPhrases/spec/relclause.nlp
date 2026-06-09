@@ -1,0 +1,20 @@
+###############################################
+# FILE: relclause
+# SUBJ: Group relative clauses
+#
+# A relative clause runs from the relative pronoun through its own verb group
+# and that verb's complements, ending before the next verb group (which belongs
+# to the main clause):
+#       relpro (pre-verb phrases)* VG (post-verb phrases)*
+# Example: "the man [who lives next door] fixed my car".
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_RELCLAUSE <-
+	_relpro									### (1) relative pronoun
+	_xWILD [star match=(_NP _PP _adj _adv _noun _prep _det _aux)]	### (2) anything before its verb
+	_VG										### (3) the relative-clause verb
+	_xWILD [star match=(_NP _PP _adj _adv _noun _prep _det)]		### (4) the verb's complements
+	@@

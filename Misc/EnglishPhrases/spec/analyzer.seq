@@ -1,0 +1,22 @@
+dicttokz	nil	# Gen:   Convert input to token list with dictionary part-of-speech flags
+nlp	KBFuncs	# comment
+nlp	initKB	# comment
+nlp	funcs	# Helper functions for disambiguation
+nlp	lookup	# Lexical lookup: pin function words, mark open-class ambiguity (_ambig)
+nlp	possessive	# Rejoin the possessive clitic "'s"
+rec	disambig	# Context disambiguation of open-class words (recursive)
+nlp	defaults	# Resolve any remaining ambiguity by preference
+nlp	relpro	# Tag relative pronouns (who/which/whom/whose)
+nlp	subord	# Tag subordinating conjunctions (when/although/because/...)
+nlp	predicate	# Ensure every clause has a verb (predicate repair)
+nlp	np	# Build noun phrases
+nlp	pp	# Build prepositional phrases
+nlp	vg	# Build verb groups
+nlp	relclause	# Group relative clauses
+nlp	subclause	# Group subordinate clauses
+nlp	coordtag	# Mark clause-coordinating and/but/or
+nlp	coord	# Wrap coordinated main clauses
+nlp	sentences	# Group phrases under sentence nodes
+nlp	buildKB	# Mirror the parse tree into the knowledge base
+nlp	kbDisplay	# comment
+nlp	output	# Print the phrase breakdown to phrases.txt

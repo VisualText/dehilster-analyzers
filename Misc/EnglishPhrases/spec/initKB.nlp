@@ -1,0 +1,13 @@
+###############################################
+# FILE: initKB
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2026-6-8 19:47:55
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("sentences") = getconcept(findroot(),"sentences");
+
+@@CODE

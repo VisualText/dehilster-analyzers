@@ -1,0 +1,38 @@
+###############################################
+# FILE: coordtag
+# SUBJ: Distinguish clause-coordinating "and/but/or" from phrase-coordinating
+#
+# A coordinator joins CLAUSES only when the first clause already has its own
+# verb and a new subject follows.  So we tag a coordinator (coord=1 from
+# en-coord.dict) as a clause coordinator (_cc) when:
+#   * a verb group has appeared earlier in the current clause, AND
+#   * a noun phrase (the next subject) follows it.
+# Otherwise it is phrase coordination and stays a plain conjunction:
+#   * "the dog and the cat slept"        - no verb before "and"
+#   * "clouds of gas and dust gather"    - no verb before "and"
+#   * "stopped ... and ate the lunch"    - a verb (not an NP) follows "and"
+###############################################
+
+@CODE
+
+L("n") = pndown(pnroot());
+L("vgSeen") = 0;
+while (L("n")) {
+	L("name") = pnname(L("n"));
+
+	if (L("name") == "." || L("name") == "?" || L("name") == "!") {
+		L("vgSeen") = 0;
+	} else if (L("name") == "_VG") {
+		L("vgSeen") = 1;
+	} else if (L("vgSeen") && pnvar(L("n"),"coord")) {
+		L("nxt") = pnnext(L("n"));
+		if (L("nxt") && (pnname(L("nxt")) == "_NP" || pnname(L("nxt")) == "_pron")) {
+			pnrename(L("n"),"_cc");
+			L("vgSeen") = 0;			# the coordinator starts a new clause
+		}
+	}
+
+	L("n") = pnnext(L("n"));
+}
+
+@@CODE

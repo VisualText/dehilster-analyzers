@@ -1,0 +1,18 @@
+###############################################
+# FILE: vg
+# SUBJ: Build verb groups (bottom-up)
+#
+# A verb group gathers optional leading auxiliaries/adverbs, the main verb,
+# and any trailing infinitive complement or adverb:
+#       (aux | adv)* verb (to | verb | adv)*
+# Examples: "walked slowly", "began to fall", "watched".
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_VG <-
+	_xWILD [star match=(_aux _adv)]		### (1) auxiliaries / pre-verb adverbs
+	_verb								### (2) main verb
+	_xWILD [star match=(_to _verb _adv)]	### (3) infinitive complement / adverbs
+	@@
